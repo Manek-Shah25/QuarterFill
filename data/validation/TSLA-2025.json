@@ -1,0 +1,2169 @@
+{
+  "ticker": "TSLA",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "19335000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenues",
+          "value": "19335000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenues Automotive sales $ 12,925 $ 16,460 Automotive regulatory credits 595 442 Automotive leasing 447 476 Total automotive revenues 13,967 17,378 Energy generation and storage 2,730 1,635 Services and other 2,638 2,288 Total revenues 19,335 21,301 Cost of revenues Automotive sales 11,461 13,897 Automotive leasing 239 269 Total automotive cost of revenues 11,700 14,166 Energy generation and storage 1,945 1\nMatched disclosure row: Total revenues 19,335 21,301",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "38ad3473d24e8d346d015bb9",
+      "verified": true,
+      "formula": "19335000000 = 19335000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "a6044f7850d57b2c27a95ba1"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "22496000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenues",
+          "value": "22496000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenues Automotive sales $ 15,787 $ 18,530 $ 28,712 $ 34,990 Automotive regulatory credits 439 890 1,034 1,332 Automotive leasing 435 458 882 934 Total automotive revenues 16,661 19,878 30,628 37,256 Energy generation and storage 2,789 3,014 5,519 4,649 Services and other 3,046 2,608 5,684 4,896 Total revenues 22,496 25,500 41,831 46,801 Cost of revenues Automotive sales 1\nMatched disclosure row: Total revenues 22,496 25,500 41,831 46,801",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "534a297de2567d5c0f3bd0e7",
+      "verified": true,
+      "formula": "22496000000 = 22496000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "58939a767ab2553d9d877b0a"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "28095000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenues",
+          "value": "28095000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenues Automotive sales $ 20,359 $ 18,831 $ 49,071 $ 53,821 Automotive regulatory credits 417 739 1,451 2,071 Automotive leasing 429 446 1,311 1,380 Total automotive revenues 21,205 20,016 51,833 57,272 Energy generation and storage 3,415 2,376 8,934 7,025 Services and other 3,475 2,790 9,159 7,686 Total revenues 28,095 25,182 69,926 71,983 Cost of revenues Aut\nMatched disclosure row: Total revenues 28,095 25,182 69,926 71,983",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "bd86bb2aa405559af2d03800",
+      "verified": true,
+      "formula": "28095000000 = 28095000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "b709dcd19192af806fdc5363"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "24901000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenues",
+          "value": "94827000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "section": "Year Ended December 31, 2025 2024 2023 Revenues Automotive sales $ 65,821 $ 72,480 $ 78,509 Automotive regulatory credits 1,993 2,763 1,790 Automotive leasing 1,712 1,827 2,120 Total automotive revenues 69,526 77,070 82,419 Energy generation and storage 12,771 10,086 6,035 Services and other 12,530 10,534 8,319 Total revenues 94,827 97,690 96,773 Cost of revenues Automotive sales 56,267 61,870 65,121 Automotive leasing 898 1,003 1,268 Total autom\nMatched disclosure row: Total revenues 94,827 97,690 96,773",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenues",
+          "value": "69926000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenues Automotive sales $ 20,359 $ 18,831 $ 49,071 $ 53,821 Automotive regulatory credits 417 739 1,451 2,071 Automotive leasing 429 446 1,311 1,380 Total automotive revenues 21,205 20,016 51,833 57,272 Energy generation and storage 3,415 2,376 8,934 7,025 Services and other 3,475 2,790 9,159 7,686 Total revenues 28,095 25,182 69,926 71,983 Cost of revenues Aut\nMatched disclosure row: Total revenues 28,095 25,182 69,926 71,983",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "2a0d82a351ebcab6ab946baa",
+      "verified": true,
+      "formula": "94827000000 - 69926000000 = 24901000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "e9c8278e010d46fa67dba189",
+        "743bea300257d33d50d50719"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "1492000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "1492000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash Flows from Operating Activities Net income $ 420 $ 1,405 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 1,447 1,246 Stock-based compensation 573 524 Inventory and purchase commitments write-downs 112 68 Foreign currency transaction net unrealized loss (gain) 30 ( 63 ) Deferred income taxes ( 43 ) 63 Non-cash interest and other \nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 1,492 ) ( 2,777 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "04e83961c59f8dddc2b351af",
+      "verified": true,
+      "formula": "1492000000 = 1492000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "b4dc4b3a88002c2648ad5617"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "2394000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "3886000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash Flows from Operating Activities Net income $ 1,610 $ 2,821 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 2,880 2,524 Stock-based compensation 1,208 963 Inventory and purchase commitments write-downs 248 146 Foreign currency transaction net unrealized loss (gain) 54 ( 90 ) Deferred income taxes 9 185 Non-cash interest and other op\nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 3,886 ) ( 5,049 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "1492000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash Flows from Operating Activities Net income $ 420 $ 1,405 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 1,447 1,246 Stock-based compensation 573 524 Inventory and purchase commitments write-downs 112 68 Foreign currency transaction net unrealized loss (gain) 30 ( 63 ) Deferred income taxes ( 43 ) 63 Non-cash interest and other \nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 1,492 ) ( 2,777 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "341b5380d5c18fdbfb074ad6",
+      "verified": true,
+      "formula": "3886000000 - 1492000000 = 2394000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "60bbd159e5792e5eb6a842f6",
+        "b4dc4b3a88002c2648ad5617"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Mathematically calculated",
+      "value": "2248000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "6134000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash Flows from Operating Activities Net income $ 2,999 $ 5,010 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 4,505 3,872 Stock-based compensation 1,871 1,420 Inventory and purchase commitments write-downs 313 247 Foreign currency transaction net unrealized loss 160 197 Deferred income taxes 234 471 Non-cash interest and other o\nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 6,134 ) ( 8,562 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "3886000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash Flows from Operating Activities Net income $ 1,610 $ 2,821 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 2,880 2,524 Stock-based compensation 1,208 963 Inventory and purchase commitments write-downs 248 146 Foreign currency transaction net unrealized loss (gain) 54 ( 90 ) Deferred income taxes 9 185 Non-cash interest and other op\nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 3,886 ) ( 5,049 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "ff9678acbcf68f76cd5e810c",
+      "verified": true,
+      "formula": "6134000000 - 3886000000 = 2248000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "954b95ba6dd4d28e86cf6845",
+        "60bbd159e5792e5eb6a842f6"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "2393000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "8527000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "section": "Year Ended December 31, 2025 2024 2023 Cash Flows from Operating Activities Net income $ 3,855 $ 7,153 $ 14,974 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 6,148 5,368 4,667 Stock-based compensation 2,825 1,999 1,812 Inventory and purchase commitments write-downs 362 335 463 Foreign currency transaction net unrealized loss (gain) 452 ( 73 ) ( 144 ) Deferred income tax\nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 8,527 ) ( 11,342 ) ( 8,899 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment excluding finance leases, net of sales",
+          "value": "6134000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash Flows from Operating Activities Net income $ 2,999 $ 5,010 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 4,505 3,872 Stock-based compensation 1,871 1,420 Inventory and purchase commitments write-downs 313 247 Foreign currency transaction net unrealized loss 160 197 Deferred income taxes 234 471 Non-cash interest and other o\nMatched disclosure row: Purchases of property and equipment excluding finance leases, net of sales ( 6,134 ) ( 8,562 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "6bb96c158df050319f8b0f51",
+      "verified": true,
+      "formula": "8527000000 - 6134000000 = 2393000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d00abe670feb7402c077c70f",
+        "954b95ba6dd4d28e86cf6845"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "16352000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "16352000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "March 31, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 16,352 $ 16,139 Short-term investments 20,644 20,424 Accounts receivable, net 3,782 4,418 Inventory 13,706 12,017 Prepaid expenses and other current assets 4,905 5,362 Total current assets 59,389 58,360 Operating lease vehicles, net 5,477 5,581 Solar energy systems, net 4,855 4,924 Property, plant and equipment, net 37,088 35,836 Operating lease right-of-use assets\nMatched disclosure row: Cash and cash equivalents $ 16,352 $ 16,139",
+          "context": "c-3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "9ec44f0dbea5a0590c4eb77a",
+      "verified": true,
+      "formula": "16352000000 = 16352000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "60a2fffb4884c6e3f2c96512"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "15587000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "15587000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "June 30, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 15,587 $ 16,139 Short-term investments 21,195 20,424 Accounts receivable, net 3,838 4,418 Inventory 14,570 12,017 Prepaid expenses and other current assets 5,943 5,362 Total current assets 61,133 58,360 Operating lease vehicles, net 5,230 5,581 Solar energy systems, net 4,788 4,924 Property, plant and equipment, net 38,574 35,836 Operating lease right-of-use assets \nMatched disclosure row: Cash and cash equivalents $ 15,587 $ 16,139",
+          "context": "c-3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "c218e8ff066141e70f36789e",
+      "verified": true,
+      "formula": "15587000000 = 15587000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "bf8c18e809beeca00dcc394c"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "18289000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "18289000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "September 30, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 18,289 $ 16,139 Short-term investments 23,358 20,424 Accounts receivable, net 4,703 4,418 Inventory 12,276 12,017 Prepaid expenses and other current assets 6,027 5,362 Total current assets 64,653 58,360 Operating lease vehicles, net 5,019 5,581 Solar energy systems, net 4,673 4,924 Property, plant and equipment, net 39,407 35,836 Operating lease right-of-use as\nMatched disclosure row: Cash and cash equivalents $ 18,289 $ 16,139",
+          "context": "c-3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "4bcdb6d444ff3c8acf82e9a4",
+      "verified": true,
+      "formula": "18289000000 = 18289000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "51d3fb38a86a7a88416e12ec"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Directly reported",
+      "value": "16513000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "16513000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "section": "December 31, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 16,513 $ 16,139 Short-term investments 27,546 20,424 Accounts receivable, net 4,576 4,418 Inventory 12,392 12,017 Prepaid expenses and other current assets 7,615 5,362 Total current assets 68,642 58,360 Operating lease vehicles, net 4,912 5,581 Energy generation and storage systems, net 4,604 4,924 Property, plant and equipment, net 40,643 35,836 Operating lease\nMatched disclosure row: Cash and cash equivalents $ 16,513 $ 16,139",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "e5114ba8982219b201262d68",
+      "verified": true,
+      "formula": "16513000000 = 16513000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "af9575789299985b1bee0fb9"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "0.12",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "0.12",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenues Automotive sales $ 12,925 $ 16,460 Automotive regulatory credits 595 442 Automotive leasing 447 476 Total automotive revenues 13,967 17,378 Energy generation and storage 2,730 1,635 Services and other 2,638 2,288 Total revenues 19,335 21,301 Cost of revenues Automotive sales 11,461 13,897 Automotive leasing 239 269 Total automotive cost of revenues 11,700 14,166 Energy generation and storage 1,945 1\nMatched disclosure row: Diluted $ 0.12 $ 0.41",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "22241b187d094bf563115920",
+      "verified": true,
+      "formula": "0.12 = 0.12 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "4770d8fdf8f3306822d48aa2"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "0.33",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "0.33",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenues Automotive sales $ 15,787 $ 18,530 $ 28,712 $ 34,990 Automotive regulatory credits 439 890 1,034 1,332 Automotive leasing 435 458 882 934 Total automotive revenues 16,661 19,878 30,628 37,256 Energy generation and storage 2,789 3,014 5,519 4,649 Services and other 3,046 2,608 5,684 4,896 Total revenues 22,496 25,500 41,831 46,801 Cost of revenues Automotive sales 1\nMatched disclosure row: Diluted $ 0.33 $ 0.40 $ 0.45 $ 0.81",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "63cd274d2b8de7e47ee16cec",
+      "verified": true,
+      "formula": "0.33 = 0.33 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "150f6999e97486fdaf85d20b"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "0.39",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "0.39",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenues Automotive sales $ 20,359 $ 18,831 $ 49,071 $ 53,821 Automotive regulatory credits 417 739 1,451 2,071 Automotive leasing 429 446 1,311 1,380 Total automotive revenues 21,205 20,016 51,833 57,272 Energy generation and storage 3,415 2,376 8,934 7,025 Services and other 3,475 2,790 9,159 7,686 Total revenues 28,095 25,182 69,926 71,983 Cost of revenues Aut\nMatched disclosure row: Diluted $ 0.39 $ 0.62 $ 0.84 $ 1.43",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "ca23d61ac1e1814561c23a3c",
+      "verified": true,
+      "formula": "0.39 = 0.39 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "2911f877cc31fd949d0a3eba"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b9c49394af0c3d1c7e7a49b4",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "accession": "0001628280-25-018911",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 751,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-035806",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 997,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-045968",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 1017,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-26-003952",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1359,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001104659-26-053166",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+      "status": "Document inspected",
+      "inline_facts": 2,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:26.631813+00:00"
+}

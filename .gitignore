@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.streamlit/secrets.toml
+data/cache/
+*.xlsx
+!tests/fixtures/*.xlsx

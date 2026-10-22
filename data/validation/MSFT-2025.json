@@ -1,0 +1,1294 @@
+{
+  "ticker": "MSFT",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-07-01",
+      "end": "2024-09-30",
+      "status": "Directly reported",
+      "value": "65585000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "65585000000",
+          "unit": "USD",
+          "start": "2024-07-01",
+          "end": "2024-09-30",
+          "accession": "0000950170-24-118967",
+          "form": "10-Q",
+          "filed": "2024-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended September 30, 2024 2023 Revenue: Product $ 15,272 $ 15,535 Service and other 50,313 40,982 Total revenue 65,585 56,517 Cost of revenue: Product 3,294 3,531 Service and other 16,805 12,771 Total cost of revenue 20,099 16,302 Gross margin 45,486 40,215 Research and development 7,544 6,659 Sales and marketing 5,717 5,187 General and administrative 1,673 1,474 Operating income 30,\nMatched disclosure row: Total revenue 65,585 56,517",
+          "context": "C_d3ddc11e-6dbd-479e-bbe6-c539e2f4c163",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "5b440ef74babaf6388b7106a",
+      "verified": true,
+      "formula": "65585000000 = 65585000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ab6585973fe6ebbafcfaffbe"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-10-01",
+      "end": "2024-12-31",
+      "status": "Directly reported",
+      "value": "69632000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "69632000000",
+          "unit": "USD",
+          "start": "2024-10-01",
+          "end": "2024-12-31",
+          "accession": "0000950170-25-010491",
+          "form": "10-Q",
+          "filed": "2025-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended December 31, Six Months Ended December 31, 2024 2023 2024 2023 Revenue: Product $ 16,219 $ 18,941 $ 31,491 $ 34,476 Service and other 53,413 43,079 103,726 84,061 Total revenue 69,632 62,020 135,217 118,537 Cost of revenue: Product 3,856 5,964 7,150 9,495 Service and other 17,943 13,659 34,748 26,430 Total cost of revenue 21,799 19,623 41,898 35,925 Gross margin 47,833 42,397 \nMatched disclosure row: Total revenue 69,632 62,020 135,217 118,537",
+          "context": "C_260c7ff0-ff30-4842-9c1d-bb65f8e57f70",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d7ba5c708ba0cc527bfc6354",
+      "verified": true,
+      "formula": "69632000000 = 69632000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "5ba790d6a8cb57fff841871b"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "70066000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "70066000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0000950170-25-061046",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended March 31, Nine Months Ended March 31, 2025 2024 2025 2024 Revenue: Product $ 15,319 $ 17,080 $ 46,810 $ 51,556 Service and other 54,747 44,778 158,473 128,839 Total revenue 70,066 61,858 205,283 180,395 Cost of revenue: Product 3,037 4,339 10,187 13,834 Service and other 18,882 14,166 53,630 40,596 Total cost of revenue 21,919 18,505 63,817 54,430 Gross margin 48,147 43,353 14\nMatched disclosure row: Total revenue 70,066 61,858 205,283 180,395",
+          "context": "C_f5d91e16-4fa6-44d0-96d4-472f3551cf38",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "697d1b731b25dc8a0cb1592f",
+      "verified": true,
+      "formula": "70066000000 = 70066000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "4c433173924876c4e1065fb3"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "76441000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "281724000000",
+          "unit": "USD",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "accession": "0000950170-25-100235",
+          "form": "10-K",
+          "filed": "2025-07-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "section": "(In millions, except per share amounts) Year Ended June 30, 2025 2024 2023 Revenue: Product $ 63,946 $ 64,773 $ 64,699 Service and other 217,778 180,349 147,216 Total revenue 281,724 245,122 211,915 Cost of revenue: Product 13,501 15,272 17,804 Service and other 74,330 58,842 48,059 Total cost of revenue 87,831 74,114 65,863 Gross margin 193,893 171,008 146,052 Research and development 32,488 29,510 27,195 Sales and marketing 25,654 24,456 22,759\nMatched disclosure row: Total revenue 281,724 245,122 211,915",
+          "context": "C_7102029d-8d6c-44c5-b166-04cf41443b1e",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "789019",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "205283000000",
+          "unit": "USD",
+          "start": "2024-07-01",
+          "end": "2025-03-31",
+          "accession": "0000950170-25-061046",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended March 31, Nine Months Ended March 31, 2025 2024 2025 2024 Revenue: Product $ 15,319 $ 17,080 $ 46,810 $ 51,556 Service and other 54,747 44,778 158,473 128,839 Total revenue 70,066 61,858 205,283 180,395 Cost of revenue: Product 3,037 4,339 10,187 13,834 Service and other 18,882 14,166 53,630 40,596 Total cost of revenue 21,919 18,505 63,817 54,430 Gross margin 48,147 43,353 14\nMatched disclosure row: Total revenue 70,066 61,858 205,283 180,395",
+          "context": "C_d3bd9e88-a02c-41b2-9d3d-eeb55d3a1689",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a525f56bea831cd72390bbbf",
+      "verified": true,
+      "formula": "281724000000 - 205283000000 = 76441000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "183b4e3041537f2497889a07",
+        "b4eb670ad67e36fdbe7f229f"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-07-01",
+      "end": "2024-09-30",
+      "status": "Directly reported",
+      "value": "14923000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "14923000000",
+          "unit": "USD",
+          "start": "2024-07-01",
+          "end": "2024-09-30",
+          "accession": "0000950170-24-118967",
+          "form": "10-Q",
+          "filed": "2024-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "section": "(In millions) (Unaudited) Three Months Ended September 30, 2024 2023 Operations Net income $ 24,667 $ 22,291 Adjustments to reconcile net income to net cash from operations: Depreciation, amortization, and other 7,383 3,921 Stock-based compensation expense 2,832 2,507 Net recognized losses (gains) on investments and derivatives ( 125 ) 14 Deferred income taxes ( 1,433 ) ( 568 ) Changes in operating assets and liabilities: Accounts receivable 14,0\nMatched disclosure row: Additions to property and equipment ( 14,923 ) ( 9,917 )",
+          "context": "C_d3ddc11e-6dbd-479e-bbe6-c539e2f4c163",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "981bdbba98e8bba052f894af",
+      "verified": true,
+      "formula": "14923000000 = 14923000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "b1f55118ef01192b388d2854"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-10-01",
+      "end": "2024-12-31",
+      "status": "Directly reported",
+      "value": "15804000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "15804000000",
+          "unit": "USD",
+          "start": "2024-10-01",
+          "end": "2024-12-31",
+          "accession": "0000950170-25-010491",
+          "form": "10-Q",
+          "filed": "2025-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "section": "(In millions) (Unaudited) Three Months Ended December 31, Six Months Ended December 31, 2024 2023 2024 2023 Operations Net income $ 24,108 $ 21,870 $ 48,775 $ 44,161 Adjustments to reconcile net income to net cash from operations: Depreciation, amortization, and other 6,827 5,959 14,210 9,880 Stock-based compensation expense 3,089 2,828 5,921 5,335 Net recognized losses on investments and derivatives 976 198 851 212 Deferred income taxes ( 1,158 \nMatched disclosure row: Additions to property and equipment ( 15,804 ) ( 9,735 ) ( 30,727 ) ( 19,652 )",
+          "context": "C_260c7ff0-ff30-4842-9c1d-bb65f8e57f70",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "47f28eec4c867eec2f59feaa",
+      "verified": true,
+      "formula": "15804000000 = 15804000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "c2b6993a9e12d0cbbf6b6633"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "16745000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "16745000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0000950170-25-061046",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "section": "(In millions) (Unaudited) Three Months Ended March 31, Nine Months Ended March 31, 2025 2024 2025 2024 Operations Net income $ 25,824 $ 21,939 $ 74,599 $ 66,100 Adjustments to reconcile net income to net cash from operations: Depreciation, amortization, and other 8,740 6,027 22,950 15,907 Stock-based compensation expense 2,980 2,703 8,901 8,038 Net recognized losses (gains) on investments and derivatives ( 298 ) 49 553 261 Deferred income taxes (\nMatched disclosure row: Additions to property and equipment ( 16,745 ) ( 10,952 ) ( 47,472 ) ( 30,604 )",
+          "context": "C_f5d91e16-4fa6-44d0-96d4-472f3551cf38",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "3ca92003b93a365a94092bb9",
+      "verified": true,
+      "formula": "16745000000 = 16745000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "09c6450f3dc8358e3b2e26b6"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "17079000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "64551000000",
+          "unit": "USD",
+          "start": "2024-07-01",
+          "end": "2025-06-30",
+          "accession": "0000950170-25-100235",
+          "form": "10-K",
+          "filed": "2025-07-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "section": "(In millions) Year Ended June 30, 2025 2024 2023 Operations Net income $ 101,832 $ 88,136 $ 72,361 Adjustments to reconcile net income to net cash from operations: Depreciation, amortization, and other 34,153 22,287 13,861 Stock-based compensation expense 11,974 10,734 9,611 Net recognized losses on investments and derivatives 609 305 196 Deferred income taxes ( 7,056 ) ( 4,738 ) ( 6,059 ) Changes in operating assets and liabilities: Accounts rec\nMatched disclosure row: Additions to property and equipment ( 64,551 ) ( 44,477 ) ( 28,107 )",
+          "context": "C_7102029d-8d6c-44c5-b166-04cf41443b1e",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "789019",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "47472000000",
+          "unit": "USD",
+          "start": "2024-07-01",
+          "end": "2025-03-31",
+          "accession": "0000950170-25-061046",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "section": "(In millions) (Unaudited) Three Months Ended March 31, Nine Months Ended March 31, 2025 2024 2025 2024 Operations Net income $ 25,824 $ 21,939 $ 74,599 $ 66,100 Adjustments to reconcile net income to net cash from operations: Depreciation, amortization, and other 8,740 6,027 22,950 15,907 Stock-based compensation expense 2,980 2,703 8,901 8,038 Net recognized losses (gains) on investments and derivatives ( 298 ) 49 553 261 Deferred income taxes (\nMatched disclosure row: Additions to property and equipment ( 16,745 ) ( 10,952 ) ( 47,472 ) ( 30,604 )",
+          "context": "C_d3bd9e88-a02c-41b2-9d3d-eeb55d3a1689",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "25655128dd93d69760c77db3",
+      "verified": true,
+      "formula": "64551000000 - 47472000000 = 17079000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "3e9e94a69ae7eae812cd0137",
+        "c7ded4038adbc89911c30496"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-07-01",
+      "end": "2024-09-30",
+      "status": "Directly reported",
+      "value": "20840000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "20840000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2024-09-30",
+          "accession": "0000950170-24-118967",
+          "form": "10-Q",
+          "filed": "2024-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "section": "(In millions) (Unaudited) September 30, 2024 June 30, 2024 Assets Current assets: Cash and cash equivalents $ 20,840 $ 18,315 Short-term investments 57,588 57,228 Total cash, cash equivalents, and short-term investments 78,428 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 647 and $ 830 44,148 56,924 Inventories 1,626 1,246 Other current assets 25,724 26,021 Total current assets 149,926 159,734 Property and equipment, net\nMatched disclosure row: Cash and cash equivalents $ 20,840 $ 18,315",
+          "context": "C_118d01ba-5bba-4505-9658-fa0d182bdfd3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b2bbe06196741c7c3d117fa5",
+      "verified": true,
+      "formula": "20840000000 = 20840000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "8a9bb42c65caeed6459b2358"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-10-01",
+      "end": "2024-12-31",
+      "status": "Directly reported",
+      "value": "17482000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "17482000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2024-12-31",
+          "accession": "0000950170-25-010491",
+          "form": "10-Q",
+          "filed": "2025-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "section": "(In millions) (Unaudited) December 31, 2024 June 30, 2024 Assets Current assets: Cash and cash equivalents $ 17,482 $ 18,315 Short-term investments 54,073 57,228 Total cash, cash equivalents, and short-term investments 71,555 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 662 and $ 830 48,188 56,924 Inventories 909 1,246 Other current assets 26,428 26,021 Total current assets 147,080 159,734 Property and equipment, net of\nMatched disclosure row: Cash and cash equivalents $ 17,482 $ 18,315",
+          "context": "C_cdda3948-2605-461b-a0f4-793320d31fcb",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "78b0e8165ff27318bb57d58e",
+      "verified": true,
+      "formula": "17482000000 = 17482000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "6acae1db179d87efb614f713"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "28828000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "28828000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0000950170-25-061046",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "section": "(In millions) (Unaudited) March 31, 2025 June 30, 2024 Assets Current assets: Cash and cash equivalents $ 28,828 $ 18,315 Short-term investments 50,790 57,228 Total cash, cash equivalents, and short-term investments 79,618 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 695 and $ 830 51,700 56,924 Inventories 848 1,246 Other current assets 24,478 26,021 Total current assets 156,644 159,734 Property and equipment, net of ac\nMatched disclosure row: Cash and cash equivalents $ 28,828 $ 18,315",
+          "context": "C_93284100-84c4-4694-a643-204615b6958f",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a674de8e51b42b212da77710",
+      "verified": true,
+      "formula": "28828000000 = 28828000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "a802e217fadd03bd60ab8d38"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "30242000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "30242000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0000950170-25-100235",
+          "form": "10-K",
+          "filed": "2025-07-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "section": "(In millions) June 30, 2025 2024 Assets Current assets: Cash and cash equivalents $ 30,242 $ 18,315 Short-term investments 64,323 57,228 Total cash, cash equivalents, and short-term investments 94,565 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 944 and $ 830 69,905 56,924 Inventories 938 1,246 Other current assets 25,723 26,021 Total current assets 191,131 159,734 Property and equipment, net of accumulated depreciation\nMatched disclosure row: Cash and cash equivalents $ 30,242 $ 18,315",
+          "context": "C_f6acec30-41ed-4918-bef7-c8a710bf3a7a",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "80d1fcb84b90ad587782c8a2",
+      "verified": true,
+      "formula": "30242000000 = 30242000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "0bbf6caf13ab3cbedd9765f3"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-07-01",
+      "end": "2024-09-30",
+      "status": "Directly reported",
+      "value": "3.3",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "3.3",
+          "unit": "USD/shares",
+          "start": "2024-07-01",
+          "end": "2024-09-30",
+          "accession": "0000950170-24-118967",
+          "form": "10-Q",
+          "filed": "2024-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended September 30, 2024 2023 Revenue: Product $ 15,272 $ 15,535 Service and other 50,313 40,982 Total revenue 65,585 56,517 Cost of revenue: Product 3,294 3,531 Service and other 16,805 12,771 Total cost of revenue 20,099 16,302 Gross margin 45,486 40,215 Research and development 7,544 6,659 Sales and marketing 5,717 5,187 General and administrative 1,673 1,474 Operating income 30,\nMatched disclosure row: Diluted $ 3.30 $ 2.99",
+          "context": "C_d3ddc11e-6dbd-479e-bbe6-c539e2f4c163",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "c8dee693dc9c9b2610a0601a",
+      "verified": true,
+      "formula": "3.3 = 3.3 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "604ab79e489c50d022806719"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-10-01",
+      "end": "2024-12-31",
+      "status": "Directly reported",
+      "value": "3.23",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "3.23",
+          "unit": "USD/shares",
+          "start": "2024-10-01",
+          "end": "2024-12-31",
+          "accession": "0000950170-25-010491",
+          "form": "10-Q",
+          "filed": "2025-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended December 31, Six Months Ended December 31, 2024 2023 2024 2023 Revenue: Product $ 16,219 $ 18,941 $ 31,491 $ 34,476 Service and other 53,413 43,079 103,726 84,061 Total revenue 69,632 62,020 135,217 118,537 Cost of revenue: Product 3,856 5,964 7,150 9,495 Service and other 17,943 13,659 34,748 26,430 Total cost of revenue 21,799 19,623 41,898 35,925 Gross margin 47,833 42,397 \nMatched disclosure row: Diluted $ 3.23 $ 2.93 $ 6.53 $ 5.92",
+          "context": "C_260c7ff0-ff30-4842-9c1d-bb65f8e57f70",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "8ba47441fc6ac0c7e20422e6",
+      "verified": true,
+      "formula": "3.23 = 3.23 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d0e8e259d1ab380079017a1a"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "3.46",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "789019",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "3.46",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0000950170-25-061046",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "section": "(In millions, except per share amounts) (Unaudited) Three Months Ended March 31, Nine Months Ended March 31, 2025 2024 2025 2024 Revenue: Product $ 15,319 $ 17,080 $ 46,810 $ 51,556 Service and other 54,747 44,778 158,473 128,839 Total revenue 70,066 61,858 205,283 180,395 Cost of revenue: Product 3,037 4,339 10,187 13,834 Service and other 18,882 14,166 53,630 40,596 Total cost of revenue 21,919 18,505 63,817 54,430 Gross margin 48,147 43,353 14\nMatched disclosure row: Diluted $ 3.46 $ 2.94 $ 9.99 $ 8.85",
+          "context": "C_f5d91e16-4fa6-44d0-96d4-472f3551cf38",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a38dab98a438b02142425245",
+      "verified": true,
+      "formula": "3.46 = 3.46 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "706c782ea1b8a2f1bf0b5838"
+      ]
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Insufficient information",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000950170-24-118967",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1047,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-010491",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1388,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-061046",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1397,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000950170-25-100235",
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1544,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "8ac6e704653f4fa14a105a67",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "accession": "0000950170-24-118967",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+      "status": "Document inspected",
+      "inline_facts": 1047,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000950170-25-010491",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1388,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000950170-25-061046",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 1397,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000950170-25-100235",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 1544,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:16.755285+00:00"
+}

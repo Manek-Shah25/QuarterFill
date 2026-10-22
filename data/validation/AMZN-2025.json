@@ -1,0 +1,1390 @@
+{
+  "ticker": "AMZN",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 11,
+  "document_matched_cells": 11,
+  "cells": [
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "155667000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "155667000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001018724-25-000036",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "section": "Three Months Ended March 31, 2024 2025 Net product sales $ 60,915 $ 63,970 Net service sales 82,398 91,697 Total net sales 143,313 155,667 Operating expenses: Cost of sales 72,633 76,976 Fulfillment 22,317 24,593 Technology and infrastructure 20,424 22,994 Sales and marketing 9,662 9,763 General and administrative 2,742 2,628 Other operating expense (income), net 228 308 Total operating expenses 128,006 137,262 Operating income 15,307 18,405 Inte\nMatched disclosure row: Total net sales 143,313 155,667",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "fd451d0852a5697599f5b8b1",
+      "verified": true,
+      "formula": "155667000000 = 155667000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "7c92770634576517f432f300"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "167702000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "167702000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001018724-25-000086",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2024 2025 2024 2025 Net product sales $ 61,569 $ 68,246 $ 122,484 $ 132,216 Net service sales 86,408 99,456 168,806 191,153 Total net sales 147,977 167,702 291,290 323,369 Operating expenses: Cost of sales 73,785 80,809 146,418 157,785 Fulfillment 23,566 25,976 45,883 50,569 Technology and infrastructure 22,304 27,166 42,728 50,160 Sales and marketing 10,512 11,416 20,174 21,179 General and ad\nMatched disclosure row: Total net sales 147,977 167,702 291,290 323,369",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "56306eeb987ab2db2bd0257d",
+      "verified": true,
+      "formula": "167702000000 = 167702000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "fc59ed9df47eb44a05c86bc5"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "180169000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "180169000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001018724-25-000123",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2024 2025 2024 2025 Net product sales $ 67,601 $ 74,058 $ 190,085 $ 206,274 Net service sales 91,276 106,111 260,082 297,264 Total net sales 158,877 180,169 450,167 503,538 Operating expenses: Cost of sales 80,977 88,670 227,395 246,455 Fulfillment 24,660 27,679 70,543 78,248 Technology and infrastructure 22,245 28,962 64,973 79,122 Sales and marketing 10,609 11,686 30,783 32,865 Ge\nMatched disclosure row: Total net sales 158,877 180,169 450,167 503,538",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "815c2656d947da3b2350d7df",
+      "verified": true,
+      "formula": "180169000000 = 180169000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "dbb462b884569e0d2cb43273"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "213386000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "716924000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001018724-26-000004",
+          "form": "10-K",
+          "filed": "2026-02-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "section": "Year Ended December 31, 2023 2024 2025 Net product sales $ 255,887 $ 272,311 $ 296,266 Net service sales 318,898 365,648 420,658 Total net sales 574,785 637,959 716,924 Operating expenses: Cost of sales 304,739 326,288 356,414 Fulfillment 90,619 98,505 109,074 Technology and infrastructure 85,622 88,544 108,521 Sales and marketing 44,370 43,907 47,129 General and administrative 11,816 11,359 11,172 Other operating expense (income), net 767 763 4,\nMatched disclosure row: Total net sales 574,785 637,959 716,924",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "503538000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001018724-25-000123",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2024 2025 2024 2025 Net product sales $ 67,601 $ 74,058 $ 190,085 $ 206,274 Net service sales 91,276 106,111 260,082 297,264 Total net sales 158,877 180,169 450,167 503,538 Operating expenses: Cost of sales 80,977 88,670 227,395 246,455 Fulfillment 24,660 27,679 70,543 78,248 Technology and infrastructure 22,245 28,962 64,973 79,122 Sales and marketing 10,609 11,686 30,783 32,865 Ge\nMatched disclosure row: Total net sales 158,877 180,169 450,167 503,538",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b5a12e2a78cfc2bc91dafd28",
+      "verified": true,
+      "formula": "716924000000 - 503538000000 = 213386000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "fe8020fb2ae5f7d547dbf928",
+        "7816b7e7dcb63ef9605a9a0d"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "2c240472502552f96b8f553d",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "960b0764d0e32a0df23f7b53",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "0cd26f16fc4273cc5649a6e4",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "41f8d578609093e91edba010",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "66207000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "66207000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0001018724-25-000036",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "section": "December 31, 2024 March 31, 2025 (unaudited) ASSETS Current assets: Cash and cash equivalents $ 78,779 $ 66,207 Marketable securities 22,423 28,358 Inventories 34,214 35,864 Accounts receivable, net and other 55,451 54,216 Total current assets 190,867 184,645 Property and equipment, net 252,665 272,781 Operating leases 76,141 78,495 Goodwill 23,074 23,089 Other assets 82,147 84,246 Total assets $ 624,894 $ 643,256 LIABILITIES AND STOCKHOLDERS\u2019 EQ\nMatched disclosure row: Cash and cash equivalents $ 78,779 $ 66,207",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "71dd0cdd80a3b9c28be3a267",
+      "verified": true,
+      "formula": "66207000000 = 66207000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "aab288d9591b28b0dd4d993d"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "57741000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "57741000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0001018724-25-000086",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "section": "December 31, 2024 June 30, 2025 (unaudited) ASSETS Current assets: Cash and cash equivalents $ 78,779 $ 57,741 Marketable securities 22,423 35,439 Inventories 34,214 40,825 Accounts receivable, net and other 55,451 57,415 Total current assets 190,867 191,420 Property and equipment, net 252,665 297,616 Operating leases 76,141 82,125 Goodwill 23,074 23,155 Other assets 82,147 87,854 Total assets $ 624,894 $ 682,170 LIABILITIES AND STOCKHOLDERS\u2019 EQU\nMatched disclosure row: Cash and cash equivalents $ 78,779 $ 57,741",
+          "context": "c-14",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "c5ccdb06cea543971504bc75",
+      "verified": true,
+      "formula": "57741000000 = 57741000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "0a03c26c3d8cac29f43031ff"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "66922000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "66922000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-30",
+          "accession": "0001018724-25-000123",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "section": "December 31, 2024 September 30, 2025 (unaudited) ASSETS Current assets: Cash and cash equivalents $ 78,779 $ 66,922 Marketable securities 22,423 27,275 Inventories 34,214 41,494 Accounts receivable, net and other 55,451 61,175 Total current assets 190,867 196,866 Property and equipment, net 252,665 324,435 Operating leases 76,141 83,456 Goodwill 23,074 23,260 Other assets 82,147 99,904 Total assets $ 624,894 $ 727,921 LIABILITIES AND STOCKHOLDERS\nMatched disclosure row: Cash and cash equivalents $ 78,779 $ 66,922",
+          "context": "c-14",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "bb462900339b921999dcff64",
+      "verified": true,
+      "formula": "66922000000 = 66922000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "9d7f2fbe2ad98abd990505d6"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Directly reported",
+      "value": "86810000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "86810000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "accession": "0001018724-26-000004",
+          "form": "10-K",
+          "filed": "2026-02-06",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "section": "December 31, 2024 2025 ASSETS Current assets: Cash and cash equivalents $ 78,779 $ 86,810 Marketable securities 22,423 36,219 Inventories 34,214 38,325 Accounts receivable, net and other 55,451 67,729 Total current assets 190,867 229,083 Property and equipment, net 252,665 357,025 Operating leases 76,141 86,054 Goodwill 23,074 23,273 Other assets 82,147 122,607 Total assets $ 624,894 $ 818,042 LIABILITIES AND STOCKHOLDERS\u2019 EQUITY Current liabilit\nMatched disclosure row: Cash and cash equivalents $ 78,779 $ 86,810",
+          "context": "c-9",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a773b18765a131e55c66fbf3",
+      "verified": true,
+      "formula": "86810000000 = 86810000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "500e48662fcf305b2eb32bd0"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "1.59",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted earnings per share",
+          "value": "1.59",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001018724-25-000036",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "section": "Three Months Ended March 31, 2024 2025 Net product sales $ 60,915 $ 63,970 Net service sales 82,398 91,697 Total net sales 143,313 155,667 Operating expenses: Cost of sales 72,633 76,976 Fulfillment 22,317 24,593 Technology and infrastructure 20,424 22,994 Sales and marketing 9,662 9,763 General and administrative 2,742 2,628 Other operating expense (income), net 228 308 Total operating expenses 128,006 137,262 Operating income 15,307 18,405 Inte\nMatched disclosure row: Diluted earnings per share $ 0.98 $ 1.59",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "6d4ab6b8aab6abfea951222d",
+      "verified": true,
+      "formula": "1.59 = 1.59 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "06d5965a8863866ece151351"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "1.68",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted earnings per share",
+          "value": "1.68",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001018724-25-000086",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2024 2025 2024 2025 Net product sales $ 61,569 $ 68,246 $ 122,484 $ 132,216 Net service sales 86,408 99,456 168,806 191,153 Total net sales 147,977 167,702 291,290 323,369 Operating expenses: Cost of sales 73,785 80,809 146,418 157,785 Fulfillment 23,566 25,976 45,883 50,569 Technology and infrastructure 22,304 27,166 42,728 50,160 Sales and marketing 10,512 11,416 20,174 21,179 General and ad\nMatched disclosure row: Diluted earnings per share $ 1.26 $ 1.68 $ 2.24 $ 3.27",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "941efc6be93eb6dddeac9c47",
+      "verified": true,
+      "formula": "1.68 = 1.68 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "5ce7a6e25bb1e13b70c3947a"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "1.95",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1018724",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted earnings per share",
+          "value": "1.95",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001018724-25-000123",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2024 2025 2024 2025 Net product sales $ 67,601 $ 74,058 $ 190,085 $ 206,274 Net service sales 91,276 106,111 260,082 297,264 Total net sales 158,877 180,169 450,167 503,538 Operating expenses: Cost of sales 80,977 88,670 227,395 246,455 Fulfillment 24,660 27,679 70,543 78,248 Technology and infrastructure 22,245 28,962 64,973 79,122 Sales and marketing 10,609 11,686 30,783 32,865 Ge\nMatched disclosure row: Diluted earnings per share $ 1.43 $ 1.95 $ 3.67 $ 5.22",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "5a23a721c66f443d435f525d",
+      "verified": true,
+      "formula": "1.95 = 1.95 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "5f86dffa34fa01cef47f5dfe"
+      ]
+    },
+    {
+      "company": "AMAZON COM INC",
+      "ticker": "AMZN",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001018724-25-000036",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 747,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000086",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1046,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-25-000123",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1053,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001018724-26-000004",
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1337,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1eb8fd0efe741fdd2ad4ebee",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "accession": "0001018724-25-000036",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000036/amzn-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 747,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001018724-25-000086",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000086/amzn-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 1046,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001018724-25-000123",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/amzn-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 1053,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001018724-26-000004",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1337,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:18.676494+00:00"
+}

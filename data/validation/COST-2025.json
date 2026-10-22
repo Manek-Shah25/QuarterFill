@@ -1,0 +1,2356 @@
+{
+  "ticker": "COST",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-02",
+      "end": "2024-11-24",
+      "status": "Directly reported",
+      "value": "62151000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "62151000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2024-11-24",
+          "accession": "0000909832-24-000079",
+          "form": "10-Q",
+          "filed": "2024-12-19",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "section": "12 Weeks Ended November 24, 2024 November 26, 2023 REVENUE Net sales $ 60,985 $ 56,717 Membership fees 1,166 1,082 Total revenue 62,151 57,799 OPERATING EXPENSES Merchandise costs 54,109 50,457 Selling, general and administrative 5,846 5,358 Operating income 2,196 1,984 OTHER INCOME (EXPENSE) Interest expense ( 37 ) ( 38 ) Interest income and other, net 147 160 INCOME BEFORE INCOME TAXES 2,306 2,106 Provision for income taxes 508 517 NET INCOME $\nMatched disclosure row: Total revenue 62,151 57,799",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "391e8086d47c44d815c268a3",
+      "verified": true,
+      "formula": "62151000000 = 62151000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ae96f22830c6878ffa31cc8a"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-11-25",
+      "end": "2025-02-16",
+      "status": "Directly reported",
+      "value": "63723000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "63723000000",
+          "unit": "USD",
+          "start": "2024-11-25",
+          "end": "2025-02-16",
+          "accession": "0000909832-25-000015",
+          "form": "10-Q",
+          "filed": "2025-03-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "section": "12 Weeks Ended 24 Weeks Ended February 16, 2025 February 18, 2024 February 16, 2025 February 18, 2024 REVENUE Net sales $ 62,530 $ 57,331 $ 123,515 $ 114,048 Membership fees 1,193 1,111 2,359 2,193 Total revenue 63,723 58,442 125,874 116,241 OPERATING EXPENSES Merchandise costs 55,744 51,140 109,853 101,597 Selling, general and administrative 5,663 5,240 11,509 10,598 Operating income 2,316 2,062 4,512 4,046 OTHER INCOME (EXPENSE) Interest expens\nMatched disclosure row: Total revenue 63,723 58,442 125,874 116,241",
+          "context": "c-11",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "040e7c5f9f9bd72c8fea1e89",
+      "verified": true,
+      "formula": "63723000000 = 63723000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "aa050f1318fea72eae369e17"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-02-17",
+      "end": "2025-05-11",
+      "status": "Directly reported",
+      "value": "63205000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "63205000000",
+          "unit": "USD",
+          "start": "2025-02-17",
+          "end": "2025-05-11",
+          "accession": "0000909832-25-000033",
+          "form": "10-Q",
+          "filed": "2025-06-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "section": "12 Weeks Ended 36 Weeks Ended May 11, 2025 May 12, 2024 May 11, 2025 May 12, 2024 REVENUE Net sales $ 61,965 $ 57,392 $ 185,480 $ 171,440 Membership fees 1,240 1,123 3,599 3,316 Total revenue 63,205 58,515 189,079 174,756 OPERATING EXPENSES Merchandise costs 54,996 51,173 164,849 152,770 Selling, general and administrative 5,679 5,145 17,188 15,743 Operating income 2,530 2,197 7,042 6,243 OTHER INCOME (EXPENSE) Interest expense ( 35 ) ( 41 ) ( 10\nMatched disclosure row: Total revenue 63,205 58,515 189,079 174,756",
+          "context": "c-11",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1f22eb77149f2d6707b4a81e",
+      "verified": true,
+      "formula": "63205000000 = 63205000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "36b81ecfcc32edd4d686ad38"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-05-12",
+      "end": "2025-08-31",
+      "status": "Mathematically calculated",
+      "value": "86156000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "275235000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "accession": "0000909832-25-000101",
+          "form": "10-K",
+          "filed": "2025-10-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "section": "52 Weeks Ended 52 Weeks Ended 53 Weeks Ended August 31, 2025 September 1, 2024 September 3, 2023 REVENUE Net sales $ 269,912 $ 249,625 $ 237,710 Membership fees 5,323 4,828 4,580 Total revenue 275,235 254,453 242,290 OPERATING EXPENSES Merchandise costs 239,886 222,358 212,586 Selling, general and administrative 24,966 22,810 21,590 Operating income 10,383 9,285 8,114 OTHER INCOME (EXPENSE) Interest expense ( 154 ) ( 169 ) ( 160 ) Interest income\nMatched disclosure row: Total revenue 275,235 254,453 242,290",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "909832",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total revenue",
+          "value": "189079000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-05-11",
+          "accession": "0000909832-25-000033",
+          "form": "10-Q",
+          "filed": "2025-06-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "section": "12 Weeks Ended 36 Weeks Ended May 11, 2025 May 12, 2024 May 11, 2025 May 12, 2024 REVENUE Net sales $ 61,965 $ 57,392 $ 185,480 $ 171,440 Membership fees 1,240 1,123 3,599 3,316 Total revenue 63,205 58,515 189,079 174,756 OPERATING EXPENSES Merchandise costs 54,996 51,173 164,849 152,770 Selling, general and administrative 5,679 5,145 17,188 15,743 Operating income 2,530 2,197 7,042 6,243 OTHER INCOME (EXPENSE) Interest expense ( 35 ) ( 41 ) ( 10\nMatched disclosure row: Total revenue 63,205 58,515 189,079 174,756",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "2227f29422688b8b29637554",
+      "verified": true,
+      "formula": "275235000000 - 189079000000 = 86156000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "a09bd506987df190ba1c1b6b",
+        "02a58cb67637fb5674d66c51"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-02",
+      "end": "2024-11-24",
+      "status": "Directly reported",
+      "value": "1264000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "1264000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2024-11-24",
+          "accession": "0000909832-24-000079",
+          "form": "10-Q",
+          "filed": "2024-12-19",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "section": "12 Weeks Ended November 24, 2024 November 26, 2023 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 1,798 $ 1,589 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 548 501 Non-cash lease expense 72 74 Stock-based compensation 463 444 Other non-cash operating activities, net ( 72 ) 43 Changes in operating assets and liabilities: Merchandise inventories ( 2,541 ) ( 1,384 ) Accounts paya\nMatched disclosure row: Additions to property and equipment ( 1,264 ) ( 1,040 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "68c069d2c312eb20c2b28e53",
+      "verified": true,
+      "formula": "1264000000 = 1264000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "258d2a561386a57e86c4f523"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-11-25",
+      "end": "2025-02-16",
+      "status": "Mathematically calculated",
+      "value": "1137000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "2401000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-02-16",
+          "accession": "0000909832-25-000015",
+          "form": "10-Q",
+          "filed": "2025-03-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "section": "24 Weeks Ended February 16, 2025 February 18, 2024 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 3,586 $ 3,332 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 1,100 1,015 Non-cash lease expense 137 148 Stock-based compensation 614 580 Other non-cash operating activities, net ( 79 ) ( 7 ) Changes in operating assets and liabilities: Merchandise inventories ( 362 ) ( 425 ) Accounts\nMatched disclosure row: Additions to property and equipment ( 2,401 ) ( 2,071 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "1264000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2024-11-24",
+          "accession": "0000909832-24-000079",
+          "form": "10-Q",
+          "filed": "2024-12-19",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "section": "12 Weeks Ended November 24, 2024 November 26, 2023 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 1,798 $ 1,589 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 548 501 Non-cash lease expense 72 74 Stock-based compensation 463 444 Other non-cash operating activities, net ( 72 ) 43 Changes in operating assets and liabilities: Merchandise inventories ( 2,541 ) ( 1,384 ) Accounts paya\nMatched disclosure row: Additions to property and equipment ( 1,264 ) ( 1,040 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "9059b178d7e02718555d2f5b",
+      "verified": true,
+      "formula": "2401000000 - 1264000000 = 1137000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d83441aacc92945dd017c6f4",
+        "258d2a561386a57e86c4f523"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-02-17",
+      "end": "2025-05-11",
+      "status": "Mathematically calculated",
+      "value": "1131000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "3532000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-05-11",
+          "accession": "0000909832-25-000033",
+          "form": "10-Q",
+          "filed": "2025-06-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "section": "36 Weeks Ended May 11, 2025 May 12, 2024 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 5,489 $ 5,013 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 1,652 1,531 Non-cash lease expense 208 220 Stock-based compensation 720 686 Other non-cash operating activities, net ( 15 ) ( 35 ) Changes in operating assets and liabilities: Merchandise inventories ( 25 ) ( 831 ) Accounts payable 6\nMatched disclosure row: Additions to property and equipment ( 3,532 ) ( 3,133 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "2401000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-02-16",
+          "accession": "0000909832-25-000015",
+          "form": "10-Q",
+          "filed": "2025-03-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "section": "24 Weeks Ended February 16, 2025 February 18, 2024 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 3,586 $ 3,332 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 1,100 1,015 Non-cash lease expense 137 148 Stock-based compensation 614 580 Other non-cash operating activities, net ( 79 ) ( 7 ) Changes in operating assets and liabilities: Merchandise inventories ( 362 ) ( 425 ) Accounts\nMatched disclosure row: Additions to property and equipment ( 2,401 ) ( 2,071 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "e424337e8eb8bf098739a1d1",
+      "verified": true,
+      "formula": "3532000000 - 2401000000 = 1131000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "1a28df6783794b2162369e6f",
+        "d83441aacc92945dd017c6f4"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-05-12",
+      "end": "2025-08-31",
+      "status": "Mathematically calculated",
+      "value": "1966000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "5498000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-08-31",
+          "accession": "0000909832-25-000101",
+          "form": "10-K",
+          "filed": "2025-10-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "section": "52 Weeks Ended 52 Weeks Ended 53 Weeks Ended August 31, 2025 September 1, 2024 September 3, 2023 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 8,099 $ 7,367 $ 6,292 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 2,426 2,237 2,077 Non-cash lease expense 303 315 412 Stock-based compensation 860 818 774 Impairment of assets and other non-cash operating activities, net ( 117 ) ( 9 )\nMatched disclosure row: Additions to property and equipment ( 5,498 ) ( 4,710 ) ( 4,323 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "909832",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Additions to property and equipment",
+          "value": "3532000000",
+          "unit": "USD",
+          "start": "2024-09-02",
+          "end": "2025-05-11",
+          "accession": "0000909832-25-000033",
+          "form": "10-Q",
+          "filed": "2025-06-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "section": "36 Weeks Ended May 11, 2025 May 12, 2024 CASH FLOWS FROM OPERATING ACTIVITIES Net income $ 5,489 $ 5,013 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 1,652 1,531 Non-cash lease expense 208 220 Stock-based compensation 720 686 Other non-cash operating activities, net ( 15 ) ( 35 ) Changes in operating assets and liabilities: Merchandise inventories ( 25 ) ( 831 ) Accounts payable 6\nMatched disclosure row: Additions to property and equipment ( 3,532 ) ( 3,133 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "783ac839b8d9bd77381a225e",
+      "verified": true,
+      "formula": "5498000000 - 3532000000 = 1966000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "e4fdf950ef13428e30245572",
+        "1a28df6783794b2162369e6f"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-02",
+      "end": "2024-11-24",
+      "status": "Directly reported",
+      "value": "10907000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "10907000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2024-11-24",
+          "accession": "0000909832-24-000079",
+          "form": "10-Q",
+          "filed": "2024-12-19",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "section": "November 24, 2024 September 1, 2024 ASSETS CURRENT ASSETS Cash and cash equivalents $ 10,907 $ 9,906 Short-term investments 920 1,238 Receivables, net 2,963 2,721 Merchandise inventories 20,979 18,647 Other current assets 1,754 1,734 Total current assets 37,523 34,246 OTHER ASSETS Property and equipment, net 29,336 29,032 Operating lease right-of-use assets 2,539 2,617 Other long-term assets 3,988 3,936 TOTAL ASSETS $ 73,386 $ 69,831 LIABILITIES \nMatched disclosure row: Cash and cash equivalents $ 10,907 $ 9,906",
+          "context": "c-8",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "93e1a2d5ec5772004cddd043",
+      "verified": true,
+      "formula": "10907000000 = 10907000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ad32e03e9ac17b03c5f9e4c4"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-11-25",
+      "end": "2025-02-16",
+      "status": "Directly reported",
+      "value": "12356000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "12356000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-02-16",
+          "accession": "0000909832-25-000015",
+          "form": "10-Q",
+          "filed": "2025-03-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "section": "February 16, 2025 September 1, 2024 ASSETS CURRENT ASSETS Cash and cash equivalents $ 12,356 $ 9,906 Short-term investments 802 1,238 Receivables, net 3,060 2,721 Merchandise inventories 18,754 18,647 Other current assets 1,925 1,734 Total current assets 36,897 34,246 OTHER ASSETS Property and equipment, net 29,809 29,032 Operating lease right-of-use assets 2,531 2,617 Other long-term assets 3,987 3,936 TOTAL ASSETS $ 73,224 $ 69,831 LIABILITIES \nMatched disclosure row: Cash and cash equivalents $ 12,356 $ 9,906",
+          "context": "c-14",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "006d53161fc3c39a4e1bee16",
+      "verified": true,
+      "formula": "12356000000 = 12356000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d6ec4165b7ddb07d9ad50aeb"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-02-17",
+      "end": "2025-05-11",
+      "status": "Directly reported",
+      "value": "13836000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "13836000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-05-11",
+          "accession": "0000909832-25-000033",
+          "form": "10-Q",
+          "filed": "2025-06-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "section": "May 11, 2025 September 1, 2024 ASSETS CURRENT ASSETS Cash and cash equivalents $ 13,836 $ 9,906 Short-term investments 1,014 1,238 Receivables, net 2,875 2,721 Merchandise inventories 18,606 18,647 Other current assets 1,820 1,734 Total current assets 38,151 34,246 OTHER ASSETS Property and equipment, net 30,582 29,032 Operating lease right-of-use assets 2,718 2,617 Other long-term assets 4,031 3,936 TOTAL ASSETS $ 75,482 $ 69,831 LIABILITIES AND\nMatched disclosure row: Cash and cash equivalents $ 13,836 $ 9,906",
+          "context": "c-14",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "7c49deab6235b66e0a81e457",
+      "verified": true,
+      "formula": "13836000000 = 13836000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "e5e432c599f2aaba6c17caeb"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-05-12",
+      "end": "2025-08-31",
+      "status": "Directly reported",
+      "value": "14161000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "14161000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-08-31",
+          "accession": "0000909832-25-000101",
+          "form": "10-K",
+          "filed": "2025-10-08",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "section": "August 31, 2025 September 1, 2024 ASSETS CURRENT ASSETS Cash and cash equivalents $ 14,161 $ 9,906 Short-term investments 1,123 1,238 Receivables, net 3,203 2,721 Merchandise inventories 18,116 18,647 Other current assets 1,777 1,734 Total current assets 38,380 34,246 OTHER ASSETS Property and equipment, net 31,909 29,032 Operating lease right-of-use assets 2,725 2,617 Other long-term assets 4,085 3,936 TOTAL ASSETS $ 77,099 $ 69,831 LIABILITIES \nMatched disclosure row: Cash and cash equivalents $ 14,161 $ 9,906",
+          "context": "c-12",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b86a2ac8f3b0a750ac0abe4d",
+      "verified": true,
+      "formula": "14161000000 = 14161000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "2625eb6d95bdf730e1d9a7ff"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-02",
+      "end": "2024-11-24",
+      "status": "Directly reported",
+      "value": "4.04",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "4.04",
+          "unit": "USD/shares",
+          "start": "2024-09-02",
+          "end": "2024-11-24",
+          "accession": "0000909832-24-000079",
+          "form": "10-Q",
+          "filed": "2024-12-19",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "section": "12 Weeks Ended November 24, 2024 November 26, 2023 REVENUE Net sales $ 60,985 $ 56,717 Membership fees 1,166 1,082 Total revenue 62,151 57,799 OPERATING EXPENSES Merchandise costs 54,109 50,457 Selling, general and administrative 5,846 5,358 Operating income 2,196 1,984 OTHER INCOME (EXPENSE) Interest expense ( 37 ) ( 38 ) Interest income and other, net 147 160 INCOME BEFORE INCOME TAXES 2,306 2,106 Provision for income taxes 508 517 NET INCOME $\nMatched disclosure row: Diluted $ 4.04 $ 3.58",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "f619d9a0994c5814624dfb11",
+      "verified": true,
+      "formula": "4.04 = 4.04 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "f51efed98c61255eb43a1f09"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-11-25",
+      "end": "2025-02-16",
+      "status": "Directly reported",
+      "value": "4.02",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "4.02",
+          "unit": "USD/shares",
+          "start": "2024-11-25",
+          "end": "2025-02-16",
+          "accession": "0000909832-25-000015",
+          "form": "10-Q",
+          "filed": "2025-03-13",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "section": "12 Weeks Ended 24 Weeks Ended February 16, 2025 February 18, 2024 February 16, 2025 February 18, 2024 REVENUE Net sales $ 62,530 $ 57,331 $ 123,515 $ 114,048 Membership fees 1,193 1,111 2,359 2,193 Total revenue 63,723 58,442 125,874 116,241 OPERATING EXPENSES Merchandise costs 55,744 51,140 109,853 101,597 Selling, general and administrative 5,663 5,240 11,509 10,598 Operating income 2,316 2,062 4,512 4,046 OTHER INCOME (EXPENSE) Interest expens\nMatched disclosure row: Diluted $ 4.02 $ 3.92 $ 8.06 $ 7.49",
+          "context": "c-11",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "8dd6d8cdeb5764c8674d3a7e",
+      "verified": true,
+      "formula": "4.02 = 4.02 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "a38f8687756b2c19bc0da232"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-02-17",
+      "end": "2025-05-11",
+      "status": "Directly reported",
+      "value": "4.28",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "909832",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "4.28",
+          "unit": "USD/shares",
+          "start": "2025-02-17",
+          "end": "2025-05-11",
+          "accession": "0000909832-25-000033",
+          "form": "10-Q",
+          "filed": "2025-06-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "section": "12 Weeks Ended 36 Weeks Ended May 11, 2025 May 12, 2024 May 11, 2025 May 12, 2024 REVENUE Net sales $ 61,965 $ 57,392 $ 185,480 $ 171,440 Membership fees 1,240 1,123 3,599 3,316 Total revenue 63,205 58,515 189,079 174,756 OPERATING EXPENSES Merchandise costs 54,996 51,173 164,849 152,770 Selling, general and administrative 5,679 5,145 17,188 15,743 Operating income 2,530 2,197 7,042 6,243 OTHER INCOME (EXPENSE) Interest expense ( 35 ) ( 41 ) ( 10\nMatched disclosure row: Diluted $ 4.28 $ 3.78 $ 12.34 $ 11.27",
+          "context": "c-11",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "f9c0c6c861d8193db2006d4c",
+      "verified": true,
+      "formula": "4.28 = 4.28 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "6c47b0033da23c8af3438e69"
+      ]
+    },
+    {
+      "company": "COSTCO WHOLESALE CORP /NEW",
+      "ticker": "COST",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-05-12",
+      "end": "2025-08-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000909832-24-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+          "status": "Document inspected",
+          "inline_facts": 365,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000015",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+          "status": "Document inspected",
+          "inline_facts": 501,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000033",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+          "status": "Document inspected",
+          "inline_facts": 498,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000909832-25-000101",
+          "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+          "status": "Document inspected",
+          "inline_facts": 822,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "7e5fb43a3b24c6f7d4ca7ae0",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000104169-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000104169-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000909832-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "accession": "0000909832-24-000079",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000079/cost-20241124.htm",
+      "status": "Document inspected",
+      "inline_facts": 365,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000909832-25-000015",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000015/cost-20250216.htm",
+      "status": "Document inspected",
+      "inline_facts": 501,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000909832-25-000033",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000033/cost-20250511.htm",
+      "status": "Document inspected",
+      "inline_facts": 498,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000909832-25-000101",
+      "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+      "status": "Document inspected",
+      "inline_facts": 822,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:14:00.380823+00:00"
+}

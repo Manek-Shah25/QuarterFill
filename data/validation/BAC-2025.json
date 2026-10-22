@@ -1,0 +1,1876 @@
+{
+  "ticker": "BAC",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 4,
+  "document_matched_cells": 4,
+  "cells": [
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "27366000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0000070858-25-000200",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "section": "Consolidated Statement of Income Three Months Ended March 31 (In millions, except per share information) 2025 2024 Net interest income Interest income $ 34,066 $ 36,285 Interest expense 19,623 22,253 Net interest income 14,443 14,032 Noninterest income Fees and commissions 9,415 8,660 Market making and similar activities 3,584 3,888 Other income (loss) ( 76 ) ( 762 ) Total noninterest income 12,923 11,786 Total revenue, net of interest expense 27\nMatched disclosure row: Total revenue, net of interest expense 27,366 25,818",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Revenues",
+          "value": "28247000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0000070858-26-000249",
+          "form": "10-Q",
+          "filed": "2026-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000249/bac-20260331.htm",
+          "section": "",
+          "context": "",
+          "dimensions": [],
+          "verified": false,
+          "decimals": "0"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [
+        "Conflicting filing versions or accounting concepts; analyst review required."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d9dedc2922de95d2bb4da606",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": [
+        "cd8771f5d3668b5782e480ec",
+        "e30cf9951e51b8e90fc56568"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "26463000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0000070858-25-000268",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "section": "Consolidated Statement of Income Three Months Ended June 30 Six Months Ended June 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 34,873 $ 36,854 $ 68,939 $ 73,139 Interest expense 20,203 23,152 39,826 45,405 Net interest income 14,670 13,702 29,113 27,734 Noninterest income Fees and commissions 9,469 8,969 18,884 17,629 Market making and similar activities 3,153 3,298 6,737 7,186 Other inc\nMatched disclosure row: Total revenue, net of interest expense 26,463 25,377 53,829 51,195",
+          "context": "c-22",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Revenues",
+          "value": "27443000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0000070858-26-000394",
+          "form": "10-Q",
+          "filed": "2026-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000394/bac-20260630.htm",
+          "section": "",
+          "context": "",
+          "dimensions": [],
+          "verified": false,
+          "decimals": "0"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [
+        "Conflicting filing versions or accounting concepts; analyst review required."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "5429558841553c58acc9750b",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": [
+        "8d9b760a0e458781993600ca",
+        "7fb5e856e13a3a83f6eabf9c"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "28088000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0000070858-25-000405",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Total revenue, net of interest expense 28,088 25,345 81,917 76,540",
+          "context": "c-22",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "81917000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0000070858-25-000405",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Total revenue, net of interest expense 28,088 25,345 81,917 76,540",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [
+        "Standalone quarter conflicts with cumulative evidence or filing versions."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "383d1839522d081b45d5f178",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": [
+        "f8117035ea2ee5a7956ca7b3",
+        "c61d77ee1d378fec9711cfe9"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "31180000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "113097000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0000070858-26-000157",
+          "form": "10-K",
+          "filed": "2026-02-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "section": "Consolidated Statement of Income (In millions, except per share information) 2025 2024 2023 Net interest income Interest income $ 138,566 $ 146,607 $ 130,262 Interest expense 78,470 90,547 73,331 Net interest income 60,096 56,060 56,931 Noninterest income Fees and commissions 39,402 36,291 32,009 Market making and similar activities 12,014 12,967 12,732 Other income (loss) 1,585 538 1,097 Total noninterest income 53,001 49,796 45,838 Total revenu\nMatched disclosure row: Total revenue, net of interest expense 113,097 105,856 102,769",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "81917000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0000070858-25-000405",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Total revenue, net of interest expense 28,088 25,345 81,917 76,540",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "9841966569f616f18762a84b",
+      "verified": true,
+      "formula": "113097000000 - 81917000000 = 31180000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "46ea860a1efaf058603b00c0",
+        "c61d77ee1d378fec9711cfe9"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "602490cb38ec0f3d7fbbf12b",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1c15abbfbe33c786ee3b507e",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "9b56df2751cca5df4e95fcc3",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "aab1662ce7b43db6185ca17c",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "497fa0a7111a7da54e63b267",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "4c706084b2e855b153e0e5fc",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1c5d16bbb08827df49332511",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d01ecbd17970afa43b3139d8",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "0.9",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted earnings",
+          "value": "0.9",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0000070858-25-000200",
+          "form": "10-Q",
+          "filed": "2025-04-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "section": "Consolidated Statement of Income Three Months Ended March 31 (In millions, except per share information) 2025 2024 Net interest income Interest income $ 34,066 $ 36,285 Interest expense 19,623 22,253 Net interest income 14,443 14,032 Noninterest income Fees and commissions 9,415 8,660 Market making and similar activities 3,584 3,888 Other income (loss) ( 76 ) ( 762 ) Total noninterest income 12,923 11,786 Total revenue, net of interest expense 27\nMatched disclosure row: Diluted earnings 0.90 0.76",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a010f65d6ec4db8de63dfc1e",
+      "verified": true,
+      "formula": "0.9 = 0.9 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "13bf3f83eceec03913b90f62"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "0.89",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted earnings",
+          "value": "0.89",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0000070858-25-000268",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "section": "Consolidated Statement of Income Three Months Ended June 30 Six Months Ended June 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 34,873 $ 36,854 $ 68,939 $ 73,139 Interest expense 20,203 23,152 39,826 45,405 Net interest income 14,670 13,702 29,113 27,734 Noninterest income Fees and commissions 9,469 8,969 18,884 17,629 Market making and similar activities 3,153 3,298 6,737 7,186 Other inc\nMatched disclosure row: Diluted earnings 0.89 0.83 1.79 1.59",
+          "context": "c-22",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "4cfa814e089bc031b46b6c3a",
+      "verified": true,
+      "formula": "0.89 = 0.89 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "340c32b8d1f32001bda7b041"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "1.06",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "70858",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted earnings",
+          "value": "1.06",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0000070858-25-000405",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Diluted earnings 1.06 0.81 2.85 2.40",
+          "context": "c-22",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "edfbf6d66a78a2b761183324",
+      "verified": true,
+      "formula": "1.06 = 1.06 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "3289bbe19a3c3039b162edc8"
+      ]
+    },
+    {
+      "company": "BANK OF AMERICA CORP /DE/",
+      "ticker": "BAC",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0000070858-25-000200",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 4736,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000268",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 5961,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-25-000405",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 5988,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000070858-26-000157",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 7029,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d9dabf5716e308584d149fb5",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "accession": "0000070858-25-000200",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 4736,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000070858-25-000268",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 5961,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000070858-25-000405",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 5988,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000070858-26-000157",
+      "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 7029,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:57.359767+00:00"
+}

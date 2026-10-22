@@ -1,0 +1,1336 @@
+{
+  "ticker": "AAPL",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-29",
+      "end": "2024-12-28",
+      "status": "Directly reported",
+      "value": "124300000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "124300000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2024-12-28",
+          "accession": "0000320193-25-000008",
+          "form": "10-Q",
+          "filed": "2025-01-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Net sales: Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Cost of sales: Products 59,447 58,440 Services 6,578 6,280 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Operating expenses: Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other i\nMatched disclosure row: Total net sales 124,300 119,575",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "f3f5c60fb3a6440689bf5712",
+      "verified": true,
+      "formula": "124300000000 = 124300000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ff32e417be0d4399049e34a3"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-12-29",
+      "end": "2025-03-29",
+      "status": "Directly reported",
+      "value": "95359000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "95359000000",
+          "unit": "USD",
+          "start": "2024-12-29",
+          "end": "2025-03-29",
+          "accession": "0000320193-25-000057",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "section": "Three Months Ended Six Months Ended March 29, 2025 March 30, 2024 March 29, 2025 March 30, 2024 Net sales: Products $ 68,714 $ 66,886 $ 166,674 $ 163,344 Services 26,645 23,867 52,985 46,984 Total net sales 95,359 90,753 219,659 210,328 Cost of sales: Products 44,030 42,424 103,477 100,864 Services 6,462 6,058 13,040 12,338 Total cost of sales 50,492 48,482 116,517 113,202 Gross margin 44,867 42,271 103,142 97,126 Operating expenses: Research and\nMatched disclosure row: Total net sales 95,359 90,753 219,659 210,328",
+          "context": "c-20",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "28cc0a4ffab00d8e48e69a59",
+      "verified": true,
+      "formula": "95359000000 = 95359000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "bc04f32b3e9b664344a303df"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-03-30",
+      "end": "2025-06-28",
+      "status": "Directly reported",
+      "value": "94036000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "94036000000",
+          "unit": "USD",
+          "start": "2025-03-30",
+          "end": "2025-06-28",
+          "accession": "0000320193-25-000073",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and d\nMatched disclosure row: Total net sales 94,036 85,777 313,695 296,105",
+          "context": "c-19",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "2e54c2520bab698926124847",
+      "verified": true,
+      "formula": "94036000000 = 94036000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "9dcc17b0c89ceaa450420faa"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-06-29",
+      "end": "2025-09-27",
+      "status": "Mathematically calculated",
+      "value": "102466000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "416161000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-09-27",
+          "accession": "0000320193-25-000079",
+          "form": "10-K",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Net sales: Products $ 307,003 $ 294,866 $ 298,085 Services 109,158 96,169 85,200 Total net sales 416,161 391,035 383,285 Cost of sales: Products 194,116 185,233 189,282 Services 26,844 25,119 24,855 Total cost of sales 220,960 210,352 214,137 Gross margin 195,201 180,683 169,148 Operating expenses: Research and development 34,550 31,370 29,915 Selling, general and administrative\nMatched disclosure row: Total net sales 416,161 391,035 383,285",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "320193",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Total net sales",
+          "value": "313695000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-06-28",
+          "accession": "0000320193-25-000073",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and d\nMatched disclosure row: Total net sales 94,036 85,777 313,695 296,105",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "eebdf8e9410f049dda22bed7",
+      "verified": true,
+      "formula": "416161000000 - 313695000000 = 102466000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d80bbade3549fced32271c99",
+        "a5bc5e85d0b5c778fb5e36f8"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-29",
+      "end": "2024-12-28",
+      "status": "Directly reported",
+      "value": "2940000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "2940000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2024-12-28",
+          "accession": "0000320193-25-000008",
+          "form": "10-Q",
+          "filed": "2025-01-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 36,330 33,916 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 3,080 2,848 Share-based compensation expense 3,286 2,997 Other ( 2,009 ) ( 989 ) Changes in operating assets and liabilities: Accounts r\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 2,940 ) ( 2,392 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "5e90e0782f3b1c0294381fd2",
+      "verified": true,
+      "formula": "2940000000 = 2940000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "486668d60774e2354b94c397"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-12-29",
+      "end": "2025-03-29",
+      "status": "Mathematically calculated",
+      "value": "3071000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "6011000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-03-29",
+          "accession": "0000320193-25-000057",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "section": "Six Months Ended March 29, 2025 March 30, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 61,110 57,552 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 5,741 5,684 Share-based compensation expense 6,512 5,961 Other ( 2,217 ) ( 1,971 ) Changes in operating assets and liabilities: Accounts receiva\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 6,011 ) ( 4,388 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "2940000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2024-12-28",
+          "accession": "0000320193-25-000008",
+          "form": "10-Q",
+          "filed": "2025-01-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 36,330 33,916 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 3,080 2,848 Share-based compensation expense 3,286 2,997 Other ( 2,009 ) ( 989 ) Changes in operating assets and liabilities: Accounts r\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 2,940 ) ( 2,392 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1e59f7254aa07a4ebd970450",
+      "verified": true,
+      "formula": "6011000000 - 2940000000 = 3071000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "e052e613c8f181e30aec0d48",
+        "486668d60774e2354b94c397"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-03-30",
+      "end": "2025-06-28",
+      "status": "Mathematically calculated",
+      "value": "3462000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "9473000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-06-28",
+          "accession": "0000320193-25-000073",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "section": "Nine Months Ended June 28, 2025 June 29, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 84,544 79,000 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 8,571 8,534 Share-based compensation expense 9,680 8,830 Other ( 1,748 ) ( 1,964 ) Changes in operating assets and liabilities: Accounts receivab\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 9,473 ) ( 6,539 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "6011000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-03-29",
+          "accession": "0000320193-25-000057",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "section": "Six Months Ended March 29, 2025 March 30, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 61,110 57,552 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 5,741 5,684 Share-based compensation expense 6,512 5,961 Other ( 2,217 ) ( 1,971 ) Changes in operating assets and liabilities: Accounts receiva\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 6,011 ) ( 4,388 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "38a6b6402d80f7d5f92dec1a",
+      "verified": true,
+      "formula": "9473000000 - 6011000000 = 3462000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "6c1ab798f193d6dbaabe63cd",
+        "e052e613c8f181e30aec0d48"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-06-29",
+      "end": "2025-09-27",
+      "status": "Mathematically calculated",
+      "value": "3242000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "12715000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-09-27",
+          "accession": "0000320193-25-000079",
+          "form": "10-K",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 $ 24,977 Operating activities: Net income 112,010 93,736 96,995 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 11,698 11,445 11,519 Share-based compensation expense 12,863 11,688 10,833 Other ( 89 ) ( 2,266 ) ( 2,227\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 12,715 ) ( 9,447 ) ( 10,959 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "320193",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments for acquisition of property, plant and equipment",
+          "value": "9473000000",
+          "unit": "USD",
+          "start": "2024-09-29",
+          "end": "2025-06-28",
+          "accession": "0000320193-25-000073",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "section": "Nine Months Ended June 28, 2025 June 29, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 84,544 79,000 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 8,571 8,534 Share-based compensation expense 9,680 8,830 Other ( 1,748 ) ( 1,964 ) Changes in operating assets and liabilities: Accounts receivab\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 9,473 ) ( 6,539 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "c71868782f1a586e5e3a5d95",
+      "verified": true,
+      "formula": "12715000000 - 9473000000 = 3242000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "5d77f5cd88c7036ecd7a6178",
+        "6c1ab798f193d6dbaabe63cd"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-29",
+      "end": "2024-12-28",
+      "status": "Directly reported",
+      "value": "30299000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "30299000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2024-12-28",
+          "accession": "0000320193-25-000008",
+          "form": "10-Q",
+          "filed": "2025-01-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "section": "December 28, 2024 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 30,299 $ 29,943 Marketable securities 23,476 35,228 Accounts receivable, net 29,639 33,410 Vendor non-trade receivables 29,667 32,833 Inventories 6,911 7,286 Other current assets 13,248 14,287 Total current assets 133,240 152,987 Non-current assets: Marketable securities 87,593 91,479 Property, plant and equipment, net 46,069 45,680 Other non-current assets 7\nMatched disclosure row: Cash and cash equivalents $ 30,299 $ 29,943",
+          "context": "c-17",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b2c51528a60ea4548280b088",
+      "verified": true,
+      "formula": "30299000000 = 30299000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "381da5ba8ea83e2e0f7c9332"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-12-29",
+      "end": "2025-03-29",
+      "status": "Directly reported",
+      "value": "28162000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "28162000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-29",
+          "accession": "0000320193-25-000057",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "section": "March 29, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 28,162 $ 29,943 Marketable securities 20,336 35,228 Accounts receivable, net 26,136 33,410 Vendor non-trade receivables 23,662 32,833 Inventories 6,269 7,286 Other current assets 14,109 14,287 Total current assets 118,674 152,987 Non-current assets: Marketable securities 84,424 91,479 Property, plant and equipment, net 46,876 45,680 Other non-current assets 81,2\nMatched disclosure row: Cash and cash equivalents $ 28,162 $ 29,943",
+          "context": "c-23",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d0b37aa3712afa8f83a97658",
+      "verified": true,
+      "formula": "28162000000 = 28162000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "e2daff2de5e50588a081e414"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-03-30",
+      "end": "2025-06-28",
+      "status": "Directly reported",
+      "value": "36269000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "36269000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-28",
+          "accession": "0000320193-25-000073",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "section": "June 28, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 36,269 $ 29,943 Marketable securities 19,103 35,228 Accounts receivable, net 27,557 33,410 Vendor non-trade receivables 19,278 32,833 Inventories 5,925 7,286 Other current assets 14,359 14,287 Total current assets 122,491 152,987 Non-current assets: Marketable securities 77,614 91,479 Property, plant and equipment, net 48,508 45,680 Other non-current assets 82,88\nMatched disclosure row: Cash and cash equivalents $ 36,269 $ 29,943",
+          "context": "c-22",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1d308cf3947b676f9891df67",
+      "verified": true,
+      "formula": "36269000000 = 36269000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "f4642ac6845526a259af15dc"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-06-29",
+      "end": "2025-09-27",
+      "status": "Directly reported",
+      "value": "35934000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "35934000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-27",
+          "accession": "0000320193-25-000079",
+          "form": "10-K",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section": "September 27, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 35,934 $ 29,943 Marketable securities 18,763 35,228 Accounts receivable, net 39,777 33,410 Vendor non-trade receivables 33,180 32,833 Inventories 5,718 7,286 Other current assets 14,585 14,287 Total current assets 147,957 152,987 Non-current assets: Marketable securities 77,723 91,479 Property, plant and equipment, net 49,834 45,680 Other non-current assets \nMatched disclosure row: Cash and cash equivalents $ 35,934 $ 29,943",
+          "context": "c-20",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "065ee266dbf85326fcb69fe1",
+      "verified": true,
+      "formula": "35934000000 = 35934000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d0693473eadb03c910bc11fb"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2024-09-29",
+      "end": "2024-12-28",
+      "status": "Directly reported",
+      "value": "2.4",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "2.4",
+          "unit": "USD/shares",
+          "start": "2024-09-29",
+          "end": "2024-12-28",
+          "accession": "0000320193-25-000008",
+          "form": "10-Q",
+          "filed": "2025-01-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Net sales: Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Cost of sales: Products 59,447 58,440 Services 6,578 6,280 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Operating expenses: Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other i\nMatched disclosure row: Diluted $ 2.40 $ 2.18",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "be688f496fc7351a733322a0",
+      "verified": true,
+      "formula": "2.4 = 2.4 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "eee7a0e589285af1819456f1"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2024-12-29",
+      "end": "2025-03-29",
+      "status": "Directly reported",
+      "value": "1.65",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "1.65",
+          "unit": "USD/shares",
+          "start": "2024-12-29",
+          "end": "2025-03-29",
+          "accession": "0000320193-25-000057",
+          "form": "10-Q",
+          "filed": "2025-05-02",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "section": "Three Months Ended Six Months Ended March 29, 2025 March 30, 2024 March 29, 2025 March 30, 2024 Net sales: Products $ 68,714 $ 66,886 $ 166,674 $ 163,344 Services 26,645 23,867 52,985 46,984 Total net sales 95,359 90,753 219,659 210,328 Cost of sales: Products 44,030 42,424 103,477 100,864 Services 6,462 6,058 13,040 12,338 Total cost of sales 50,492 48,482 116,517 113,202 Gross margin 44,867 42,271 103,142 97,126 Operating expenses: Research and\nMatched disclosure row: Diluted $ 1.65 $ 1.53 $ 4.05 $ 3.71",
+          "context": "c-20",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "713071f0dc24b8657e4c2cad",
+      "verified": true,
+      "formula": "1.65 = 1.65 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "c66ed8785baf82dcf0625ee6"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-03-30",
+      "end": "2025-06-28",
+      "status": "Directly reported",
+      "value": "1.57",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "320193",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "1.57",
+          "unit": "USD/shares",
+          "start": "2025-03-30",
+          "end": "2025-06-28",
+          "accession": "0000320193-25-000073",
+          "form": "10-Q",
+          "filed": "2025-08-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and d\nMatched disclosure row: Diluted $ 1.57 $ 1.40 $ 5.62 $ 5.11",
+          "context": "c-19",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "05e0355c63e492b82c26f19b",
+      "verified": true,
+      "formula": "1.57 = 1.57 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d5b69b18236bdf6a73429196"
+      ]
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-06-29",
+      "end": "2025-09-27",
+      "status": "Insufficient information",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0000320193-25-000008",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+          "status": "Document inspected",
+          "inline_facts": 489,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000057",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+          "status": "Document inspected",
+          "inline_facts": 635,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000073",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+          "status": "Document inspected",
+          "inline_facts": 643,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0000320193-25-000079",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "status": "Document inspected",
+          "inline_facts": 919,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "95d043d0f5b89453d77d221b",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "accession": "0000320193-25-000008",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+      "status": "Document inspected",
+      "inline_facts": 489,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000320193-25-000057",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+      "status": "Document inspected",
+      "inline_facts": 635,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000320193-25-000073",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+      "status": "Document inspected",
+      "inline_facts": 643,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0000320193-25-000079",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "status": "Document inspected",
+      "inline_facts": 919,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:11.116627+00:00"
+}

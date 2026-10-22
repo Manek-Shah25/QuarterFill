@@ -1,0 +1,1642 @@
+{
+  "ticker": "GOOGL",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "90234000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenues",
+          "value": "90234000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001652044-25-000043",
+          "form": "10-Q",
+          "filed": "2025-04-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "section": "Three Months Ended March 31, 2024 2025 Revenues $ 80,539 $ 90,234 Costs and expenses: Cost of revenues 33,712 36,361 Research and development 11,903 13,556 Sales and marketing 6,426 6,172 General and administrative 3,026 3,539 Total costs and expenses 55,067 59,628 Income from operations 25,472 30,606 Other income (expense), net 2,843 11,183 Income before income taxes 28,315 41,789 Provision for income taxes 4,653 7,249 Net income $ 23,662 $ 34,5\nMatched disclosure row: Revenues $ 80,539 $ 90,234",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "6cad4b6dfc5e6bba666c1de9",
+      "verified": true,
+      "formula": "90234000000 = 90234000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d99a114127a78ce738aebd90"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "96428000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:Revenues",
+          "label": "Revenues",
+          "value": "96428000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001652044-25-000062",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "section": "Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Revenues $ 84,742 $ 96,428 $ 165,281 $ 186,662 Costs and expenses: Cost of revenues 35,507 39,039 69,219 75,400 Research and development 11,860 13,808 23,763 27,364 Sales and marketing 6,792 7,101 13,218 13,273 General and administrative 3,158 5,209 6,184 8,748 Total costs and expenses 57,317 65,157 112,384 124,785 Income from operations 27,425 31,271 52,897 61,877 Other in\nMatched disclosure row: Revenues $ 84,742 $ 96,428 $ 165,281 $ 186,662",
+          "context": "c-21",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "f7d1d25222a06e10777ea3c3",
+      "verified": true,
+      "formula": "96428000000 = 96428000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "86383e82eaecb8f1ca3de536"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "102346000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:Revenues",
+          "label": "Revenues",
+          "value": "102346000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001652044-25-000091",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "section": "Three Months Ended Nine Months Ended September 30, September 30, 2024 2025 2024 2025 Revenues $ 88,268 $ 102,346 $ 253,549 $ 289,007 Costs and expenses: Cost of revenues 36,474 41,369 105,693 116,768 Research and development 12,447 15,151 36,210 42,515 Sales and marketing 7,227 7,205 20,445 20,478 General and administrative 3,599 7,393 9,783 16,141 Total costs and expenses 59,747 71,118 172,131 195,902 Income from operations 28,521 31,228 81,418 \nMatched disclosure row: Revenues $ 88,268 $ 102,346 $ 253,549 $ 289,007",
+          "context": "c-21",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1b40f5137d2ff112a175f7e4",
+      "verified": true,
+      "formula": "102346000000 = 102346000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "8807bcdb5284b542b5f763c6"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "113829000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:Revenues",
+          "label": "Revenues",
+          "value": "402836000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001652044-26-000018",
+          "form": "10-K",
+          "filed": "2026-02-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "section": "Year Ended December 31, 2023 2024 2025 Revenues $ 307,394 $ 350,018 $ 402,836 Costs and expenses: Cost of revenues 133,332 146,306 162,535 Research and development 45,427 49,326 61,087 Sales and marketing 27,917 27,808 28,693 General and administrative 16,425 14,188 21,482 Total costs and expenses 223,101 237,628 273,797 Income from operations 84,293 112,390 129,039 Other income (expense), net 1,424 7,425 29,787 Income before income taxes 85,717 \nMatched disclosure row: Revenues $ 307,394 $ 350,018 $ 402,836",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:Revenues",
+          "label": "Revenues",
+          "value": "289007000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001652044-25-000091",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "section": "Three Months Ended Nine Months Ended September 30, September 30, 2024 2025 2024 2025 Revenues $ 88,268 $ 102,346 $ 253,549 $ 289,007 Costs and expenses: Cost of revenues 36,474 41,369 105,693 116,768 Research and development 12,447 15,151 36,210 42,515 Sales and marketing 7,227 7,205 20,445 20,478 General and administrative 3,599 7,393 9,783 16,141 Total costs and expenses 59,747 71,118 172,131 195,902 Income from operations 28,521 31,228 81,418 \nMatched disclosure row: Revenues $ 88,268 $ 102,346 $ 253,549 $ 289,007",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "ebba8542db5d740ceb42743c",
+      "verified": true,
+      "formula": "402836000000 - 289007000000 = 113829000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "752d672612c68d31374729ee",
+        "a5279aae2258f11f2b45e598"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "17197000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "17197000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001652044-25-000043",
+          "form": "10-Q",
+          "filed": "2025-04-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "section": "Three Months Ended March 31, 2024 2025 Operating activities Net income $ 23,662 $ 34,540 Adjustments: Depreciation of property and equipment 3,413 4,487 Stock-based compensation expense 5,264 5,516 Deferred income taxes 419 ( 1,152 ) Loss (gain) on debt and equity securities, net ( 1,781 ) ( 9,960 ) Other 334 481 Changes in assets and liabilities, net of effects of acquisitions: Accounts receivable, net 3,167 1,638 Income taxes, net 3,011 7,197 O\nMatched disclosure row: Purchases of property and equipment ( 12,012 ) ( 17,197 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "01a9f69dd9385d1240b70583",
+      "verified": true,
+      "formula": "17197000000 = 17197000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "39acead946f84a498fe16d7d"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "22446000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "39643000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001652044-25-000062",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "section": "Six Months Ended June 30, 2024 2025 Operating activities Net income $ 47,281 $ 62,736 Adjustments: Depreciation of property and equipment 7,121 9,485 Stock-based compensation expense 11,129 11,514 Deferred income taxes ( 2,738 ) ( 1,596 ) Loss (gain) on debt and equity securities, net ( 757 ) ( 11,411 ) Other 1,185 1,041 Changes in assets and liabilities, net of effects of acquisitions: Accounts receivable, net 110 ( 1,201 ) Income taxes, net ( 8\nMatched disclosure row: Purchases of property and equipment ( 25,198 ) ( 39,643 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "17197000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001652044-25-000043",
+          "form": "10-Q",
+          "filed": "2025-04-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "section": "Three Months Ended March 31, 2024 2025 Operating activities Net income $ 23,662 $ 34,540 Adjustments: Depreciation of property and equipment 3,413 4,487 Stock-based compensation expense 5,264 5,516 Deferred income taxes 419 ( 1,152 ) Loss (gain) on debt and equity securities, net ( 1,781 ) ( 9,960 ) Other 334 481 Changes in assets and liabilities, net of effects of acquisitions: Accounts receivable, net 3,167 1,638 Income taxes, net 3,011 7,197 O\nMatched disclosure row: Purchases of property and equipment ( 12,012 ) ( 17,197 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "07e8d128cdbc32e3ac79a2e4",
+      "verified": true,
+      "formula": "39643000000 - 17197000000 = 22446000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "125fd19a1e58d814ef45b91a",
+        "39acead946f84a498fe16d7d"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Mathematically calculated",
+      "value": "23953000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "63596000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001652044-25-000091",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "section": "Nine Months Ended September 30, 2024 2025 Operating activities Net income $ 73,582 $ 97,715 Adjustments: Depreciation of property and equipment 11,106 15,096 Stock-based compensation expense 16,975 17,882 Deferred income taxes ( 3,809 ) 7,130 Loss (gain) on debt and equity securities, net ( 2,738 ) ( 22,266 ) Other 2,592 843 Changes in assets and liabilities, net of effects of acquisitions: Accounts receivable, net ( 1,321 ) ( 3,582 ) Income taxe\nMatched disclosure row: Purchases of property and equipment ( 38,259 ) ( 63,596 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "39643000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001652044-25-000062",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "section": "Six Months Ended June 30, 2024 2025 Operating activities Net income $ 47,281 $ 62,736 Adjustments: Depreciation of property and equipment 7,121 9,485 Stock-based compensation expense 11,129 11,514 Deferred income taxes ( 2,738 ) ( 1,596 ) Loss (gain) on debt and equity securities, net ( 757 ) ( 11,411 ) Other 1,185 1,041 Changes in assets and liabilities, net of effects of acquisitions: Accounts receivable, net 110 ( 1,201 ) Income taxes, net ( 8\nMatched disclosure row: Purchases of property and equipment ( 25,198 ) ( 39,643 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "2ee7259812b1ddf339bb1211",
+      "verified": true,
+      "formula": "63596000000 - 39643000000 = 23953000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "d7c04d88ff9e0fe71c7a499b",
+        "125fd19a1e58d814ef45b91a"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "27851000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "91447000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001652044-26-000018",
+          "form": "10-K",
+          "filed": "2026-02-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "section": "Year Ended December\u00a031, 2023 2024 2025 Operating activities Net income $ 73,795 $ 100,118 $ 132,170 Adjustments: Depreciation of property and equipment 11,946 15,311 21,136 Stock-based compensation expense 22,460 22,785 24,953 Deferred income taxes ( 7,763 ) ( 5,257 ) 8,348 Loss (gain) on debt and equity securities, net 823 ( 2,671 ) ( 24,620 ) Other 4,330 3,419 2,108 Changes in assets and liabilities, net of effects of acquisitions: Accounts rec\nMatched disclosure row: Purchases of property and equipment ( 32,251 ) ( 52,535 ) ( 91,447 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "63596000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001652044-25-000091",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "section": "Nine Months Ended September 30, 2024 2025 Operating activities Net income $ 73,582 $ 97,715 Adjustments: Depreciation of property and equipment 11,106 15,096 Stock-based compensation expense 16,975 17,882 Deferred income taxes ( 3,809 ) 7,130 Loss (gain) on debt and equity securities, net ( 2,738 ) ( 22,266 ) Other 2,592 843 Changes in assets and liabilities, net of effects of acquisitions: Accounts receivable, net ( 1,321 ) ( 3,582 ) Income taxe\nMatched disclosure row: Purchases of property and equipment ( 38,259 ) ( 63,596 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "9b3715fd8580096896d13155",
+      "verified": true,
+      "formula": "91447000000 - 63596000000 = 27851000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "099e1b05e851b9787e552f5c",
+        "d7c04d88ff9e0fe71c7a499b"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "23264000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "23264000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0001652044-25-000043",
+          "form": "10-Q",
+          "filed": "2025-04-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "section": "As of December 31, 2024 As of March 31, 2025 (unaudited) Assets Current assets: Cash and cash equivalents $ 23,466 $ 23,264 Marketable securities 72,191 72,064 Total cash, cash equivalents, and marketable securities 95,657 95,328 Accounts receivable, net 52,340 51,000 Other current assets 15,714 15,724 Total current assets 163,711 162,052 Non-marketable securities 37,982 51,029 Deferred income taxes 17,180 18,386 Property and equipment, net 171,0\nMatched disclosure row: Cash and cash equivalents $ 23,466 $ 23,264",
+          "context": "c-8",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d6d4e1056e3b2d21c6635f19",
+      "verified": true,
+      "formula": "23264000000 = 23264000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "749f0722abb3c21b08529601"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "21036000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "21036000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0001652044-25-000062",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "section": "As of December 31, 2024 As of June 30, 2025 (unaudited) Assets Current assets: Cash and cash equivalents $ 23,466 $ 21,036 Marketable securities 72,191 74,112 Total cash, cash equivalents, and marketable securities 95,657 95,148 Accounts receivable, net 52,340 55,048 Other current assets 15,714 16,020 Total current assets 163,711 166,216 Non-marketable securities 37,982 52,574 Deferred income taxes 17,180 19,289 Property and equipment, net 171,03\nMatched disclosure row: Cash and cash equivalents $ 23,466 $ 21,036",
+          "context": "c-13",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "bdb8d2dcfdd068c8ca91ed6d",
+      "verified": true,
+      "formula": "21036000000 = 21036000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "59e9afedfa2c600b31d93a02"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "23090000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "23090000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-30",
+          "accession": "0001652044-25-000091",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "section": "As of December 31, 2024 As of September 30, 2025 (unaudited) Assets Current assets: Cash and cash equivalents $ 23,466 $ 23,090 Marketable securities 72,191 75,406 Total cash, cash equivalents, and marketable securities 95,657 98,496 Accounts receivable, net 52,340 57,148 Other current assets 15,714 18,303 Total current assets 163,711 173,947 Non-marketable securities 37,982 63,800 Deferred income taxes 17,180 10,331 Property and equipment, net 1\nMatched disclosure row: Cash and cash equivalents $ 23,466 $ 23,090",
+          "context": "c-13",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "4e6364a2943602cd22138926",
+      "verified": true,
+      "formula": "23090000000 = 23090000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "c9a2c5397bdc7ed7a691c759"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Directly reported",
+      "value": "30708000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "30708000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "accession": "0001652044-26-000018",
+          "form": "10-K",
+          "filed": "2026-02-05",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "section": "As of December 31, 2024 2025 Assets Current assets: Cash and cash equivalents $ 23,466 $ 30,708 Marketable securities 72,191 96,135 Total cash, cash equivalents, and marketable securities 95,657 126,843 Accounts receivable, net 52,340 62,886 Other current assets 15,714 16,309 Total current assets 163,711 206,038 Non-marketable securities 37,982 68,687 Deferred income taxes 17,180 9,113 Property and equipment, net 171,036 246,597 Operating lease a\nMatched disclosure row: Cash and cash equivalents $ 23,466 $ 30,708",
+          "context": "c-20",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "aa74f176453e9f446a4402dd",
+      "verified": true,
+      "formula": "30708000000 = 30708000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "9947279c57beb35b63b10433"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "2.81",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted net income per share (Note 12)",
+          "value": "2.81",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001652044-25-000043",
+          "form": "10-Q",
+          "filed": "2025-04-25",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "section": "Three Months Ended March 31, 2024 2025 Revenues $ 80,539 $ 90,234 Costs and expenses: Cost of revenues 33,712 36,361 Research and development 11,903 13,556 Sales and marketing 6,426 6,172 General and administrative 3,026 3,539 Total costs and expenses 55,067 59,628 Income from operations 25,472 30,606 Other income (expense), net 2,843 11,183 Income before income taxes 28,315 41,789 Provision for income taxes 4,653 7,249 Net income $ 23,662 $ 34,5\nMatched disclosure row: Diluted net income per share (Note 12) $ 1.89 $ 2.81",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "fb3eb88bea53bce8aed4702b",
+      "verified": true,
+      "formula": "2.81 = 2.81 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "70711202867f65cb96f450c8"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "2.31",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted net income per share (Note 12)",
+          "value": "2.31",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001652044-25-000062",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "section": "Three Months Ended Six Months Ended June 30, June 30, 2024 2025 2024 2025 Revenues $ 84,742 $ 96,428 $ 165,281 $ 186,662 Costs and expenses: Cost of revenues 35,507 39,039 69,219 75,400 Research and development 11,860 13,808 23,763 27,364 Sales and marketing 6,792 7,101 13,218 13,273 General and administrative 3,158 5,209 6,184 8,748 Total costs and expenses 57,317 65,157 112,384 124,785 Income from operations 27,425 31,271 52,897 61,877 Other in\nMatched disclosure row: Diluted net income per share (Note 12) $ 1.89 $ 2.31 $ 3.78 $ 5.12",
+          "context": "c-21",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1eeb15dfc38c02cc6bb33b66",
+      "verified": true,
+      "formula": "2.31 = 2.31 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "1639a4e2f418827623045117"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "2.87",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1652044",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted net income per share (Note 12)",
+          "value": "2.87",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001652044-25-000091",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "section": "Three Months Ended Nine Months Ended September 30, September 30, 2024 2025 2024 2025 Revenues $ 88,268 $ 102,346 $ 253,549 $ 289,007 Costs and expenses: Cost of revenues 36,474 41,369 105,693 116,768 Research and development 12,447 15,151 36,210 42,515 Sales and marketing 7,227 7,205 20,445 20,478 General and administrative 3,599 7,393 9,783 16,141 Total costs and expenses 59,747 71,118 172,131 195,902 Income from operations 28,521 31,228 81,418 \nMatched disclosure row: Diluted net income per share (Note 12) $ 2.12 $ 2.87 $ 5.90 $ 7.99",
+          "context": "c-21",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b405f414a82a4091d628a098",
+      "verified": true,
+      "formula": "2.87 = 2.87 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "73f34f17e5d17437204a2a31"
+      ]
+    },
+    {
+      "company": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001652044-25-000043",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 1089,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000062",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 1567,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-25-000091",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1578,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001652044-26-000018",
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1615,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "56cb26ad970715bb3c3f8ca3",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "accession": "0001652044-25-000043",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000043/goog-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 1089,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001652044-25-000062",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000062/goog-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 1567,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001652044-25-000091",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/goog-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 1578,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001652044-26-000018",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1615,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:20.993303+00:00"
+}

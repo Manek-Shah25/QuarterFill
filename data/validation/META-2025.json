@@ -1,0 +1,1846 @@
+{
+  "ticker": "META",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "42314000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue",
+          "value": "42314000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenue $ 42,314 $ 36,455 Costs and expenses: Cost of revenue 7,572 6,640 Research and development 12,150 9,978 Marketing and sales 2,757 2,564 General and administrative 2,280 3,455 Total costs and expenses 24,759 22,637 Income from operations 17,555 13,818 Interest and other income, net 827 365 Income before provision for income taxes 18,382 14,183 Provision for income taxes 1,738 1,814 Net income $ 16,644\nMatched disclosure row: Revenue $ 42,314 $ 36,455",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "92aff7743212749f489b869c",
+      "verified": true,
+      "formula": "42314000000 = 42314000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "cad7534e7ca6200d0acfdb81"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "47516000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue",
+          "value": "47516000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenue $ 47,516 $ 39,071 $ 89,830 $ 75,527 Costs and expenses: Cost of revenue 8,491 7,308 16,063 13,948 Research and development 12,942 10,537 25,092 20,515 Marketing and sales 2,979 2,721 5,735 5,285 General and administrative 2,663 3,658 4,943 7,114 Total costs and expenses 27,075 24,224 51,833 46,862 Income from operations 20,441 14,847 37,997 28,665 Interest and other\nMatched disclosure row: Revenue $ 47,516 $ 39,071 $ 89,830 $ 75,527",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a878458eb4de1d6cb99b24a9",
+      "verified": true,
+      "formula": "47516000000 = 47516000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "be21cdbde9bd692397bf8df5"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "51242000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue",
+          "value": "51242000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116 Costs and expenses: Cost of revenue 9,206 7,375 25,269 21,322 Research and development 15,144 11,177 40,237 31,693 Marketing and sales 2,845 2,822 8,581 8,107 General and administrative 3,512 1,865 8,455 8,978 Total costs and expenses 30,707 23,239 82,542 70,100 Income from operations 20,535 17,350 58,531 46,016 Inter\nMatched disclosure row: Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "94908531f25a1ea295af18e1",
+      "verified": true,
+      "formula": "51242000000 = 51242000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "1abc15b486983a77299aad11"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "59893000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue",
+          "value": "200966000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "section": "Year Ended December\u00a031, 2025 2024 2023 Revenue $ 200,966 $ 164,501 $ 134,902 Costs and expenses: Cost of revenue 36,175 30,161 25,959 Research and development 57,372 43,873 38,483 Marketing and sales 11,991 11,347 12,301 General and administrative 12,152 9,740 11,408 Total costs and expenses 117,690 95,121 88,151 Income from operations 83,276 69,380 46,751 Interest and other income, net 2,656 1,283 677 Income before provision for income taxes 85,\nMatched disclosure row: Revenue $ 200,966 $ 164,501 $ 134,902",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue",
+          "value": "141073000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116 Costs and expenses: Cost of revenue 9,206 7,375 25,269 21,322 Research and development 15,144 11,177 40,237 31,693 Marketing and sales 2,845 2,822 8,581 8,107 General and administrative 3,512 1,865 8,455 8,978 Total costs and expenses 30,707 23,239 82,542 70,100 Income from operations 20,535 17,350 58,531 46,016 Inter\nMatched disclosure row: Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "7e3c97b9f0b95a9de150e44a",
+      "verified": true,
+      "formula": "200966000000 - 141073000000 = 59893000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "7dd4939f2b0a8fb0f6dac3df",
+        "a9d29ef2e9e28385f9e7e9ed"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "12941000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "12941000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash flows from operating activities Net income $ 16,644 $ 12,369 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 3,900 3,374 Share-based compensation 4,147 3,562 Deferred income taxes ( 993 ) ( 456 ) Other ( 231 ) 174 Changes in assets and liabilities: Accounts receivable 2,804 2,520 Prepaid expenses and other current assets 360 100 Other asset\nMatched disclosure row: Purchases of property and equipment ( 12,941 ) ( 6,400 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "5888a99304414b3a9e597e1f",
+      "verified": true,
+      "formula": "12941000000 = 12941000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "028cefa8f3bd0fd95d03568c"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "16538000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "29479000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash flows from operating activities Net income $ 34,981 $ 25,834 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 8,242 7,011 Share-based compensation 8,981 8,178 Deferred income taxes ( 2,163 ) ( 2,098 ) Unrealized loss on marketable equity securities 374 \u2014 Other ( 430 ) 209 Changes in assets and liabilities: Accounts receivable 1,466 1,350 Prepai\nMatched disclosure row: Purchases of property and equipment ( 29,479 ) ( 14,573 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "12941000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash flows from operating activities Net income $ 16,644 $ 12,369 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 3,900 3,374 Share-based compensation 4,147 3,562 Deferred income taxes ( 993 ) ( 456 ) Other ( 231 ) 174 Changes in assets and liabilities: Accounts receivable 2,804 2,520 Prepaid expenses and other current assets 360 100 Other asset\nMatched disclosure row: Purchases of property and equipment ( 12,941 ) ( 6,400 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "f3d9403e1f61efcf3ab76612",
+      "verified": true,
+      "formula": "29479000000 - 12941000000 = 16538000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ce3715cc60e0a0d1ad72b9e7",
+        "028cefa8f3bd0fd95d03568c"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Mathematically calculated",
+      "value": "18829000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "48308000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash flows from operating activities Net income $ 37,690 $ 41,522 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 13,205 11,038 Share-based compensation 14,537 12,428 Deferred income taxes 17,704 ( 3,406 ) Unrealized gain on marketable equity securities ( 548 ) \u2014 Other ( 453 ) 206 Changes in assets and liabilities: Accounts receivable 660 1,4\nMatched disclosure row: Purchases of property and equipment ( 48,308 ) ( 22,831 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "29479000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash flows from operating activities Net income $ 34,981 $ 25,834 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 8,242 7,011 Share-based compensation 8,981 8,178 Deferred income taxes ( 2,163 ) ( 2,098 ) Unrealized loss on marketable equity securities 374 \u2014 Other ( 430 ) 209 Changes in assets and liabilities: Accounts receivable 1,466 1,350 Prepai\nMatched disclosure row: Purchases of property and equipment ( 29,479 ) ( 14,573 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d23ae27e49a47ab13bd3cd80",
+      "verified": true,
+      "formula": "48308000000 - 29479000000 = 18829000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "c0c89611a99aca4228147382",
+        "ce3715cc60e0a0d1ad72b9e7"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "21383000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "69691000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "section": "Year Ended December 31, 2025 2024 2023 Cash flows from operating activities Net income $ 60,458 $ 62,360 $ 39,098 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 18,616 15,498 11,178 Share-based compensation 20,427 16,690 14,027 Deferred income taxes 18,738 ( 4,738 ) 131 Unrealized (gain) loss on equity investments ( 1,138 ) ( 53 ) 102 Impairment charges for facilities consolidation \nMatched disclosure row: Purchases of property and equipment ( 69,691 ) ( 37,256 ) ( 27,045 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Purchases of property and equipment",
+          "value": "48308000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash flows from operating activities Net income $ 37,690 $ 41,522 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 13,205 11,038 Share-based compensation 14,537 12,428 Deferred income taxes 17,704 ( 3,406 ) Unrealized gain on marketable equity securities ( 548 ) \u2014 Other ( 453 ) 206 Changes in assets and liabilities: Accounts receivable 660 1,4\nMatched disclosure row: Purchases of property and equipment ( 48,308 ) ( 22,831 )",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "74f122fe0b8e1cd7cd44aca4",
+      "verified": true,
+      "formula": "69691000000 - 48308000000 = 21383000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "f7608ba1f4eabd84e789b6fc",
+        "c0c89611a99aca4228147382"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "28750000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "28750000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "March 31, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 28,750 $ 43,889 Marketable securities 41,480 33,926 Accounts receivable, net 14,514 16,994 Prepaid expenses and other current assets 5,483 5,236 Total current assets 90,227 100,045 Non-marketable equity securities 6,168 6,070 Property and equipment, net 133,567 121,346 Operating lease right-of-use assets 15,505 14,922 Goodwill 20,654 20,654 Other assets 14,092 13,\nMatched disclosure row: Cash and cash equivalents $ 28,750 $ 43,889",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "5ddfedcba5c601681add86b3",
+      "verified": true,
+      "formula": "28750000000 = 28750000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "87490bf08265c9252c981f71"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "12005000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "12005000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "June 30, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 12,005 $ 43,889 Marketable securities 35,066 33,926 Accounts receivable, net 16,561 16,994 Prepaid expenses and other current assets 9,981 5,236 Total current assets 73,613 100,045 Non-marketable equity investments 21,988 6,070 Property and equipment, net 147,039 121,346 Operating lease right-of-use assets 15,662 14,922 Goodwill 20,654 20,654 Other assets 15,788 13\nMatched disclosure row: Cash and cash equivalents $ 12,005 $ 43,889",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "122f3778f48a61c72cfd8c46",
+      "verified": true,
+      "formula": "12005000000 = 12005000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "05a96cf54405da25e4f1d16a"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "10187000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "10187000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "September 30, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 10,187 $ 43,889 Marketable securities 34,261 33,926 Accounts receivable, net 17,297 16,994 Prepaid expenses and other current assets 11,373 5,236 Total current assets 73,118 100,045 Non-marketable equity investments 25,074 6,070 Property and equipment, net 160,270 121,346 Operating lease right-of-use assets 17,372 14,922 Goodwill 21,158 20,654 Other assets 6,8\nMatched disclosure row: Cash and cash equivalents $ 10,187 $ 43,889",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "798eb3d75d31d120d5b83e93",
+      "verified": true,
+      "formula": "10187000000 = 10187000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "3429b7cfe8d1fe401e258a4b"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Directly reported",
+      "value": "35873000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and cash equivalents",
+          "value": "35873000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "section": "December 31, 2025 2024 Assets Current assets: Cash and cash equivalents $ 35,873 $ 43,889 Marketable securities 45,719 33,926 Accounts receivable, net 19,769 16,994 Prepaid expenses and other current assets 7,361 5,236 Total current assets 108,722 100,045 Non-marketable equity investments 27,524 6,070 Property and equipment, net 176,400 121,346 Operating lease right-of-use assets 20,404 14,922 Goodwill 24,534 20,654 Other assets 8,437 13,017 Tota\nMatched disclosure row: Cash and cash equivalents $ 35,873 $ 43,889",
+          "context": "c-5",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "71e35e9c6a71290e63d069c8",
+      "verified": true,
+      "formula": "35873000000 = 35873000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "983c30b258042c00931f0733"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "6.43",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "6.43",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenue $ 42,314 $ 36,455 Costs and expenses: Cost of revenue 7,572 6,640 Research and development 12,150 9,978 Marketing and sales 2,757 2,564 General and administrative 2,280 3,455 Total costs and expenses 24,759 22,637 Income from operations 17,555 13,818 Interest and other income, net 827 365 Income before provision for income taxes 18,382 14,183 Provision for income taxes 1,738 1,814 Net income $ 16,644\nMatched disclosure row: Diluted $ 6.43 $ 4.71",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "bea1d312d939154cbde59479",
+      "verified": true,
+      "formula": "6.43 = 6.43 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "09c6ee46f8d02531efbe6da8"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "7.14",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "7.14",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenue $ 47,516 $ 39,071 $ 89,830 $ 75,527 Costs and expenses: Cost of revenue 8,491 7,308 16,063 13,948 Research and development 12,942 10,537 25,092 20,515 Marketing and sales 2,979 2,721 5,735 5,285 General and administrative 2,663 3,658 4,943 7,114 Total costs and expenses 27,075 24,224 51,833 46,862 Income from operations 20,441 14,847 37,997 28,665 Interest and other\nMatched disclosure row: Diluted $ 7.14 $ 5.16 $ 13.56 $ 9.86",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "27044ee29c0e81af763c1d7c",
+      "verified": true,
+      "formula": "7.14 = 7.14 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ad3e1075ba0bb9b32b5aa726"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "1.05",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Diluted",
+          "value": "1.05",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116 Costs and expenses: Cost of revenue 9,206 7,375 25,269 21,322 Research and development 15,144 11,177 40,237 31,693 Marketing and sales 2,845 2,822 8,581 8,107 General and administrative 3,512 1,865 8,455 8,978 Total costs and expenses 30,707 23,239 82,542 70,100 Income from operations 20,535 17,350 58,531 46,016 Inter\nMatched disclosure row: Diluted $ 1.05 $ 6.03 $ 14.62 $ 15.88",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "97db3822ce1a4058ebde38ad",
+      "verified": true,
+      "formula": "1.05 = 1.05 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "fdbd623c9e83c31014ea508a"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "544f16e220bb4f44b4f46edd",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "accession": "0001326801-25-000054",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 534,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-036791",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 728,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-047240",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 813,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-26-003942",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1077,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T19:13:22.586815+00:00"
+}
