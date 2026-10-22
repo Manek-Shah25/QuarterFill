@@ -20,6 +20,9 @@ def test_real_bundled_lookup():
     assert 'cells' in app.session_state
     cells=app.session_state['cells']
     assert any(c.value is not None and c.verified for c in cells)
+    next(r for r in app.radio if r.label=='Financial statement').set_value('Revenue by segment').run()
+    assert not app.exception
+    assert 'Americas' in app.dataframe[0].value['Business segment'].tolist()
 
 
 def test_neog_exact_ticker_end_to_end():

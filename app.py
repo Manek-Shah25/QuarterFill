@@ -11,11 +11,13 @@ from quarterfill.concepts import BY_NAME, DERIVED, METRICS
 from quarterfill.presentation import amount, explanation, input_name, period, quarter_name, readable_date
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError, filing_url
+from quarterfill.segments import segment_build
 
 
 PAGES = ['Quarterly Lookup', 'Three-Statement Builder', 'Missing Data Investigator',
          'SEC Filing Explorer', 'Methodology and Data Health']
 STATEMENTS = {'Income statement': 'Income', 'Balance sheet': 'Balance sheet', 'Cash flow statement': 'Cash flow'}
+STATEMENTS['Revenue by segment'] = 'Segments'
 METRIC_NAMES = {'SG&A': 'Selling, general and administrative costs', 'R&D': 'Research and development',
                 'Diluted EPS': 'Earnings per share (diluted)', 'Basic EPS': 'Earnings per share (basic)'}
 
@@ -109,6 +111,8 @@ def build_cells(research, names, years):
 
 
 def statement_table(research, statement, years, key):
+    if statement == 'Revenue by segment':
+        return revenue_segments(research, years, key)
     names = [m.name for m in METRICS if m.statement == STATEMENTS[statement]]
     cells = build_cells(research, names, years)
     st.session_state['cells'] = cells
@@ -136,6 +140,41 @@ def statement_table(research, statement, years, key):
     year = middle.selectbox('Year', range(years[0], years[1] + 1), key=f'{key}_year')
     q = right.selectbox('Quarter', [1, 2, 3, 4], format_func=lambda n: f'Q{n}', key=f'{key}_quarter')
     show_work(research.cell(name, year, q), key)
+
+
+def revenue_segments(research, years, key):
+    st.write('See which parts of the business bring in revenue. We use the segments named in the company’s reports.')
+    year = st.selectbox('Segment year', range(years[0], years[1] + 1), key=f'{key}_segment_year')
+    builds = segment_build(research, year)
+    if not builds:
+        st.info('We could not find a reliable business-segment revenue breakdown in the reports we opened. Read the company’s segment note for more detail.')
+        return
+    build = builds[0]
+    labels = ['Q1', 'Q2', 'Q3', 'Q4', 'Year total']
+    rows = []
+    for name, cells in build['rows'].items():
+        row = {'Business segment': name}
+        for label, cell in zip(labels, cells):
+            row[label] = amount(cell.value, 'USD', compact=True)
+            if cell.value is not None and cell.operation == '-':
+                row[label] += ' · calculated'
+        rows.append(row)
+    for name, index in [('Sum of segments', 0), ('Company revenue', 1)]:
+        rows.append({'Business segment': name, **{label: amount(pair[index].value, 'USD', compact=True)
+                     for label, pair in zip(labels, build['totals'])}})
+    st.caption('Dollar amounts are in millions. A dash means we do not have a reliable number. Segment names and definitions can change between years.')
+    st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
+    left, right = st.columns([3, 1])
+    name = left.selectbox('Explain a segment', list(build['rows']), key=f'{key}_segment')
+    q = right.selectbox('Quarter or year', range(5), format_func=lambda i: labels[i], key=f'{key}_segment_quarter')
+    check = build['checks'][q]
+    if check == 'The segments add up to company revenue.':
+        st.success(check)
+    else:
+        st.info(check)
+    show_work(build['rows'][name][q], f'{key}_segment_work')
+    with st.expander('How the segments add together'):
+        show_work(build['totals'][q][0], f'{key}_segment_total')
 
 
 def methodology():
