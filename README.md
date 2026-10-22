@@ -8,8 +8,8 @@ QuarterFill brings those steps together. Enter a company’s ticker, pull up its
 
 ## What you can do
 
-- **Quarterly Lookup:** Find a company’s quarterly financial statements and see where a number came from.
-- **Three-Statement Builder:** View its income statement, balance sheet, and cash flow statement in one place.
+- **Quarterly Lookup:** Find a company’s quarterly financial statements and see where a number came from. Choose **Revenue by segment** to see which parts of its business bring in revenue.
+- **Three-Statement Builder:** View its income statement, balance sheet, cash flow statement, and revenue by segment in one place.
 - **Missing Data Investigator:** Check a missing item and see the calculation when enough information is available.
 - **SEC Filing Explorer:** Open the original company reports and look for a word or line item.
 - **Methodology and Data Health:** Learn how the calculations work and see which reports could be checked.
@@ -30,6 +30,8 @@ The actual amounts and company reports appear with the calculation.
 ## What to keep in mind
 
 QuarterFill is still being improved. Companies do not all report their numbers in the same way, and sometimes a report does not contain enough information to fill a gap. When that happens, the app leaves the number blank and tells you why. A blank does not mean zero.
+
+The revenue breakdown uses business segments from the company’s reports. It shows quarterly amounts, calculates a missing quarter when the reports support it, and checks whether the segments add up to company revenue. Some companies do not publish a usable segment breakdown, and segment definitions can change. Those gaps stay visible.
 
 The app has been checked using real company filings, but it has not had a complete independent financial review. If you plan to use a number in a model or an investment decision, open the source reports and make sure the comparison makes sense. QuarterFill helps you do the research; it does not replace your judgment.
 
