@@ -13,7 +13,7 @@ This is source matching, not a claim of audit assurance or accounting comparabil
 Every reconstruction stores its input facts and arithmetic operator before presentation.
 Derived measures preserve component cell IDs and formulas in their reasoning graph.
 Excel includes reported inputs and links, references input cells for simple arithmetic,
-and records derived graphs as text with a numeric result. JSON retains full investigation
+and translates derived component graphs into nested Excel formulas. JSON retains full investigation
 logs. Formula copying uses a selectable code box. Download buttons expose complete audits.
 
 No probabilistic confidence percentage is manufactured. Cross-filing accounting basis,

@@ -23,7 +23,9 @@ from issuer-adjusted EBITDA and can have component scope mismatches; review is r
 
 An absent observation remains insufficient information. Zero requires explicit reported
 zero. The app does not infer not-applicable or not-separately-disclosed from silence.
-These classifications need positive documentary evidence and are not automated yet.
+These classifications need positive documentary evidence. The investigator supports
+an analyst's explicit conclusion with an exact retrieved passage and rationale; the
+semantic determination is not automated.
 Conflicting versions remain ambiguous; originals and amendments are retained.
 Acquisitions, discontinued operations, segment reorganizations and accounting policy
 changes require analyst review. An arithmetic identity alone does not establish comparability.

@@ -33,6 +33,7 @@ class SECClient:
         self.snapshot_url = snapshot_url or os.getenv("QUARTERFILL_SNAPSHOT_URL", "")
         self.events = []
         self.history_errors = []
+        self.blocked_until = 0.0
 
     def get(self, url, ttl=86400):
         host = urlparse(url).hostname
@@ -46,7 +47,8 @@ class SECClient:
                 self.events.append({"url": url, "status": "cached", "retrieved": saved["at"]})
                 return saved["body"]
         error = "A real operator name and email SEC_USER_AGENT must be configured."
-        if re.search(r"[^\s@]+@[^\s@]+\.[^\s@]+", self.user_agent) and "example.com" not in self.user_agent:
+        if (time.monotonic() >= self.blocked_until and
+            re.search(r"[^\s@]+@[^\s@]+\.[^\s@]+", self.user_agent) and "example.com" not in self.user_agent):
             for attempt in range(3):
                 response = None
                 with self._lock:
@@ -68,7 +70,10 @@ class SECClient:
                 except requests.RequestException as exc:
                     error = str(exc)
                     if response is not None and response.status_code == 403:
+                        self.blocked_until = time.monotonic() + 60
                         break
+        elif time.monotonic() < self.blocked_until:
+            error = 'SEC access returned 403; using authentic cached evidence during a 60-second cooldown.'
         # Mirrors hold the exact cache envelopes generated from official SEC requests.
         if self.snapshot_url.startswith("https://raw.githubusercontent.com/"):
             try:

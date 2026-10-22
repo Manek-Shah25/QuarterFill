@@ -27,7 +27,7 @@ not automatically transformed into context-verified financial cells.
 Not yet implemented: external exhibit/schedule crawling,
 raw XBRL instance and linkbase parsing, automated definition verification for custom tags,
 automatic period reconstruction from SEC Financial Statement and Notes Data Sets, untagged table numeric recovery,
-and semantic not-applicable/not-separately-disclosed classification.
+and automated semantic not-applicable/not-separately-disclosed classification.
 
 Snapshots use exact SEC response envelopes with official URL, retrieval timestamp and
 body checksum. The checksum detects corruption; it does not independently authenticate

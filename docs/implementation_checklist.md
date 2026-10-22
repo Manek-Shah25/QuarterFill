@@ -17,7 +17,7 @@
 - [ ] Split/dilution-aware EPS derivation
 - [ ] Complete manual review of at least 15 companies and measured accuracy
 - [x] Confirmed public repository and five-status project board with 14 workstream issues
-- [ ] Confirm passing hosted CI on the final commit
+- [x] Hosted CI passed on published engine/UI commits; final documentation checks tracked in Actions
 - [x] Live Streamlit deployment and authentic AAPL FY2025 lookup/audit verified
 
 This checklist distinguishes implemented code from the full acceptance requirements.

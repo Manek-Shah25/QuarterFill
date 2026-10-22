@@ -21,7 +21,7 @@ Publish those public SEC records on a dedicated `sec-data` branch or repository.
 Set `QUARTERFILL_SNAPSHOT_URL` to its raw GitHub directory URL. Add the same
 tickers/years needed by visitors; missing snapshots result in explicit access failures.
 Do not promise full-universe coverage. Refresh manually or configure the included
-workflow with a genuine SEC_USER_AGENT repository secret. GitHub-hosted runners may
+CI workflow extension with a genuine SEC_USER_AGENT repository secret. GitHub-hosted runners may
 also be blocked by SEC; failed refreshes must not overwrite good records.
 
 Local caches are performance aids only. The application does not depend on durable
