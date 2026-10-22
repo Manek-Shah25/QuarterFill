@@ -36,6 +36,18 @@ def test_neog_exact_ticker_end_to_end():
     quarters=[c for c in app.session_state['cells'] if c.quarter!='FY' and c.metric=='Stock-based compensation']
     assert len(quarters)==4
     assert all(c.value is not None and c.verified for c in quarters)
+    next(r for r in app.radio if r.label=='Financial statement').set_value('Revenue by segment').run()
+    assert not app.exception
+    views = next(s for s in app.selectbox if s.label=='Choose a business or revenue view')
+    assert any('Food Safety' in label for label in views.options)
+    assert any('Animal Safety' in label for label in views.options)
+    assert 'Animal Care & Other' in app.dataframe[1].value['Revenue group'].tolist()
+    from quarterfill.segments import revenue_details
+    from quarterfill.models import stable_id
+    food = next(g for g in revenue_details(app.session_state['research'], 2025) if g['parent']=='Food Safety')
+    views.set_value(stable_id([food['concept'], food['scope'], food['axis']])).run()
+    assert not app.exception
+    assert 'Natural Toxins & Allergens' in app.dataframe[1].value['Revenue group'].tolist()
 
 
 def test_methodology_is_plain_language():
