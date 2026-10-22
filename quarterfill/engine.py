@@ -44,7 +44,7 @@ def fiscal_periods(facts, year):
 
 
 def reconstruct(company, ticker, metric: Metric, facts: list[Fact], year, q,
-                periods, selected_concept=None):
+                periods, selected_concept=None, dimensions=()):
     label = f"Q{q}" if q != 0 else "FY"
     cell = Cell(company, ticker, metric.name, year, label, None, None, "Insufficient information")
     if not periods:
@@ -60,7 +60,7 @@ def reconstruct(company, ticker, metric: Metric, facts: list[Fact], year, q,
     if not end or (metric.kind != "instant" and not start):
         cell.reasoning.append("Quarter boundaries are not sufficiently supported by filing periods.")
         return cell
-    candidates = [f for f in facts if f.unit == metric.unit and not f.dimensions and
+    candidates = [f for f in facts if f.unit == metric.unit and f.dimensions == dimensions and
                   (f.concept == selected_concept if selected_concept else
                    f.concept in {f"us-gaap:{t}" for t in metric.tags})]
     direct = [f for f in candidates if f.end == end and

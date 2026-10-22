@@ -105,6 +105,11 @@ class SECClient:
         return (self.json(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"),
                 self.json(f"https://data.sec.gov/submissions/CIK{cik}.json"))
 
+    def concept(self, cik, namespace, tag):
+        if not re.fullmatch(r'[A-Za-z0-9_-]+',namespace) or not re.fullmatch(r'[A-Za-z0-9_-]+',tag):
+            raise SECError('Invalid XBRL concept name')
+        return self.json(f'https://data.sec.gov/api/xbrl/companyconcept/CIK{str(cik).zfill(10)}/{namespace}/{tag}.json')
+
     def filings(self, submissions, include_history=False):
         recent = submissions["filings"]["recent"]
         records = [dict(zip(recent, values)) for values in zip(*recent.values())]
@@ -153,7 +158,7 @@ def parse_inline(html, cik, filing, url):
         def content(name):
             found = tag.find(lambda t: t.name.lower().split(":")[-1] == name)
             return found.get_text(strip=True) if found else None
-        dims = tuple(sorted(x.get_text(strip=True) for x in tag.find_all(
+        dims = tuple(sorted(x.get('dimension','') + '=' + x.get_text(strip=True) for x in tag.find_all(
             lambda t: t.name.lower().split(":")[-1] in ("explicitmember", "typedmember"))))
         contexts[tag.get("id")] = (content("startdate"), content("enddate") or content("instant"), dims)
     for tag in soup.find_all(lambda t: t.name.lower().split(":")[-1] == "unit"):

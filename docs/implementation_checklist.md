@@ -11,7 +11,9 @@
 - [x] Deterministic financial regression tests and CI configuration
 - [ ] Full advanced SEC investigation coverage (see sec_data_sources.md)
 - [ ] Automated positive evidence for not-applicable/not-separately-disclosed
-- [ ] Verified custom definition and segment reconstruction UI
+- [x] Explicitly selected custom/segment concept and dimensional-scope reconstruction UI
+- [x] Literal-source-backed qualitative analyst classification with downloadable evidence
+- [ ] Automated semantic verification of custom accounting definitions
 - [ ] Split/dilution-aware EPS derivation
 - [ ] Complete manual review of at least 15 companies and measured accuracy
 - [x] Confirmed public repository and five-status project board with 14 workstream issues

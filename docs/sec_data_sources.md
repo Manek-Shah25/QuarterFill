@@ -16,9 +16,17 @@ embedded tables and footnotes and supported inline numeric facts. It retains con
 excerpts and extension/segment facts for manual inspection. Historical submissions are
 loaded when selected. Exhaustion of the scan budget is reported as incomplete.
 
-Not yet implemented: CompanyConcept-specific fallback, external exhibit/schedule crawling,
+The Missing Data Investigator also provides explicit CompanyConcept API investigation.
+Custom and segment disclosure contexts can be selected in the Filing Explorer; additive
+handling requires an explicit analyst choice and keeps the selected dimensional scope.
+Qualitative not-applicable/not-separately-disclosed decisions can be recorded only with
+a literal retrieved passage and an analyst rationale; semantic conclusions remain analyst work.
+Offline SEC TSV data sets can be uploaded for joined disclosure-row inspection; they are
+not automatically transformed into context-verified financial cells.
+
+Not yet implemented: external exhibit/schedule crawling,
 raw XBRL instance and linkbase parsing, automated definition verification for custom tags,
-SEC Financial Statement and Notes Data Sets ingestion, untagged table numeric recovery,
+automatic period reconstruction from SEC Financial Statement and Notes Data Sets, untagged table numeric recovery,
 and semantic not-applicable/not-separately-disclosed classification.
 
 Snapshots use exact SEC response envelopes with official URL, retrieval timestamp and

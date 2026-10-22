@@ -3,6 +3,7 @@ import json
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
+from .models import stable_id
 
 
 def safe(value):
@@ -32,6 +33,10 @@ def workbook(cells):
         refs = [f"'SEC Sources'!B{indices[f.id]}" for f in cell.inputs]
         return f' {cell.operation} '.join(refs) if cell.operation else refs[0]
     for cell in cells:
+        for evidence in cell.disclosure_evidence:
+            sources.append([stable_id(evidence), None, None, None, 'Analyst qualitative classification',
+                            cell.start,cell.end,None,None,evidence['accession'],evidence['url'],None,None,
+                            safe(evidence['quote']),evidence['source_matched']])
         for f in cell.inputs:
             if f.id not in indices:
                 sources.append([safe(x) for x in [f.id, float(f.value), f.unit, f.concept, f.label, f.start, f.end,
@@ -45,7 +50,7 @@ def workbook(cells):
         fin.cell(fin.max_row, 8, value)
         fin.cell(fin.max_row, 8).number_format = '#,##0.00;[Red](#,##0.00);–'
         audit.append([safe(x) for x in [cell.id, cell.formula, ', '.join(f.id for f in cell.inputs),
-                     '\n'.join(cell.reasoning), '\n'.join(cell.warnings)]])
+                     '\n'.join(cell.reasoning) + ('\n'+json.dumps(cell.disclosure_evidence) if cell.disclosure_evidence else ''), '\n'.join(cell.warnings)]])
         quality.append([cell.id, cell.status, cell.verified, '\n'.join(cell.warnings), json.dumps(cell.investigation)])
     for ws in wb:
         ws.freeze_panes = 'A2'

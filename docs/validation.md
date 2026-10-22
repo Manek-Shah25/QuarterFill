@@ -27,6 +27,6 @@ definitions, CapEx concepts, legacy issuer history and unreported standalone Q4 
 are material unresolved cases. The original XOM history was not recovered by this
 scan and is not silently substituted with another issuer.
 
-Automated tests: 33 passed including direct-versus-YTD conflicts and graceful historical-index failure;
+Automated tests: 35 passed including direct-versus-YTD conflicts, segment scope, qualitative evidence and graceful historical-index failure;
 see CI for the latest count. The real-data UI test exercises an AAPL FY2025 lookup
 using bundled authentic SEC snapshots without a visitor key.

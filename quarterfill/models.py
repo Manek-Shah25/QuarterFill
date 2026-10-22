@@ -53,6 +53,7 @@ class Cell:
     investigation: list[dict] = field(default_factory=list)
     components: list[Cell] = field(default_factory=list)
     component_operators: list[str] = field(default_factory=list)
+    disclosure_evidence: list[dict] = field(default_factory=list)
 
     @property
     def verified(self):
@@ -62,7 +63,7 @@ class Cell:
     def id(self):
         return stable_id([self.ticker, self.metric, self.year, self.quarter, self.start,
                           self.end, self.status, self.value, self.operation, [f.id for f in self.inputs],
-                          [c.id for c in self.components], self.component_operators])
+                          [c.id for c in self.components], self.component_operators, self.disclosure_evidence])
 
     @property
     def formula(self):

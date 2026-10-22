@@ -58,6 +58,10 @@ def audit_panel(cell):
             if f.url:
                 st.link_button('Original SEC disclosure', f.url)
             st.text(f.section or 'Document excerpt unavailable; source matching incomplete.')
+    for evidence in cell.disclosure_evidence:
+        st.write(evidence['quote'])
+        st.write(evidence['rationale'])
+        st.link_button('Supporting qualitative disclosure',evidence['url'])
     st.download_button('Download this audit (JSON)', json.dumps(cell.audit(), indent=2),
                        f'{cell.id}.json', 'application/json', key='audit_' + cell.id)
     with st.expander('Copy formula and sources'):
@@ -178,10 +182,46 @@ else:
                 'Start': f.start, 'End': f.end, 'Dimensions': str(f.dimensions), 'SEC URL': f.url,
                 'Excerpt': f.section, 'Document matched': f.verified} for f in facts]), width='stretch')
             st.caption('Extension and segment contexts are exposed for review; similar labels are not automatically treated as equivalent.')
+            if facts:
+                with st.expander('Use a specific custom or segment disclosure'):
+                    selected_fact=st.selectbox('Original context',range(len(facts)),format_func=lambda i:
+                        f'{facts[i].concept} | {facts[i].end} | {facts[i].unit} | {facts[i].dimensions}')
+                    chosen=facts[selected_fact]
+                    kind=st.selectbox('Accounting treatment',['nonadditive','flow','instant'])
+                    st.caption('Choose flow only after confirming that cumulative amounts are additive. Scope remains the exact selected dimensional context.')
+                    custom_year=st.selectbox('Custom fiscal year',range(selected_years[0],selected_years[1]+1))
+                    custom_q=st.selectbox('Custom quarter',[1,2,3,4])
+                    custom=research.cell('Selected disclosure: '+chosen.concept,custom_year,custom_q,
+                        {'concept':chosen.concept,'unit':chosen.unit,'kind':kind,'dimensions':chosen.dimensions})
+                    audit_panel(custom)
         elif page == 'Missing Data Investigator':
             year = st.selectbox('Fiscal year', range(selected_years[0], selected_years[1]+1))
             q = st.selectbox('Quarter', [1, 2, 3, 4])
-            audit_panel(research.cell(name, year, q))
+            if st.button('Investigate CompanyConcept API for this metric'):
+                with st.spinner('Inspecting additional official concept observations…'):
+                    research.investigate_concept(name)
+            review_key=f'{research.company["cik"]}:{name}:{year}:{q}'
+            cell=st.session_state.get('disclosure_reviews',{}).get(review_key) or research.cell(name, year, q)
+            if cell.value is None and research.documents:
+                with st.expander('Record an evidence-backed analyst classification'):
+                    with st.form('qualitative_review'):
+                        accession=st.selectbox('Inspected filing',list(research.documents))
+                        st.caption('Copy an exact passage from the filing explorer or original disclosure. Absence alone is not evidence.')
+                        quote=st.text_area('Exact supporting passage (minimum 20 characters)')
+                        status=st.selectbox('Analyst conclusion',['Not applicable','Not separately disclosed'])
+                        rationale=st.text_area('Why the passage establishes this conclusion for the requested metric and quarter')
+                        classify=st.form_submit_button('Validate passage and attach classification')
+                    if classify:
+                        try:
+                            cell=research.classify_disclosure(cell,accession,quote,status,rationale)
+                            reviews=st.session_state.get('disclosure_reviews',{})
+                            reviews[review_key]=cell
+                            st.session_state['disclosure_reviews']=reviews
+                            previous=st.session_state.get('cells',[])
+                            st.session_state['cells']=[c for c in previous if (c.ticker,c.metric,c.year,c.quarter)!=(cell.ticker,cell.metric,cell.year,cell.quarter)]+[cell]
+                        except ValueError as exc:
+                            st.error(str(exc))
+            audit_panel(cell)
         else:
             names = [name]
             if page == 'Three-Statement Builder':
