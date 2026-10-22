@@ -41,6 +41,7 @@ def test_neog_exact_ticker_end_to_end():
     views = next(s for s in app.selectbox if s.label=='Choose a business or revenue view')
     assert any('Food Safety' in label for label in views.options)
     assert any('Animal Safety' in label for label in views.options)
+    assert views.options[0].startswith('Animal Safety')
     assert 'Animal Care & Other' in app.dataframe[1].value['Revenue group'].tolist()
     from quarterfill.segments import revenue_details
     food = next(g for g in revenue_details(app.session_state['research'], 2025) if g['parent']=='Food Safety')

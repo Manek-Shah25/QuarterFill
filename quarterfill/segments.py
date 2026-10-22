@@ -106,6 +106,10 @@ def revenue_details(research, year):
             if any(x in axis.lower() for x in ('acquisition', 'consolidation', 'scenario', 'restatement', 'timing', 'contract')):
                 continue
             parent = tuple(d for d in fact.dimensions if d != dim)
+            # A product belongs inside a business segment, not the reverse.
+            # Keep reverse cross-tab cuts out of the smaller-business menu.
+            if 'segment' in axis.lower() and parent and not any('segment' in d.split('=', 1)[0].lower() for d in parent):
+                continue
             groups.setdefault((fact.concept, parent, axis), {}).setdefault(member, []).append(fact)
     output = []
     views = []

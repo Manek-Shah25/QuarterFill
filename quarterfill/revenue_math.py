@@ -54,8 +54,11 @@ class RevenueMath:
 
     def empty(self, key, span):
         left, right = span
+        label = self.names.get(key, 'Revenue')
+        if right-left > 1 and span != (0, 4):
+            label += f' — first {right} quarters' if left == 0 else f' — quarters {left+1} through {right}'
         return Cell(self.research.company['entityName'], self.research.submissions.get('tickers', [''])[0],
-                    self.names.get(key, 'Revenue'), self.year, 'FY' if span == (0, 4) else f'Q{right}',
+                    label, self.year, 'FY' if span == (0, 4) else f'Q{right}',
                     self.boundaries.get(left), self.periods[1].get(right), 'Insufficient information')
 
     def find_partitions(self):
