@@ -156,9 +156,9 @@ def revenue_details(research, year):
             if total.value is None or parent_cell.value is None:
                 checks.append('We do not have enough information to check this total.')
             elif abs(total.value-parent_cell.value) <= sum(tolerance(f) for f in total.inputs + parent_cell.inputs):
-                checks.append('These groups add up to the reported total for this view. Matching totals alone do not prove the groups never overlap.')
+                checks.append('These groups add up to the total for this view. Matching totals alone do not prove the groups never overlap.')
             else:
-                checks.append('These groups do not add up to the reported total. Some may overlap or be missing. We have not filled the difference with a guess.')
+                checks.append('These groups do not add up to the total for this view. Some may overlap or be missing. We have not filled the difference with a guess.')
         output.append({'name': axis_label(axis), 'parent': parent_name, 'scope': scope, 'axis': axis,
                        'concept': concept, 'rows': rows, 'parent_cells': parent_cells, 'totals': totals, 'checks': checks,
                        'supplemental': supplemental_rows(model, concept, scope, parent_name), 'changed_names': changed_names,
