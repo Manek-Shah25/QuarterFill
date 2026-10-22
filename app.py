@@ -11,7 +11,7 @@ from quarterfill.concepts import BY_NAME, DERIVED, METRICS
 from quarterfill.presentation import amount, explanation, input_name, period, quarter_name, readable_date
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError, filing_url
-from quarterfill.segments import segment_build
+from quarterfill.segments import segment_build, revenue_details
 
 
 PAGES = ['Quarterly Lookup', 'Three-Statement Builder', 'Missing Data Investigator',
@@ -112,7 +112,8 @@ def build_cells(research, names, years):
 
 def statement_table(research, statement, years, key):
     if statement == 'Revenue by segment':
-        return revenue_segments(research, years, key)
+        revenue_segments(research, years, key)
+        return smaller_revenue_groups(research, years, key)
     names = [m.name for m in METRICS if m.statement == STATEMENTS[statement]]
     cells = build_cells(research, names, years)
     st.session_state['cells'] = cells
@@ -172,9 +173,54 @@ def revenue_segments(research, years, key):
         st.success(check)
     else:
         st.info(check)
-    show_work(build['rows'][name][q], f'{key}_segment_work')
+    with st.expander('Explain the main segment number'):
+        show_work(build['rows'][name][q], f'{key}_segment_work')
     with st.expander('How the segments add together'):
         show_work(build['totals'][q][0], f'{key}_segment_total')
+
+
+def smaller_revenue_groups(research, years, key):
+    year = st.session_state.get(f'{key}_segment_year', years[0])
+    details = revenue_details(research, year)
+    # The main table already shows these standalone business-segment views.
+    details = [g for g in details if g['scope'] or g['name'] != 'Business groups']
+    st.subheader('Smaller revenue groups')
+    st.caption('Open a business to see the smaller groups it reports. Separate product or country views stay separate. Do not add these tables to the main segments: that would count the same revenue again.')
+    if not details:
+        st.info('We could not find smaller revenue groups in the reports we opened. The company may not publish this detail, or it may only appear in written notes or an untagged table.')
+        return
+    def view_name(i):
+        group = details[i]
+        return f'{group["parent"]} → {group["name"]} (view {i + 1})'
+    details.sort(key=lambda g: (not bool(g['scope']), g['parent'], g['name']))
+    index = st.selectbox('Choose a business or revenue view', range(len(details)), format_func=view_name,
+                         key=f'{key}_detail_view')
+    group = details[index]
+    labels = ['Q1', 'Q2', 'Q3', 'Q4', 'Year total']
+    st.markdown(f'**{group["parent"]} — {group["name"]}**')
+    if not group['scope']:
+        st.caption('The report provides this view for the whole company. It does not identify a parent business for each row, so we have not assigned one.')
+    rows = []
+    for row in group['rows']:
+        values = {'Revenue group': row['name']}
+        for label, cell in zip(labels, row['cells']):
+            values[label] = amount(cell.value, 'USD', compact=True)
+            if cell.value is not None and cell.operation == '-':
+                values[label] += ' · calculated'
+        rows.append(values)
+    rows.append({'Revenue group': 'Reported total for this view', **{
+        label: amount(cell.value, 'USD', compact=True) for label, cell in zip(labels, group['parent_cells'])}})
+    st.caption('Dollar amounts are in millions. A dash means a reliable number is unavailable. Groups and definitions may change between reports.')
+    st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
+    left, right = st.columns([3, 1])
+    selected = left.selectbox('Explain a smaller group', range(len(group['rows'])),
+                format_func=lambda i: group['rows'][i]['name'], key=f'{key}_detail_row_{index}')
+    q = right.selectbox('Period', range(5), format_func=lambda i: labels[i], key=f'{key}_detail_period')
+    st.info(group['checks'][q])
+    show_work(group['rows'][selected]['cells'][q], f'{key}_detail_work')
+    with st.expander('Check this group total'):
+        show_work(group['totals'][q], f'{key}_detail_sum')
+        show_work(group['parent_cells'][q], f'{key}_detail_parent')
 
 
 def methodology():
