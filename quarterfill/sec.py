@@ -171,6 +171,7 @@ def parse_inline(html, cik, filing, url):
             lambda t: t.name.lower().split(":")[-1] == "measure")]
         units[tag.get("id")] = "/".join(measures)
     facts = []
+    table_keys = {}
     for tag in soup.find_all(lambda t: t.name.lower().split(":")[-1] == "nonfraction"):
         context = contexts.get(tag.get("contextref"))
         if not context or not context[1] or tag.get("xsi:nil") == "true":
@@ -191,6 +192,12 @@ def parse_inline(html, cik, filing, url):
         except (InvalidOperation, ValueError):
             continue
         table = tag.find_parent("table")
+        table_key = ''
+        if table is not None:
+            identity = id(table)
+            if identity not in table_keys:
+                table_keys[identity] = hashlib.sha256((filing['accessionNumber'] + table.get_text(' ', strip=True)).encode()).hexdigest()
+            table_key = table_keys[identity]
         row = tag.find_parent('tr')
         row_text = row.get_text(' ',strip=True) if row else tag.parent.get_text(' ',strip=True)
         section = ((table.get_text(' ',strip=True)[:450] + '\nMatched disclosure row: ') if table else '') + row_text[:1200]
@@ -199,7 +206,7 @@ def parse_inline(html, cik, filing, url):
         facts.append(Fact(str(cik), tag.get("name", ""), original_label, value,
             units.get(tag.get("unitref"), "unknown"), context[0], context[1],
             filing["accessionNumber"], filing["form"], filing["filingDate"], url,
-            section, tag.get("contextref", ""), context[2], True, tag.get("decimals", "INF")))
+            section, tag.get("contextref", ""), context[2], True, tag.get("decimals", "INF"), table_key))
     return facts, soup.get_text(" ", strip=True)
 
 
@@ -207,4 +214,4 @@ def verify(fact, document_facts):
     matches = [f for f in document_facts if (f.concept, f.start, f.end, f.unit, f.value, f.dimensions) ==
                (fact.concept, fact.start, fact.end, fact.unit, fact.value, fact.dimensions)]
     return replace(fact, verified=True, section=matches[0].section, label=matches[0].label,
-                   context=matches[0].context, decimals=matches[0].decimals) if matches else fact
+                   context=matches[0].context, decimals=matches[0].decimals, table=matches[0].table) if matches else fact

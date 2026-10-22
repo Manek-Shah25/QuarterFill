@@ -1,7 +1,9 @@
 """Keep business-segment revenue separate from overlapping product/geography views."""
 import re
-from .concepts import Metric
-from .engine import reconstruct, derive, tolerance
+from .revenue_math import RevenueMath
+from .engine import derive, tolerance
+from .models import Cell, stable_id
+from decimal import Decimal
 
 
 REVENUE_TAGS = ('RevenueFromContractWithCustomerExcludingAssessedTax',
@@ -34,21 +36,67 @@ def axis_label(axis):
     return member_label(axis).removesuffix(' Axis')
 
 
+def revenue_model(research, year):
+    periods = research.periods(year)
+    if not periods:
+        return None
+    start, ends = periods
+    # Use the selected year's own filings as one reproducible reporting basis.
+    # Later comparative reclassifications must not replace only part of a build.
+    basis_year = getattr(research, 'revenue_basis_year', year)
+    basis_periods = research.periods(basis_year)
+    basis_start, basis_ends = basis_periods if basis_periods else (start, ends)
+    accessions = {f['accessionNumber'] for f in getattr(research, 'filings', [])
+                  if basis_start <= f.get('reportDate', '') <= basis_ends[4]}
+    facts = [f for f in research.facts if f.verified and f.unit == 'USD' and revenue_fact(f)
+             and (not hasattr(research, 'filings') or f.accession in accessions)
+             and f.start and start <= f.start <= f.end <= ends[4]
+             and not any(re.search(r'Intersegment|Elimination|ConsolidationAdjustment|Restatement', d, re.I) for d in f.dimensions)]
+    signature = (year, tuple(f.id for f in facts))
+    cache = getattr(research, '_revenue_models', {})
+    if signature not in cache:
+        cache[signature] = RevenueMath(research, year, facts)
+        research._revenue_models = cache
+    return cache[signature]
+
+
+def supplemental_rows(model, concept, scope, label):
+    if not scope:
+        return {}
+    parents = model.cells(concept, scope, label + ' revenue')
+    company = model.cells(concept, (), 'Company revenue')
+    shares = []
+    for numerator, denominator in zip(parents, company):
+        cell = Cell(numerator.company, numerator.ticker, label + ' — % of company revenue', numerator.year,
+                    numerator.quarter, numerator.start, numerator.end, 'Insufficient information', unit='%')
+        if numerator.value is not None and denominator.value not in (None, 0):
+            cell.value = numerator.value / denominator.value * Decimal(100)
+            cell.status, cell.operation = 'Derived from reported components', 'percentage'
+            cell.components, cell.component_operators = [numerator, denominator], ['/']
+            cell.inputs = list(dict.fromkeys(numerator.inputs + denominator.inputs))
+        shares.append(cell)
+    output = {'% of company revenue': shares}
+    genomics = [dims for c, dims in model.values if c == concept and set(scope) < set(dims)
+                and len(dims) == len(scope)+1 and 'genom' in next(iter(set(dims)-set(scope))).split('=', 1)[1].lower()]
+    if len(genomics) == 1:
+        excluded = model.cells(concept, genomics[0], 'Genomics revenue')
+        output['Core revenue (minus Genomics)'] = [derive(parents[0].company, parents[0].ticker,
+            label + ' — core revenue (minus Genomics)', [a, b], ['-']) for a, b in zip(parents, excluded)]
+    return output
+
+
 def revenue_details(research, year):
     """Discover each disclosed dimensional slice; parentage requires exact scope.
 
-    A child adds one axis to an actual reported parent context. Standalone product
+    A child adds one axis to an explicitly reported dimensional scope. Standalone product
     views remain separate: equal totals or similar names do not establish parentage.
     """
     periods = research.periods(year)
     if not periods:
         return []
     start, ends = periods
-    facts = [f for f in research.facts if f.verified and f.unit == 'USD' and f.start
-             and start <= f.start <= f.end <= ends[4] and revenue_fact(f)
-             and not any(re.search(r'Intersegment|Elimination|ConsolidationAdjustment|Restatement', d, re.I)
-                         for d in f.dimensions)]
-    scopes = {(f.concept, f.dimensions) for f in facts}
+    model = revenue_model(research, year)
+    facts = model.facts
     groups = {}
     for fact in facts:
         for dim in fact.dimensions:
@@ -58,11 +106,18 @@ def revenue_details(research, year):
             if any(x in axis.lower() for x in ('acquisition', 'consolidation', 'scenario', 'restatement', 'timing', 'contract')):
                 continue
             parent = tuple(d for d in fact.dimensions if d != dim)
-            if parent and (fact.concept, parent) not in scopes:
-                continue
             groups.setdefault((fact.concept, parent, axis), {}).setdefault(member, []).append(fact)
     output = []
-    for (concept, scope, axis), members in sorted(groups.items()):
+    views = []
+    for key, members in sorted(groups.items()):
+        alternatives = model.coexisting_sets.get(key)
+        if alternatives:
+            for dimensions in sorted(alternatives):
+                views.append((key, {member: facts for member, facts in members.items()
+                             if tuple(sorted((*key[1], key[2]+'='+member))) in dimensions}))
+        else:
+            views.append((key, members))
+    for (concept, scope, axis), members in views:
         rows = []
         for member, observations in sorted(members.items()):
             fallback = member_label(member)
@@ -75,14 +130,21 @@ def revenue_details(research, year):
                       or re.sub(r'[^a-z0-9]', '', label.lower()) == normalized)]
             label = min(usable, key=len) if usable else fallback
             dimensions = tuple(sorted((*scope, axis + '=' + member)))
-            cells = [reconstruct(research.company['entityName'], research.submissions.get('tickers', [''])[0],
-                     Metric(label, 'Segments', 'flow', (), (), 'USD'), research.facts, year, q,
-                     periods, concept, dimensions) for q in (1, 2, 3, 4, 0)]
+            cells = model.cells(concept, dimensions, label)
             rows.append({'name': label, 'dimensions': dimensions, 'cells': cells})
         parent_name = ' / '.join(member_label(d.split('=', 1)[1]) for d in scope
                                  if 'consolidation' not in d.split('=', 1)[0].lower()) or 'Whole company'
-        parent_cells = [reconstruct(research.company['entityName'], '', Metric(parent_name, 'Segments', 'flow', (), (), 'USD'),
-                        research.facts, year, q, periods, concept, scope) for q in (1, 2, 3, 4, 0)]
+        parent_cells = model.cells(concept, scope, parent_name + ' revenue')
+        changed_names = []
+        for family, common in model.remainders:
+            if family != (concept, scope, axis):
+                continue
+            common_rows = [r for r in rows if r['dimensions'] in common]
+            changed_names = [r['name'] for r in rows if r['dimensions'] not in common]
+            label = 'Remaining revenue (' + ' / '.join(changed_names) + ')'
+            remaining = [derive(parent_cells[0].company, parent_cells[0].ticker, label,
+                         [parent_cells[i], *[row['cells'][i] for row in common_rows]], ['-'] * len(common_rows)) for i in range(5)]
+            rows = common_rows + [{'name': label, 'dimensions': (), 'cells': remaining}]
         totals = [derive(research.company['entityName'], '', 'Sum of these groups',
                   [row['cells'][i] for row in rows], ['+'] * (len(rows)-1)) for i in range(5)]
         checks = []
@@ -94,7 +156,9 @@ def revenue_details(research, year):
             else:
                 checks.append('These groups do not add up to the reported total. Some may overlap or be missing. We have not filled the difference with a guess.')
         output.append({'name': axis_label(axis), 'parent': parent_name, 'scope': scope, 'axis': axis,
-                       'concept': concept, 'rows': rows, 'parent_cells': parent_cells, 'totals': totals, 'checks': checks})
+                       'concept': concept, 'rows': rows, 'parent_cells': parent_cells, 'totals': totals, 'checks': checks,
+                       'supplemental': supplemental_rows(model, concept, scope, parent_name), 'changed_names': changed_names,
+                       'identity': stable_id([concept, scope, axis, [r['dimensions'] for r in rows]])})
     return output
 
 
@@ -103,13 +167,10 @@ def segment_build(research, year):
     periods = research.periods(year)
     if not periods:
         return []
-    # Resolve rounded comparative versions in consolidated revenue before checking sums.
-    if hasattr(research, 'cell'):
-        for q in (1, 2, 3, 4, 0):
-            research.cell('Revenue', year, q)
+    model = revenue_model(research, year)
     start, ends = periods
     groups = {}
-    for fact in research.facts:
+    for fact in model.facts:
         if (not fact.verified or fact.unit != 'USD' or len(fact.dimensions) != 1
                 or not fact.start or not start <= fact.start <= fact.end <= ends[4]
                 or fact.concept.split(':')[-1] not in REVENUE_TAGS):
@@ -123,17 +184,12 @@ def segment_build(research, year):
         rows = {}
         for member in sorted(members):
             label = member_label(member)
-            metric = Metric(label, 'Segments', 'flow', (), (), 'USD')
-            rows[label] = [reconstruct(research.company['entityName'], research.submissions.get('tickers', [''])[0],
-                          metric, research.facts, year, q, periods, concept, (axis + '=' + member,))
-                           for q in (1, 2, 3, 4, 0)]
+            rows[label] = model.cells(concept, (axis + '=' + member,), label)
         totals, checks = [], []
         for i, q in enumerate((1, 2, 3, 4, 0)):
             components = [cells[i] for cells in rows.values()]
             total = derive(research.company['entityName'], '', 'Sum of segments', components, ['+'] * (len(components)-1))
-            consolidated = reconstruct(research.company['entityName'], '',
-                Metric('Company revenue', 'Segments', 'flow', (), (), 'USD'), research.facts,
-                year, q, periods, concept)
+            consolidated = model.cells(concept, (), 'Company revenue')[i]
             totals.append((total, consolidated))
             if total.value is None or consolidated.value is None or not consolidated.verified:
                 checks.append('Not enough information to check the total.')
@@ -141,7 +197,8 @@ def segment_build(research, year):
                 allowed = sum(tolerance(f) for f in total.inputs + consolidated.inputs)
                 checks.append('The segments add up to company revenue.' if abs(total.value-consolidated.value) <= allowed
                               else 'These segments do not add up to company revenue. They may overlap or leave something out.')
-        builds.append({'rows': rows, 'totals': totals, 'checks': checks, 'concept': concept, 'axis': axis})
+        builds.append({'rows': rows, 'totals': totals, 'checks': checks, 'concept': concept, 'axis': axis,
+                       'supplemental': {member_label(m): supplemental_rows(model, concept, (axis+'='+m,), member_label(m)) for m in members}})
     # Prefer the company's ordinary revenue definition, with the most reported segments.
     builds.sort(key=lambda b: (REVENUE_TAGS.index(b['concept'].split(':')[-1]), -len(b['rows'])))
     return builds

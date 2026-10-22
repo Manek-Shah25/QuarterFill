@@ -28,6 +28,7 @@ class Fact:
     dimensions: tuple = ()
     verified: bool = False
     decimals: str = "0"
+    table: str = ""
 
     @property
     def id(self):
