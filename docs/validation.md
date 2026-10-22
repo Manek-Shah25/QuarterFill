@@ -15,7 +15,7 @@ Manual review is pending until a completed reviewer record explicitly says other
 
 Fifteen companies, FY2025, four metrics (Revenue, CapEx, Cash, Diluted EPS), four
 quarters each: **240 requested cells; 170 returned values; all 170 matched exact
-inline filing contexts** in the final run after conflict detection. Source matching coverage was 170/240 (70.83%).
+inline filing contexts** in the recorded benchmark after conflict detection, before the later comparative-precision recovery change. Source matching coverage was 170/240 (70.83%).
 The other 70 cells remained unresolved; no values were fabricated. This is coverage,
 not an extraction-accuracy or reconstruction-accuracy claim. Independent manual
 ground truth and complete financial review are still required.
@@ -33,6 +33,8 @@ see CI for the latest count. The real-data UI test exercises an AAPL FY2025 look
 using bundled authentic SEC snapshots without a visitor key.
 
 ## Ticker identity regression
+
+Latest local suite: **44 tests passed**, including live-data fixture lookups for AAPL and NEOG.
 
 All 10,428 symbols in the acquired official SEC company index were tested in original,
 lowercase and whitespace-padded forms. Each exact symbol resolves uniquely to its own
