@@ -1,0 +1,1455 @@
+{
+  "ticker": "TSLA",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "19335000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "19335000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenues Automotive sales $ 12,925 $ 16,460 Automotive regulatory credits 595 442 Automotive leasing 447 476 Total automotive revenues 13,967 17,378 Energy generation and storage 2,730 1,635 Services and other 2,638 2,288 Total revenues 19,335 21,301 Cost of revenues Automotive sales 11,461 13,897 Automotive leasing 239 269 Total automotive cost of revenues 11,700 14,166 Energy generation and storage 1,945 1,232 Services and other 2,537 2,207 Total cost of revenues 16,182 17,605 Gross profit 3,153 3,696 Operating expenses Research and development 1,409 1,151 Selling, general and administrative 1,251 1,374 Restructuring and other 94 \u2014 Total operating expenses 2,754 2,525 Income from operations 399 1,171 Interest income 400 350 Interest expense ( 91 ) ( 76 ) Other (expense) income, net ( 119 ) 443 Income before income taxes 589 1,888 Provision for income taxes 169 483 Net income 420 1,405 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 11 15 Net income attributable to common stockholders $ 409 $ 1,390 Net income per share of common stock attributable to common stockholders Basic $ 0.13 $ 0.45 Diluted $ 0.12 $ 0.41 Weighted average shares used in computing net income per share of common stock Basic 3,218 3,186 Diluted 3,521 3,484",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "3c6400ab4e288524191922d2",
+      "verified": true,
+      "formula": "19335000000 = 19335000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "eeb15050b42be9966aa392bb"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "22496000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "22496000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenues Automotive sales $ 15,787 $ 18,530 $ 28,712 $ 34,990 Automotive regulatory credits 439 890 1,034 1,332 Automotive leasing 435 458 882 934 Total automotive revenues 16,661 19,878 30,628 37,256 Energy generation and storage 2,789 3,014 5,519 4,649 Services and other 3,046 2,608 5,684 4,896 Total revenues 22,496 25,500 41,831 46,801 Cost of revenues Automotive sales 13,567 15,962 25,028 29,859 Automotive leasing 228 245 467 514 Total automotive cost of revenues 13,795 16,207 25,495 30,373 Energy generation and storage 1,943 2,274 3,888 3,506 Services and other 2,880 2,441 5,417 4,648 Total cost of revenues 18,618 20,922 34,800 38,527 Gross profit 3,878 4,578 7,031 8,274 Operating expenses Research and development 1,589 1,074 2,998 2,225 Selling, general and administrative 1,366 1,277 2,617 2,651 Restructuring and other \u2014 622 94 622 Total operating expenses 2,955 2,973 5,709 5,498 Income from operations 923 1,605 1,322 2,776 Interest income 392 348 792 698 Interest expense ( 86 ) ( 86 ) ( 177 ) ( 162 ) Other income (expense), net 320 ( 80 ) 201 363 Income before income taxes 1,549 1,787 2,138 3,675 Provision for income taxes 359 371 528 854 Net income 1,190 1,416 1,610 2,821 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 18 16 29 31 Net inc",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "16c25c89902905fc9a18df58",
+      "verified": true,
+      "formula": "22496000000 = 22496000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "a1e7137fc4849f282c0666a9"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "28095000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "28095000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenues Automotive sales $ 20,359 $ 18,831 $ 49,071 $ 53,821 Automotive regulatory credits 417 739 1,451 2,071 Automotive leasing 429 446 1,311 1,380 Total automotive revenues 21,205 20,016 51,833 57,272 Energy generation and storage 3,415 2,376 8,934 7,025 Services and other 3,475 2,790 9,159 7,686 Total revenues 28,095 25,182 69,926 71,983 Cost of revenues Automotive sales 17,365 15,743 42,393 45,602 Automotive leasing 225 247 692 761 Total automotive cost of revenues 17,590 15,990 43,085 46,363 Energy generation and storage 2,342 1,651 6,230 5,157 Services and other 3,109 2,544 8,526 7,192 Total cost of revenues 23,041 20,185 57,841 58,712 Gross profit 5,054 4,997 12,085 13,271 Operating expenses Research and development 1,630 1,039 4,628 3,264 Selling, general and administrative 1,562 1,186 4,179 3,837 Restructuring and other 238 55 332 677 Total operating expenses 3,430 2,280 9,139 7,778 Income from operations 1,624 2,717 2,946 5,493 Interest income 439 429 1,231 1,127 Interest expense ( 76 ) ( 92 ) ( 253 ) ( 254 ) Other (expense) income, net ( 28 ) ( 263 ) 173 100 Income before income taxes 1,959 2,791 4,097 6,466 Provision for income taxes 570 602 1,098 1,456 Net income 1,389 2,189 2,999 5,010 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "2ad2e9fc270f6f36ab572b9f",
+      "verified": true,
+      "formula": "28095000000 = 28095000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "368e145f4a10e5b39081f089"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "24901000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "94827000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "section": "Year Ended December 31, 2025 2024 2023 Revenues Automotive sales $ 65,821 $ 72,480 $ 78,509 Automotive regulatory credits 1,993 2,763 1,790 Automotive leasing 1,712 1,827 2,120 Total automotive revenues 69,526 77,070 82,419 Energy generation and storage 12,771 10,086 6,035 Services and other 12,530 10,534 8,319 Total revenues 94,827 97,690 96,773 Cost of revenues Automotive sales 56,267 61,870 65,121 Automotive leasing 898 1,003 1,268 Total automotive cost of revenues 57,165 62,873 66,389 Energy generation and storage 8,969 7,446 4,894 Services and other 11,599 9,921 7,830 Total cost of revenues 77,733 80,240 79,113 Gross profit 17,094 17,450 17,660 Operating expenses Research and development 6,411 4,540 3,969 Selling, general and administrative 5,834 5,150 4,800 Restructuring and other 494 684 \u2014 Total operating expenses 12,739 10,374 8,769 Income from operations 4,355 7,076 8,891 Interest income 1,680 1,569 1,066 Interest expense ( 338 ) ( 350 ) ( 156 ) Other (expense) income, net ( 419 ) 695 172 Income before income taxes 5,278 8,990 9,973 Provision for (benefit from) income taxes 1,423 1,837 ( 5,001 ) Net income 3,855 7,153 14,974 Net income (loss) attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 61 62 ( 23 ) Net income attributable to common stockholders $ 3,794 $ 7,091 $ 14,997 Net income per share of common stock attributabl",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "69926000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenues Automotive sales $ 20,359 $ 18,831 $ 49,071 $ 53,821 Automotive regulatory credits 417 739 1,451 2,071 Automotive leasing 429 446 1,311 1,380 Total automotive revenues 21,205 20,016 51,833 57,272 Energy generation and storage 3,415 2,376 8,934 7,025 Services and other 3,475 2,790 9,159 7,686 Total revenues 28,095 25,182 69,926 71,983 Cost of revenues Automotive sales 17,365 15,743 42,393 45,602 Automotive leasing 225 247 692 761 Total automotive cost of revenues 17,590 15,990 43,085 46,363 Energy generation and storage 2,342 1,651 6,230 5,157 Services and other 3,109 2,544 8,526 7,192 Total cost of revenues 23,041 20,185 57,841 58,712 Gross profit 5,054 4,997 12,085 13,271 Operating expenses Research and development 1,630 1,039 4,628 3,264 Selling, general and administrative 1,562 1,186 4,179 3,837 Restructuring and other 238 55 332 677 Total operating expenses 3,430 2,280 9,139 7,778 Income from operations 1,624 2,717 2,946 5,493 Interest income 439 429 1,231 1,127 Interest expense ( 76 ) ( 92 ) ( 253 ) ( 254 ) Other (expense) income, net ( 28 ) ( 263 ) 173 100 Income before income taxes 1,959 2,791 4,097 6,466 Provision for income taxes 570 602 1,098 1,456 Net income 1,389 2,189 2,999 5,010 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "0dccda00058a0581d32bfb19",
+      "verified": true,
+      "formula": "94827000000 - 69926000000 = 24901000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "1530e6dc9931ae9827b45dbd",
+        "18b6088bf5b3cb0ff4f7873d"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "1492000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "1492000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash Flows from Operating Activities Net income $ 420 $ 1,405 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 1,447 1,246 Stock-based compensation 573 524 Inventory and purchase commitments write-downs 112 68 Foreign currency transaction net unrealized loss (gain) 30 ( 63 ) Deferred income taxes ( 43 ) 63 Non-cash interest and other operating activities 46 ( 5 ) Digital assets loss (gain), net 125 ( 335 ) Changes in operating assets and liabilities: Accounts receivable 630 ( 422 ) Inventory ( 1,704 ) ( 2,697 ) Operating lease vehicles ( 76 ) ( 12 ) Prepaid expenses and other assets ( 419 ) ( 972 ) Accounts payable, accrued and other liabilities 706 1,247 Deferred revenue 309 195 Net cash provided by operating activities 2,156 242 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 1,492 ) ( 2,777 ) Purchases of investments ( 6,015 ) ( 6,622 ) Proceeds from maturities of investments 5,856 4,315 Net cash used in investing activities ( 1,651 ) ( 5,084 ) Cash Flows from Financing Activities Proceeds from issuances of debt 625 776 Repayments of debt ( 1,301 ) ( 591 ) Proceeds from exercises of stock options and other stock issuances 313 251 Principal payments on finance leases ( 48 ) ( 106 ) Proceeds received",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "3c3841810e7f827d89521dc5",
+      "verified": true,
+      "formula": "1492000000 = 1492000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "3c8287ddc22d14016b966b6c"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "2394000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "3886000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash Flows from Operating Activities Net income $ 1,610 $ 2,821 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 2,880 2,524 Stock-based compensation 1,208 963 Inventory and purchase commitments write-downs 248 146 Foreign currency transaction net unrealized loss (gain) 54 ( 90 ) Deferred income taxes 9 185 Non-cash interest and other operating activities 73 63 Digital assets gain, net ( 159 ) ( 235 ) Changes in operating assets and liabilities: Accounts receivable 601 ( 285 ) Inventory ( 2,407 ) ( 914 ) Operating lease vehicles 65 ( 49 ) Prepaid expenses and other assets ( 1,137 ) ( 1,630 ) Accounts payable, accrued and other liabilities 1,333 249 Deferred revenue 318 106 Net cash provided by operating activities 4,696 3,854 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 3,886 ) ( 5,049 ) Purchases of investments ( 13,500 ) ( 14,765 ) Proceeds from maturities of investments 12,791 11,305 Proceeds from sales of investments \u2014 200 Net cash used in investing activities ( 4,595 ) ( 8,309 ) Cash Flows from Financing Activities Proceeds from issuances of debt 3,050 3,895 Repayments of debt ( 4,129 ) ( 1,222 ) Proceeds from exercises of stock options and other stock issuances 528 448 Principal payments on fina",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "1492000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash Flows from Operating Activities Net income $ 420 $ 1,405 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 1,447 1,246 Stock-based compensation 573 524 Inventory and purchase commitments write-downs 112 68 Foreign currency transaction net unrealized loss (gain) 30 ( 63 ) Deferred income taxes ( 43 ) 63 Non-cash interest and other operating activities 46 ( 5 ) Digital assets loss (gain), net 125 ( 335 ) Changes in operating assets and liabilities: Accounts receivable 630 ( 422 ) Inventory ( 1,704 ) ( 2,697 ) Operating lease vehicles ( 76 ) ( 12 ) Prepaid expenses and other assets ( 419 ) ( 972 ) Accounts payable, accrued and other liabilities 706 1,247 Deferred revenue 309 195 Net cash provided by operating activities 2,156 242 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 1,492 ) ( 2,777 ) Purchases of investments ( 6,015 ) ( 6,622 ) Proceeds from maturities of investments 5,856 4,315 Net cash used in investing activities ( 1,651 ) ( 5,084 ) Cash Flows from Financing Activities Proceeds from issuances of debt 625 776 Repayments of debt ( 1,301 ) ( 591 ) Proceeds from exercises of stock options and other stock issuances 313 251 Principal payments on finance leases ( 48 ) ( 106 ) Proceeds received",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "ca9febb9525ea2c1f770c08e",
+      "verified": true,
+      "formula": "3886000000 - 1492000000 = 2394000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "191d3e849442bb097ba9af5c",
+        "3c8287ddc22d14016b966b6c"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Mathematically calculated",
+      "value": "2248000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "6134000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash Flows from Operating Activities Net income $ 2,999 $ 5,010 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 4,505 3,872 Stock-based compensation 1,871 1,420 Inventory and purchase commitments write-downs 313 247 Foreign currency transaction net unrealized loss 160 197 Deferred income taxes 234 471 Non-cash interest and other operating activities 235 83 Digital assets gain, net ( 239 ) ( 242 ) Changes in operating assets and liabilities: Accounts receivable ( 306 ) 144 Inventory ( 416 ) ( 1,107 ) Operating lease vehicles 54 ( 82 ) Prepaid expenses and other assets ( 2,280 ) ( 2,639 ) Accounts payable, accrued and other liabilities 2,979 2,504 Deferred revenue 825 231 Net cash provided by operating activities 10,934 10,109 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 6,134 ) ( 8,562 ) Purchases of investments ( 24,902 ) ( 20,797 ) Proceeds from maturities of investments 22,086 17,975 Proceeds from sales of investments \u2014 200 Net cash used in investing activities ( 8,950 ) ( 11,184 ) Cash Flows from Financing Activities Proceeds from issuances of debt 4,232 4,360 Repayments of debt ( 4,798 ) ( 1,783 ) Proceeds from exercises of stock options and other stock issuances 1,040 788 Principal payment",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "3886000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash Flows from Operating Activities Net income $ 1,610 $ 2,821 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 2,880 2,524 Stock-based compensation 1,208 963 Inventory and purchase commitments write-downs 248 146 Foreign currency transaction net unrealized loss (gain) 54 ( 90 ) Deferred income taxes 9 185 Non-cash interest and other operating activities 73 63 Digital assets gain, net ( 159 ) ( 235 ) Changes in operating assets and liabilities: Accounts receivable 601 ( 285 ) Inventory ( 2,407 ) ( 914 ) Operating lease vehicles 65 ( 49 ) Prepaid expenses and other assets ( 1,137 ) ( 1,630 ) Accounts payable, accrued and other liabilities 1,333 249 Deferred revenue 318 106 Net cash provided by operating activities 4,696 3,854 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 3,886 ) ( 5,049 ) Purchases of investments ( 13,500 ) ( 14,765 ) Proceeds from maturities of investments 12,791 11,305 Proceeds from sales of investments \u2014 200 Net cash used in investing activities ( 4,595 ) ( 8,309 ) Cash Flows from Financing Activities Proceeds from issuances of debt 3,050 3,895 Repayments of debt ( 4,129 ) ( 1,222 ) Proceeds from exercises of stock options and other stock issuances 528 448 Principal payments on fina",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "a7a4130c1e2ef46073ee1248",
+      "verified": true,
+      "formula": "6134000000 - 3886000000 = 2248000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "b120261e3133a8d5dbdec0cf",
+        "191d3e849442bb097ba9af5c"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "2393000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "8527000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "section": "Year Ended December 31, 2025 2024 2023 Cash Flows from Operating Activities Net income $ 3,855 $ 7,153 $ 14,974 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 6,148 5,368 4,667 Stock-based compensation 2,825 1,999 1,812 Inventory and purchase commitments write-downs 362 335 463 Foreign currency transaction net unrealized loss (gain) 452 ( 73 ) ( 144 ) Deferred income taxes 123 477 ( 6,349 ) Non-cash interest and other operating activities 272 172 81 Digital assets loss (gain), net 68 ( 589 ) \u2014 Changes in operating assets and liabilities: Accounts receivable ( 261 ) ( 1,083 ) ( 586 ) Inventory ( 630 ) 937 ( 1,195 ) Operating lease vehicles ( 25 ) ( 590 ) ( 1,952 ) Prepaid expenses and other assets ( 3,181 ) ( 3,273 ) ( 2,652 ) Accounts payable, accrued and other liabilities 4,376 3,588 2,605 Deferred revenue 363 502 1,532 Net cash provided by operating activities 14,747 14,923 13,256 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 8,527 ) ( 11,342 ) ( 8,899 ) Purchases of investments ( 37,109 ) ( 35,955 ) ( 19,112 ) Proceeds from maturities of investments 30,158 28,310 12,353 Proceeds from sales of investments \u2014 200 138 Business combinations, net of cash acquired \u2014 \u2014 ( 64 ) Net cash used in investing activities ( 15,478 ) ( 18,787 ) ( 15,",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "6134000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash Flows from Operating Activities Net income $ 2,999 $ 5,010 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 4,505 3,872 Stock-based compensation 1,871 1,420 Inventory and purchase commitments write-downs 313 247 Foreign currency transaction net unrealized loss 160 197 Deferred income taxes 234 471 Non-cash interest and other operating activities 235 83 Digital assets gain, net ( 239 ) ( 242 ) Changes in operating assets and liabilities: Accounts receivable ( 306 ) 144 Inventory ( 416 ) ( 1,107 ) Operating lease vehicles 54 ( 82 ) Prepaid expenses and other assets ( 2,280 ) ( 2,639 ) Accounts payable, accrued and other liabilities 2,979 2,504 Deferred revenue 825 231 Net cash provided by operating activities 10,934 10,109 Cash Flows from Investing Activities Purchases of property and equipment excluding finance leases, net of sales ( 6,134 ) ( 8,562 ) Purchases of investments ( 24,902 ) ( 20,797 ) Proceeds from maturities of investments 22,086 17,975 Proceeds from sales of investments \u2014 200 Net cash used in investing activities ( 8,950 ) ( 11,184 ) Cash Flows from Financing Activities Proceeds from issuances of debt 4,232 4,360 Repayments of debt ( 4,798 ) ( 1,783 ) Proceeds from exercises of stock options and other stock issuances 1,040 788 Principal payment",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "e12026bb9488dd719f58c49c",
+      "verified": true,
+      "formula": "8527000000 - 6134000000 = 2393000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "ff1d868d1bcac66091aba0fd",
+        "b120261e3133a8d5dbdec0cf"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "16352000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "16352000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "March 31, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 16,352 $ 16,139 Short-term investments 20,644 20,424 Accounts receivable, net 3,782 4,418 Inventory 13,706 12,017 Prepaid expenses and other current assets 4,905 5,362 Total current assets 59,389 58,360 Operating lease vehicles, net 5,477 5,581 Solar energy systems, net 4,855 4,924 Property, plant and equipment, net 37,088 35,836 Operating lease right-of-use assets 5,330 5,160 Digital assets, net 951 1,076 Intangible assets, net 144 150 Goodwill 248 244 Deferred tax assets 6,687 6,524 Other non-current assets 4,942 4,215 Total assets $ 125,111 $ 122,070 Liabilities Current liabilities Accounts payable $ 13,471 $ 12,474 Accrued liabilities and other 10,802 10,723 Deferred revenue 3,243 3,168 Current portion of debt and finance leases 2,237 2,456 Total current liabilities 29,753 28,821 Debt and finance leases, net of current portion 5,292 5,757 Deferred revenue, net of current portion 3,610 3,317 Other long-term liabilities 11,038 10,495 Total liabilities 49,693 48,390 Commitments and contingencies (Note 10) Redeemable noncontrolling interests in subsidiaries 62 63 Equity Stockholders\u2019 equity Preferred stock; $ 0.001 par value; 100 shares authorized; no shares issued and outstanding \u2014 \u2014 Common stock; $ 0.001 par value; 6,000 shares authorized; 3,220 and 3,216 shares issued and outstanding as of Mar",
+          "context": "c-3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "934cd51b896e6a0305b75479",
+      "verified": true,
+      "formula": "16352000000 = 16352000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "109e9063e111f3e6758baf02"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "15587000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "15587000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "June 30, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 15,587 $ 16,139 Short-term investments 21,195 20,424 Accounts receivable, net 3,838 4,418 Inventory 14,570 12,017 Prepaid expenses and other current assets 5,943 5,362 Total current assets 61,133 58,360 Operating lease vehicles, net 5,230 5,581 Solar energy systems, net 4,788 4,924 Property, plant and equipment, net 38,574 35,836 Operating lease right-of-use assets 5,633 5,160 Digital assets 1,235 1,076 Intangible assets, net 138 150 Goodwill 258 244 Deferred tax assets 6,721 6,524 Other non-current assets 4,857 4,215 Total assets $ 128,567 $ 122,070 Liabilities Current liabilities Accounts payable $ 13,212 $ 12,474 Accrued liabilities and other 11,519 10,723 Deferred revenue 3,237 3,168 Current portion of debt and finance leases 2,040 2,456 Total current liabilities 30,008 28,821 Debt and finance leases, net of current portion 5,180 5,757 Deferred revenue, net of current portion 3,764 3,317 Other long-term liabilities 11,543 10,495 Total liabilities 50,495 48,390 Commitments and contingencies (Note 10) Redeemable noncontrolling interests in subsidiaries 61 63 Equity Stockholders\u2019 equity Preferred stock; $ 0.001 par value; 100 shares authorized; no shares issued and outstanding \u2014 \u2014 Common stock; $ 0.001 par value; 6,000 shares authorized; 3,224 and 3,216 shares issued and outstanding as of June\u00a030",
+          "context": "c-3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b23a6a563dac87485ccd8d40",
+      "verified": true,
+      "formula": "15587000000 = 15587000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "9f9347c6d256365adfa32e50"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "18289000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "18289000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "September 30, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 18,289 $ 16,139 Short-term investments 23,358 20,424 Accounts receivable, net 4,703 4,418 Inventory 12,276 12,017 Prepaid expenses and other current assets 6,027 5,362 Total current assets 64,653 58,360 Operating lease vehicles, net 5,019 5,581 Solar energy systems, net 4,673 4,924 Property, plant and equipment, net 39,407 35,836 Operating lease right-of-use assets 5,783 5,160 Digital assets 1,315 1,076 Intangible assets, net 131 150 Goodwill 257 244 Deferred tax assets 6,637 6,524 Other non-current assets 5,860 4,215 Total assets $ 133,735 $ 122,070 Liabilities Current liabilities Accounts payable $ 12,819 $ 12,474 Accrued liabilities and other 12,791 10,723 Deferred revenue 3,756 3,168 Current portion of debt and finance leases 1,924 2,456 Total current liabilities 31,290 28,821 Debt and finance leases, net of current portion 5,778 5,757 Deferred revenue, net of current portion 3,746 3,317 Other long-term liabilities 12,205 10,495 Total liabilities 53,019 48,390 Commitments and contingencies (Note 10) Redeemable noncontrolling interests in subsidiaries 59 63 Equity Stockholders\u2019 equity Preferred stock; $ 0.001 par value; 100 shares authorized; no shares issued and outstanding \u2014 \u2014 Common stock; $ 0.001 par value; 6,000 shares authorized; 3,324 and 3,216 shares issued and outstanding as of Se",
+          "context": "c-3",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "e6b7ba74afe341badc01e645",
+      "verified": true,
+      "formula": "18289000000 = 18289000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "f25a36b7d6a13ed53f5492df"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Directly reported",
+      "value": "16513000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "16513000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003952",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "section": "December 31, 2025 December 31, 2024 Assets Current assets Cash and cash equivalents $ 16,513 $ 16,139 Short-term investments 27,546 20,424 Accounts receivable, net 4,576 4,418 Inventory 12,392 12,017 Prepaid expenses and other current assets 7,615 5,362 Total current assets 68,642 58,360 Operating lease vehicles, net 4,912 5,581 Energy generation and storage systems, net 4,604 4,924 Property, plant and equipment, net 40,643 35,836 Operating lease right-of-use assets 6,027 5,160 Digital assets 1,008 1,076 Deferred tax assets 6,925 6,524 Other non-current assets 5,045 4,609 Total assets $ 137,806 $ 122,070 Liabilities Current liabilities Accounts payable $ 13,371 $ 12,474 Accrued liabilities and other 13,279 10,723 Deferred revenue 3,424 3,168 Current portion of debt and finance leases 1,640 2,456 Total current liabilities 31,714 28,821 Debt and finance leases, net of current portion 6,736 5,757 Deferred revenue, net of current portion 3,631 3,317 Other long-term liabilities 12,860 10,495 Total liabilities 54,941 48,390 Commitments and contingencies (Note 13) Redeemable noncontrolling interests in subsidiaries 58 63 Equity Stockholders\u2019 equity Preferred stock; $ 0.001 par value; 100 shares authorized; no shares issued and outstanding \u2014 \u2014 Common stock; $ 0.001 par value; 6,000 shares authorized; 3,751 and 3,216 shares issued and outstanding as of December\u00a031, 2025 and 2024, respec",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "8660b9990b22fc07d1caa84a",
+      "verified": true,
+      "formula": "16513000000 = 16513000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "103fd8877b06d01fa06c7263"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "0.12",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Earnings Per Share, Diluted",
+          "value": "0.12",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001628280-25-018911",
+          "form": "10-Q",
+          "filed": "2025-04-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenues Automotive sales $ 12,925 $ 16,460 Automotive regulatory credits 595 442 Automotive leasing 447 476 Total automotive revenues 13,967 17,378 Energy generation and storage 2,730 1,635 Services and other 2,638 2,288 Total revenues 19,335 21,301 Cost of revenues Automotive sales 11,461 13,897 Automotive leasing 239 269 Total automotive cost of revenues 11,700 14,166 Energy generation and storage 1,945 1,232 Services and other 2,537 2,207 Total cost of revenues 16,182 17,605 Gross profit 3,153 3,696 Operating expenses Research and development 1,409 1,151 Selling, general and administrative 1,251 1,374 Restructuring and other 94 \u2014 Total operating expenses 2,754 2,525 Income from operations 399 1,171 Interest income 400 350 Interest expense ( 91 ) ( 76 ) Other (expense) income, net ( 119 ) 443 Income before income taxes 589 1,888 Provision for income taxes 169 483 Net income 420 1,405 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 11 15 Net income attributable to common stockholders $ 409 $ 1,390 Net income per share of common stock attributable to common stockholders Basic $ 0.13 $ 0.45 Diluted $ 0.12 $ 0.41 Weighted average shares used in computing net income per share of common stock Basic 3,218 3,186 Diluted 3,521 3,484",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "8dbf80689527018c9315e22a",
+      "verified": true,
+      "formula": "0.12 = 0.12 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "7836e5fed6701e11c7e36b38"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "0.33",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Earnings Per Share, Diluted",
+          "value": "0.33",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-035806",
+          "form": "10-Q",
+          "filed": "2025-07-24",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenues Automotive sales $ 15,787 $ 18,530 $ 28,712 $ 34,990 Automotive regulatory credits 439 890 1,034 1,332 Automotive leasing 435 458 882 934 Total automotive revenues 16,661 19,878 30,628 37,256 Energy generation and storage 2,789 3,014 5,519 4,649 Services and other 3,046 2,608 5,684 4,896 Total revenues 22,496 25,500 41,831 46,801 Cost of revenues Automotive sales 13,567 15,962 25,028 29,859 Automotive leasing 228 245 467 514 Total automotive cost of revenues 13,795 16,207 25,495 30,373 Energy generation and storage 1,943 2,274 3,888 3,506 Services and other 2,880 2,441 5,417 4,648 Total cost of revenues 18,618 20,922 34,800 38,527 Gross profit 3,878 4,578 7,031 8,274 Operating expenses Research and development 1,589 1,074 2,998 2,225 Selling, general and administrative 1,366 1,277 2,617 2,651 Restructuring and other \u2014 622 94 622 Total operating expenses 2,955 2,973 5,709 5,498 Income from operations 923 1,605 1,322 2,776 Interest income 392 348 792 698 Interest expense ( 86 ) ( 86 ) ( 177 ) ( 162 ) Other income (expense), net 320 ( 80 ) 201 363 Income before income taxes 1,549 1,787 2,138 3,675 Provision for income taxes 359 371 528 854 Net income 1,190 1,416 1,610 2,821 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in subsidiaries 18 16 29 31 Net inc",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "7f3eced3a2b5fc3c313bbd96",
+      "verified": true,
+      "formula": "0.33 = 0.33 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "fb4dcef73cf0cfd4e84a1497"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "0.39",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1318605",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Earnings Per Share, Diluted",
+          "value": "0.39",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-045968",
+          "form": "10-Q",
+          "filed": "2025-10-23",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenues Automotive sales $ 20,359 $ 18,831 $ 49,071 $ 53,821 Automotive regulatory credits 417 739 1,451 2,071 Automotive leasing 429 446 1,311 1,380 Total automotive revenues 21,205 20,016 51,833 57,272 Energy generation and storage 3,415 2,376 8,934 7,025 Services and other 3,475 2,790 9,159 7,686 Total revenues 28,095 25,182 69,926 71,983 Cost of revenues Automotive sales 17,365 15,743 42,393 45,602 Automotive leasing 225 247 692 761 Total automotive cost of revenues 17,590 15,990 43,085 46,363 Energy generation and storage 2,342 1,651 6,230 5,157 Services and other 3,109 2,544 8,526 7,192 Total cost of revenues 23,041 20,185 57,841 58,712 Gross profit 5,054 4,997 12,085 13,271 Operating expenses Research and development 1,630 1,039 4,628 3,264 Selling, general and administrative 1,562 1,186 4,179 3,837 Restructuring and other 238 55 332 677 Total operating expenses 3,430 2,280 9,139 7,778 Income from operations 1,624 2,717 2,946 5,493 Interest income 439 429 1,231 1,127 Interest expense ( 76 ) ( 92 ) ( 253 ) ( 254 ) Other (expense) income, net ( 28 ) ( 263 ) 173 100 Income before income taxes 1,959 2,791 4,097 6,466 Provision for income taxes 570 602 1,098 1,456 Net income 1,389 2,189 2,999 5,010 Net income attributable to noncontrolling interests and redeemable noncontrolling interests in",
+          "context": "c-33",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "e5826c75146d99bf2bcb039c",
+      "verified": true,
+      "formula": "0.39 = 0.39 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "c642ab9250f1fe9fd82ba61d"
+      ]
+    },
+    {
+      "company": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Insufficient information",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001628280-25-018911",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 751,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-035806",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 997,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-045968",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 1017,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003952",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1359,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001104659-26-053166",
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+          "status": "Document inspected",
+          "inline_facts": 2,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "c23367f789ead8d86308dcdd",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "accession": "0001628280-25-018911",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025018911/tsla-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 751,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-035806",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/tsla-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 997,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-045968",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025045968/tsla-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 1017,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-26-003952",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1359,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001104659-26-053166",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926053166/tm2611837d1_10ka.htm",
+      "status": "Document inspected",
+      "inline_facts": 2,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T17:54:05.063312+00:00"
+}

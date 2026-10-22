@@ -23,6 +23,14 @@ def workbook(cells):
     sources.append(['Fact ID', 'Value', 'Unit', 'Concept', 'Label', 'Start', 'End', 'Form', 'Filed', 'Accession', 'SEC document', 'Context', 'Dimensions', 'Excerpt', 'Verified'])
     quality.append(['Cell ID', 'Status', 'Verified', 'Warnings', 'Investigation'])
     indices = {}
+    def excel_expression(cell):
+        if cell.components:
+            expression = '(' + excel_expression(cell.components[0]) + ')'
+            for op, component in zip(cell.component_operators, cell.components[1:]):
+                expression += f' {op} (' + excel_expression(component) + ')'
+            return expression
+        refs = [f"'SEC Sources'!B{indices[f.id]}" for f in cell.inputs]
+        return f' {cell.operation} '.join(refs) if cell.operation else refs[0]
     for cell in cells:
         for f in cell.inputs:
             if f.id not in indices:
@@ -30,9 +38,8 @@ def workbook(cells):
                     f.form, f.filed, f.accession, f.url, f.context, str(f.dimensions), f.section, f.verified]])
                 indices[f.id] = sources.max_row
         value = float(cell.value) if cell.value is not None else None
-        if cell.value is not None and cell.operation in ('', '-', '+'):
-            refs = [f"'SEC Sources'!B{indices[f.id]}" for f in cell.inputs]
-            value = '=' + (f' {cell.operation} '.join(refs) if cell.operation else refs[0])
+        if cell.value is not None:
+            value = '=' + excel_expression(cell)
         fin.append([safe(x) for x in [cell.company, cell.ticker, cell.metric, cell.year, cell.quarter,
                    cell.start, cell.end, None, cell.unit, cell.status, cell.verified, cell.id]])
         fin.cell(fin.max_row, 8, value)

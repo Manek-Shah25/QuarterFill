@@ -15,8 +15,11 @@ class Research:
         self.log = []
 
     def investigate(self, year, max_filings=12):
+        periods = self.periods(year)
+        start = periods[0] if periods else f'{year-1}-01-01'
+        end = periods[1][4] if periods else f'{year}-12-31'
         relevant = [f for f in self.filings if f['form'] in ('10-K', '10-Q', '10-K/A', '10-Q/A')
-                    and year <= int(f.get('reportDate', '0000')[:4] or '0') <= year + 1]
+                    and start <= f.get('reportDate', '') <= end]
         relevant.sort(key=lambda f: (f.get('reportDate', ''), f['filingDate']))
         for filing in relevant[:max_filings]:
             acc = filing['accessionNumber']
@@ -38,12 +41,13 @@ class Research:
 
     def periods(self, year):
         # Use one well-defined consolidated income concept to avoid mixing calendar changes.
+        best = None
         for tag in ('RevenueFromContractWithCustomerExcludingAssessedTax', 'Revenues', 'NetIncomeLoss',
                     'NetCashProvidedByUsedInOperatingActivities'):
             periods = fiscal_periods([f for f in self.facts if f.concept == 'us-gaap:' + tag and not f.dimensions], year)
-            if periods:
-                return periods
-        return None
+            if periods and (best is None or len(periods[1]) > len(best[1])):
+                best = periods
+        return best
 
     def cell(self, name, year, q, custom=None):
         if name in DERIVED:

@@ -1,0 +1,160 @@
+[
+  {
+    "ticker": "AAPL",
+    "years": [
+      2024,
+      2025
+    ],
+    "investigation": [
+      {
+        "accession": "0000320193-24-000069",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000069/aapl-20240330.htm",
+        "status": "Document inspected",
+        "inline_facts": 633,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-24-000081",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000081/aapl-20240629.htm",
+        "status": "Document inspected",
+        "inline_facts": 632,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-24-000123",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "status": "Document inspected",
+        "inline_facts": 908,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-25-000008",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+        "status": "Document inspected",
+        "inline_facts": 489,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-25-000057",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+        "status": "Document inspected",
+        "inline_facts": 635,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-25-000073",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+        "status": "Document inspected",
+        "inline_facts": 643,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-25-000079",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "status": "Document inspected",
+        "inline_facts": 919,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-26-000006",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
+        "status": "Document inspected",
+        "inline_facts": 517,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-26-000013",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
+        "status": "Document inspected",
+        "inline_facts": 711,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000320193-26-000020",
+        "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+        "status": "Document inspected",
+        "inline_facts": 715,
+        "search_scope": "Primary filing including embedded financial notes"
+      }
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "years": [
+      2024,
+      2025
+    ],
+    "investigation": [
+      {
+        "accession": "0000950170-24-048288",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024048288/msft-20240331.htm",
+        "status": "Document inspected",
+        "inline_facts": 1398,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000950170-24-087843",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "status": "Document inspected",
+        "inline_facts": 1572,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000950170-24-118967",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+        "status": "Document inspected",
+        "inline_facts": 1047,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000950170-25-010491",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+        "status": "Document inspected",
+        "inline_facts": 1388,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000950170-25-061046",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+        "status": "Document inspected",
+        "inline_facts": 1397,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0000950170-25-100235",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+        "status": "Document inspected",
+        "inline_facts": 1544,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0001193125-25-256321",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+        "status": "Document inspected",
+        "inline_facts": 1058,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0001193125-26-027207",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+        "status": "Document inspected",
+        "inline_facts": 1416,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0001193125-26-191507",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+        "status": "Document inspected",
+        "inline_facts": 1426,
+        "search_scope": "Primary filing including embedded financial notes"
+      },
+      {
+        "accession": "0001193125-26-323660",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "status": "Document inspected",
+        "inline_facts": 1577,
+        "search_scope": "Primary filing including embedded financial notes"
+      }
+    ]
+  }
+]

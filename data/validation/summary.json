@@ -1,0 +1,137 @@
+[
+  {
+    "ticker": "AAPL",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:53:38.053012+00:00"
+  },
+  {
+    "ticker": "AMZN",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 11,
+    "document_matched_cells": 11,
+    "retrieved_at": "2026-10-22T17:53:47.810938+00:00"
+  },
+  {
+    "ticker": "BAC",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 5,
+    "document_matched_cells": 5,
+    "retrieved_at": "2026-10-22T19:03:32.804801+00:00"
+  },
+  {
+    "ticker": "COST",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:54:31.802107+00:00"
+  },
+  {
+    "ticker": "GOOGL",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:53:52.387984+00:00"
+  },
+  {
+    "ticker": "JNJ",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:54:37.502378+00:00"
+  },
+  {
+    "ticker": "JPM",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 3,
+    "document_matched_cells": 3,
+    "retrieved_at": "2026-10-22T19:03:09.173998+00:00"
+  },
+  {
+    "ticker": "KO",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:54:45.463407+00:00"
+  },
+  {
+    "ticker": "META",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:53:55.574782+00:00"
+  },
+  {
+    "ticker": "MSFT",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:53:44.257631+00:00"
+  },
+  {
+    "ticker": "NVDA",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 10,
+    "document_matched_cells": 10,
+    "retrieved_at": "2026-10-22T17:54:00.238806+00:00"
+  },
+  {
+    "ticker": "PG",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 11,
+    "document_matched_cells": 11,
+    "retrieved_at": "2026-10-22T17:54:40.622023+00:00"
+  },
+  {
+    "ticker": "TSLA",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 15,
+    "document_matched_cells": 15,
+    "retrieved_at": "2026-10-22T17:54:05.063312+00:00"
+  },
+  {
+    "ticker": "WMT",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 11,
+    "document_matched_cells": 11,
+    "retrieved_at": "2026-10-22T17:54:29.358213+00:00"
+  },
+  {
+    "ticker": "XOM",
+    "year": 2025,
+    "type": "Automated source matching; manual review pending",
+    "requested_cells": 16,
+    "available_cells": 0,
+    "document_matched_cells": 0,
+    "retrieved_at": "2026-10-22T19:03:09.252517+00:00"
+  }
+]

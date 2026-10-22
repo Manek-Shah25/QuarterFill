@@ -51,6 +51,8 @@ class Cell:
     reasoning: list[str] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
     investigation: list[dict] = field(default_factory=list)
+    components: list[Cell] = field(default_factory=list)
+    component_operators: list[str] = field(default_factory=list)
 
     @property
     def verified(self):
@@ -59,13 +61,19 @@ class Cell:
     @property
     def id(self):
         return stable_id([self.ticker, self.metric, self.year, self.quarter, self.start,
-                          self.end, self.status, self.operation, [f.id for f in self.inputs]])
+                          self.end, self.status, self.value, self.operation, [f.id for f in self.inputs],
+                          [c.id for c in self.components], self.component_operators])
 
     @property
     def formula(self):
         if self.value is None:
             return ""
         values = [str(f.value) for f in self.inputs]
+        if self.components:
+            expression = f'({self.components[0].formula.split(" = ")[0]})'
+            for op, component in zip(self.component_operators, self.components[1:]):
+                expression += f' {op} ({component.formula.split(" = ")[0]})'
+            return expression + f' = {self.value} {self.unit}'
         return (f" {self.operation} ".join(values) if self.operation else values[0]) + f" = {self.value} {self.unit}"
 
     def audit(self):

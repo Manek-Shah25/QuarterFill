@@ -72,6 +72,16 @@ def reconstruct(company, ticker, metric: Metric, facts: list[Fact], year, q,
         cell.warnings.append(conflict)
         return cell
     if selected:
+        if metric.kind == 'flow' and q > 1:
+            hi, hc = choose([f for f in candidates if f.start == annual_start and f.end == end])
+            lo, lc = choose([f for f in candidates if f.start == annual_start and f.end == previous])
+            if hc or lc or (hi and lo and hi.concept == lo.concept == selected.concept and
+                           abs(hi.value-lo.value-selected.value) >
+                           tolerance(hi)+tolerance(lo)+tolerance(selected)):
+                cell.status = 'Ambiguous or conflicting'
+                cell.inputs = list(dict.fromkeys([selected, *([hi] if hi else []), *([lo] if lo else [])]))
+                cell.warnings.append('Standalone quarter conflicts with cumulative evidence or filing versions.')
+                return cell
         cell.value, cell.unit, cell.inputs = selected.value, selected.unit, [selected]
         cell.status = "Explicitly zero" if selected.value == 0 else "Directly reported"
         cell.reasoning.append("Exact context, period, unit and consolidated scope matched; direct disclosure preferred.")
@@ -115,9 +125,11 @@ def derive(company, ticker, name, components, operators):
     for op, c in zip(operators, components[1:]):
         cell.value = cell.value + c.value if op == "+" else cell.value - c.value
     cell.unit = first.unit
+    cell.components = components
+    cell.component_operators = operators
     cell.inputs = [f for c in components for f in c.inputs]
     cell.status = "Derived from reported components"
     cell.reasoning = [name, *[f"{c.id}: {c.formula}" for c in components]]
-    cell.operation = "component graph; see reasoning"
+    cell.operation = "component graph"
     cell.warnings = list(dict.fromkeys(w for c in components for w in c.warnings))
     return cell

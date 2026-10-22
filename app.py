@@ -10,6 +10,9 @@ from quarterfill.concepts import METRICS, BY_NAME, DERIVED, search
 from quarterfill.export import workbook, fill_model
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError
+from quarterfill.store import save_audits
+from io import BytesIO
+from zipfile import ZipFile
 
 st.set_page_config(page_title='QuarterFill | SEC Financial Research', page_icon='◧', layout='wide')
 st.markdown('''<style>.block-container{padding-top:2rem;max-width:1500px}h1{letter-spacing:-.05em}
@@ -72,9 +75,10 @@ def display(cells):
     st.caption('Values are shown in original reporting units. Annual columns are meaningful for additive flows only. Select a cell audit below.')
     pivot = frame.pivot(index=['Metric', 'Fiscal year'], columns='Quarter', values='Value')
     st.dataframe(pivot, width='stretch')
-    st.dataframe(frame, width='stretch', hide_index=True)
+    event = st.dataframe(frame, width='stretch', hide_index=True, on_select='rerun', selection_mode='single-row')
     labels = {c.id: f'{c.metric} · FY{c.year} {c.quarter} · {c.status}' for c in cells}
-    selected = st.selectbox('Cell audit', list(labels), format_func=labels.get)
+    selected_row = event.selection.rows[0] if event.selection.rows else 0
+    selected = st.selectbox('Cell audit', list(labels), index=selected_row, format_func=labels.get)
     audit_panel(next(c for c in cells if c.id == selected))
     chart = frame[(frame.Quarter != 'FY') & frame.Value.notna()].copy()
     if not chart.empty:
@@ -85,6 +89,14 @@ def display(cells):
                          'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
     col2.download_button('Quarterly CSV', frame.to_csv(index=False), 'QuarterFill.csv', 'text/csv')
     col3.download_button('All cell audits', json.dumps([c.audit() for c in cells], indent=2), 'QuarterFill-audits.json')
+    if st.button('Prepare portable provenance archive (DuckDB + Parquet)'):
+        directory=Path('data/cache/provenance')
+        save_audits(cells,directory)
+        archive=BytesIO()
+        with ZipFile(archive,'w') as zipped:
+            for path in directory.iterdir():
+                zipped.write(path,path.name)
+        st.download_button('Download provenance archive',archive.getvalue(),'QuarterFill-provenance.zip')
 
 
 if page == 'Methodology and Data Health':
@@ -93,6 +105,17 @@ if page == 'Methodology and Data Health':
     st.markdown(Path('docs/validation.md').read_text(encoding='utf-8'))
     st.subheader('Request and source availability')
     st.dataframe(pd.DataFrame(client.events), width='stretch')
+    with st.expander('Offline SEC Financial Statement / Notes Data Set import'):
+        dataset=st.file_uploader('Official SEC data set ZIP (raw disclosure review)',type=['zip'])
+        if dataset:
+            from quarterfill.offline import import_fsn
+            try:
+                rows,tables=import_fsn(dataset.getvalue())
+                st.write(f'{len(rows)} numeric disclosure rows; tables: {", ".join(tables)}')
+                st.dataframe(rows.head(500),width='stretch')
+                st.caption('Raw import only: missing start dates and dimensional scope must be reviewed before quarterly reconstruction.')
+            except (ValueError,KeyError) as exc:
+                st.error(str(exc))
     st.info('Document matched means the exact fact context was found in a retrieved filing. It does not certify accounting comparability or completeness.')
 elif page == 'Excel Export Center':
     cells = st.session_state.get('cells', [])
@@ -112,7 +135,7 @@ elif page == 'Excel Export Center':
     else:
         st.info('Run a lookup or statement reconstruction first.')
 else:
-    with st.form('research'):
+    with st.form('research_form'):
         left, right = st.columns([2, 3])
         company_query = left.text_input('Company ticker or name', 'AAPL')
         query = right.text_input('Financial line item search', 'Stock compensation')

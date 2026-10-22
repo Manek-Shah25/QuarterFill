@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 import hashlib
+import gzip
 import json
 import os
 import re
@@ -12,7 +13,8 @@ import threading
 import time
 from urllib.parse import urlparse
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
+import warnings
 from .models import Fact
 
 
@@ -78,6 +80,13 @@ class SECClient:
                 return saved["body"]
             except (requests.RequestException, ValueError, KeyError) as exc:
                 error += f"; snapshot unavailable: {exc}"
+        bundled = Path(__file__).resolve().parents[1] / 'data' / 'snapshots' / (key + '.json.gz')
+        if bundled.exists():
+            with gzip.open(bundled, 'rt', encoding='utf-8') as stream:
+                saved = json.load(stream)
+            if saved['url'] == url and hashlib.sha256(saved['body'].encode()).hexdigest() == saved['sha256']:
+                self.events.append({'url': url, 'status': 'bundled SEC snapshot (not live)', 'retrieved': saved['at']})
+                return saved['body']
         self.events.append({"url": url, "status": "unavailable", "error": error})
         raise SECError(error)
 
@@ -131,7 +140,9 @@ def company_facts(payload, filings):
 
 
 def parse_inline(html, cik, filing, url):
-    soup = BeautifulSoup(html, "lxml")
+    with warnings.catch_warnings():
+        warnings.simplefilter('ignore', XMLParsedAsHTMLWarning)
+        soup = BeautifulSoup(html, "lxml")
     contexts, units = {}, {}
     for tag in soup.find_all(lambda t: t.name.lower().split(":")[-1] == "context"):
         def content(name):

@@ -1,0 +1,1336 @@
+{
+  "ticker": "META",
+  "year": 2025,
+  "type": "Automated source matching; manual review pending",
+  "requested_cells": 16,
+  "available_cells": 15,
+  "document_matched_cells": 15,
+  "cells": [
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "42314000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "42314000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenue $ 42,314 $ 36,455 Costs and expenses: Cost of revenue 7,572 6,640 Research and development 12,150 9,978 Marketing and sales 2,757 2,564 General and administrative 2,280 3,455 Total costs and expenses 24,759 22,637 Income from operations 17,555 13,818 Interest and other income, net 827 365 Income before provision for income taxes 18,382 14,183 Provision for income taxes 1,738 1,814 Net income $ 16,644 $ 12,369 Earnings per share: Basic $ 6.59 $ 4.86 Diluted $ 6.43 $ 4.71 Weighted-average shares used to compute earnings per share: Basic 2,527 2,545 Diluted 2,590 2,625",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "ae0100ad53ab929481123326",
+      "verified": true,
+      "formula": "42314000000 = 42314000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "54a46b9a30e923fe06135ada"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "47516000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "47516000000",
+          "unit": "USD",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenue $ 47,516 $ 39,071 $ 89,830 $ 75,527 Costs and expenses: Cost of revenue 8,491 7,308 16,063 13,948 Research and development 12,942 10,537 25,092 20,515 Marketing and sales 2,979 2,721 5,735 5,285 General and administrative 2,663 3,658 4,943 7,114 Total costs and expenses 27,075 24,224 51,833 46,862 Income from operations 20,441 14,847 37,997 28,665 Interest and other income, net 93 259 919 624 Income before provision for income taxes 20,534 15,106 38,916 29,289 Provision for income taxes 2,197 1,641 3,935 3,455 Net income $ 18,337 $ 13,465 $ 34,981 $ 25,834 Earnings per share: Basic $ 7.28 $ 5.31 $ 13.87 $ 10.17 Diluted $ 7.14 $ 5.16 $ 13.56 $ 9.86 Weighted-average shares used to compute earnings per share: Basic 2,518 2,534 2,522 2,540 Diluted 2,570 2,610 2,580 2,619",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "09580c958e13c7333b51d997",
+      "verified": true,
+      "formula": "47516000000 = 47516000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "5e20a195003e1ddaaeda69d7"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "51242000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "51242000000",
+          "unit": "USD",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116 Costs and expenses: Cost of revenue 9,206 7,375 25,269 21,322 Research and development 15,144 11,177 40,237 31,693 Marketing and sales 2,845 2,822 8,581 8,107 General and administrative 3,512 1,865 8,455 8,978 Total costs and expenses 30,707 23,239 82,542 70,100 Income from operations 20,535 17,350 58,531 46,016 Interest and other income, net 1,128 472 2,047 1,095 Income before provision for income taxes 21,663 17,822 60,578 47,111 Provision for income taxes 18,954 2,134 22,888 5,589 Net income $ 2,709 $ 15,688 $ 37,690 $ 41,522 Earnings per share: Basic $ 1.08 $ 6.20 $ 14.96 $ 16.37 Diluted $ 1.05 $ 6.03 $ 14.62 $ 15.88 Weighted-average shares used to compute earnings per share: Basic 2,517 2,529 2,520 2,536 Diluted 2,572 2,600 2,578 2,615",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "bdc4fcb93115737bc964bc9c",
+      "verified": true,
+      "formula": "51242000000 = 51242000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "56bd5a29f0a8fcaccfc49593"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Revenue",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "59893000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "200966000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "section": "Year Ended December\u00a031, 2025 2024 2023 Revenue $ 200,966 $ 164,501 $ 134,902 Costs and expenses: Cost of revenue 36,175 30,161 25,959 Research and development 57,372 43,873 38,483 Marketing and sales 11,991 11,347 12,301 General and administrative 12,152 9,740 11,408 Total costs and expenses 117,690 95,121 88,151 Income from operations 83,276 69,380 46,751 Interest and other income, net 2,656 1,283 677 Income before provision for income taxes 85,932 70,663 47,428 Provision for income taxes 25,474 8,303 8,330 Net income $ 60,458 $ 62,360 $ 39,098 Earnings per share: Basic $ 23.98 $ 24.61 $ 15.19 Diluted $ 23.49 $ 23.86 $ 14.87 Weighted-average shares used to compute earnings per share: Basic 2,521 2,534 2,574 Diluted 2,574 2,614 2,629",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "value": "141073000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116 Costs and expenses: Cost of revenue 9,206 7,375 25,269 21,322 Research and development 15,144 11,177 40,237 31,693 Marketing and sales 2,845 2,822 8,581 8,107 General and administrative 3,512 1,865 8,455 8,978 Total costs and expenses 30,707 23,239 82,542 70,100 Income from operations 20,535 17,350 58,531 46,016 Interest and other income, net 1,128 472 2,047 1,095 Income before provision for income taxes 21,663 17,822 60,578 47,111 Provision for income taxes 18,954 2,134 22,888 5,589 Net income $ 2,709 $ 15,688 $ 37,690 $ 41,522 Earnings per share: Basic $ 1.08 $ 6.20 $ 14.96 $ 16.37 Diluted $ 1.05 $ 6.03 $ 14.62 $ 15.88 Weighted-average shares used to compute earnings per share: Basic 2,517 2,529 2,520 2,536 Diluted 2,572 2,600 2,578 2,615",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "70aa8c61c12cf708182308f6",
+      "verified": true,
+      "formula": "200966000000 - 141073000000 = 59893000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "abac97f878ab987df846827f",
+        "2625ec6e9019e87465bd8077"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "12941000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "12941000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash flows from operating activities Net income $ 16,644 $ 12,369 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 3,900 3,374 Share-based compensation 4,147 3,562 Deferred income taxes ( 993 ) ( 456 ) Other ( 231 ) 174 Changes in assets and liabilities: Accounts receivable 2,804 2,520 Prepaid expenses and other current assets 360 100 Other assets ( 52 ) ( 94 ) Accounts payable ( 1,034 ) ( 1,112 ) Accrued expenses and other current liabilities ( 2,231 ) ( 1,274 ) Other liabilities 712 83 Net cash provided by operating activities 24,026 19,246 Cash flows from investing activities Purchases of property and equipment ( 12,941 ) ( 6,400 ) Purchases of marketable securities ( 11,763 ) ( 6,887 ) Sales and maturities of marketable securities 4,784 4,625 Other investing activities ( 90 ) ( 72 ) Net cash used in investing activities ( 20,010 ) ( 8,734 ) Cash flows from financing activities Taxes paid related to net share settlement of equity awards ( 4,883 ) ( 3,162 ) Repurchases of Class A common stock ( 12,754 ) ( 15,008 ) Payments for dividends and dividend equivalents ( 1,329 ) ( 1,273 ) Principal payments on finance leases ( 751 ) ( 315 ) Other financing activities 222 ( 9 ) Net cash used in financing activities ( 19,495 ) ( 19,767 ) Effect of exchange rate changes on cash, cash eq",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "273ab9e39d0da88a93830935",
+      "verified": true,
+      "formula": "12941000000 = 12941000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "85790695d183eb4e6dd2699e"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Mathematically calculated",
+      "value": "16538000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "29479000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash flows from operating activities Net income $ 34,981 $ 25,834 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 8,242 7,011 Share-based compensation 8,981 8,178 Deferred income taxes ( 2,163 ) ( 2,098 ) Unrealized loss on marketable equity securities 374 \u2014 Other ( 430 ) 209 Changes in assets and liabilities: Accounts receivable 1,466 1,350 Prepaid expenses and other current assets 686 16 Other assets ( 242 ) ( 41 ) Accounts payable ( 574 ) ( 862 ) Accrued expenses and other current liabilities ( 3,338 ) ( 1,771 ) Other liabilities 1,604 790 Net cash provided by operating activities 49,587 38,616 Cash flows from investing activities Purchases of property and equipment ( 29,479 ) ( 14,573 ) Purchases of marketable securities ( 19,509 ) ( 10,176 ) Sales and maturities of marketable securities 19,057 7,858 Purchases of non-marketable equity investments ( 15,214 ) ( 7 ) Payments for held-for-sale assets ( 775 ) \u2014 Acquisitions of businesses and intangible assets ( 62 ) ( 129 ) Other investing activities 14 ( 5 ) Net cash used in investing activities ( 45,968 ) ( 17,032 ) Cash flows from financing activities Taxes paid related to net share settlement of equity awards ( 8,993 ) ( 6,370 ) Repurchases of Class A common stock ( 22,921 ) ( 21,307 ) Payments for dividends and dividend equiv",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "12941000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Cash flows from operating activities Net income $ 16,644 $ 12,369 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 3,900 3,374 Share-based compensation 4,147 3,562 Deferred income taxes ( 993 ) ( 456 ) Other ( 231 ) 174 Changes in assets and liabilities: Accounts receivable 2,804 2,520 Prepaid expenses and other current assets 360 100 Other assets ( 52 ) ( 94 ) Accounts payable ( 1,034 ) ( 1,112 ) Accrued expenses and other current liabilities ( 2,231 ) ( 1,274 ) Other liabilities 712 83 Net cash provided by operating activities 24,026 19,246 Cash flows from investing activities Purchases of property and equipment ( 12,941 ) ( 6,400 ) Purchases of marketable securities ( 11,763 ) ( 6,887 ) Sales and maturities of marketable securities 4,784 4,625 Other investing activities ( 90 ) ( 72 ) Net cash used in investing activities ( 20,010 ) ( 8,734 ) Cash flows from financing activities Taxes paid related to net share settlement of equity awards ( 4,883 ) ( 3,162 ) Repurchases of Class A common stock ( 12,754 ) ( 15,008 ) Payments for dividends and dividend equivalents ( 1,329 ) ( 1,273 ) Principal payments on finance leases ( 751 ) ( 315 ) Other financing activities 222 ( 9 ) Net cash used in financing activities ( 19,495 ) ( 19,767 ) Effect of exchange rate changes on cash, cash eq",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "61d9292f2005e9c06dfa54c5",
+      "verified": true,
+      "formula": "29479000000 - 12941000000 = 16538000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "26061ce9e1de993b9fc3f4d9",
+        "85790695d183eb4e6dd2699e"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Mathematically calculated",
+      "value": "18829000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "48308000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash flows from operating activities Net income $ 37,690 $ 41,522 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 13,205 11,038 Share-based compensation 14,537 12,428 Deferred income taxes 17,704 ( 3,406 ) Unrealized gain on marketable equity securities ( 548 ) \u2014 Other ( 453 ) 206 Changes in assets and liabilities: Accounts receivable 660 1,493 Prepaid expenses and other current assets ( 348 ) ( 168 ) Other assets ( 209 ) ( 70 ) Accounts payable ( 637 ) ( 195 ) Accrued expenses and other current liabilities ( 2,883 ) ( 1,199 ) Other liabilities 868 1,691 Net cash provided by operating activities 79,586 63,340 Cash flows from investing activities Purchases of property and equipment ( 48,308 ) ( 22,831 ) Purchases of marketable securities ( 22,349 ) ( 14,644 ) Sales and maturities of marketable securities 23,761 11,972 Purchases of non-marketable equity investments ( 18,260 ) ( 10 ) Payments for held-for-sale assets ( 1,797 ) \u2014 Acquisitions of businesses and intangible assets ( 815 ) ( 261 ) Other investing activities ( 48 ) 122 Net cash used in investing activities ( 67,816 ) ( 25,652 ) Cash flows from financing activities Taxes paid related to net share settlement of equity awards ( 14,128 ) ( 9,913 ) Repurchases of Class A common stock ( 26,248 ) ( 30,125 ) Payments for di",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "29479000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Six Months Ended June 30, 2025 2024 Cash flows from operating activities Net income $ 34,981 $ 25,834 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 8,242 7,011 Share-based compensation 8,981 8,178 Deferred income taxes ( 2,163 ) ( 2,098 ) Unrealized loss on marketable equity securities 374 \u2014 Other ( 430 ) 209 Changes in assets and liabilities: Accounts receivable 1,466 1,350 Prepaid expenses and other current assets 686 16 Other assets ( 242 ) ( 41 ) Accounts payable ( 574 ) ( 862 ) Accrued expenses and other current liabilities ( 3,338 ) ( 1,771 ) Other liabilities 1,604 790 Net cash provided by operating activities 49,587 38,616 Cash flows from investing activities Purchases of property and equipment ( 29,479 ) ( 14,573 ) Purchases of marketable securities ( 19,509 ) ( 10,176 ) Sales and maturities of marketable securities 19,057 7,858 Purchases of non-marketable equity investments ( 15,214 ) ( 7 ) Payments for held-for-sale assets ( 775 ) \u2014 Acquisitions of businesses and intangible assets ( 62 ) ( 129 ) Other investing activities 14 ( 5 ) Net cash used in investing activities ( 45,968 ) ( 17,032 ) Cash flows from financing activities Taxes paid related to net share settlement of equity awards ( 8,993 ) ( 6,370 ) Repurchases of Class A common stock ( 22,921 ) ( 21,307 ) Payments for dividends and dividend equiv",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "76366f4ffd307781063beded",
+      "verified": true,
+      "formula": "48308000000 - 29479000000 = 18829000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "66a24bfbda6e7e8dde2719cb",
+        "26061ce9e1de993b9fc3f4d9"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Capital expenditures",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Mathematically calculated",
+      "value": "21383000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "69691000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "section": "Year Ended December 31, 2025 2024 2023 Cash flows from operating activities Net income $ 60,458 $ 62,360 $ 39,098 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 18,616 15,498 11,178 Share-based compensation 20,427 16,690 14,027 Deferred income taxes 18,738 ( 4,738 ) 131 Unrealized (gain) loss on equity investments ( 1,138 ) ( 53 ) 102 Impairment charges for facilities consolidation \u2014 383 2,432 Other ( 416 ) 140 309 Changes in assets and liabilities: Accounts receivable ( 1,815 ) ( 1,485 ) ( 2,399 ) Prepaid expenses and other current assets ( 89 ) ( 698 ) 559 Other assets ( 481 ) ( 270 ) ( 80 ) Accounts payable ( 14 ) 373 51 Accrued expenses and other current liabilities 1,077 323 5,081 Other liabilities 437 2,805 624 Net cash provided by operating activities 115,800 91,328 71,113 Cash flows from investing activities Purchases of property and equipment ( 69,691 ) ( 37,256 ) ( 27,045 ) Purchases of marketable securities ( 36,929 ) ( 25,542 ) ( 2,982 ) Sales and maturities of marketable securities 26,874 15,789 6,184 Payments for held-for-sale assets ( 2,432 ) \u2014 \u2014 Proceeds from Venture distribution 2,554 \u2014 \u2014 Purchases of non-marketable equity investments ( 18,330 ) ( 11 ) ( 1 ) Acquisitions of businesses and intangible assets ( 4,231 ) ( 270 ) ( 629 ) Other investing activities 182 140 ( 22 ) Net cash used in investi",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "value": "48308000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Nine Months Ended September 30, 2025 2024 Cash flows from operating activities Net income $ 37,690 $ 41,522 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 13,205 11,038 Share-based compensation 14,537 12,428 Deferred income taxes 17,704 ( 3,406 ) Unrealized gain on marketable equity securities ( 548 ) \u2014 Other ( 453 ) 206 Changes in assets and liabilities: Accounts receivable 660 1,493 Prepaid expenses and other current assets ( 348 ) ( 168 ) Other assets ( 209 ) ( 70 ) Accounts payable ( 637 ) ( 195 ) Accrued expenses and other current liabilities ( 2,883 ) ( 1,199 ) Other liabilities 868 1,691 Net cash provided by operating activities 79,586 63,340 Cash flows from investing activities Purchases of property and equipment ( 48,308 ) ( 22,831 ) Purchases of marketable securities ( 22,349 ) ( 14,644 ) Sales and maturities of marketable securities 23,761 11,972 Purchases of non-marketable equity investments ( 18,260 ) ( 10 ) Payments for held-for-sale assets ( 1,797 ) \u2014 Acquisitions of businesses and intangible assets ( 815 ) ( 261 ) Other investing activities ( 48 ) 122 Net cash used in investing activities ( 67,816 ) ( 25,652 ) Cash flows from financing activities Taxes paid related to net share settlement of equity awards ( 14,128 ) ( 9,913 ) Repurchases of Class A common stock ( 26,248 ) ( 30,125 ) Payments for di",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "-",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Compatible cumulative periods share the fiscal start; subtract previous YTD from current YTD."
+      ],
+      "warnings": [
+        "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
+      ],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "96806082ad9ab519d4610ada",
+      "verified": true,
+      "formula": "69691000000 - 48308000000 = 21383000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "0b91318f955e69794e220002",
+        "66a24bfbda6e7e8dde2719cb"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "28750000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "28750000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "March 31, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 28,750 $ 43,889 Marketable securities 41,480 33,926 Accounts receivable, net 14,514 16,994 Prepaid expenses and other current assets 5,483 5,236 Total current assets 90,227 100,045 Non-marketable equity securities 6,168 6,070 Property and equipment, net 133,567 121,346 Operating lease right-of-use assets 15,505 14,922 Goodwill 20,654 20,654 Other assets 14,092 13,017 Total assets $ 280,213 $ 276,054 Liabilities and stockholders' equity Current liabilities: Accounts payable $ 8,512 $ 7,687 Operating lease liabilities, current 1,976 1,942 Accrued expenses and other current liabilities 23,402 23,967 Total current liabilities 33,890 33,596 Operating lease liabilities, non-current 18,714 18,292 Long-term debt 28,829 28,826 Long-term income taxes 10,991 9,987 Other liabilities 2,760 2,716 Total liabilities 95,184 93,417 Commitments and contingencies Stockholders' equity: Common stock, $ 0.000006 par value; 5,000 million Class A shares authorized, 2,180 million and 2,190 million shares issued and outstanding, as of March\u00a031, 2025 and December\u00a031, 2024, respectively; 4,141 million Class B shares authorized, 343 million and 344 million shares issued and outstanding, as of March\u00a031, 2025 and December\u00a031, 2024, respectively \u2014 \u2014 Additional paid-in capital 85,568 83,228 Accumulated other comprehensive loss (",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "d042c0902c4da71e6a50d1c3",
+      "verified": true,
+      "formula": "28750000000 = 28750000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "cfa06e911a86791978e37bac"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "12005000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "12005000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "June 30, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 12,005 $ 43,889 Marketable securities 35,066 33,926 Accounts receivable, net 16,561 16,994 Prepaid expenses and other current assets 9,981 5,236 Total current assets 73,613 100,045 Non-marketable equity investments 21,988 6,070 Property and equipment, net 147,039 121,346 Operating lease right-of-use assets 15,662 14,922 Goodwill 20,654 20,654 Other assets 15,788 13,017 Total assets $ 294,744 $ 276,054 Liabilities and stockholders' equity Current liabilities: Accounts payable $ 10,271 $ 7,687 Operating lease liabilities, current 1,977 1,942 Accrued expenses and other current liabilities 25,057 23,967 Total current liabilities 37,305 33,596 Operating lease liabilities, non-current 18,751 18,292 Long-term debt 28,832 28,826 Long-term income taxes 12,046 9,987 Other liabilities 2,740 2,716 Total liabilities 99,674 93,417 Commitments and contingencies Stockholders' equity: Common stock, $ 0.000006 par value; 5,000 million Class A shares authorized, 2,173 million and 2,190 million shares issued and outstanding, as of June\u00a030, 2025 and December\u00a031, 2024, respectively; 4,141 million Class B shares authorized, 343 million and 344 million shares issued and outstanding, as of June\u00a030, 2025 and December\u00a031, 2024, respectively \u2014 \u2014 Additional paid-in capital 88,496 83,228 Accumulated other comprehensive income",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "847ce6ace7e21ceaa53bd917",
+      "verified": true,
+      "formula": "12005000000 = 12005000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "b5d3b96aed0eb46b3c0f09d7"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "10187000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "10187000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "September 30, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 10,187 $ 43,889 Marketable securities 34,261 33,926 Accounts receivable, net 17,297 16,994 Prepaid expenses and other current assets 11,373 5,236 Total current assets 73,118 100,045 Non-marketable equity investments 25,074 6,070 Property and equipment, net 160,270 121,346 Operating lease right-of-use assets 17,372 14,922 Goodwill 21,158 20,654 Other assets 6,852 13,017 Total assets $ 303,844 $ 276,054 Liabilities and stockholders' equity Current liabilities: Accounts payable $ 7,798 $ 7,687 Operating lease liabilities, current 2,113 1,942 Accrued expenses and other current liabilities 27,047 23,967 Total current liabilities 36,958 33,596 Operating lease liabilities, non-current 20,113 18,292 Long-term debt 28,834 28,826 Long-term income taxes 11,738 9,987 Other liabilities 12,135 2,716 Total liabilities 109,778 93,417 Commitments and contingencies Stockholders' equity: Common stock, $ 0.000006 par value; 5,000 million Class A shares authorized, 2,178 million and 2,190 million shares issued and outstanding, as of September\u00a030, 2025 and December\u00a031, 2024, respectively; 4,141 million Class B shares authorized, 343 million and 344 million shares issued and outstanding, as of September\u00a030, 2025 and December\u00a031, 2024, respectively \u2014 \u2014 Additional paid-in capital 92,330 83,228 Accumulated other comp",
+          "context": "c-4",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "8666d502e24c9acc90776aa4",
+      "verified": true,
+      "formula": "10187000000 = 10187000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "563b307f22bc0294b2a0bc32"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Cash",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Directly reported",
+      "value": "35873000000",
+      "unit": "USD",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "value": "35873000000",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "accession": "0001628280-26-003942",
+          "form": "10-K",
+          "filed": "2026-01-29",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "section": "December 31, 2025 2024 Assets Current assets: Cash and cash equivalents $ 35,873 $ 43,889 Marketable securities 45,719 33,926 Accounts receivable, net 19,769 16,994 Prepaid expenses and other current assets 7,361 5,236 Total current assets 108,722 100,045 Non-marketable equity investments 27,524 6,070 Property and equipment, net 176,400 121,346 Operating lease right-of-use assets 20,404 14,922 Goodwill 24,534 20,654 Other assets 8,437 13,017 Total assets $ 366,021 $ 276,054 Liabilities and stockholders' equity Current liabilities: Accounts payable $ 8,894 $ 7,687 Operating lease liabilities, current 2,213 1,942 Accrued expenses and other current liabilities 30,729 23,967 Total current liabilities 41,836 33,596 Operating lease liabilities, non-current 22,940 18,292 Long-term debt 58,744 28,826 Long-term income taxes 21,005 9,987 Other liabilities 4,253 2,716 Total liabilities 148,778 93,417 Commitments and contingencies Stockholders' equity: Common stock, $ 0.000006 par value; 5,000 million Class A shares authorized, 2,187 million and 2,190 million shares issued and outstanding, as of December\u00a031, 2025 and 2024, respectively; 4,141 million Class B shares authorized, 343 million and 344 million shares issued and outstanding, as of December\u00a031, 2025 and 2024, respectively \u2014 \u2014 Additional paid-in capital 95,793 83,228 Accumulated other comprehensive income (loss) 271 ( 3,097 ) Retai",
+          "context": "c-5",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "ad207b917018a4c657a9bb48",
+      "verified": true,
+      "formula": "35873000000 = 35873000000 USD",
+      "confidence": "Document matched",
+      "input_ids": [
+        "e96bc6a2a98b0df3f4dbd0e7"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "status": "Directly reported",
+      "value": "6.43",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Earnings Per Share, Diluted",
+          "value": "6.43",
+          "unit": "USD/shares",
+          "start": "2025-01-01",
+          "end": "2025-03-31",
+          "accession": "0001326801-25-000054",
+          "form": "10-Q",
+          "filed": "2025-05-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "section": "Three Months Ended March 31, 2025 2024 Revenue $ 42,314 $ 36,455 Costs and expenses: Cost of revenue 7,572 6,640 Research and development 12,150 9,978 Marketing and sales 2,757 2,564 General and administrative 2,280 3,455 Total costs and expenses 24,759 22,637 Income from operations 17,555 13,818 Interest and other income, net 827 365 Income before provision for income taxes 18,382 14,183 Provision for income taxes 1,738 1,814 Net income $ 16,644 $ 12,369 Earnings per share: Basic $ 6.59 $ 4.86 Diluted $ 6.43 $ 4.71 Weighted-average shares used to compute earnings per share: Basic 2,527 2,545 Diluted 2,590 2,625",
+          "context": "c-1",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "7ef87af5edb6affa73b65897",
+      "verified": true,
+      "formula": "6.43 = 6.43 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "10605b9203da60c111f8b686"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "status": "Directly reported",
+      "value": "7.14",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Earnings Per Share, Diluted",
+          "value": "7.14",
+          "unit": "USD/shares",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "accession": "0001628280-25-036791",
+          "form": "10-Q",
+          "filed": "2025-07-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "section": "Three Months Ended June 30, Six Months Ended June 30, 2025 2024 2025 2024 Revenue $ 47,516 $ 39,071 $ 89,830 $ 75,527 Costs and expenses: Cost of revenue 8,491 7,308 16,063 13,948 Research and development 12,942 10,537 25,092 20,515 Marketing and sales 2,979 2,721 5,735 5,285 General and administrative 2,663 3,658 4,943 7,114 Total costs and expenses 27,075 24,224 51,833 46,862 Income from operations 20,441 14,847 37,997 28,665 Interest and other income, net 93 259 919 624 Income before provision for income taxes 20,534 15,106 38,916 29,289 Provision for income taxes 2,197 1,641 3,935 3,455 Net income $ 18,337 $ 13,465 $ 34,981 $ 25,834 Earnings per share: Basic $ 7.28 $ 5.31 $ 13.87 $ 10.17 Diluted $ 7.14 $ 5.16 $ 13.56 $ 9.86 Weighted-average shares used to compute earnings per share: Basic 2,518 2,534 2,522 2,540 Diluted 2,570 2,610 2,580 2,619",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "58e636fd3c0a94c5dcd2785e",
+      "verified": true,
+      "formula": "7.14 = 7.14 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "5bc4810d77c0d0ff089c3cd0"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "status": "Directly reported",
+      "value": "1.05",
+      "unit": "USD/shares",
+      "inputs": [
+        {
+          "cik": "1326801",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "label": "Earnings Per Share, Diluted",
+          "value": "1.05",
+          "unit": "USD/shares",
+          "start": "2025-07-01",
+          "end": "2025-09-30",
+          "accession": "0001628280-25-047240",
+          "form": "10-Q",
+          "filed": "2025-10-30",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "section": "Three Months Ended September 30, Nine Months Ended September 30, 2025 2024 2025 2024 Revenue $ 51,242 $ 40,589 $ 141,073 $ 116,116 Costs and expenses: Cost of revenue 9,206 7,375 25,269 21,322 Research and development 15,144 11,177 40,237 31,693 Marketing and sales 2,845 2,822 8,581 8,107 General and administrative 3,512 1,865 8,455 8,978 Total costs and expenses 30,707 23,239 82,542 70,100 Income from operations 20,535 17,350 58,531 46,016 Interest and other income, net 1,128 472 2,047 1,095 Income before provision for income taxes 21,663 17,822 60,578 47,111 Provision for income taxes 18,954 2,134 22,888 5,589 Net income $ 2,709 $ 15,688 $ 37,690 $ 41,522 Earnings per share: Basic $ 1.08 $ 6.20 $ 14.96 $ 16.37 Diluted $ 1.05 $ 6.03 $ 14.62 $ 15.88 Weighted-average shares used to compute earnings per share: Basic 2,517 2,529 2,520 2,536 Diluted 2,572 2,600 2,578 2,615",
+          "context": "c-10",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "2"
+        }
+      ],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "1ba42c69542b8ee332478c43",
+      "verified": true,
+      "formula": "1.05 = 1.05 USD/shares",
+      "confidence": "Document matched",
+      "input_ids": [
+        "791e360fe65f5278aff5f568"
+      ]
+    },
+    {
+      "company": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "metric": "Diluted EPS",
+      "year": 2025,
+      "quarter": "Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "status": "Insufficient information",
+      "value": null,
+      "unit": "",
+      "inputs": [],
+      "operation": "",
+      "reasoning": [
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+        "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced."
+      ],
+      "warnings": [],
+      "investigation": [
+        {
+          "accession": "0001326801-25-000054",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+          "status": "Document inspected",
+          "inline_facts": 534,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-036791",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+          "status": "Document inspected",
+          "inline_facts": 728,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-25-047240",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+          "status": "Document inspected",
+          "inline_facts": 813,
+          "search_scope": "Primary filing including embedded financial notes"
+        },
+        {
+          "accession": "0001628280-26-003942",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "status": "Document inspected",
+          "inline_facts": 1077,
+          "search_scope": "Primary filing including embedded financial notes"
+        }
+      ],
+      "components": [],
+      "component_operators": [],
+      "id": "b7520d120a0bf10b13633c45",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
+      "input_ids": []
+    }
+  ],
+  "investigation": [
+    {
+      "accession": "0001326801-25-000054",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000054/meta-20250331.htm",
+      "status": "Document inspected",
+      "inline_facts": 534,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-036791",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036791/meta-20250630.htm",
+      "status": "Document inspected",
+      "inline_facts": 728,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-25-047240",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047240/meta-20250930.htm",
+      "status": "Document inspected",
+      "inline_facts": 813,
+      "search_scope": "Primary filing including embedded financial notes"
+    },
+    {
+      "accession": "0001628280-26-003942",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "status": "Document inspected",
+      "inline_facts": 1077,
+      "search_scope": "Primary filing including embedded financial notes"
+    }
+  ],
+  "retrieved_at": "2026-10-22T17:53:55.574782+00:00"
+}
