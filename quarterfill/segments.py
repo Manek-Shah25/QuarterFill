@@ -45,7 +45,9 @@ def revenue_details(research, year):
         return []
     start, ends = periods
     facts = [f for f in research.facts if f.verified and f.unit == 'USD' and f.start
-             and start <= f.start <= f.end <= ends[4] and revenue_fact(f)]
+             and start <= f.start <= f.end <= ends[4] and revenue_fact(f)
+             and not any(re.search(r'Intersegment|Elimination|ConsolidationAdjustment|Restatement', d, re.I)
+                         for d in f.dimensions)]
     scopes = {(f.concept, f.dimensions) for f in facts}
     groups = {}
     for fact in facts:
@@ -77,7 +79,8 @@ def revenue_details(research, year):
                      Metric(label, 'Segments', 'flow', (), (), 'USD'), research.facts, year, q,
                      periods, concept, dimensions) for q in (1, 2, 3, 4, 0)]
             rows.append({'name': label, 'dimensions': dimensions, 'cells': cells})
-        parent_name = ' / '.join(member_label(d.split('=', 1)[1]) for d in scope) or 'Whole company'
+        parent_name = ' / '.join(member_label(d.split('=', 1)[1]) for d in scope
+                                 if 'consolidation' not in d.split('=', 1)[0].lower()) or 'Whole company'
         parent_cells = [reconstruct(research.company['entityName'], '', Metric(parent_name, 'Segments', 'flow', (), (), 'USD'),
                         research.facts, year, q, periods, concept, scope) for q in (1, 2, 3, 4, 0)]
         totals = [derive(research.company['entityName'], '', 'Sum of these groups',

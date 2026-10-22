@@ -64,6 +64,7 @@ def test_generic_children_keep_parent_scope_and_support_more_levels():
         facts += [replace(f, value=f.value * str_decimal(share), dimensions=tuple(sorted(dims))) for f in facts[:4]]
     research = SimpleNamespace(facts=facts, company={'entityName':'Any Company'}, submissions={'tickers':['ANY']},
                                periods=lambda year: PERIODS)
+    research.facts += [replace(facts[0], dimensions=('example:ConsolidationItemsAxis=example:IntersegmentEliminationMember',))]
     groups = revenue_details(research, 2024)
     children = next(g for g in groups if g['scope'] == (root,) and g['axis']=='example:ProductAxis')
     assert children['rows'][0]['cells'][3].value == 75
@@ -72,6 +73,7 @@ def test_generic_children_keep_parent_scope_and_support_more_levels():
     grandchildren = next(g for g in groups if g['axis']=='example:SubProductAxis')
     assert grandchildren['rows'][0]['cells'][3].value == 25
     assert not any('South' in g['parent'] for g in groups)  # No reported parent, no invented link.
+    assert not any('Elimination' in g['parent'] for g in groups)
 
 
 def test_real_smaller_groups_across_companies():

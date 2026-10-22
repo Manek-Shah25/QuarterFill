@@ -183,7 +183,7 @@ def smaller_revenue_groups(research, years, key):
     year = st.session_state.get(f'{key}_segment_year', years[0])
     details = revenue_details(research, year)
     # The main table already shows these standalone business-segment views.
-    details = [g for g in details if g['scope'] or g['name'] != 'Business groups']
+    details = [g for g in details if g['parent'] != 'Whole company' or g['name'] != 'Business groups']
     st.subheader('Smaller revenue groups')
     st.caption('Open a business to see the smaller groups it reports. Separate product or country views stay separate. Do not add these tables to the main segments: that would count the same revenue again.')
     if not details:
