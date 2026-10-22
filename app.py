@@ -227,7 +227,7 @@ def smaller_revenue_groups(research, years, key):
             if cell.value is not None and cell.status in ('Mathematically calculated', 'Derived from reported components'):
                 values[label] += ' · calculated'
         rows.append(values)
-    rows.append({'Revenue group': 'Reported total for this view', **{
+    rows.append({'Revenue group': 'Segment revenue' if group['scope'] else 'Company revenue', **{
         label: amount(cell.value, 'USD', compact=True) for label, cell in zip(labels, group['parent_cells'])}})
     for name, values in group['supplemental'].items():
         rows.append({'Revenue group': name, **{label: amount(cell.value, cell.unit or 'USD', compact=cell.unit != '%')
