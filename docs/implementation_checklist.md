@@ -1,5 +1,20 @@
 # Implementation checklist
 
+## Current website scope
+
+The user requested a simpler website on October 22, 2026. The frontend now focuses on
+financial statements and clear explanations of missing-number calculations. It keeps
+five pages, removes Excel Export Center and other export/import controls, and hides
+internal accounting tags, record IDs and request logs. The export engine remains in
+the source for compatibility; it is not part of the website. Earlier advanced goals
+below are historical requirements, not claims about the simplified interface.
+
+- [x] Company and year lookup with five retained pages
+- [x] Plain-language, numbered calculation explanations with exact amounts and report links
+- [x] Simplified Methodology and Data Health page
+- [x] No developer tags, internal IDs, archive tools or export center in the frontend
+- [x] README begins with the user problem and explains the pages in everyday language
+
 - [x] Modular Python engine and six Streamlit page routes
 - [x] Supported metric dictionary, definition choices and alias search
 - [x] CompanyFacts/submissions ingestion, primary inline investigation and request cache
