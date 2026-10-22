@@ -6,7 +6,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:53:38.053012+00:00"
+    "retrieved_at": "2026-10-22T19:13:11.116627+00:00"
   },
   {
     "ticker": "AMZN",
@@ -15,16 +15,16 @@
     "requested_cells": 16,
     "available_cells": 11,
     "document_matched_cells": 11,
-    "retrieved_at": "2026-10-22T17:53:47.810938+00:00"
+    "retrieved_at": "2026-10-22T19:13:18.676494+00:00"
   },
   {
     "ticker": "BAC",
     "year": 2025,
     "type": "Automated source matching; manual review pending",
     "requested_cells": 16,
-    "available_cells": 5,
-    "document_matched_cells": 5,
-    "retrieved_at": "2026-10-22T19:03:32.804801+00:00"
+    "available_cells": 4,
+    "document_matched_cells": 4,
+    "retrieved_at": "2026-10-22T19:13:57.359767+00:00"
   },
   {
     "ticker": "COST",
@@ -33,7 +33,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:54:31.802107+00:00"
+    "retrieved_at": "2026-10-22T19:14:00.380823+00:00"
   },
   {
     "ticker": "GOOGL",
@@ -42,7 +42,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:53:52.387984+00:00"
+    "retrieved_at": "2026-10-22T19:13:20.993303+00:00"
   },
   {
     "ticker": "JNJ",
@@ -51,7 +51,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:54:37.502378+00:00"
+    "retrieved_at": "2026-10-22T19:14:03.782620+00:00"
   },
   {
     "ticker": "JPM",
@@ -60,7 +60,7 @@
     "requested_cells": 16,
     "available_cells": 3,
     "document_matched_cells": 3,
-    "retrieved_at": "2026-10-22T19:03:09.173998+00:00"
+    "retrieved_at": "2026-10-22T19:13:41.934764+00:00"
   },
   {
     "ticker": "KO",
@@ -69,7 +69,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:54:45.463407+00:00"
+    "retrieved_at": "2026-10-22T19:14:08.238762+00:00"
   },
   {
     "ticker": "META",
@@ -78,7 +78,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:53:55.574782+00:00"
+    "retrieved_at": "2026-10-22T19:13:22.586815+00:00"
   },
   {
     "ticker": "MSFT",
@@ -87,7 +87,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:53:44.257631+00:00"
+    "retrieved_at": "2026-10-22T19:13:16.755285+00:00"
   },
   {
     "ticker": "NVDA",
@@ -96,7 +96,7 @@
     "requested_cells": 16,
     "available_cells": 10,
     "document_matched_cells": 10,
-    "retrieved_at": "2026-10-22T17:54:00.238806+00:00"
+    "retrieved_at": "2026-10-22T19:13:24.355099+00:00"
   },
   {
     "ticker": "PG",
@@ -105,7 +105,7 @@
     "requested_cells": 16,
     "available_cells": 11,
     "document_matched_cells": 11,
-    "retrieved_at": "2026-10-22T17:54:40.622023+00:00"
+    "retrieved_at": "2026-10-22T19:14:05.424051+00:00"
   },
   {
     "ticker": "TSLA",
@@ -114,7 +114,7 @@
     "requested_cells": 16,
     "available_cells": 15,
     "document_matched_cells": 15,
-    "retrieved_at": "2026-10-22T17:54:05.063312+00:00"
+    "retrieved_at": "2026-10-22T19:13:26.631813+00:00"
   },
   {
     "ticker": "WMT",
@@ -123,7 +123,7 @@
     "requested_cells": 16,
     "available_cells": 11,
     "document_matched_cells": 11,
-    "retrieved_at": "2026-10-22T17:54:29.358213+00:00"
+    "retrieved_at": "2026-10-22T19:13:59.230693+00:00"
   },
   {
     "ticker": "XOM",
@@ -132,6 +132,6 @@
     "requested_cells": 16,
     "available_cells": 0,
     "document_matched_cells": 0,
-    "retrieved_at": "2026-10-22T19:03:09.252517+00:00"
+    "retrieved_at": "2026-10-22T19:14:00.416335+00:00"
   }
 ]

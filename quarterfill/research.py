@@ -12,7 +12,7 @@ class Research:
         self.filings = client.filings(submissions, history)
         self.facts = company_facts(company, self.filings)
         self.documents = {}
-        self.log = []
+        self.log = list(client.history_errors)
 
     def investigate(self, year, max_filings=12):
         periods = self.periods(year)

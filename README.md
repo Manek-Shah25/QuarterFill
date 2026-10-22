@@ -4,6 +4,12 @@
 research utility that prefers reported quarters, differences compatible cumulative flows,
 and preserves original filing inputs and calculation trails.
 
+**[Open the free public app](https://quarterfill.streamlit.app)** ·
+[Development board](https://github.com/users/Manek-Shah25/projects/3) ·
+[Implementation pull request](https://github.com/Manek-Shah25/QuarterFill/pull/15)
+
+![Live SEC cell audit](docs/screenshots/live-audit.jpg)
+
 ## Run
 
 ```powershell
@@ -35,8 +41,9 @@ See [accounting methodology](docs/accounting_methodology.md), [audit trail](docs
 
 ## Status and limitations
 
-This implementation is under validation. No public deployment or 15-company manual audit
-is claimed. Document matching proves that a fact was located, not that cross-period
+The public deployment was opened and an AAPL FY2025 lookup with its source audit was
+tested on October 22, 2026. The 15-company automated source-matching reports are recorded;
+the complete independent manual audit remains pending. Document matching proves that a fact was located, not that cross-period
 accounting bases are economically comparable. Unsupported cases remain unavailable or
 require analyst review. The advanced gaps are listed explicitly in the checklist.
 

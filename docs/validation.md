@@ -14,9 +14,9 @@ Manual review is pending until a completed reviewer record explicitly says other
 ## Actual run, October 22, 2026
 
 Fifteen companies, FY2025, four metrics (Revenue, CapEx, Cash, Diluted EPS), four
-quarters each: **240 requested cells; 171 returned values; all 171 matched exact
-inline filing contexts** in that run. Source matching coverage was 171/240 (71.25%).
-The other 69 cells remained unresolved; no values were fabricated. This is coverage,
+quarters each: **240 requested cells; 170 returned values; all 170 matched exact
+inline filing contexts** in the final run after conflict detection. Source matching coverage was 170/240 (70.83%).
+The other 70 cells remained unresolved; no values were fabricated. This is coverage,
 not an extraction-accuracy or reconstruction-accuracy claim. Independent manual
 ground truth and complete financial review are still required.
 
@@ -27,6 +27,6 @@ definitions, CapEx concepts, legacy issuer history and unreported standalone Q4 
 are material unresolved cases. The original XOM history was not recovered by this
 scan and is not silently substituted with another issuer.
 
-Automated tests: 31 passed before the additional direct-versus-YTD conflict regression;
+Automated tests: 33 passed including direct-versus-YTD conflicts and graceful historical-index failure;
 see CI for the latest count. The real-data UI test exercises an AAPL FY2025 lookup
 using bundled authentic SEC snapshots without a visitor key.

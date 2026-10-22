@@ -8,7 +8,7 @@
 5. In Streamlit Advanced settings → Secrets, set `SEC_USER_AGENT` using TOML syntax.
    Do not commit your contact configuration. Request `quarterfill.streamlit.app` if available.
 6. Test a real lookup, inspect both filing sources of a calculated cell, and download Excel.
-   Only then record the actual deployment URL. No live deployment is claimed in this repo.
+   Only then record the actual deployment URL.
 
 Official instructions: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
 
@@ -28,6 +28,13 @@ Local caches are performance aids only. The application does not depend on durab
 Streamlit disk. Never host a paid database or require visitor API keys.
 
 ## Publication status
+
+Live URL verified October 22, 2026: https://quarterfill.streamlit.app
+An AAPL FY2025 stock-based compensation lookup returned all four quarters and a
+document-matched source audit. Deployment tracks `codex/quarterfill-implementation`.
+Repository is public; the implementation remains in pull request #15 while advanced
+acceptance gaps are tracked explicitly. The app uses Python 3.12 and encrypted SEC
+operator configuration. No paid infrastructure was enabled.
 
 See docs/implementation_checklist.md and docs/validation.md for measured completion.
 Project board and deployment require an authenticated browser/account if connector APIs

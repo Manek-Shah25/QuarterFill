@@ -21,7 +21,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Total net sales",
           "value": "124300000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -30,7 +30,7 @@
           "form": "10-Q",
           "filed": "2025-01-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
-          "section": "Three Months Ended December 28, 2024 December 30, 2023 Net sales: Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Cost of sales: Products 59,447 58,440 Services 6,578 6,280 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Operating expenses: Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other income/(expense), net ( 248 ) ( 50 ) Income before provision for income taxes 42,584 40,323 Provision for income taxes 6,254 6,407 Net income $ 36,330 $ 33,916 Earnings per share: Basic $ 2.41 $ 2.19 Diluted $ 2.40 $ 2.18 Shares used in computing earnings per share: Basic 15,081,724 15,509,763 Diluted 15,150,865 15,576,641",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Net sales: Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Cost of sales: Products 59,447 58,440 Services 6,578 6,280 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Operating expenses: Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other i\nMatched disclosure row: Total net sales 124,300 119,575",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -75,12 +75,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "10c307ec45a866325c420e19",
+      "id": "f3f5c60fb3a6440689bf5712",
       "verified": true,
       "formula": "124300000000 = 124300000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "8a5d3d72f5de967cf4d5b60d"
+        "ff32e417be0d4399049e34a3"
       ]
     },
     {
@@ -98,7 +98,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Total net sales",
           "value": "95359000000",
           "unit": "USD",
           "start": "2024-12-29",
@@ -107,7 +107,7 @@
           "form": "10-Q",
           "filed": "2025-05-02",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
-          "section": "Three Months Ended Six Months Ended March 29, 2025 March 30, 2024 March 29, 2025 March 30, 2024 Net sales: Products $ 68,714 $ 66,886 $ 166,674 $ 163,344 Services 26,645 23,867 52,985 46,984 Total net sales 95,359 90,753 219,659 210,328 Cost of sales: Products 44,030 42,424 103,477 100,864 Services 6,462 6,058 13,040 12,338 Total cost of sales 50,492 48,482 116,517 113,202 Gross margin 44,867 42,271 103,142 97,126 Operating expenses: Research and development 8,550 7,903 16,818 15,599 Selling, general and administrative 6,728 6,468 13,903 13,254 Total operating expenses 15,278 14,371 30,721 28,853 Operating income 29,589 27,900 72,421 68,273 Other income/(expense), net ( 279 ) 158 ( 527 ) 108 Income before provision for income taxes 29,310 28,058 71,894 68,381 Provision for income taxes 4,530 4,422 10,784 10,829 Net income $ 24,780 $ 23,636 $ 61,110 $ 57,552 Earnings per share: Basic $ 1.65 $ 1.53 $ 4.06 $ 3.72 Diluted $ 1.65 $ 1.53 $ 4.05 $ 3.71 Shares used in computing earnings per share: Basic 14,994,082 15,405,856 15,037,903 15,457,810 Diluted 15,056,133 15,464,709 15,103,499 15,520,675",
+          "section": "Three Months Ended Six Months Ended March 29, 2025 March 30, 2024 March 29, 2025 March 30, 2024 Net sales: Products $ 68,714 $ 66,886 $ 166,674 $ 163,344 Services 26,645 23,867 52,985 46,984 Total net sales 95,359 90,753 219,659 210,328 Cost of sales: Products 44,030 42,424 103,477 100,864 Services 6,462 6,058 13,040 12,338 Total cost of sales 50,492 48,482 116,517 113,202 Gross margin 44,867 42,271 103,142 97,126 Operating expenses: Research and\nMatched disclosure row: Total net sales 95,359 90,753 219,659 210,328",
           "context": "c-20",
           "dimensions": [],
           "verified": true,
@@ -152,12 +152,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "96385c14502af19fbe02198d",
+      "id": "28cc0a4ffab00d8e48e69a59",
       "verified": true,
       "formula": "95359000000 = 95359000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "d31cacafa858cbb5ef821f8e"
+        "bc04f32b3e9b664344a303df"
       ]
     },
     {
@@ -175,7 +175,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Total net sales",
           "value": "94036000000",
           "unit": "USD",
           "start": "2025-03-30",
@@ -184,7 +184,7 @@
           "form": "10-Q",
           "filed": "2025-08-01",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
-          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and development 8,866 8,006 25,684 23,605 Selling, general and administrative 6,650 6,320 20,553 19,574 Total operating expenses 15,516 14,326 46,237 43,179 Operating income 28,202 25,352 100,623 93,625 Other income/(expense), net ( 171 ) 142 ( 698 ) 250 Income before provision for income taxes 28,031 25,494 99,925 93,875 Provision for income taxes 4,597 4,046 15,381 14,875 Net income $ 23,434 $ 21,448 $ 84,544 $ 79,000 Earnings per share: Basic $ 1.57 $ 1.40 $ 5.64 $ 5.13 Diluted $ 1.57 $ 1.40 $ 5.62 $ 5.11 Shares used in computing earnings per share: Basic 14,902,886 15,287,521 14,992,898 15,401,047 Diluted 14,948,179 15,348,175 15,051,726 15,463,175",
+          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and d\nMatched disclosure row: Total net sales 94,036 85,777 313,695 296,105",
           "context": "c-19",
           "dimensions": [],
           "verified": true,
@@ -229,12 +229,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "0145b1a5a08648069eafb365",
+      "id": "2e54c2520bab698926124847",
       "verified": true,
       "formula": "94036000000 = 94036000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "1cc18bcc18f3fe570ca46a18"
+        "9dcc17b0c89ceaa450420faa"
       ]
     },
     {
@@ -252,7 +252,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Total net sales",
           "value": "416161000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -261,7 +261,7 @@
           "form": "10-K",
           "filed": "2025-10-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
-          "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Net sales: Products $ 307,003 $ 294,866 $ 298,085 Services 109,158 96,169 85,200 Total net sales 416,161 391,035 383,285 Cost of sales: Products 194,116 185,233 189,282 Services 26,844 25,119 24,855 Total cost of sales 220,960 210,352 214,137 Gross margin 195,201 180,683 169,148 Operating expenses: Research and development 34,550 31,370 29,915 Selling, general and administrative 27,601 26,097 24,932 Total operating expenses 62,151 57,467 54,847 Operating income 133,050 123,216 114,301 Other income/(expense), net ( 321 ) 269 ( 565 ) Income before provision for income taxes 132,729 123,485 113,736 Provision for income taxes 20,719 29,749 16,741 Net income $ 112,010 $ 93,736 $ 96,995 Earnings per share: Basic $ 7.49 $ 6.11 $ 6.16 Diluted $ 7.46 $ 6.08 $ 6.13 Shares used in computing earnings per share: Basic 14,948,500 15,343,783 15,744,231 Diluted 15,004,697 15,408,095 15,812,547",
+          "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Net sales: Products $ 307,003 $ 294,866 $ 298,085 Services 109,158 96,169 85,200 Total net sales 416,161 391,035 383,285 Cost of sales: Products 194,116 185,233 189,282 Services 26,844 25,119 24,855 Total cost of sales 220,960 210,352 214,137 Gross margin 195,201 180,683 169,148 Operating expenses: Research and development 34,550 31,370 29,915 Selling, general and administrative\nMatched disclosure row: Total net sales 416,161 391,035 383,285",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -270,7 +270,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Total net sales",
           "value": "313695000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -279,7 +279,7 @@
           "form": "10-Q",
           "filed": "2025-08-01",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
-          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and development 8,866 8,006 25,684 23,605 Selling, general and administrative 6,650 6,320 20,553 19,574 Total operating expenses 15,516 14,326 46,237 43,179 Operating income 28,202 25,352 100,623 93,625 Other income/(expense), net ( 171 ) 142 ( 698 ) 250 Income before provision for income taxes 28,031 25,494 99,925 93,875 Provision for income taxes 4,597 4,046 15,381 14,875 Net income $ 23,434 $ 21,448 $ 84,544 $ 79,000 Earnings per share: Basic $ 1.57 $ 1.40 $ 5.64 $ 5.13 Diluted $ 1.57 $ 1.40 $ 5.62 $ 5.11 Shares used in computing earnings per share: Basic 14,902,886 15,287,521 14,992,898 15,401,047 Diluted 14,948,179 15,348,175 15,051,726 15,463,175",
+          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and d\nMatched disclosure row: Total net sales 94,036 85,777 313,695 296,105",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -326,13 +326,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "b6e24766f8eb512b0730ea90",
+      "id": "eebdf8e9410f049dda22bed7",
       "verified": true,
       "formula": "416161000000 - 313695000000 = 102466000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "4d208af04585d70bb25d4153",
-        "d7482a26ad2522cce5bc5077"
+        "d80bbade3549fced32271c99",
+        "a5bc5e85d0b5c778fb5e36f8"
       ]
     },
     {
@@ -350,7 +350,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "2940000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -359,7 +359,7 @@
           "form": "10-Q",
           "filed": "2025-01-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
-          "section": "Three Months Ended December 28, 2024 December 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 36,330 33,916 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 3,080 2,848 Share-based compensation expense 3,286 2,997 Other ( 2,009 ) ( 989 ) Changes in operating assets and liabilities: Accounts receivable, net 3,597 6,555 Vendor non-trade receivables 3,166 4,569 Inventories 215 ( 137 ) Other current and non-current assets 939 ( 1,457 ) Accounts payable ( 6,671 ) ( 4,542 ) Other current and non-current liabilities ( 11,998 ) ( 3,865 ) Cash generated by operating activities 29,935 39,895 Investing activities: Purchases of marketable securities ( 6,124 ) ( 9,780 ) Proceeds from maturities of marketable securities 15,967 13,046 Proceeds from sales of marketable securities 3,492 1,337 Payments for acquisition of property, plant and equipment ( 2,940 ) ( 2,392 ) Other ( 603 ) ( 284 ) Cash generated by investing activities 9,792 1,927 Financing activities: Payments for taxes related to net share settlement of equity awards ( 2,921 ) ( 2,591 ) Payments for dividends and dividend equivalents ( 3,856 ) ( 3,825 ) Repurchases of common stock ( 23,606 ) ( 20,139 ) Repayments of term debt ( 1,009 ) \u2014 Repayments of commercial paper, net ( 7,9",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 36,330 33,916 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 3,080 2,848 Share-based compensation expense 3,286 2,997 Other ( 2,009 ) ( 989 ) Changes in operating assets and liabilities: Accounts r\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 2,940 ) ( 2,392 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -404,12 +404,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "fbddda54da6f654b503d5ed8",
+      "id": "5e90e0782f3b1c0294381fd2",
       "verified": true,
       "formula": "2940000000 = 2940000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "c7911baa7f5ecbe353b6cc6c"
+        "486668d60774e2354b94c397"
       ]
     },
     {
@@ -427,7 +427,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "6011000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -436,7 +436,7 @@
           "form": "10-Q",
           "filed": "2025-05-02",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
-          "section": "Six Months Ended March 29, 2025 March 30, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 61,110 57,552 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 5,741 5,684 Share-based compensation expense 6,512 5,961 Other ( 2,217 ) ( 1,971 ) Changes in operating assets and liabilities: Accounts receivable, net 7,266 7,727 Vendor non-trade receivables 9,171 12,164 Inventories 858 53 Other current and non-current assets ( 4,371 ) ( 4,438 ) Accounts payable ( 14,604 ) ( 16,710 ) Other current and non-current liabilities ( 15,579 ) ( 3,437 ) Cash generated by operating activities 53,887 62,585 Investing activities: Purchases of marketable securities ( 12,442 ) ( 25,042 ) Proceeds from maturities of marketable securities 26,587 27,462 Proceeds from sales of marketable securities 5,210 4,314 Payments for acquisition of property, plant and equipment ( 6,011 ) ( 4,388 ) Other ( 635 ) ( 729 ) Cash generated by investing activities 12,709 1,617 Financing activities: Payments for taxes related to net share settlement of equity awards ( 3,205 ) ( 2,875 ) Payments for dividends and dividend equivalents ( 7,614 ) ( 7,535 ) Repurchases of common stock ( 49,504 ) ( 43,344 ) Repayments of term debt ( 4,009 ) ( 3,150 ) Repayments of commercial paper, ",
+          "section": "Six Months Ended March 29, 2025 March 30, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 61,110 57,552 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 5,741 5,684 Share-based compensation expense 6,512 5,961 Other ( 2,217 ) ( 1,971 ) Changes in operating assets and liabilities: Accounts receiva\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 6,011 ) ( 4,388 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -445,7 +445,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "2940000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -454,7 +454,7 @@
           "form": "10-Q",
           "filed": "2025-01-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
-          "section": "Three Months Ended December 28, 2024 December 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 36,330 33,916 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 3,080 2,848 Share-based compensation expense 3,286 2,997 Other ( 2,009 ) ( 989 ) Changes in operating assets and liabilities: Accounts receivable, net 3,597 6,555 Vendor non-trade receivables 3,166 4,569 Inventories 215 ( 137 ) Other current and non-current assets 939 ( 1,457 ) Accounts payable ( 6,671 ) ( 4,542 ) Other current and non-current liabilities ( 11,998 ) ( 3,865 ) Cash generated by operating activities 29,935 39,895 Investing activities: Purchases of marketable securities ( 6,124 ) ( 9,780 ) Proceeds from maturities of marketable securities 15,967 13,046 Proceeds from sales of marketable securities 3,492 1,337 Payments for acquisition of property, plant and equipment ( 2,940 ) ( 2,392 ) Other ( 603 ) ( 284 ) Cash generated by investing activities 9,792 1,927 Financing activities: Payments for taxes related to net share settlement of equity awards ( 2,921 ) ( 2,591 ) Payments for dividends and dividend equivalents ( 3,856 ) ( 3,825 ) Repurchases of common stock ( 23,606 ) ( 20,139 ) Repayments of term debt ( 1,009 ) \u2014 Repayments of commercial paper, net ( 7,9",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 36,330 33,916 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 3,080 2,848 Share-based compensation expense 3,286 2,997 Other ( 2,009 ) ( 989 ) Changes in operating assets and liabilities: Accounts r\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 2,940 ) ( 2,392 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -501,13 +501,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "a5e5ab986141b5711472cba2",
+      "id": "1e59f7254aa07a4ebd970450",
       "verified": true,
       "formula": "6011000000 - 2940000000 = 3071000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "55464bbf6b8feea4e8213e2e",
-        "c7911baa7f5ecbe353b6cc6c"
+        "e052e613c8f181e30aec0d48",
+        "486668d60774e2354b94c397"
       ]
     },
     {
@@ -525,7 +525,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "9473000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -534,7 +534,7 @@
           "form": "10-Q",
           "filed": "2025-08-01",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
-          "section": "Nine Months Ended June 28, 2025 June 29, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 84,544 79,000 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 8,571 8,534 Share-based compensation expense 9,680 8,830 Other ( 1,748 ) ( 1,964 ) Changes in operating assets and liabilities: Accounts receivable, net 5,685 6,697 Vendor non-trade receivables 13,555 11,100 Inventories 1,223 41 Other current and non-current assets ( 6,116 ) ( 5,626 ) Accounts payable ( 18,479 ) ( 15,171 ) Other current and non-current liabilities ( 15,161 ) 2 Cash generated by operating activities 81,754 91,443 Investing activities: Purchases of marketable securities ( 17,591 ) ( 38,074 ) Proceeds from maturities of marketable securities 35,036 39,838 Proceeds from sales of marketable securities 10,785 7,382 Payments for acquisition of property, plant and equipment ( 9,473 ) ( 6,539 ) Other ( 975 ) ( 1,117 ) Cash generated by investing activities 17,782 1,490 Financing activities: Payments for taxes related to net share settlement of equity awards ( 5,719 ) ( 5,163 ) Payments for dividends and dividend equivalents ( 11,559 ) ( 11,430 ) Repurchases of common stock ( 70,579 ) ( 69,866 ) Proceeds from issuance of term debt, net 4,481 \u2014 Repayments of term debt ( 9,",
+          "section": "Nine Months Ended June 28, 2025 June 29, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 84,544 79,000 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 8,571 8,534 Share-based compensation expense 9,680 8,830 Other ( 1,748 ) ( 1,964 ) Changes in operating assets and liabilities: Accounts receivab\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 9,473 ) ( 6,539 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -543,7 +543,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "6011000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -552,7 +552,7 @@
           "form": "10-Q",
           "filed": "2025-05-02",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
-          "section": "Six Months Ended March 29, 2025 March 30, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 61,110 57,552 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 5,741 5,684 Share-based compensation expense 6,512 5,961 Other ( 2,217 ) ( 1,971 ) Changes in operating assets and liabilities: Accounts receivable, net 7,266 7,727 Vendor non-trade receivables 9,171 12,164 Inventories 858 53 Other current and non-current assets ( 4,371 ) ( 4,438 ) Accounts payable ( 14,604 ) ( 16,710 ) Other current and non-current liabilities ( 15,579 ) ( 3,437 ) Cash generated by operating activities 53,887 62,585 Investing activities: Purchases of marketable securities ( 12,442 ) ( 25,042 ) Proceeds from maturities of marketable securities 26,587 27,462 Proceeds from sales of marketable securities 5,210 4,314 Payments for acquisition of property, plant and equipment ( 6,011 ) ( 4,388 ) Other ( 635 ) ( 729 ) Cash generated by investing activities 12,709 1,617 Financing activities: Payments for taxes related to net share settlement of equity awards ( 3,205 ) ( 2,875 ) Payments for dividends and dividend equivalents ( 7,614 ) ( 7,535 ) Repurchases of common stock ( 49,504 ) ( 43,344 ) Repayments of term debt ( 4,009 ) ( 3,150 ) Repayments of commercial paper, ",
+          "section": "Six Months Ended March 29, 2025 March 30, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 61,110 57,552 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 5,741 5,684 Share-based compensation expense 6,512 5,961 Other ( 2,217 ) ( 1,971 ) Changes in operating assets and liabilities: Accounts receiva\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 6,011 ) ( 4,388 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -599,13 +599,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "72c2f7c9569e8393a945ede2",
+      "id": "38a6b6402d80f7d5f92dec1a",
       "verified": true,
       "formula": "9473000000 - 6011000000 = 3462000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "2a352146920aa4a6c5518510",
-        "55464bbf6b8feea4e8213e2e"
+        "6c1ab798f193d6dbaabe63cd",
+        "e052e613c8f181e30aec0d48"
       ]
     },
     {
@@ -623,7 +623,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "12715000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -632,7 +632,7 @@
           "form": "10-K",
           "filed": "2025-10-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
-          "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 $ 24,977 Operating activities: Net income 112,010 93,736 96,995 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 11,698 11,445 11,519 Share-based compensation expense 12,863 11,688 10,833 Other ( 89 ) ( 2,266 ) ( 2,227 ) Changes in operating assets and liabilities: Accounts receivable, net ( 6,682 ) ( 3,788 ) ( 1,688 ) Vendor non-trade receivables ( 347 ) ( 1,356 ) 1,271 Inventories 1,400 ( 1,046 ) ( 1,618 ) Other current and non-current assets ( 9,197 ) ( 11,731 ) ( 5,684 ) Accounts payable 902 6,020 ( 1,889 ) Other current and non-current liabilities ( 11,076 ) 15,552 3,031 Cash generated by operating activities 111,482 118,254 110,543 Investing activities: Purchases of marketable securities ( 24,407 ) ( 48,656 ) ( 29,513 ) Proceeds from maturities of marketable securities 40,907 51,211 39,686 Proceeds from sales of marketable securities 12,890 11,135 5,828 Payments for acquisition of property, plant and equipment ( 12,715 ) ( 9,447 ) ( 10,959 ) Other ( 1,480 ) ( 1,308 ) ( 1,337 ) Cash generated by investing activities 15,195 2,935 3,705 Financing activities: Payments for taxes related to net share settlement of equity awards ( 5,960 ) ( 5,441 ) ( ",
+          "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 $ 24,977 Operating activities: Net income 112,010 93,736 96,995 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 11,698 11,445 11,519 Share-based compensation expense 12,863 11,688 10,833 Other ( 89 ) ( 2,266 ) ( 2,227\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 12,715 ) ( 9,447 ) ( 10,959 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -641,7 +641,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for acquisition of property, plant and equipment",
           "value": "9473000000",
           "unit": "USD",
           "start": "2024-09-29",
@@ -650,7 +650,7 @@
           "form": "10-Q",
           "filed": "2025-08-01",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
-          "section": "Nine Months Ended June 28, 2025 June 29, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 84,544 79,000 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 8,571 8,534 Share-based compensation expense 9,680 8,830 Other ( 1,748 ) ( 1,964 ) Changes in operating assets and liabilities: Accounts receivable, net 5,685 6,697 Vendor non-trade receivables 13,555 11,100 Inventories 1,223 41 Other current and non-current assets ( 6,116 ) ( 5,626 ) Accounts payable ( 18,479 ) ( 15,171 ) Other current and non-current liabilities ( 15,161 ) 2 Cash generated by operating activities 81,754 91,443 Investing activities: Purchases of marketable securities ( 17,591 ) ( 38,074 ) Proceeds from maturities of marketable securities 35,036 39,838 Proceeds from sales of marketable securities 10,785 7,382 Payments for acquisition of property, plant and equipment ( 9,473 ) ( 6,539 ) Other ( 975 ) ( 1,117 ) Cash generated by investing activities 17,782 1,490 Financing activities: Payments for taxes related to net share settlement of equity awards ( 5,719 ) ( 5,163 ) Payments for dividends and dividend equivalents ( 11,559 ) ( 11,430 ) Repurchases of common stock ( 70,579 ) ( 69,866 ) Proceeds from issuance of term debt, net 4,481 \u2014 Repayments of term debt ( 9,",
+          "section": "Nine Months Ended June 28, 2025 June 29, 2024 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 Operating activities: Net income 84,544 79,000 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 8,571 8,534 Share-based compensation expense 9,680 8,830 Other ( 1,748 ) ( 1,964 ) Changes in operating assets and liabilities: Accounts receivab\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 9,473 ) ( 6,539 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -697,13 +697,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "d3df1fbf787a71e607ea2ef7",
+      "id": "c71868782f1a586e5e3a5d95",
       "verified": true,
       "formula": "12715000000 - 9473000000 = 3242000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "6699a49a95b8463ac8c249bf",
-        "2a352146920aa4a6c5518510"
+        "5d77f5cd88c7036ecd7a6178",
+        "6c1ab798f193d6dbaabe63cd"
       ]
     },
     {
@@ -721,7 +721,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "30299000000",
           "unit": "USD",
           "start": null,
@@ -730,7 +730,7 @@
           "form": "10-Q",
           "filed": "2025-01-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
-          "section": "December 28, 2024 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 30,299 $ 29,943 Marketable securities 23,476 35,228 Accounts receivable, net 29,639 33,410 Vendor non-trade receivables 29,667 32,833 Inventories 6,911 7,286 Other current assets 13,248 14,287 Total current assets 133,240 152,987 Non-current assets: Marketable securities 87,593 91,479 Property, plant and equipment, net 46,069 45,680 Other non-current assets 77,183 74,834 Total non-current assets 210,845 211,993 Total assets $ 344,085 $ 364,980 LIABILITIES AND SHAREHOLDERS\u2019 EQUITY: Current liabilities: Accounts payable $ 61,910 $ 68,960 Other current liabilities 61,151 78,304 Deferred revenue 8,461 8,249 Commercial paper 1,995 9,967 Term debt 10,848 10,912 Total current liabilities 144,365 176,392 Non-current liabilities: Term debt 83,956 85,750 Other non-current liabilities 49,006 45,888 Total non-current liabilities 132,962 131,638 Total liabilities 277,327 308,030 Commitments and contingencies Shareholders\u2019 equity: Common stock and additional paid-in capital, $ 0.00001 par value: 50,400,000 shares authorized; 15,040,731 and 15,116,786 shares issued and outstanding, respectively 84,768 83,276 Accumulated deficit ( 11,221 ) ( 19,154 ) Accumulated other comprehensive loss ( 6,789 ) ( 7,172 ) Total shareholders\u2019 equity 66,758 56,950 Total liabilities and shareholders\u2019 equity $ 344,085 $ 364,9",
+          "section": "December 28, 2024 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 30,299 $ 29,943 Marketable securities 23,476 35,228 Accounts receivable, net 29,639 33,410 Vendor non-trade receivables 29,667 32,833 Inventories 6,911 7,286 Other current assets 13,248 14,287 Total current assets 133,240 152,987 Non-current assets: Marketable securities 87,593 91,479 Property, plant and equipment, net 46,069 45,680 Other non-current assets 7\nMatched disclosure row: Cash and cash equivalents $ 30,299 $ 29,943",
           "context": "c-17",
           "dimensions": [],
           "verified": true,
@@ -775,12 +775,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "acc852ba76afbe5093dd521b",
+      "id": "b2c51528a60ea4548280b088",
       "verified": true,
       "formula": "30299000000 = 30299000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "c11debbcabc5b77a32603a80"
+        "381da5ba8ea83e2e0f7c9332"
       ]
     },
     {
@@ -798,7 +798,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "28162000000",
           "unit": "USD",
           "start": null,
@@ -807,7 +807,7 @@
           "form": "10-Q",
           "filed": "2025-05-02",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
-          "section": "March 29, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 28,162 $ 29,943 Marketable securities 20,336 35,228 Accounts receivable, net 26,136 33,410 Vendor non-trade receivables 23,662 32,833 Inventories 6,269 7,286 Other current assets 14,109 14,287 Total current assets 118,674 152,987 Non-current assets: Marketable securities 84,424 91,479 Property, plant and equipment, net 46,876 45,680 Other non-current assets 81,259 74,834 Total non-current assets 212,559 211,993 Total assets $ 331,233 $ 364,980 LIABILITIES AND SHAREHOLDERS\u2019 EQUITY: Current liabilities: Accounts payable $ 54,126 $ 68,960 Other current liabilities 61,849 78,304 Deferred revenue 8,976 8,249 Commercial paper 5,982 9,967 Term debt 13,638 10,912 Total current liabilities 144,571 176,392 Non-current liabilities: Term debt 78,566 85,750 Other non-current liabilities 41,300 45,888 Total non-current liabilities 119,866 131,638 Total liabilities 264,437 308,030 Commitments and contingencies Shareholders\u2019 equity: Common stock and additional paid-in capital, $ 0.00001 par value: 50,400,000 shares authorized; 14,939,315 and 15,116,786 shares issued and outstanding, respectively 88,711 83,276 Accumulated deficit ( 15,552 ) ( 19,154 ) Accumulated other comprehensive loss ( 6,363 ) ( 7,172 ) Total shareholders\u2019 equity 66,796 56,950 Total liabilities and shareholders\u2019 equity $ 331,233 $ 364,980",
+          "section": "March 29, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 28,162 $ 29,943 Marketable securities 20,336 35,228 Accounts receivable, net 26,136 33,410 Vendor non-trade receivables 23,662 32,833 Inventories 6,269 7,286 Other current assets 14,109 14,287 Total current assets 118,674 152,987 Non-current assets: Marketable securities 84,424 91,479 Property, plant and equipment, net 46,876 45,680 Other non-current assets 81,2\nMatched disclosure row: Cash and cash equivalents $ 28,162 $ 29,943",
           "context": "c-23",
           "dimensions": [],
           "verified": true,
@@ -852,12 +852,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "3babd03a5d1425f1fe0949a9",
+      "id": "d0b37aa3712afa8f83a97658",
       "verified": true,
       "formula": "28162000000 = 28162000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "9544d819f93cc3718477fc02"
+        "e2daff2de5e50588a081e414"
       ]
     },
     {
@@ -875,7 +875,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "36269000000",
           "unit": "USD",
           "start": null,
@@ -884,7 +884,7 @@
           "form": "10-Q",
           "filed": "2025-08-01",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
-          "section": "June 28, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 36,269 $ 29,943 Marketable securities 19,103 35,228 Accounts receivable, net 27,557 33,410 Vendor non-trade receivables 19,278 32,833 Inventories 5,925 7,286 Other current assets 14,359 14,287 Total current assets 122,491 152,987 Non-current assets: Marketable securities 77,614 91,479 Property, plant and equipment, net 48,508 45,680 Other non-current assets 82,882 74,834 Total non-current assets 209,004 211,993 Total assets $ 331,495 $ 364,980 LIABILITIES AND SHAREHOLDERS\u2019 EQUITY: Current liabilities: Accounts payable $ 50,374 $ 68,960 Other current liabilities 62,499 78,304 Deferred revenue 8,979 8,249 Commercial paper 9,923 9,967 Term debt 9,345 10,912 Total current liabilities 141,120 176,392 Non-current liabilities: Term debt 82,430 85,750 Other non-current liabilities 42,115 45,888 Total non-current liabilities 124,545 131,638 Total liabilities 265,665 308,030 Commitments and contingencies Shareholders\u2019 equity: Common stock and additional paid-in capital, $ 0.00001 par value: 50,400,000 shares authorized; 14,856,722 and 15,116,786 shares issued and outstanding, respectively 89,806 83,276 Accumulated deficit ( 17,607 ) ( 19,154 ) Accumulated other comprehensive loss ( 6,369 ) ( 7,172 ) Total shareholders\u2019 equity 65,830 56,950 Total liabilities and shareholders\u2019 equity $ 331,495 $ 364,980",
+          "section": "June 28, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 36,269 $ 29,943 Marketable securities 19,103 35,228 Accounts receivable, net 27,557 33,410 Vendor non-trade receivables 19,278 32,833 Inventories 5,925 7,286 Other current assets 14,359 14,287 Total current assets 122,491 152,987 Non-current assets: Marketable securities 77,614 91,479 Property, plant and equipment, net 48,508 45,680 Other non-current assets 82,88\nMatched disclosure row: Cash and cash equivalents $ 36,269 $ 29,943",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -929,12 +929,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "998b514b1ee847d2a639997d",
+      "id": "1d308cf3947b676f9891df67",
       "verified": true,
       "formula": "36269000000 = 36269000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "5421dbd72dfdb129b3104526"
+        "f4642ac6845526a259af15dc"
       ]
     },
     {
@@ -952,7 +952,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "35934000000",
           "unit": "USD",
           "start": null,
@@ -961,7 +961,7 @@
           "form": "10-K",
           "filed": "2025-10-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
-          "section": "September 27, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 35,934 $ 29,943 Marketable securities 18,763 35,228 Accounts receivable, net 39,777 33,410 Vendor non-trade receivables 33,180 32,833 Inventories 5,718 7,286 Other current assets 14,585 14,287 Total current assets 147,957 152,987 Non-current assets: Marketable securities 77,723 91,479 Property, plant and equipment, net 49,834 45,680 Other non-current assets 83,727 74,834 Total non-current assets 211,284 211,993 Total assets $ 359,241 $ 364,980 LIABILITIES AND SHAREHOLDERS\u2019 EQUITY: Current liabilities: Accounts payable $ 69,860 $ 68,960 Other current liabilities 66,387 78,304 Deferred revenue 9,055 8,249 Commercial paper 7,979 9,967 Term debt 12,350 10,912 Total current liabilities 165,631 176,392 Non-current liabilities: Term debt 78,328 85,750 Other non-current liabilities 41,549 45,888 Total non-current liabilities 119,877 131,638 Total liabilities 285,508 308,030 Commitments and contingencies Shareholders\u2019 equity: Common stock and additional paid-in capital, $ 0.00001 par value: 50,400,000 shares authorized; 14,773,260 and 15,116,786 shares issued and outstanding, respectively 93,568 83,276 Accumulated deficit ( 14,264 ) ( 19,154 ) Accumulated other comprehensive loss ( 5,571 ) ( 7,172 ) Total shareholders\u2019 equity 73,733 56,950 Total liabilities and shareholders\u2019 equity $ 359,241 $ 364,",
+          "section": "September 27, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 35,934 $ 29,943 Marketable securities 18,763 35,228 Accounts receivable, net 39,777 33,410 Vendor non-trade receivables 33,180 32,833 Inventories 5,718 7,286 Other current assets 14,585 14,287 Total current assets 147,957 152,987 Non-current assets: Marketable securities 77,723 91,479 Property, plant and equipment, net 49,834 45,680 Other non-current assets \nMatched disclosure row: Cash and cash equivalents $ 35,934 $ 29,943",
           "context": "c-20",
           "dimensions": [],
           "verified": true,
@@ -1006,12 +1006,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "4d03a60d14b75371a200f9a1",
+      "id": "065ee266dbf85326fcb69fe1",
       "verified": true,
       "formula": "35934000000 = 35934000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "66aa75983493bb18065b14bc"
+        "d0693473eadb03c910bc11fb"
       ]
     },
     {
@@ -1029,7 +1029,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted",
           "value": "2.4",
           "unit": "USD/shares",
           "start": "2024-09-29",
@@ -1038,7 +1038,7 @@
           "form": "10-Q",
           "filed": "2025-01-31",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
-          "section": "Three Months Ended December 28, 2024 December 30, 2023 Net sales: Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Cost of sales: Products 59,447 58,440 Services 6,578 6,280 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Operating expenses: Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other income/(expense), net ( 248 ) ( 50 ) Income before provision for income taxes 42,584 40,323 Provision for income taxes 6,254 6,407 Net income $ 36,330 $ 33,916 Earnings per share: Basic $ 2.41 $ 2.19 Diluted $ 2.40 $ 2.18 Shares used in computing earnings per share: Basic 15,081,724 15,509,763 Diluted 15,150,865 15,576,641",
+          "section": "Three Months Ended December 28, 2024 December 30, 2023 Net sales: Products $ 97,960 $ 96,458 Services 26,340 23,117 Total net sales 124,300 119,575 Cost of sales: Products 59,447 58,440 Services 6,578 6,280 Total cost of sales 66,025 64,720 Gross margin 58,275 54,855 Operating expenses: Research and development 8,268 7,696 Selling, general and administrative 7,175 6,786 Total operating expenses 15,443 14,482 Operating income 42,832 40,373 Other i\nMatched disclosure row: Diluted $ 2.40 $ 2.18",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -1083,12 +1083,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "409583cc85a0a5c6c73f10fd",
+      "id": "be688f496fc7351a733322a0",
       "verified": true,
       "formula": "2.4 = 2.4 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "45765c8c061174508123d47f"
+        "eee7a0e589285af1819456f1"
       ]
     },
     {
@@ -1106,7 +1106,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted",
           "value": "1.65",
           "unit": "USD/shares",
           "start": "2024-12-29",
@@ -1115,7 +1115,7 @@
           "form": "10-Q",
           "filed": "2025-05-02",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
-          "section": "Three Months Ended Six Months Ended March 29, 2025 March 30, 2024 March 29, 2025 March 30, 2024 Net sales: Products $ 68,714 $ 66,886 $ 166,674 $ 163,344 Services 26,645 23,867 52,985 46,984 Total net sales 95,359 90,753 219,659 210,328 Cost of sales: Products 44,030 42,424 103,477 100,864 Services 6,462 6,058 13,040 12,338 Total cost of sales 50,492 48,482 116,517 113,202 Gross margin 44,867 42,271 103,142 97,126 Operating expenses: Research and development 8,550 7,903 16,818 15,599 Selling, general and administrative 6,728 6,468 13,903 13,254 Total operating expenses 15,278 14,371 30,721 28,853 Operating income 29,589 27,900 72,421 68,273 Other income/(expense), net ( 279 ) 158 ( 527 ) 108 Income before provision for income taxes 29,310 28,058 71,894 68,381 Provision for income taxes 4,530 4,422 10,784 10,829 Net income $ 24,780 $ 23,636 $ 61,110 $ 57,552 Earnings per share: Basic $ 1.65 $ 1.53 $ 4.06 $ 3.72 Diluted $ 1.65 $ 1.53 $ 4.05 $ 3.71 Shares used in computing earnings per share: Basic 14,994,082 15,405,856 15,037,903 15,457,810 Diluted 15,056,133 15,464,709 15,103,499 15,520,675",
+          "section": "Three Months Ended Six Months Ended March 29, 2025 March 30, 2024 March 29, 2025 March 30, 2024 Net sales: Products $ 68,714 $ 66,886 $ 166,674 $ 163,344 Services 26,645 23,867 52,985 46,984 Total net sales 95,359 90,753 219,659 210,328 Cost of sales: Products 44,030 42,424 103,477 100,864 Services 6,462 6,058 13,040 12,338 Total cost of sales 50,492 48,482 116,517 113,202 Gross margin 44,867 42,271 103,142 97,126 Operating expenses: Research and\nMatched disclosure row: Diluted $ 1.65 $ 1.53 $ 4.05 $ 3.71",
           "context": "c-20",
           "dimensions": [],
           "verified": true,
@@ -1160,12 +1160,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "7803f1c604e00e14eeed2d73",
+      "id": "713071f0dc24b8657e4c2cad",
       "verified": true,
       "formula": "1.65 = 1.65 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "8e683666c28a5ea646d466c3"
+        "c66ed8785baf82dcf0625ee6"
       ]
     },
     {
@@ -1183,7 +1183,7 @@
         {
           "cik": "320193",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted",
           "value": "1.57",
           "unit": "USD/shares",
           "start": "2025-03-30",
@@ -1192,7 +1192,7 @@
           "form": "10-Q",
           "filed": "2025-08-01",
           "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
-          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and development 8,866 8,006 25,684 23,605 Selling, general and administrative 6,650 6,320 20,553 19,574 Total operating expenses 15,516 14,326 46,237 43,179 Operating income 28,202 25,352 100,623 93,625 Other income/(expense), net ( 171 ) 142 ( 698 ) 250 Income before provision for income taxes 28,031 25,494 99,925 93,875 Provision for income taxes 4,597 4,046 15,381 14,875 Net income $ 23,434 $ 21,448 $ 84,544 $ 79,000 Earnings per share: Basic $ 1.57 $ 1.40 $ 5.64 $ 5.13 Diluted $ 1.57 $ 1.40 $ 5.62 $ 5.11 Shares used in computing earnings per share: Basic 14,902,886 15,287,521 14,992,898 15,401,047 Diluted 14,948,179 15,348,175 15,051,726 15,463,175",
+          "section": "Three Months Ended Nine Months Ended June 28, 2025 June 29, 2024 June 28, 2025 June 29, 2024 Net sales: Products $ 66,613 $ 61,564 $ 233,287 $ 224,908 Services 27,423 24,213 80,408 71,197 Total net sales 94,036 85,777 313,695 296,105 Cost of sales: Products 43,620 39,803 147,097 140,667 Services 6,698 6,296 19,738 18,634 Total cost of sales 50,318 46,099 166,835 159,301 Gross margin 43,718 39,678 146,860 136,804 Operating expenses: Research and d\nMatched disclosure row: Diluted $ 1.57 $ 1.40 $ 5.62 $ 5.11",
           "context": "c-19",
           "dimensions": [],
           "verified": true,
@@ -1237,12 +1237,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "a1d063b950785b6141424cd6",
+      "id": "05e0355c63e492b82c26f19b",
       "verified": true,
       "formula": "1.57 = 1.57 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "0906ee3b9969daea6be8f316"
+        "d5b69b18236bdf6a73429196"
       ]
     },
     {
@@ -1332,5 +1332,5 @@
       "search_scope": "Primary filing including embedded financial notes"
     }
   ],
-  "retrieved_at": "2026-10-22T17:53:38.053012+00:00"
+  "retrieved_at": "2026-10-22T19:13:11.116627+00:00"
 }

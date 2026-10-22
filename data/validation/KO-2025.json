@@ -21,7 +21,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Net Operating Revenues",
           "value": "11129000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -30,7 +30,7 @@
           "form": "10-Q",
           "filed": "2025-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
-          "section": "Three Months Ended March 28, 2025 March 29, 2024 Net Operating Revenues $ 11,129 $ 11,300 Cost of goods sold 4,163 4,235 Gross Profit 6,966 7,065 Selling, general and administrative expenses 3,234 3,351 Other operating charges 73 1,573 Operating Income 3,659 2,141 Interest income 180 246 Interest expense 387 382 Equity income (loss)\u00a0\u2014 net 351 354 Other income (loss)\u00a0\u2014 net 254 1,513 Income Before Income Taxes 4,057 3,872 Income taxes 722 687 Consolidated Net Income 3,335 3,185 Less: Net income (loss) attributable to noncontrolling interests 5 8 Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,330 $ 3,177 Basic Net Income Per Share 1 $ 0.77 $ 0.74 Diluted Net Income Per Share 1 $ 0.77 $ 0.74 Average Shares Outstanding \u2014 Basic 4,302 4,310 Effect of dilutive securities 11 12 Average Shares Outstanding \u2014 Diluted 4,313 4,322",
+          "section": "Three Months Ended March 28, 2025 March 29, 2024 Net Operating Revenues $ 11,129 $ 11,300 Cost of goods sold 4,163 4,235 Gross Profit 6,966 7,065 Selling, general and administrative expenses 3,234 3,351 Other operating charges 73 1,573 Operating Income 3,659 2,141 Interest income 180 246 Interest expense 387 382 Equity income (loss)\u00a0\u2014 net 351 354 Other income (loss)\u00a0\u2014 net 254 1,513 Income Before Income Taxes 4,057 3,872 Income taxes 722 687 Conso\nMatched disclosure row: Net Operating Revenues $ 11,129 $ 11,300",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -44,6 +44,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -75,12 +177,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1571a9fcc9fe4456fe7eed77",
+      "id": "c8babff168fe190535eacb15",
       "verified": true,
       "formula": "11129000000 = 11129000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "94d74daf6fc604d4ac4bb50a"
+        "d8b28e357c54c4283ee40b09"
       ]
     },
     {
@@ -98,7 +200,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Net Operating Revenues",
           "value": "12535000000",
           "unit": "USD",
           "start": "2025-03-29",
@@ -107,7 +209,7 @@
           "form": "10-Q",
           "filed": "2025-07-24",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000061/ko-20250627.htm",
-          "section": "Three Months Ended Six Months Ended June 27, 2025 June 28, 2024 June 27, 2025 June 28, 2024 Net Operating Revenues $ 12,535 $ 12,363 $ 23,664 $ 23,663 Cost of goods sold 4,714 4,812 8,877 9,047 Gross Profit 7,821 7,551 14,787 14,616 Selling, general and administrative expenses 3,470 3,549 6,704 6,900 Other operating charges 71 1,370 144 2,943 Operating Income 4,280 2,632 7,939 4,773 Interest income 188 275 368 521 Interest expense 445 418 832 800 Equity income (loss)\u00a0\u2014 net 561 537 912 891 Other income (loss)\u00a0\u2014 net 212 2 466 1,515 Income Before Income Taxes 4,796 3,028 8,853 6,900 Income taxes 993 627 1,715 1,314 Consolidated Net Income 3,803 2,401 7,138 5,586 Less: Net income (loss) attributable to noncontrolling interests ( 7 ) ( 10 ) ( 2 ) ( 2 ) Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,810 $ 2,411 $ 7,140 $ 5,588 Basic Net Income Per Share 1 $ 0.89 $ 0.56 $ 1.66 $ 1.30 Diluted Net Income Per Share 1 $ 0.88 $ 0.56 $ 1.65 $ 1.29 Average Shares Outstanding \u2014 Basic 4,304 4,309 4,303 4,309 Effect of dilutive securities 11 10 11 12 Average Shares Outstanding \u2014 Diluted 4,315 4,319 4,314 4,321",
+          "section": "Three Months Ended Six Months Ended June 27, 2025 June 28, 2024 June 27, 2025 June 28, 2024 Net Operating Revenues $ 12,535 $ 12,363 $ 23,664 $ 23,663 Cost of goods sold 4,714 4,812 8,877 9,047 Gross Profit 7,821 7,551 14,787 14,616 Selling, general and administrative expenses 3,470 3,549 6,704 6,900 Other operating charges 71 1,370 144 2,943 Operating Income 4,280 2,632 7,939 4,773 Interest income 188 275 368 521 Interest expense 445 418 832 800\nMatched disclosure row: Net Operating Revenues $ 12,535 $ 12,363 $ 23,664 $ 23,663",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -121,6 +223,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -152,12 +356,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "d6c6c747f31a3fbd67c96be6",
+      "id": "ab06548e8ab6e9173ceed280",
       "verified": true,
       "formula": "12535000000 = 12535000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "d7223e1a7ec7b28384391953"
+        "55f64a990164d1f63ded5b63"
       ]
     },
     {
@@ -175,7 +379,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Net Operating Revenues",
           "value": "12455000000",
           "unit": "USD",
           "start": "2025-06-28",
@@ -184,7 +388,7 @@
           "form": "10-Q",
           "filed": "2025-10-23",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm",
-          "section": "Three Months Ended Nine Months Ended September 26, 2025 September 27, 2024 September 26, 2025 September 27, 2024 Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517 Cost of goods sold 4,797 4,664 13,674 13,711 Gross Profit 7,658 7,190 22,445 21,806 Selling, general and administrative expenses 3,618 3,636 10,322 10,536 Other operating charges 58 1,044 202 3,987 Operating Income 3,982 2,510 11,921 7,283 Interest income 185 263 553 784 Interest expense 391 425 1,223 1,225 Equity income (loss)\u00a0\u2014 net 644 541 1,556 1,432 Other income (loss)\u00a0\u2014 net ( 237 ) 491 229 2,006 Income Before Income Taxes 4,183 3,380 13,036 10,280 Income taxes 500 530 2,215 1,844 Consolidated Net Income 3,683 2,850 10,821 8,436 Less: Net income (loss) attributable to noncontrolling interests ( 13 ) 2 ( 15 ) \u2014 Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,696 $ 2,848 $ 10,836 $ 8,436 Basic Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.52 $ 1.96 Diluted Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.51 $ 1.95 Average Shares Outstanding \u2014 Basic 4,303 4,311 4,303 4,310 Effect of dilutive securities 10 12 11 11 Average Shares Outstanding \u2014 Diluted 4,313 4,323 4,314 4,321",
+          "section": "Three Months Ended Nine Months Ended September 26, 2025 September 27, 2024 September 26, 2025 September 27, 2024 Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517 Cost of goods sold 4,797 4,664 13,674 13,711 Gross Profit 7,658 7,190 22,445 21,806 Selling, general and administrative expenses 3,618 3,636 10,322 10,536 Other operating charges 58 1,044 202 3,987 Operating Income 3,982 2,510 11,921 7,283 Interest income 185 263 553 784 Intere\nMatched disclosure row: Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -198,6 +402,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -229,12 +535,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e616c47f7ce031e356b9ec59",
+      "id": "2707c3424d76ef66b5722935",
       "verified": true,
       "formula": "12455000000 = 12455000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "088b8f632215bd7adf935cb9"
+        "5562087a619cf6a756572365"
       ]
     },
     {
@@ -252,7 +558,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Net Operating Revenues",
           "value": "47941000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -261,7 +567,7 @@
           "form": "10-K",
           "filed": "2026-02-20",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
-          "section": "Year Ended December 31, 2025 2024 2023 Net Operating Revenues $ 47,941 $ 47,061 $ 45,754 Cost of goods sold 18,397 18,324 18,520 Gross Profit 29,544 28,737 27,234 Selling, general and administrative expenses 14,521 14,582 13,972 Other operating charges 1,261 4,163 1,951 Operating Income 13,762 9,992 11,311 Interest income 786 988 907 Interest expense 1,654 1,656 1,527 Equity income (loss)\u00a0\u2014 net 2,031 1,770 1,691 Other income (loss)\u00a0\u2014 net 1,073 1,992 570 Income Before Income Taxes 15,998 13,086 12,952 Income taxes 2,861 2,437 2,249 Consolidated Net Income 13,137 10,649 10,703 Less: Net income (loss) attributable to noncontrolling interests 30 18 ( 11 ) Net Income Attributable to Shareowners of The Coca-Cola Company $ 13,107 $ 10,631 $ 10,714 Basic Net Income Per Share 1 $ 3.05 $ 2.47 $ 2.48 Diluted Net Income Per Share 1 $ 3.04 $ 2.46 $ 2.47 Average Shares Outstanding \u2014 Basic 4,303 4,309 4,323 Effect of dilutive securities 10 11 16 Average Shares Outstanding \u2014 Diluted 4,313 4,320 4,339",
+          "section": "Year Ended December 31, 2025 2024 2023 Net Operating Revenues $ 47,941 $ 47,061 $ 45,754 Cost of goods sold 18,397 18,324 18,520 Gross Profit 29,544 28,737 27,234 Selling, general and administrative expenses 14,521 14,582 13,972 Other operating charges 1,261 4,163 1,951 Operating Income 13,762 9,992 11,311 Interest income 786 988 907 Interest expense 1,654 1,656 1,527 Equity income (loss)\u00a0\u2014 net 2,031 1,770 1,691 Other income (loss)\u00a0\u2014 net 1,073 1,\nMatched disclosure row: Net Operating Revenues $ 47,941 $ 47,061 $ 45,754",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -270,7 +576,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Net Operating Revenues",
           "value": "36119000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -279,7 +585,7 @@
           "form": "10-Q",
           "filed": "2025-10-23",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm",
-          "section": "Three Months Ended Nine Months Ended September 26, 2025 September 27, 2024 September 26, 2025 September 27, 2024 Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517 Cost of goods sold 4,797 4,664 13,674 13,711 Gross Profit 7,658 7,190 22,445 21,806 Selling, general and administrative expenses 3,618 3,636 10,322 10,536 Other operating charges 58 1,044 202 3,987 Operating Income 3,982 2,510 11,921 7,283 Interest income 185 263 553 784 Interest expense 391 425 1,223 1,225 Equity income (loss)\u00a0\u2014 net 644 541 1,556 1,432 Other income (loss)\u00a0\u2014 net ( 237 ) 491 229 2,006 Income Before Income Taxes 4,183 3,380 13,036 10,280 Income taxes 500 530 2,215 1,844 Consolidated Net Income 3,683 2,850 10,821 8,436 Less: Net income (loss) attributable to noncontrolling interests ( 13 ) 2 ( 15 ) \u2014 Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,696 $ 2,848 $ 10,836 $ 8,436 Basic Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.52 $ 1.96 Diluted Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.51 $ 1.95 Average Shares Outstanding \u2014 Basic 4,303 4,311 4,303 4,310 Effect of dilutive securities 10 12 11 11 Average Shares Outstanding \u2014 Diluted 4,313 4,323 4,314 4,321",
+          "section": "Three Months Ended Nine Months Ended September 26, 2025 September 27, 2024 September 26, 2025 September 27, 2024 Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517 Cost of goods sold 4,797 4,664 13,674 13,711 Gross Profit 7,658 7,190 22,445 21,806 Selling, general and administrative expenses 3,618 3,636 10,322 10,536 Other operating charges 58 1,044 202 3,987 Operating Income 3,982 2,510 11,921 7,283 Interest income 185 263 553 784 Intere\nMatched disclosure row: Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -295,6 +601,108 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -326,13 +734,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "39287a2645a95930481171f4",
+      "id": "9b66168aa7bcee239dda84b2",
       "verified": true,
       "formula": "47941000000 - 36119000000 = 11822000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "1050ac3901e68c5766a13b4f",
-        "3f3387ebb865f54153ba5153"
+        "5b41ea8d0e8a6170d9f26d36",
+        "8c08be0e3b80af23fcbe886e"
       ]
     },
     {
@@ -350,7 +758,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "309000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -359,7 +767,7 @@
           "form": "10-Q",
           "filed": "2025-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
-          "section": "Three Months Ended March 28, 2025 March 29, 2024 Operating Activities Consolidated net income $ 3,335 $ 3,185 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 267 262 Stock-based compensation expense 63 68 Deferred income taxes 95 ( 173 ) Equity (income) loss\u00a0\u2014 net of dividends ( 264 ) ( 58 ) Foreign currency adjustments 50 17 Significant (gains) losses\u00a0\u2014 net ( 331 ) ( 1,401 ) Other operating charges \u2014 1,532 Other items 104 ( 59 ) Net change in operating assets and liabilities ( 8,521 ) ( 2,845 ) Net Cash Provided by (Used in) Operating Activities ( 5,202 ) 528 Investing Activities Purchases of investments ( 2,507 ) ( 2,552 ) Proceeds from disposals of investments 1,005 444 Acquisitions of businesses, equity method investments and nonmarketable securities ( 42 ) ( 8 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 748 2,893 Purchases of property, plant and equipment ( 309 ) ( 370 ) Proceeds from disposals of property, plant and equipment 8 14 Collateral (paid) received associated with hedging activities \u2014 net ( 15 ) ( 105 ) Other investing activities 45 14 Net Cash Provided by (Used in) Investing Activities ( 1,067 ) 330 Financing Activities Issuances of loans, notes payable and long-term debt 5,436 2,285 Payments of loans, notes payable and long-term debt ",
+          "section": "Three Months Ended March 28, 2025 March 29, 2024 Operating Activities Consolidated net income $ 3,335 $ 3,185 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 267 262 Stock-based compensation expense 63 68 Deferred income taxes 95 ( 173 ) Equity (income) loss\u00a0\u2014 net of dividends ( 264 ) ( 58 ) Foreign currency adjustments 50 17 Significant (gains) losses\u00a0\u2014 net ( 331 ) ( 1,\nMatched disclosure row: Purchases of property, plant and equipment ( 309 ) ( 370 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -373,6 +781,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -404,12 +914,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "0fd0e27dd6446c6fd3845890",
+      "id": "5156b2023be397b2b3cfdc03",
       "verified": true,
       "formula": "309000000 = 309000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "0ffee4164dc3ef526d0432c4"
+        "9e34f1669235b25aa301e6cb"
       ]
     },
     {
@@ -427,7 +937,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "751000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -436,7 +946,7 @@
           "form": "10-Q",
           "filed": "2025-07-24",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000061/ko-20250627.htm",
-          "section": "Six Months Ended June 27, 2025 June 28, 2024 Operating Activities Consolidated net income $ 7,138 $ 5,586 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 546 531 Stock-based compensation expense 130 140 Deferred income taxes 459 ( 202 ) Equity (income) loss\u00a0\u2014 net of dividends ( 387 ) ( 274 ) Foreign currency adjustments 111 ( 87 ) Significant (gains) losses\u00a0\u2014 net ( 433 ) ( 1,398 ) Other operating charges 38 2,867 Other items 238 ( 66 ) Net change in operating assets and liabilities ( 9,231 ) ( 2,984 ) Net Cash Provided by (Used in) Operating Activities ( 1,391 ) 4,113 Investing Activities Purchases of investments ( 2,865 ) ( 3,827 ) Proceeds from disposals of investments 2,201 2,662 Acquisitions of businesses, equity method investments and nonmarketable securities ( 179 ) ( 25 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 973 2,907 Purchases of property, plant and equipment ( 751 ) ( 792 ) Proceeds from disposals of property, plant and equipment 13 21 Collateral (paid) received associated with hedging activities \u2014 net 206 ( 76 ) Other investing activities 124 127 Net Cash Provided by (Used in) Investing Activities ( 278 ) 997 Financing Activities Issuances of loans, notes payable and long-term debt 5,320 6,832 Payments of loans, notes payable and long-t",
+          "section": "Six Months Ended June 27, 2025 June 28, 2024 Operating Activities Consolidated net income $ 7,138 $ 5,586 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 546 531 Stock-based compensation expense 130 140 Deferred income taxes 459 ( 202 ) Equity (income) loss\u00a0\u2014 net of dividends ( 387 ) ( 274 ) Foreign currency adjustments 111 ( 87 ) Significant (gains) losses\u00a0\u2014 net ( 433 )\nMatched disclosure row: Purchases of property, plant and equipment ( 751 ) ( 792 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -445,7 +955,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "309000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -454,7 +964,7 @@
           "form": "10-Q",
           "filed": "2025-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
-          "section": "Three Months Ended March 28, 2025 March 29, 2024 Operating Activities Consolidated net income $ 3,335 $ 3,185 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 267 262 Stock-based compensation expense 63 68 Deferred income taxes 95 ( 173 ) Equity (income) loss\u00a0\u2014 net of dividends ( 264 ) ( 58 ) Foreign currency adjustments 50 17 Significant (gains) losses\u00a0\u2014 net ( 331 ) ( 1,401 ) Other operating charges \u2014 1,532 Other items 104 ( 59 ) Net change in operating assets and liabilities ( 8,521 ) ( 2,845 ) Net Cash Provided by (Used in) Operating Activities ( 5,202 ) 528 Investing Activities Purchases of investments ( 2,507 ) ( 2,552 ) Proceeds from disposals of investments 1,005 444 Acquisitions of businesses, equity method investments and nonmarketable securities ( 42 ) ( 8 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 748 2,893 Purchases of property, plant and equipment ( 309 ) ( 370 ) Proceeds from disposals of property, plant and equipment 8 14 Collateral (paid) received associated with hedging activities \u2014 net ( 15 ) ( 105 ) Other investing activities 45 14 Net Cash Provided by (Used in) Investing Activities ( 1,067 ) 330 Financing Activities Issuances of loans, notes payable and long-term debt 5,436 2,285 Payments of loans, notes payable and long-term debt ",
+          "section": "Three Months Ended March 28, 2025 March 29, 2024 Operating Activities Consolidated net income $ 3,335 $ 3,185 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 267 262 Stock-based compensation expense 63 68 Deferred income taxes 95 ( 173 ) Equity (income) loss\u00a0\u2014 net of dividends ( 264 ) ( 58 ) Foreign currency adjustments 50 17 Significant (gains) losses\u00a0\u2014 net ( 331 ) ( 1,\nMatched disclosure row: Purchases of property, plant and equipment ( 309 ) ( 370 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -470,6 +980,108 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -501,13 +1113,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1d97cc4e78b3b6efecb40b2d",
+      "id": "4540840efcebb8fcf778169f",
       "verified": true,
       "formula": "751000000 - 309000000 = 442000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "ec1c4e1aa58ad1a9bee3e044",
-        "0ffee4164dc3ef526d0432c4"
+        "f7da04a8599f13cbb8f8dfb1",
+        "9e34f1669235b25aa301e6cb"
       ]
     },
     {
@@ -525,7 +1137,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "1230000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -534,7 +1146,7 @@
           "form": "10-Q",
           "filed": "2025-10-23",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm",
-          "section": "Nine Months Ended September 26, 2025 September 27, 2024 Operating Activities Consolidated net income $ 10,821 $ 8,436 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 814 799 Stock-based compensation expense 204 207 Deferred income taxes 496 \u2014 Equity (income) loss\u00a0\u2014 net of dividends ( 859 ) ( 693 ) Foreign currency adjustments 127 ( 61 ) Significant (gains) losses\u00a0\u2014 net ( 396 ) ( 1,722 ) Other operating charges 38 3,874 Other items 447 ( 143 ) Net change in operating assets and liabilities ( 8,040 ) ( 7,843 ) Net Cash Provided by (Used in) Operating Activities 3,652 2,854 Investing Activities Purchases of investments ( 3,292 ) ( 4,398 ) Proceeds from disposals of investments 4,300 5,125 Acquisitions of businesses, equity method investments and nonmarketable securities ( 356 ) ( 153 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 1,020 3,468 Purchases of property, plant and equipment ( 1,230 ) ( 1,261 ) Proceeds from disposals of property, plant and equipment 21 33 Collateral (paid) received associated with hedging activities \u2014 net 300 299 Other investing activities 214 194 Net Cash Provided by (Used in) Investing Activities 977 3,307 Financing Activities Issuances of loans, notes payable and long-term debt 4,854 11,298 Payments of loans, notes payable and ",
+          "section": "Nine Months Ended September 26, 2025 September 27, 2024 Operating Activities Consolidated net income $ 10,821 $ 8,436 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 814 799 Stock-based compensation expense 204 207 Deferred income taxes 496 \u2014 Equity (income) loss\u00a0\u2014 net of dividends ( 859 ) ( 693 ) Foreign currency adjustments 127 ( 61 ) Significant (gains) losses\u00a0\u2014 net (\nMatched disclosure row: Purchases of property, plant and equipment ( 1,230 ) ( 1,261 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -543,7 +1155,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "751000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -552,7 +1164,7 @@
           "form": "10-Q",
           "filed": "2025-07-24",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000061/ko-20250627.htm",
-          "section": "Six Months Ended June 27, 2025 June 28, 2024 Operating Activities Consolidated net income $ 7,138 $ 5,586 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 546 531 Stock-based compensation expense 130 140 Deferred income taxes 459 ( 202 ) Equity (income) loss\u00a0\u2014 net of dividends ( 387 ) ( 274 ) Foreign currency adjustments 111 ( 87 ) Significant (gains) losses\u00a0\u2014 net ( 433 ) ( 1,398 ) Other operating charges 38 2,867 Other items 238 ( 66 ) Net change in operating assets and liabilities ( 9,231 ) ( 2,984 ) Net Cash Provided by (Used in) Operating Activities ( 1,391 ) 4,113 Investing Activities Purchases of investments ( 2,865 ) ( 3,827 ) Proceeds from disposals of investments 2,201 2,662 Acquisitions of businesses, equity method investments and nonmarketable securities ( 179 ) ( 25 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 973 2,907 Purchases of property, plant and equipment ( 751 ) ( 792 ) Proceeds from disposals of property, plant and equipment 13 21 Collateral (paid) received associated with hedging activities \u2014 net 206 ( 76 ) Other investing activities 124 127 Net Cash Provided by (Used in) Investing Activities ( 278 ) 997 Financing Activities Issuances of loans, notes payable and long-term debt 5,320 6,832 Payments of loans, notes payable and long-t",
+          "section": "Six Months Ended June 27, 2025 June 28, 2024 Operating Activities Consolidated net income $ 7,138 $ 5,586 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 546 531 Stock-based compensation expense 130 140 Deferred income taxes 459 ( 202 ) Equity (income) loss\u00a0\u2014 net of dividends ( 387 ) ( 274 ) Foreign currency adjustments 111 ( 87 ) Significant (gains) losses\u00a0\u2014 net ( 433 )\nMatched disclosure row: Purchases of property, plant and equipment ( 751 ) ( 792 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -568,6 +1180,108 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -599,13 +1313,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "b822716bb81df073e2d5a7a2",
+      "id": "9ed2ee972925c358add1d894",
       "verified": true,
       "formula": "1230000000 - 751000000 = 479000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "0f48054268ed1350df8d181f",
-        "ec1c4e1aa58ad1a9bee3e044"
+        "24167ec5991cea921f0d28ed",
+        "f7da04a8599f13cbb8f8dfb1"
       ]
     },
     {
@@ -623,7 +1337,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "2112000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -632,7 +1346,7 @@
           "form": "10-K",
           "filed": "2026-02-20",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
-          "section": "Year Ended December 31, 2025 2024 2023 Operating Activities Consolidated net income $ 13,137 $ 10,649 $ 10,703 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 1,050 1,075 1,128 Stock-based compensation expense 279 286 254 Deferred income taxes 517 ( 11 ) ( 2 ) Equity (income) loss\u00a0\u2014 net of dividends ( 1,038 ) ( 802 ) ( 1,019 ) Foreign currency adjustments 191 ( 110 ) 175 Significant (gains) losses\u00a0\u2014 net ( 713 ) ( 1,737 ) ( 492 ) Other operating charges 1,052 4,000 1,741 Other items 141 ( 311 ) ( 43 ) Net change in operating assets and liabilities ( 7,208 ) ( 6,234 ) ( 846 ) Net Cash Provided by Operating Activities 7,408 6,805 11,599 Investing Activities Purchases of investments ( 6,160 ) ( 5,640 ) ( 6,698 ) Proceeds from disposals of investments 4,665 6,589 4,354 Acquisitions of businesses, equity method investments and nonmarketable securities ( 461 ) ( 315 ) ( 62 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 3,567 3,485 430 Purchases of property, plant and equipment ( 2,112 ) ( 2,064 ) ( 1,852 ) Proceeds from disposals of property, plant and equipment 13 40 74 Collateral (paid) received associated with hedging activities \u2014 net 330 235 366 Other investing activities 91 194 39 Net Cash Provided by (Used in) Investing Activities ( 67 ) 2,524 ( 3,349 ) F",
+          "section": "Year Ended December 31, 2025 2024 2023 Operating Activities Consolidated net income $ 13,137 $ 10,649 $ 10,703 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 1,050 1,075 1,128 Stock-based compensation expense 279 286 254 Deferred income taxes 517 ( 11 ) ( 2 ) Equity (income) loss\u00a0\u2014 net of dividends ( 1,038 ) ( 802 ) ( 1,019 ) Foreign currency adjustments 191 ( 110 ) 175\nMatched disclosure row: Purchases of property, plant and equipment ( 2,112 ) ( 2,064 ) ( 1,852 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -641,7 +1355,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Purchases of property, plant and equipment",
           "value": "1230000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -650,7 +1364,7 @@
           "form": "10-Q",
           "filed": "2025-10-23",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm",
-          "section": "Nine Months Ended September 26, 2025 September 27, 2024 Operating Activities Consolidated net income $ 10,821 $ 8,436 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 814 799 Stock-based compensation expense 204 207 Deferred income taxes 496 \u2014 Equity (income) loss\u00a0\u2014 net of dividends ( 859 ) ( 693 ) Foreign currency adjustments 127 ( 61 ) Significant (gains) losses\u00a0\u2014 net ( 396 ) ( 1,722 ) Other operating charges 38 3,874 Other items 447 ( 143 ) Net change in operating assets and liabilities ( 8,040 ) ( 7,843 ) Net Cash Provided by (Used in) Operating Activities 3,652 2,854 Investing Activities Purchases of investments ( 3,292 ) ( 4,398 ) Proceeds from disposals of investments 4,300 5,125 Acquisitions of businesses, equity method investments and nonmarketable securities ( 356 ) ( 153 ) Proceeds from disposals of businesses, equity method investments and nonmarketable securities 1,020 3,468 Purchases of property, plant and equipment ( 1,230 ) ( 1,261 ) Proceeds from disposals of property, plant and equipment 21 33 Collateral (paid) received associated with hedging activities \u2014 net 300 299 Other investing activities 214 194 Net Cash Provided by (Used in) Investing Activities 977 3,307 Financing Activities Issuances of loans, notes payable and long-term debt 4,854 11,298 Payments of loans, notes payable and ",
+          "section": "Nine Months Ended September 26, 2025 September 27, 2024 Operating Activities Consolidated net income $ 10,821 $ 8,436 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 814 799 Stock-based compensation expense 204 207 Deferred income taxes 496 \u2014 Equity (income) loss\u00a0\u2014 net of dividends ( 859 ) ( 693 ) Foreign currency adjustments 127 ( 61 ) Significant (gains) losses\u00a0\u2014 net (\nMatched disclosure row: Purchases of property, plant and equipment ( 1,230 ) ( 1,261 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -666,6 +1380,108 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -697,13 +1513,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "3f10e5f70eedeb8f97bb930f",
+      "id": "95bfbcae672c027da9b1677b",
       "verified": true,
       "formula": "2112000000 - 1230000000 = 882000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "b0086ca598625d78a55f9660",
-        "0f48054268ed1350df8d181f"
+        "a8d4996894eb6648a9551567",
+        "24167ec5991cea921f0d28ed"
       ]
     },
     {
@@ -721,7 +1537,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "8417000000",
           "unit": "USD",
           "start": null,
@@ -730,7 +1546,7 @@
           "form": "10-Q",
           "filed": "2025-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
-          "section": "March 28, 2025 December 31, 2024 ASSETS Current Assets Cash and cash equivalents $ 8,417 $ 10,828 Short-term investments 3,579 2,020 Total Cash, Cash Equivalents and Short-Term Investments 11,996 12,848 Marketable securities 1,791 1,723 Trade accounts receivable, less allowances of $ 509 and $ 506 , respectively 4,091 3,569 Inventories 5,102 4,728 Prepaid expenses and other current assets 3,198 3,129 Total Current Assets 26,178 25,997 Equity method investments 18,369 18,087 Deferred income tax assets 1,311 1,319 Property, plant and equipment, less accumulated depreciation of $ 9,809 and $ 9,570 , respectively 10,431 10,303 Trademarks with indefinite lives 13,425 13,301 Goodwill 18,333 18,139 Other noncurrent assets 13,669 13,403 Total Assets $ 101,716 $ 100,549 LIABILITIES AND EQUITY Current Liabilities Accounts payable and accrued expenses $ 16,499 $ 21,715 Loans and notes payable 5,418 1,499 Current maturities of long-term debt 163 648 Accrued income taxes 1,728 1,387 Total Current Liabilities 23,808 25,249 Long-term debt 43,530 42,375 Other noncurrent liabilities 4,313 4,084 Deferred income tax liabilities 2,311 2,469 The Coca-Cola Company Shareowners\u2019 Equity Common stock, $ 0.25 par value; authorized\u00a0\u2014 11,200 shares; issued\u00a0\u2014 7,040 shares 1,760 1,760 Capital surplus 19,873 19,801 Reinvested earnings 77,189 76,054 Accumulated other comprehensive income (loss) ( 16,482 ) ( 16",
+          "section": "March 28, 2025 December 31, 2024 ASSETS Current Assets Cash and cash equivalents $ 8,417 $ 10,828 Short-term investments 3,579 2,020 Total Cash, Cash Equivalents and Short-Term Investments 11,996 12,848 Marketable securities 1,791 1,723 Trade accounts receivable, less allowances of $ 509 and $ 506 , respectively 4,091 3,569 Inventories 5,102 4,728 Prepaid expenses and other current assets 3,198 3,129 Total Current Assets 26,178 25,997 Equity meth\nMatched disclosure row: Cash and cash equivalents $ 8,417 $ 10,828",
           "context": "c-23",
           "dimensions": [],
           "verified": true,
@@ -744,6 +1560,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -775,12 +1693,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "ab8f9b0d9058657b5dc34611",
+      "id": "2e98e03e9999631848d6a373",
       "verified": true,
       "formula": "8417000000 = 8417000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "77bfa59ab30d0f1407073fc7"
+        "ab01b851213b0ee27f3cd31f"
       ]
     },
     {
@@ -798,7 +1716,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "9590000000",
           "unit": "USD",
           "start": null,
@@ -807,7 +1725,7 @@
           "form": "10-Q",
           "filed": "2025-07-24",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000061/ko-20250627.htm",
-          "section": "June 27, 2025 December 31, 2024 ASSETS Current Assets Cash and cash equivalents $ 9,590 $ 10,828 Short-term investments 2,658 2,020 Total Cash, Cash Equivalents and Short-Term Investments 12,248 12,848 Marketable securities 2,049 1,723 Trade accounts receivable, less allowances of $ 503 and $ 506 , respectively 4,168 3,569 Inventories 5,082 4,728 Prepaid expenses and other current assets 3,062 3,129 Total Current Assets 26,609 25,997 Equity method investments 19,379 18,087 Deferred income tax assets 1,325 1,319 Property, plant and equipment, less accumulated depreciation of $ 10,081 and $ 9,570 , respectively 10,784 10,303 Trademarks with indefinite lives 13,615 13,301 Goodwill 18,663 18,139 Other noncurrent assets 13,958 13,403 Total Assets $ 104,333 $ 100,549 LIABILITIES AND EQUITY Current Liabilities Accounts payable and accrued expenses $ 17,030 $ 21,715 Loans and notes payable 4,379 1,499 Current maturities of long-term debt 91 648 Accrued income taxes 444 1,387 Total Current Liabilities 21,944 25,249 Long-term debt 44,976 42,375 Other noncurrent liabilities 4,856 4,084 Deferred income tax liabilities 2,375 2,469 The Coca-Cola Company Shareowners\u2019 Equity Common stock, $ 0.25 par value; authorized\u00a0\u2014 11,200 shares; issued\u00a0\u2014 7,040 shares 1,760 1,760 Capital surplus 19,970 19,801 Reinvested earnings 78,803 76,054 Accumulated other comprehensive income (loss) ( 15,758 ) ( 16,84",
+          "section": "June 27, 2025 December 31, 2024 ASSETS Current Assets Cash and cash equivalents $ 9,590 $ 10,828 Short-term investments 2,658 2,020 Total Cash, Cash Equivalents and Short-Term Investments 12,248 12,848 Marketable securities 2,049 1,723 Trade accounts receivable, less allowances of $ 503 and $ 506 , respectively 4,168 3,569 Inventories 5,082 4,728 Prepaid expenses and other current assets 3,062 3,129 Total Current Assets 26,609 25,997 Equity metho\nMatched disclosure row: Cash and cash equivalents $ 9,590 $ 10,828",
           "context": "c-25",
           "dimensions": [],
           "verified": true,
@@ -821,6 +1739,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -852,12 +1872,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1a09b14002f46a2b0024c655",
+      "id": "af4032a918df47839638e7fd",
       "verified": true,
       "formula": "9590000000 = 9590000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "be87128558a6f6eaf502e053"
+        "4f03ba75a8b22ea37ef82d47"
       ]
     },
     {
@@ -875,7 +1895,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "12732000000",
           "unit": "USD",
           "start": null,
@@ -884,7 +1904,7 @@
           "form": "10-Q",
           "filed": "2025-10-23",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm",
-          "section": "September 26, 2025 December 31, 2024 ASSETS Current Assets Cash and cash equivalents $ 12,732 $ 10,828 Short-term investments 1,142 2,020 Total Cash, Cash Equivalents and Short-Term Investments 13,874 12,848 Marketable securities 1,907 1,723 Trade accounts receivable, less allowances of $ 520 and $ 506 , respectively 3,946 3,569 Inventories 4,802 4,728 Prepaid expenses and other current assets 2,718 3,129 Total Current Assets 27,247 25,997 Equity method investments 20,323 18,087 Deferred income tax assets 1,267 1,319 Property, plant and equipment, less accumulated depreciation of $ 9,873 and $ 9,570 , respectively 10,902 10,303 Trademarks with indefinite lives 13,515 13,301 Goodwill 18,662 18,139 Other noncurrent assets 14,129 13,403 Total Assets $ 106,045 $ 100,549 LIABILITIES AND EQUITY Current Liabilities Accounts payable and accrued expenses $ 17,692 $ 21,715 Loans and notes payable 2,319 1,499 Current maturities of long-term debt 1,920 648 Accrued income taxes 568 1,387 Total Current Liabilities 22,499 25,249 Long-term debt 43,177 42,375 Other noncurrent liabilities 4,667 4,084 Deferred income tax liabilities 2,435 2,469 The Coca-Cola Company Shareowners\u2019 Equity Common stock, $ 0.25 par value; authorized\u00a0\u2014 11,200 shares; issued\u00a0\u2014 7,040 shares 1,760 1,760 Capital surplus 20,489 19,801 Reinvested earnings 80,305 76,054 Accumulated other comprehensive income (loss) ( 14,952 )",
+          "section": "September 26, 2025 December 31, 2024 ASSETS Current Assets Cash and cash equivalents $ 12,732 $ 10,828 Short-term investments 1,142 2,020 Total Cash, Cash Equivalents and Short-Term Investments 13,874 12,848 Marketable securities 1,907 1,723 Trade accounts receivable, less allowances of $ 520 and $ 506 , respectively 3,946 3,569 Inventories 4,802 4,728 Prepaid expenses and other current assets 2,718 3,129 Total Current Assets 27,247 25,997 Equity\nMatched disclosure row: Cash and cash equivalents $ 12,732 $ 10,828",
           "context": "c-25",
           "dimensions": [],
           "verified": true,
@@ -898,6 +1918,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -929,12 +2051,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "fb8085d165738e5ef0e8bab6",
+      "id": "c7507e5ea528912fe893fdf5",
       "verified": true,
       "formula": "12732000000 = 12732000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "1678bc0500f303d68b0585dd"
+        "e4747677a6a73f4cd11e64b2"
       ]
     },
     {
@@ -952,7 +2074,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "10270000000",
           "unit": "USD",
           "start": null,
@@ -961,7 +2083,7 @@
           "form": "10-K",
           "filed": "2026-02-20",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828026010047/ko-20251231.htm",
-          "section": "December 31, 2025 2024 ASSETS Current Assets Cash and cash equivalents $ 10,270 $ 10,828 Short-term investments 3,602 2,020 Total Cash, Cash Equivalents and Short-Term Investments 13,872 12,848 Marketable securities 1,934 1,723 Trade accounts receivable, less allowances of $ 495 and $ 506 , respectively 3,038 3,569 Inventories 4,425 4,728 Prepaid expenses and other current assets 2,433 2,998 Assets held for sale 5,342 131 Total Current Assets 31,044 25,997 Equity method investments 20,235 18,087 Deferred income tax assets 1,206 1,319 Property, plant and equipment \u2014 net 9,613 10,303 Trademarks with indefinite lives 12,531 13,301 Goodwill 15,491 18,139 Other noncurrent assets 14,696 13,403 Total Assets $ 104,816 $ 100,549 LIABILITIES AND EQUITY Current Liabilities Accounts payable and accrued expenses $ 14,813 $ 21,712 Loans and notes payable 1,551 1,499 Current maturities of long-term debt 1,822 648 Accrued income taxes 525 1,387 Liabilities held for sale 2,570 3 Total Current Liabilities 21,281 25,249 Long-term debt 42,119 42,375 Other noncurrent liabilities 4,735 4,084 Deferred income tax liabilities 2,406 2,469 The Coca-Cola Company Shareowners\u2019 Equity Common stock, $ 0.25 par value; authorized\u00a0\u2014 11,200 shares; issued\u00a0\u2014 7,040 shares 1,760 1,760 Capital surplus 20,581 19,801 Reinvested earnings 80,382 76,054 Accumulated other comprehensive income (loss) ( 14,131 ) ( 16,843 ) T",
+          "section": "December 31, 2025 2024 ASSETS Current Assets Cash and cash equivalents $ 10,270 $ 10,828 Short-term investments 3,602 2,020 Total Cash, Cash Equivalents and Short-Term Investments 13,872 12,848 Marketable securities 1,934 1,723 Trade accounts receivable, less allowances of $ 495 and $ 506 , respectively 3,038 3,569 Inventories 4,425 4,728 Prepaid expenses and other current assets 2,433 2,998 Assets held for sale 5,342 131 Total Current Assets 31,\nMatched disclosure row: Cash and cash equivalents $ 10,270 $ 10,828",
           "context": "c-29",
           "dimensions": [],
           "verified": true,
@@ -975,6 +2097,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -1006,12 +2230,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "19db42be38ef8bcc56e421b7",
+      "id": "14e450a7a318ed270ade9ee7",
       "verified": true,
       "formula": "10270000000 = 10270000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "2ff808808c25c1331739b248"
+        "dd44d6891f739b6a23aff9a0"
       ]
     },
     {
@@ -1029,7 +2253,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted Net Income Per Share 1",
           "value": "0.77",
           "unit": "USD/shares",
           "start": "2025-01-01",
@@ -1038,7 +2262,7 @@
           "form": "10-Q",
           "filed": "2025-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
-          "section": "Three Months Ended March 28, 2025 March 29, 2024 Net Operating Revenues $ 11,129 $ 11,300 Cost of goods sold 4,163 4,235 Gross Profit 6,966 7,065 Selling, general and administrative expenses 3,234 3,351 Other operating charges 73 1,573 Operating Income 3,659 2,141 Interest income 180 246 Interest expense 387 382 Equity income (loss)\u00a0\u2014 net 351 354 Other income (loss)\u00a0\u2014 net 254 1,513 Income Before Income Taxes 4,057 3,872 Income taxes 722 687 Consolidated Net Income 3,335 3,185 Less: Net income (loss) attributable to noncontrolling interests 5 8 Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,330 $ 3,177 Basic Net Income Per Share 1 $ 0.77 $ 0.74 Diluted Net Income Per Share 1 $ 0.77 $ 0.74 Average Shares Outstanding \u2014 Basic 4,302 4,310 Effect of dilutive securities 11 12 Average Shares Outstanding \u2014 Diluted 4,313 4,322",
+          "section": "Three Months Ended March 28, 2025 March 29, 2024 Net Operating Revenues $ 11,129 $ 11,300 Cost of goods sold 4,163 4,235 Gross Profit 6,966 7,065 Selling, general and administrative expenses 3,234 3,351 Other operating charges 73 1,573 Operating Income 3,659 2,141 Interest income 180 246 Interest expense 387 382 Equity income (loss)\u00a0\u2014 net 351 354 Other income (loss)\u00a0\u2014 net 254 1,513 Income Before Income Taxes 4,057 3,872 Income taxes 722 687 Conso\nMatched disclosure row: Diluted Net Income Per Share 1 $ 0.77 $ 0.74",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -1052,6 +2276,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -1083,12 +2409,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e3d54354237b76241ed62f79",
+      "id": "2cb6bdd3f00098628dbc02be",
       "verified": true,
       "formula": "0.77 = 0.77 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "7693726cf8aa970f2ac7059a"
+        "f2c014a4803072afe2212a71"
       ]
     },
     {
@@ -1106,7 +2432,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted Net Income Per Share 1",
           "value": "0.88",
           "unit": "USD/shares",
           "start": "2025-03-29",
@@ -1115,7 +2441,7 @@
           "form": "10-Q",
           "filed": "2025-07-24",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000061/ko-20250627.htm",
-          "section": "Three Months Ended Six Months Ended June 27, 2025 June 28, 2024 June 27, 2025 June 28, 2024 Net Operating Revenues $ 12,535 $ 12,363 $ 23,664 $ 23,663 Cost of goods sold 4,714 4,812 8,877 9,047 Gross Profit 7,821 7,551 14,787 14,616 Selling, general and administrative expenses 3,470 3,549 6,704 6,900 Other operating charges 71 1,370 144 2,943 Operating Income 4,280 2,632 7,939 4,773 Interest income 188 275 368 521 Interest expense 445 418 832 800 Equity income (loss)\u00a0\u2014 net 561 537 912 891 Other income (loss)\u00a0\u2014 net 212 2 466 1,515 Income Before Income Taxes 4,796 3,028 8,853 6,900 Income taxes 993 627 1,715 1,314 Consolidated Net Income 3,803 2,401 7,138 5,586 Less: Net income (loss) attributable to noncontrolling interests ( 7 ) ( 10 ) ( 2 ) ( 2 ) Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,810 $ 2,411 $ 7,140 $ 5,588 Basic Net Income Per Share 1 $ 0.89 $ 0.56 $ 1.66 $ 1.30 Diluted Net Income Per Share 1 $ 0.88 $ 0.56 $ 1.65 $ 1.29 Average Shares Outstanding \u2014 Basic 4,304 4,309 4,303 4,309 Effect of dilutive securities 11 10 11 12 Average Shares Outstanding \u2014 Diluted 4,315 4,319 4,314 4,321",
+          "section": "Three Months Ended Six Months Ended June 27, 2025 June 28, 2024 June 27, 2025 June 28, 2024 Net Operating Revenues $ 12,535 $ 12,363 $ 23,664 $ 23,663 Cost of goods sold 4,714 4,812 8,877 9,047 Gross Profit 7,821 7,551 14,787 14,616 Selling, general and administrative expenses 3,470 3,549 6,704 6,900 Other operating charges 71 1,370 144 2,943 Operating Income 4,280 2,632 7,939 4,773 Interest income 188 275 368 521 Interest expense 445 418 832 800\nMatched disclosure row: Diluted Net Income Per Share 1 $ 0.88 $ 0.56 $ 1.65 $ 1.29",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -1129,6 +2455,108 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -1160,12 +2588,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "349345c13b7d112b104f2bca",
+      "id": "d2e037a9188ee264f54fab57",
       "verified": true,
       "formula": "0.88 = 0.88 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "c6c65177a871015d278749fc"
+        "7e1b3ee7a44b545a13283d67"
       ]
     },
     {
@@ -1183,7 +2611,7 @@
         {
           "cik": "21344",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted Net Income Per Share 1",
           "value": "0.86",
           "unit": "USD/shares",
           "start": "2025-06-28",
@@ -1192,7 +2620,7 @@
           "form": "10-Q",
           "filed": "2025-10-23",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000162828025046054/ko-20250926.htm",
-          "section": "Three Months Ended Nine Months Ended September 26, 2025 September 27, 2024 September 26, 2025 September 27, 2024 Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517 Cost of goods sold 4,797 4,664 13,674 13,711 Gross Profit 7,658 7,190 22,445 21,806 Selling, general and administrative expenses 3,618 3,636 10,322 10,536 Other operating charges 58 1,044 202 3,987 Operating Income 3,982 2,510 11,921 7,283 Interest income 185 263 553 784 Interest expense 391 425 1,223 1,225 Equity income (loss)\u00a0\u2014 net 644 541 1,556 1,432 Other income (loss)\u00a0\u2014 net ( 237 ) 491 229 2,006 Income Before Income Taxes 4,183 3,380 13,036 10,280 Income taxes 500 530 2,215 1,844 Consolidated Net Income 3,683 2,850 10,821 8,436 Less: Net income (loss) attributable to noncontrolling interests ( 13 ) 2 ( 15 ) \u2014 Net Income Attributable to Shareowners of The\u00a0Coca-Cola Company $ 3,696 $ 2,848 $ 10,836 $ 8,436 Basic Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.52 $ 1.96 Diluted Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.51 $ 1.95 Average Shares Outstanding \u2014 Basic 4,303 4,311 4,303 4,310 Effect of dilutive securities 10 12 11 11 Average Shares Outstanding \u2014 Diluted 4,313 4,323 4,314 4,321",
+          "section": "Three Months Ended Nine Months Ended September 26, 2025 September 27, 2024 September 26, 2025 September 27, 2024 Net Operating Revenues $ 12,455 $ 11,854 $ 36,119 $ 35,517 Cost of goods sold 4,797 4,664 13,674 13,711 Gross Profit 7,658 7,190 22,445 21,806 Selling, general and administrative expenses 3,618 3,636 10,322 10,536 Other operating charges 58 1,044 202 3,987 Operating Income 3,982 2,510 11,921 7,283 Interest income 185 263 553 784 Intere\nMatched disclosure row: Diluted Net Income Per Share 1 $ 0.86 $ 0.66 $ 2.51 $ 1.95",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -1207,6 +2635,108 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
           "status": "Document inspected",
@@ -1237,12 +2767,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e09e0e4fe4f6e3f76416360f",
+      "id": "ea5f8ba6c51d3b870768d257",
       "verified": true,
       "formula": "0.86 = 0.86 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "5abfdab10cffda3215bd0bbf"
+        "1550623349128c68a96cd1b3"
       ]
     },
     {
@@ -1253,7 +2783,7 @@
       "quarter": "Q4",
       "start": "2025-09-27",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -1265,6 +2795,108 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000909832-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000200406-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000080424-submissions-003.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000021344-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000021344-25-000029",
           "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
           "status": "Document inspected",
@@ -1295,7 +2927,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "ce07f619f0e0e34d8022a19c",
+      "id": "2c568b2d70165cc9cdec1edb",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -1303,6 +2935,108 @@
     }
   ],
   "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000104169-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000104169-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000909832-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000200406-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000200406-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000080424-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000080424-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000080424-submissions-003.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000021344-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000021344-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
     {
       "accession": "0000021344-25-000029",
       "url": "https://www.sec.gov/Archives/edgar/data/21344/000002134425000029/ko-20250328.htm",
@@ -1332,5 +3066,5 @@
       "search_scope": "Primary filing including embedded financial notes"
     }
   ],
-  "retrieved_at": "2026-10-22T17:54:45.463407+00:00"
+  "retrieved_at": "2026-10-22T19:14:08.238762+00:00"
 }

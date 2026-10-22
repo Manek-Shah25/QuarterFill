@@ -75,6 +75,7 @@ def display(cells):
     st.caption('Values are shown in original reporting units. Annual columns are meaningful for additive flows only. Select a cell audit below.')
     pivot = frame.pivot(index=['Metric', 'Fiscal year'], columns='Quarter', values='Value')
     st.dataframe(pivot, width='stretch')
+    st.caption('Select a row below to inspect its value and calculation. Reported and calculated classifications are shown beside every observation.')
     event = st.dataframe(frame, width='stretch', hide_index=True, on_select='rerun', selection_mode='single-row')
     labels = {c.id: f'{c.metric} · FY{c.year} {c.quarter} · {c.status}' for c in cells}
     selected_row = event.selection.rows[0] if event.selection.rows else 0
@@ -168,6 +169,8 @@ else:
     if research:
         name, selected_years = st.session_state['request']
         st.subheader(research.company['entityName'])
+        if any('snapshot' in event.get('status','') for event in client.events):
+            st.info('Authentic SEC snapshots are in use for some requests. These are saved disclosures, not a live feed. Retrieval times and request failures are listed in Methodology and Data Health.')
         if page == 'SEC Filing Explorer':
             term = st.text_input('Search filing concepts and source excerpts', name)
             facts = [f for f in research.facts if term.lower() in (f.concept + ' ' + f.section).lower()]

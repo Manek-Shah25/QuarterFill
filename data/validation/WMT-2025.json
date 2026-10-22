@@ -14,14 +14,14 @@
       "quarter": "Q1",
       "start": "2024-02-01",
       "end": "2024-04-30",
-      "status": "Ambiguous or conflicting",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [
         {
           "cik": "104169",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Net sales",
           "value": "159938000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -30,7 +30,7 @@
           "form": "10-Q",
           "filed": "2024-06-07",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
-          "section": "Three Months Ended April 30, (Amounts in millions, except per share data) 2024 2023 Revenues: Net sales $ 159,938 $ 151,004 Membership and other income 1,570 1,297 Total revenues 161,508 152,301 Costs and expenses: Cost of sales 121,431 115,284 Operating, selling, general and administrative expenses 33,236 30,777 Operating income 6,841 6,240 Interest: Debt 597 568 Finance lease 117 96 Interest income ( 114 ) ( 107 ) Interest, net 600 557 Other (gains) and losses ( 794 ) 2,995 Income before income taxes 7,035 2,688 Provision for income taxes 1,728 792 Consolidated net income 5,307 1,896 Consolidated net income attributable to noncontrolling interest ( 203 ) ( 223 ) Consolidated net income attributable to Walmart $ 5,104 $ 1,673 Net income per common share: Basic net income per common share attributable to Walmart $ 0.63 $ 0.21 Diluted net income per common share attributable to Walmart 0.63 0.21 Weighted-average common shares outstanding: Basic 8,053 8,082 Diluted 8,084 8,112 Dividends declared per common share $ 0.83 $ 0.76",
+          "section": "Three Months Ended April 30, (Amounts in millions, except per share data) 2024 2023 Revenues: Net sales $ 159,938 $ 151,004 Membership and other income 1,570 1,297 Total revenues 161,508 152,301 Costs and expenses: Cost of sales 121,431 115,284 Operating, selling, general and administrative expenses 33,236 30,777 Operating income 6,841 6,240 Interest: Debt 597 568 Finance lease 117 96 Interest income ( 114 ) ( 107 ) Interest, net 600 557 Other (g\nMatched disclosure row: Net sales $ 159,938 $ 151,004",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -57,7 +57,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenues",
           "value": "161508000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -66,7 +66,7 @@
           "form": "10-Q",
           "filed": "2024-06-07",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
-          "section": "Three Months Ended April 30, (Amounts in millions, except per share data) 2024 2023 Revenues: Net sales $ 159,938 $ 151,004 Membership and other income 1,570 1,297 Total revenues 161,508 152,301 Costs and expenses: Cost of sales 121,431 115,284 Operating, selling, general and administrative expenses 33,236 30,777 Operating income 6,841 6,240 Interest: Debt 597 568 Finance lease 117 96 Interest income ( 114 ) ( 107 ) Interest, net 600 557 Other (gains) and losses ( 794 ) 2,995 Income before income taxes 7,035 2,688 Provision for income taxes 1,728 792 Consolidated net income 5,307 1,896 Consolidated net income attributable to noncontrolling interest ( 203 ) ( 223 ) Consolidated net income attributable to Walmart $ 5,104 $ 1,673 Net income per common share: Basic net income per common share attributable to Walmart $ 0.63 $ 0.21 Diluted net income per common share attributable to Walmart 0.63 0.21 Weighted-average common shares outstanding: Basic 8,053 8,082 Diluted 8,084 8,112 Dividends declared per common share $ 0.83 $ 0.76",
+          "section": "Three Months Ended April 30, (Amounts in millions, except per share data) 2024 2023 Revenues: Net sales $ 159,938 $ 151,004 Membership and other income 1,570 1,297 Total revenues 161,508 152,301 Costs and expenses: Cost of sales 121,431 115,284 Operating, selling, general and administrative expenses 33,236 30,777 Operating income 6,841 6,240 Interest: Debt 597 568 Finance lease 117 96 Interest income ( 114 ) ( 107 ) Interest, net 600 557 Other (g\nMatched disclosure row: Total revenues 161,508 152,301",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -100,6 +100,60 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
           "status": "Document inspected",
@@ -130,14 +184,14 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "44dc38eac16b61e196f3fac6",
+      "id": "155be7bfdbc9ea093318547b",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
       "input_ids": [
-        "8cb5f172a308429d297b63a2",
+        "1020181d2740c325330eebba",
         "bc3d2aeb7dca6866370a981a",
-        "baa1cb40d6f317c91039b16c",
+        "e42518623cb642b29a5b02d2",
         "f469cfca993740842ce5797f"
       ]
     },
@@ -149,14 +203,14 @@
       "quarter": "Q2",
       "start": "2024-05-01",
       "end": "2024-07-31",
-      "status": "Ambiguous or conflicting",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [
         {
           "cik": "104169",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Net sales",
           "value": "167767000000",
           "unit": "USD",
           "start": "2024-05-01",
@@ -165,7 +219,7 @@
           "form": "10-Q",
           "filed": "2024-08-30",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
-          "section": "Three Months Ended July 31, Six Months Ended July 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284 Membership and other income 1,568 1,352 3,138 2,649 Total revenues 169,335 161,632 330,843 313,933 Costs and expenses: Cost of sales 126,810 121,850 248,241 237,134 Operating, selling, general and administrative expenses 34,585 32,466 67,821 63,243 Operating income 7,940 7,316 14,781 13,556 Interest: Debt 557 543 1,154 1,111 Finance lease 122 99 239 195 Interest income ( 114 ) ( 148 ) ( 228 ) ( 255 ) Interest, net 565 494 1,165 1,051 Other (gains) and losses 1,162 ( 3,905 ) 368 ( 910 ) Income before income taxes 6,213 10,727 13,248 13,415 Provision for income taxes 1,502 2,674 3,230 3,466 Consolidated net income 4,711 8,053 10,018 9,949 Consolidated net income attributable to noncontrolling interest ( 210 ) ( 162 ) ( 413 ) ( 385 ) Consolidated net income attributable to Walmart $ 4,501 $ 7,891 $ 9,605 $ 9,564 Net income per common share: Basic net income per common share attributable to Walmart $ 0.56 $ 0.98 $ 1.19 $ 1.18 Diluted net income per common share attributable to Walmart 0.56 0.97 1.19 1.18 Weighted-average common shares outstanding: Basic 8,044 8,079 8,048 8,081 Diluted 8,081 8,108 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended July 31, Six Months Ended July 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284 Membership and other income 1,568 1,352 3,138 2,649 Total revenues 169,335 161,632 330,843 313,933 Costs and expenses: Cost of sales 126,810 121,850 248,241 237,134 Operating, selling, general and administrative expenses 34,585 32,466 67,821 63,243 Operating income 7,940\nMatched disclosure row: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -192,7 +246,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenues",
           "value": "169335000000",
           "unit": "USD",
           "start": "2024-05-01",
@@ -201,7 +255,7 @@
           "form": "10-Q",
           "filed": "2024-08-30",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
-          "section": "Three Months Ended July 31, Six Months Ended July 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284 Membership and other income 1,568 1,352 3,138 2,649 Total revenues 169,335 161,632 330,843 313,933 Costs and expenses: Cost of sales 126,810 121,850 248,241 237,134 Operating, selling, general and administrative expenses 34,585 32,466 67,821 63,243 Operating income 7,940 7,316 14,781 13,556 Interest: Debt 557 543 1,154 1,111 Finance lease 122 99 239 195 Interest income ( 114 ) ( 148 ) ( 228 ) ( 255 ) Interest, net 565 494 1,165 1,051 Other (gains) and losses 1,162 ( 3,905 ) 368 ( 910 ) Income before income taxes 6,213 10,727 13,248 13,415 Provision for income taxes 1,502 2,674 3,230 3,466 Consolidated net income 4,711 8,053 10,018 9,949 Consolidated net income attributable to noncontrolling interest ( 210 ) ( 162 ) ( 413 ) ( 385 ) Consolidated net income attributable to Walmart $ 4,501 $ 7,891 $ 9,605 $ 9,564 Net income per common share: Basic net income per common share attributable to Walmart $ 0.56 $ 0.98 $ 1.19 $ 1.18 Diluted net income per common share attributable to Walmart 0.56 0.97 1.19 1.18 Weighted-average common shares outstanding: Basic 8,044 8,079 8,048 8,081 Diluted 8,081 8,108 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended July 31, Six Months Ended July 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284 Membership and other income 1,568 1,352 3,138 2,649 Total revenues 169,335 161,632 330,843 313,933 Costs and expenses: Cost of sales 126,810 121,850 248,241 237,134 Operating, selling, general and administrative expenses 34,585 32,466 67,821 63,243 Operating income 7,940\nMatched disclosure row: Total revenues 169,335 161,632 330,843 313,933",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -235,6 +289,60 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
           "status": "Document inspected",
@@ -265,14 +373,14 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "932f56c2072013bc4be6ada7",
+      "id": "1b551236026c078f5b3d1b27",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
       "input_ids": [
-        "176cbf404f8abd5c0510ccf2",
+        "49116327d94596a4a3b6c58e",
         "b33e1848c0cd244d14f42dfd",
-        "b3fe4a64cf076e20fa0161d7",
+        "72736cd6a7e30195eb5bae6c",
         "237627d4cc69def1b74e9800"
       ]
     },
@@ -284,14 +392,14 @@
       "quarter": "Q3",
       "start": "2024-08-01",
       "end": "2024-10-31",
-      "status": "Ambiguous or conflicting",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [
         {
           "cik": "104169",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Net sales",
           "value": "168003000000",
           "unit": "USD",
           "start": "2024-08-01",
@@ -300,7 +408,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating income 6,708 6,202 21,489 19,758 Interest: Debt 496 572 1,650 1,683 Finance lease 122 110 361 305 Interest income ( 140 ) ( 145 ) ( 368 ) ( 400 ) Interest, net 478 537 1,643 1,588 Other (gains) and losses 132 4,750 500 3,840 Income before income taxes 6,098 915 19,346 14,330 Provision for income taxes 1,384 272 4,614 3,738 Consolidated net income 4,714 643 14,732 10,592 Consolidated net income attributable to noncontrolling interest ( 137 ) ( 190 ) ( 550 ) ( 575 ) Consolidated net income attributable to Walmart $ 4,577 $ 453 $ 14,182 $ 10,017 Net income per common share: Basic net income per common share attributable to Walmart $ 0.57 $ 0.06 $ 1.76 $ 1.24 Diluted net income per common share attributable to Walmart 0.57 0.06 1.75 1.24 Weighted-average common shares outstanding: Basic 8,038 8,078 8,044 8,080 Diluted 8,082 8,110 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating inco\nMatched disclosure row: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -327,7 +435,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenues",
           "value": "169588000000",
           "unit": "USD",
           "start": "2024-08-01",
@@ -336,7 +444,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating income 6,708 6,202 21,489 19,758 Interest: Debt 496 572 1,650 1,683 Finance lease 122 110 361 305 Interest income ( 140 ) ( 145 ) ( 368 ) ( 400 ) Interest, net 478 537 1,643 1,588 Other (gains) and losses 132 4,750 500 3,840 Income before income taxes 6,098 915 19,346 14,330 Provision for income taxes 1,384 272 4,614 3,738 Consolidated net income 4,714 643 14,732 10,592 Consolidated net income attributable to noncontrolling interest ( 137 ) ( 190 ) ( 550 ) ( 575 ) Consolidated net income attributable to Walmart $ 4,577 $ 453 $ 14,182 $ 10,017 Net income per common share: Basic net income per common share attributable to Walmart $ 0.57 $ 0.06 $ 1.76 $ 1.24 Diluted net income per common share attributable to Walmart 0.57 0.06 1.75 1.24 Weighted-average common shares outstanding: Basic 8,038 8,078 8,044 8,080 Diluted 8,082 8,110 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating inco\nMatched disclosure row: Total revenues 169,588 160,804 500,431 474,737",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -370,6 +478,60 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
           "status": "Document inspected",
@@ -400,14 +562,14 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "3ce0821335ebadb229250f96",
+      "id": "a2ab50c1e622a7d8bd553007",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
       "input_ids": [
-        "20f93090ff3d9941b8f5cb5e",
+        "fbaadaa67841eda7c77145bc",
         "0103b4794436982baa0b4d6d",
-        "7ff78f84ccdcd1502bb066fe",
+        "f5564b147010496ccce8d044",
         "e9df6657fbfefd8ca73ff97e"
       ]
     },
@@ -419,14 +581,14 @@
       "quarter": "Q4",
       "start": "2024-11-01",
       "end": "2025-01-31",
-      "status": "Ambiguous or conflicting",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [
         {
           "cik": "104169",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Net sales",
           "value": "674538000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -435,7 +597,7 @@
           "form": "10-K",
           "filed": "2025-03-14",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-          "section": "Fiscal Years Ended January 31, (Amounts in millions, except per share data) 2025 2024 2023 Revenues: Net sales $ 674,538 $ 642,637 $ 605,881 Membership and other income 6,447 5,488 5,408 Total revenues 680,985 648,125 611,289 Costs and expenses: Cost of sales 511,753 490,142 463,721 Operating, selling, general and administrative expenses 139,884 130,971 127,140 Operating income 29,348 27,012 20,428 Interest: Debt 2,249 2,259 1,787 Finance lease 479 424 341 Interest income ( 483 ) ( 546 ) ( 254 ) Interest, net 2,245 2,137 1,874 Other (gains) and losses 794 3,027 1,538 Income before income taxes 26,309 21,848 17,016 Provision for income taxes 6,152 5,578 5,724 Consolidated net income 20,157 16,270 11,292 Consolidated net (income) loss attributable to noncontrolling interest ( 721 ) ( 759 ) 388 Consolidated net income attributable to Walmart $ 19,436 $ 15,511 $ 11,680 Net income per common share: Basic net income per common share attributable to Walmart $ 2.42 $ 1.92 $ 1.43 Diluted net income per common share attributable to Walmart 2.41 1.91 1.42 Weighted-average common shares outstanding: Basic 8,041 8,077 8,171 Diluted 8,081 8,108 8,202 Dividends declared per common share $ 0.8300 $ 0.7600 $ 0.7467",
+          "section": "Fiscal Years Ended January 31, (Amounts in millions, except per share data) 2025 2024 2023 Revenues: Net sales $ 674,538 $ 642,637 $ 605,881 Membership and other income 6,447 5,488 5,408 Total revenues 680,985 648,125 611,289 Costs and expenses: Cost of sales 511,753 490,142 463,721 Operating, selling, general and administrative expenses 139,884 130,971 127,140 Operating income 29,348 27,012 20,428 Interest: Debt 2,249 2,259 1,787 Finance lease 4\nMatched disclosure row: Net sales $ 674,538 $ 642,637 $ 605,881",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -462,7 +624,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenues",
           "value": "680985000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -471,7 +633,7 @@
           "form": "10-K",
           "filed": "2025-03-14",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-          "section": "Fiscal Years Ended January 31, (Amounts in millions, except per share data) 2025 2024 2023 Revenues: Net sales $ 674,538 $ 642,637 $ 605,881 Membership and other income 6,447 5,488 5,408 Total revenues 680,985 648,125 611,289 Costs and expenses: Cost of sales 511,753 490,142 463,721 Operating, selling, general and administrative expenses 139,884 130,971 127,140 Operating income 29,348 27,012 20,428 Interest: Debt 2,249 2,259 1,787 Finance lease 479 424 341 Interest income ( 483 ) ( 546 ) ( 254 ) Interest, net 2,245 2,137 1,874 Other (gains) and losses 794 3,027 1,538 Income before income taxes 26,309 21,848 17,016 Provision for income taxes 6,152 5,578 5,724 Consolidated net income 20,157 16,270 11,292 Consolidated net (income) loss attributable to noncontrolling interest ( 721 ) ( 759 ) 388 Consolidated net income attributable to Walmart $ 19,436 $ 15,511 $ 11,680 Net income per common share: Basic net income per common share attributable to Walmart $ 2.42 $ 1.92 $ 1.43 Diluted net income per common share attributable to Walmart 2.41 1.91 1.42 Weighted-average common shares outstanding: Basic 8,041 8,077 8,171 Diluted 8,081 8,108 8,202 Dividends declared per common share $ 0.8300 $ 0.7600 $ 0.7467",
+          "section": "Fiscal Years Ended January 31, (Amounts in millions, except per share data) 2025 2024 2023 Revenues: Net sales $ 674,538 $ 642,637 $ 605,881 Membership and other income 6,447 5,488 5,408 Total revenues 680,985 648,125 611,289 Costs and expenses: Cost of sales 511,753 490,142 463,721 Operating, selling, general and administrative expenses 139,884 130,971 127,140 Operating income 29,348 27,012 20,428 Interest: Debt 2,249 2,259 1,787 Finance lease 4\nMatched disclosure row: Total revenues 680,985 648,125 611,289",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -498,7 +660,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
-          "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+          "label": "Net sales",
           "value": "495708000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -507,7 +669,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating income 6,708 6,202 21,489 19,758 Interest: Debt 496 572 1,650 1,683 Finance lease 122 110 361 305 Interest income ( 140 ) ( 145 ) ( 368 ) ( 400 ) Interest, net 478 537 1,643 1,588 Other (gains) and losses 132 4,750 500 3,840 Income before income taxes 6,098 915 19,346 14,330 Provision for income taxes 1,384 272 4,614 3,738 Consolidated net income 4,714 643 14,732 10,592 Consolidated net income attributable to noncontrolling interest ( 137 ) ( 190 ) ( 550 ) ( 575 ) Consolidated net income attributable to Walmart $ 4,577 $ 453 $ 14,182 $ 10,017 Net income per common share: Basic net income per common share attributable to Walmart $ 0.57 $ 0.06 $ 1.76 $ 1.24 Diluted net income per common share attributable to Walmart 0.57 0.06 1.75 1.24 Weighted-average common shares outstanding: Basic 8,038 8,078 8,044 8,080 Diluted 8,082 8,110 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating inco\nMatched disclosure row: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -534,7 +696,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenues",
           "value": "500431000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -543,7 +705,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating income 6,708 6,202 21,489 19,758 Interest: Debt 496 572 1,650 1,683 Finance lease 122 110 361 305 Interest income ( 140 ) ( 145 ) ( 368 ) ( 400 ) Interest, net 478 537 1,643 1,588 Other (gains) and losses 132 4,750 500 3,840 Income before income taxes 6,098 915 19,346 14,330 Provision for income taxes 1,384 272 4,614 3,738 Consolidated net income 4,714 643 14,732 10,592 Consolidated net income attributable to noncontrolling interest ( 137 ) ( 190 ) ( 550 ) ( 575 ) Consolidated net income attributable to Walmart $ 4,577 $ 453 $ 14,182 $ 10,017 Net income per common share: Basic net income per common share attributable to Walmart $ 0.57 $ 0.06 $ 1.76 $ 1.24 Diluted net income per common share attributable to Walmart 0.57 0.06 1.75 1.24 Weighted-average common shares outstanding: Basic 8,038 8,078 8,044 8,080 Diluted 8,082 8,110 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating inco\nMatched disclosure row: Total revenues 169,588 160,804 500,431 474,737",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -577,6 +739,60 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
           "status": "Document inspected",
@@ -607,18 +823,18 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1ac74c0ca65f0d7fe3c67f61",
+      "id": "24d5f2a350756ec1cd7d0bd9",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
       "input_ids": [
-        "cfbb6aec5a80f4e7bb0e6fd1",
+        "f0c90f0597bae2c20eea5f64",
         "517c9136f428134b0c79738d",
-        "96773752adae1f01dfafcd0c",
+        "e475687b6c3d0f466423be41",
         "849de12376e353a229a1ca3f",
-        "9a94dedabeacae74680a47d5",
+        "d5e99fceb84da8144557b413",
         "095d12c08253e852e1f05bdf",
-        "878c2086715bb005f11850df",
+        "b1cc3f4660443f681c8585fe",
         "56b196f809454974b09c1797"
       ]
     },
@@ -637,7 +853,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "4676000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -646,7 +862,7 @@
           "form": "10-Q",
           "filed": "2024-06-07",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
-          "section": "Three Months Ended April 30, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 5,307 $ 1,896 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 3,128 2,845 Investment (gains) and losses, net ( 639 ) 3,062 Deferred income taxes 102 ( 725 ) Other operating activities 507 249 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net ( 154 ) 376 Inventories ( 529 ) ( 154 ) Accounts payable 213 971 Accrued liabilities ( 4,649 ) ( 4,447 ) Accrued income taxes 963 560 Net cash provided by operating activities 4,249 4,633 Cash flows from investing activities: Payments for property and equipment ( 4,676 ) ( 4,429 ) Proceeds from the disposal of property and equipment 72 47 Proceeds from disposal of certain operations \u2014 48 Other investing activities 195 ( 526 ) Net cash used in investing activities ( 4,409 ) ( 4,860 ) Cash flows from financing activities: Net change in short-term borrowings 4,585 1,343 Proceeds from issuance of long-term debt \u2014 4,967 Repayments of long-term debt ( 1,574 ) ( 1,784 ) Dividends paid ( 1,671 ) ( 1,538 ) Purchase of Company stock ( 1,059 ) ( 686 ) Sale of subsidiary stock 15 483 Other financing activities ( 617 ) ( 845 ) Net cash provided by (used in) financing activities ( 321 ) 1,940 Effec",
+          "section": "Three Months Ended April 30, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 5,307 $ 1,896 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 3,128 2,845 Investment (gains) and losses, net ( 639 ) 3,062 Deferred income taxes 102 ( 725 ) Other operating activities 507 249 Changes in certain assets and liabilities, net of effect\nMatched disclosure row: Payments for property and equipment ( 4,676 ) ( 4,429 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -660,6 +876,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -691,12 +961,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "58fba820f411abcabc2d6c68",
+      "id": "e89b871adcee30641539ec4d",
       "verified": true,
       "formula": "4676000000 = 4676000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "83b07da687974d47c52ded8b"
+        "79995c55b000a02a3227ff44"
       ]
     },
     {
@@ -714,7 +984,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "10507000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -723,7 +993,7 @@
           "form": "10-Q",
           "filed": "2024-08-30",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
-          "section": "Six Months Ended July 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 10,018 $ 9,949 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 6,339 5,750 Investment (gains) and losses, net 519 ( 773 ) Deferred income taxes ( 244 ) 436 Other operating activities 866 849 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net 80 115 Inventories ( 1,234 ) 222 Accounts payable 1,166 2,999 Accrued liabilities ( 1,410 ) ( 1,368 ) Accrued income taxes 257 22 Net cash provided by operating activities 16,357 18,201 Cash flows from investing activities: Payments for property and equipment ( 10,507 ) ( 9,216 ) Proceeds from the disposal of property and equipment 292 133 Proceeds from disposal of certain operations 3 135 Other investing activities 84 ( 961 ) Net cash used in investing activities ( 10,128 ) ( 9,909 ) Cash flows from financing activities: Net change in short-term borrowings 2,315 4,181 Proceeds from issuance of long-term debt \u2014 4,967 Repayments of long-term debt ( 2,817 ) ( 4,063 ) Dividends paid ( 3,336 ) ( 3,072 ) Purchase of Company stock ( 2,072 ) ( 1,171 ) Dividends paid to noncontrolling interest ( 12 ) ( 214 ) Sale of subsidiary stock 29 697 Purchase of noncontrolling interest \u2014 ( 3,462 ) Other fin",
+          "section": "Six Months Ended July 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 10,018 $ 9,949 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 6,339 5,750 Investment (gains) and losses, net 519 ( 773 ) Deferred income taxes ( 244 ) 436 Other operating activities 866 849 Changes in certain assets and liabilities, net of effects of\nMatched disclosure row: Payments for property and equipment ( 10,507 ) ( 9,216 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -732,7 +1002,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "4676000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -741,7 +1011,7 @@
           "form": "10-Q",
           "filed": "2024-06-07",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
-          "section": "Three Months Ended April 30, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 5,307 $ 1,896 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 3,128 2,845 Investment (gains) and losses, net ( 639 ) 3,062 Deferred income taxes 102 ( 725 ) Other operating activities 507 249 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net ( 154 ) 376 Inventories ( 529 ) ( 154 ) Accounts payable 213 971 Accrued liabilities ( 4,649 ) ( 4,447 ) Accrued income taxes 963 560 Net cash provided by operating activities 4,249 4,633 Cash flows from investing activities: Payments for property and equipment ( 4,676 ) ( 4,429 ) Proceeds from the disposal of property and equipment 72 47 Proceeds from disposal of certain operations \u2014 48 Other investing activities 195 ( 526 ) Net cash used in investing activities ( 4,409 ) ( 4,860 ) Cash flows from financing activities: Net change in short-term borrowings 4,585 1,343 Proceeds from issuance of long-term debt \u2014 4,967 Repayments of long-term debt ( 1,574 ) ( 1,784 ) Dividends paid ( 1,671 ) ( 1,538 ) Purchase of Company stock ( 1,059 ) ( 686 ) Sale of subsidiary stock 15 483 Other financing activities ( 617 ) ( 845 ) Net cash provided by (used in) financing activities ( 321 ) 1,940 Effec",
+          "section": "Three Months Ended April 30, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 5,307 $ 1,896 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 3,128 2,845 Investment (gains) and losses, net ( 639 ) 3,062 Deferred income taxes 102 ( 725 ) Other operating activities 507 249 Changes in certain assets and liabilities, net of effect\nMatched disclosure row: Payments for property and equipment ( 4,676 ) ( 4,429 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -757,6 +1027,60 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -788,13 +1112,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "c5ddf9ff5dc92b6e73308452",
+      "id": "07ba8b93d1e0e041bc4506da",
       "verified": true,
       "formula": "10507000000 - 4676000000 = 5831000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "69b285043a357eab2b16f2dc",
-        "83b07da687974d47c52ded8b"
+        "3418ea8bd5c872a7f1a32c60",
+        "79995c55b000a02a3227ff44"
       ]
     },
     {
@@ -812,7 +1136,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "16696000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -821,7 +1145,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Nine Months Ended October 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 14,732 $ 10,592 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 9,599 8,736 Investment (gains) and losses, net 654 4,028 Deferred income taxes ( 245 ) ( 669 ) Other operating activities 1,685 1,412 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net ( 1,395 ) ( 671 ) Inventories ( 9,200 ) ( 7,321 ) Accounts payable 7,406 7,346 Accrued liabilities ( 807 ) ( 4,295 ) Accrued income taxes 489 ( 144 ) Net cash provided by operating activities 22,918 19,014 Cash flows from investing activities: Payments for property and equipment ( 16,696 ) ( 14,674 ) Proceeds from disposal of property and equipment 358 163 Proceeds from disposal of certain operations 3 135 Proceeds from disposal of certain strategic investments 3,813 \u2014 Other investing activities ( 139 ) ( 998 ) Net cash used in investing activities ( 12,661 ) ( 15,374 ) Cash flows from financing activities: Net change in short-term borrowings 2,680 9,583 Proceeds from issuance of long-term debt \u2014 4,967 Repayments of long-term debt ( 2,817 ) ( 4,213 ) Dividends paid ( 5,004 ) ( 4,606 ) Purchase of Company stock ( 3,049 ) ( 1,282 ) Dividends paid to noncontrolling interest ( 17 )",
+          "section": "Nine Months Ended October 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 14,732 $ 10,592 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 9,599 8,736 Investment (gains) and losses, net 654 4,028 Deferred income taxes ( 245 ) ( 669 ) Other operating activities 1,685 1,412 Changes in certain assets and liabilities, net of\nMatched disclosure row: Payments for property and equipment ( 16,696 ) ( 14,674 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -830,7 +1154,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "10507000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -839,7 +1163,7 @@
           "form": "10-Q",
           "filed": "2024-08-30",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
-          "section": "Six Months Ended July 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 10,018 $ 9,949 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 6,339 5,750 Investment (gains) and losses, net 519 ( 773 ) Deferred income taxes ( 244 ) 436 Other operating activities 866 849 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net 80 115 Inventories ( 1,234 ) 222 Accounts payable 1,166 2,999 Accrued liabilities ( 1,410 ) ( 1,368 ) Accrued income taxes 257 22 Net cash provided by operating activities 16,357 18,201 Cash flows from investing activities: Payments for property and equipment ( 10,507 ) ( 9,216 ) Proceeds from the disposal of property and equipment 292 133 Proceeds from disposal of certain operations 3 135 Other investing activities 84 ( 961 ) Net cash used in investing activities ( 10,128 ) ( 9,909 ) Cash flows from financing activities: Net change in short-term borrowings 2,315 4,181 Proceeds from issuance of long-term debt \u2014 4,967 Repayments of long-term debt ( 2,817 ) ( 4,063 ) Dividends paid ( 3,336 ) ( 3,072 ) Purchase of Company stock ( 2,072 ) ( 1,171 ) Dividends paid to noncontrolling interest ( 12 ) ( 214 ) Sale of subsidiary stock 29 697 Purchase of noncontrolling interest \u2014 ( 3,462 ) Other fin",
+          "section": "Six Months Ended July 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 10,018 $ 9,949 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 6,339 5,750 Investment (gains) and losses, net 519 ( 773 ) Deferred income taxes ( 244 ) 436 Other operating activities 866 849 Changes in certain assets and liabilities, net of effects of\nMatched disclosure row: Payments for property and equipment ( 10,507 ) ( 9,216 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -855,6 +1179,60 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -886,13 +1264,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "fe3ebaa46230e8a77b9eaeda",
+      "id": "44451bef4ca2244be1b2c960",
       "verified": true,
       "formula": "16696000000 - 10507000000 = 6189000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "e9806b843dfcf293040b7f0f",
-        "69b285043a357eab2b16f2dc"
+        "c9f89981f5ea758a952515bb",
+        "3418ea8bd5c872a7f1a32c60"
       ]
     },
     {
@@ -910,7 +1288,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "23783000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -919,7 +1297,7 @@
           "form": "10-K",
           "filed": "2025-03-14",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-          "section": "Fiscal Years Ended January 31, (Amounts in millions) 2025 2024 2023 Cash flows from operating activities: Consolidated net income $ 20,157 $ 16,270 $ 11,292 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 12,973 11,853 10,945 Investment (gains) and losses, net 878 3,193 1,683 Deferred income taxes ( 635 ) ( 175 ) 449 Other operating activities 2,889 2,642 1,919 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net ( 1,106 ) ( 797 ) 240 Inventories ( 2,755 ) 2,017 ( 528 ) Accounts payable 3,228 2,515 ( 1,425 ) Accrued liabilities 379 ( 1,324 ) 4,393 Accrued income taxes 435 ( 468 ) ( 127 ) Net cash provided by operating activities 36,443 35,726 28,841 Cash flows from investing activities: Payments for property and equipment ( 23,783 ) ( 20,606 ) ( 16,857 ) Proceeds from the disposal of property and equipment 432 250 170 Proceeds from disposal of certain strategic investments 4,080 \u2014 \u2014 Payments for business acquisitions, net of cash acquired ( 1,896 ) ( 9 ) ( 740 ) Other investing activities ( 212 ) ( 922 ) ( 295 ) Net cash used in investing activities ( 21,379 ) ( 21,287 ) ( 17,722 ) Cash flows from financing activities: Net change in short-term borrowings 2,212 512 ( 34 ) Proceeds from issuance of long-term debt \u2014 4,967 5,041 Repayments of long-ter",
+          "section": "Fiscal Years Ended January 31, (Amounts in millions) 2025 2024 2023 Cash flows from operating activities: Consolidated net income $ 20,157 $ 16,270 $ 11,292 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 12,973 11,853 10,945 Investment (gains) and losses, net 878 3,193 1,683 Deferred income taxes ( 635 ) ( 175 ) 449 Other operating activities 2,889 2,642 1,919 Changes i\nMatched disclosure row: Payments for property and equipment ( 23,783 ) ( 20,606 ) ( 16,857 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -928,7 +1306,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
-          "label": "Payments to Acquire Property, Plant, and Equipment",
+          "label": "Payments for property and equipment",
           "value": "16696000000",
           "unit": "USD",
           "start": "2024-02-01",
@@ -937,7 +1315,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Nine Months Ended October 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 14,732 $ 10,592 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 9,599 8,736 Investment (gains) and losses, net 654 4,028 Deferred income taxes ( 245 ) ( 669 ) Other operating activities 1,685 1,412 Changes in certain assets and liabilities, net of effects of acquisitions and dispositions: Receivables, net ( 1,395 ) ( 671 ) Inventories ( 9,200 ) ( 7,321 ) Accounts payable 7,406 7,346 Accrued liabilities ( 807 ) ( 4,295 ) Accrued income taxes 489 ( 144 ) Net cash provided by operating activities 22,918 19,014 Cash flows from investing activities: Payments for property and equipment ( 16,696 ) ( 14,674 ) Proceeds from disposal of property and equipment 358 163 Proceeds from disposal of certain operations 3 135 Proceeds from disposal of certain strategic investments 3,813 \u2014 Other investing activities ( 139 ) ( 998 ) Net cash used in investing activities ( 12,661 ) ( 15,374 ) Cash flows from financing activities: Net change in short-term borrowings 2,680 9,583 Proceeds from issuance of long-term debt \u2014 4,967 Repayments of long-term debt ( 2,817 ) ( 4,213 ) Dividends paid ( 5,004 ) ( 4,606 ) Purchase of Company stock ( 3,049 ) ( 1,282 ) Dividends paid to noncontrolling interest ( 17 )",
+          "section": "Nine Months Ended October 31, (Amounts in millions) 2024 2023 Cash flows from operating activities: Consolidated net income $ 14,732 $ 10,592 Adjustments to reconcile consolidated net income to net cash provided by operating activities: Depreciation and amortization 9,599 8,736 Investment (gains) and losses, net 654 4,028 Deferred income taxes ( 245 ) ( 669 ) Other operating activities 1,685 1,412 Changes in certain assets and liabilities, net of\nMatched disclosure row: Payments for property and equipment ( 16,696 ) ( 14,674 )",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -953,6 +1331,60 @@
         "Cross-filing basis comparability requires analyst review, including acquisitions, discontinued operations and restatements."
       ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -984,13 +1416,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1dcb297a9b0c8ee5366252de",
+      "id": "d21ea0d2737e5e25477b05ae",
       "verified": true,
       "formula": "23783000000 - 16696000000 = 7087000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "edee74075108260dba9eeb0b",
-        "e9806b843dfcf293040b7f0f"
+        "8910018547980730e0077907",
+        "c9f89981f5ea758a952515bb"
       ]
     },
     {
@@ -1008,7 +1440,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "9405000000",
           "unit": "USD",
           "start": null,
@@ -1017,7 +1449,7 @@
           "form": "10-Q",
           "filed": "2024-06-07",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
-          "section": "April 30, January 31, April 30, (Amounts in millions) 2024 2024 2023 ASSETS Current assets: Cash and cash equivalents $ 9,405 $ 9,867 $ 10,575 Receivables, net 9,075 8,796 7,647 Inventories 55,382 54,892 56,932 Prepaid expenses and other 3,290 3,322 3,357 Total current assets 77,152 76,877 78,511 Property and equipment, net 111,498 110,810 102,335 Operating lease right-of-use assets 13,562 13,673 13,679 Finance lease right-of-use assets, net 6,285 5,855 5,124 Goodwill 27,999 28,113 28,306 Other long-term assets 17,558 17,071 17,098 Total assets $ 254,054 $ 252,399 $ 245,053 LIABILITIES, REDEEMABLE NONCONTROLLING INTEREST, AND EQUITY Current liabilities: Short-term borrowings $ 5,457 $ 878 $ 1,711 Accounts payable 56,071 56,812 54,268 Dividends payable 5,013 \u2014 4,602 Accrued liabilities 24,092 28,759 27,527 Accrued income taxes 1,276 307 1,325 Long-term debt due within one year 1,865 3,447 3,975 Operating lease obligations due within one year 1,482 1,487 1,490 Finance lease obligations due within one year 844 725 607 Total current liabilities 96,100 92,415 95,505 Long-term debt 35,928 36,132 38,120 Long-term operating lease obligations 12,840 12,943 12,925 Long-term finance lease obligations 6,047 5,709 5,039 Deferred income taxes and other 14,849 14,629 13,999 Commitments and contingencies Redeemable noncontrolling interest 217 222 234 Equity: Common stock 805 805 808 Capital in",
+          "section": "April 30, January 31, April 30, (Amounts in millions) 2024 2024 2023 ASSETS Current assets: Cash and cash equivalents $ 9,405 $ 9,867 $ 10,575 Receivables, net 9,075 8,796 7,647 Inventories 55,382 54,892 56,932 Prepaid expenses and other 3,290 3,322 3,357 Total current assets 77,152 76,877 78,511 Property and equipment, net 111,498 110,810 102,335 Operating lease right-of-use assets 13,562 13,673 13,679 Finance lease right-of-use assets, net 6,28\nMatched disclosure row: Cash and cash equivalents $ 9,405 $ 9,867 $ 10,575",
           "context": "c-14",
           "dimensions": [],
           "verified": true,
@@ -1031,6 +1463,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1062,12 +1548,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "c28d733b53aba2a04a1d0245",
+      "id": "080b86d71303f7158c1f7434",
       "verified": true,
       "formula": "9405000000 = 9405000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "e199991adbc13e2a7623ee78"
+        "aa54a78cf1ef661b86055857"
       ]
     },
     {
@@ -1085,7 +1571,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "8811000000",
           "unit": "USD",
           "start": null,
@@ -1094,7 +1580,7 @@
           "form": "10-Q",
           "filed": "2024-08-30",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
-          "section": "July 31, January 31, July 31, (Amounts in millions) 2024 2024 2023 ASSETS Current assets: Cash and cash equivalents $ 8,811 $ 9,867 $ 13,888 Receivables, net 8,650 8,796 7,891 Inventories 55,611 54,892 56,722 Prepaid expenses and other 3,438 3,322 3,531 Total current assets 76,510 76,877 82,032 Property and equipment, net 113,818 110,810 104,733 Operating lease right-of-use assets 13,579 13,673 13,710 Finance lease right-of-use assets, net 6,341 5,855 5,552 Goodwill 27,930 28,113 28,268 Other long-term assets 16,262 17,071 20,826 Total assets $ 254,440 $ 252,399 $ 255,121 LIABILITIES, REDEEMABLE NONCONTROLLING INTEREST, AND EQUITY Current liabilities: Short-term borrowings $ 3,195 $ 878 $ 4,546 Accounts payable 56,716 56,812 56,576 Dividends payable 3,343 \u2014 3,067 Accrued liabilities 27,656 28,759 29,239 Accrued income taxes 576 307 770 Long-term debt due within one year 1,495 3,447 2,897 Operating lease obligations due within one year 1,493 1,487 1,472 Finance lease obligations due within one year 786 725 653 Total current liabilities 95,260 92,415 99,220 Long-term debt 35,364 36,132 36,806 Long-term operating lease obligations 12,811 12,943 12,978 Long-term finance lease obligations 6,161 5,709 5,449 Deferred income taxes and other 14,072 14,629 15,109 Commitments and contingencies Redeemable noncontrolling interest 207 222 232 Equity: Common stock 803 805 808 Capital in exces",
+          "section": "July 31, January 31, July 31, (Amounts in millions) 2024 2024 2023 ASSETS Current assets: Cash and cash equivalents $ 8,811 $ 9,867 $ 13,888 Receivables, net 8,650 8,796 7,891 Inventories 55,611 54,892 56,722 Prepaid expenses and other 3,438 3,322 3,531 Total current assets 76,510 76,877 82,032 Property and equipment, net 113,818 110,810 104,733 Operating lease right-of-use assets 13,579 13,673 13,710 Finance lease right-of-use assets, net 6,341 \nMatched disclosure row: Cash and cash equivalents $ 8,811 $ 9,867 $ 13,888",
           "context": "c-16",
           "dimensions": [],
           "verified": true,
@@ -1108,6 +1594,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1139,12 +1679,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "d079a844c26490b4356aaddf",
+      "id": "f35e7b64f0c5031714b8b148",
       "verified": true,
       "formula": "8811000000 = 8811000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "870c7a5e5fd81d1dcca6aa78"
+        "c2e676f89ae46de258c5c2cd"
       ]
     },
     {
@@ -1162,7 +1702,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "10049000000",
           "unit": "USD",
           "start": null,
@@ -1171,7 +1711,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "October 31, January 31, October 31, (Amounts in millions) 2024 2024 2023 ASSETS Current assets: Cash and cash equivalents $ 10,049 $ 9,867 $ 12,154 Receivables, net 10,039 8,796 8,625 Inventories 63,302 54,892 63,951 Prepaid expenses and other 3,548 3,322 3,661 Total current assets 86,938 76,877 88,391 Property and equipment, net 116,598 110,810 107,471 Operating lease right-of-use assets 13,701 13,673 13,547 Finance lease right-of-use assets, net 6,227 5,855 5,806 Goodwill 27,942 28,113 28,015 Other long-term assets 11,993 17,071 15,944 Total assets $ 263,399 $ 252,399 $ 259,174 LIABILITIES, REDEEMABLE NONCONTROLLING INTEREST, AND EQUITY Current liabilities: Short-term borrowings $ 3,579 $ 878 $ 9,942 Accounts payable 62,863 56,812 61,049 Dividends payable 1,674 \u2014 1,533 Accrued liabilities 28,117 28,759 26,132 Accrued income taxes 783 307 606 Long-term debt due within one year 3,246 3,447 2,806 Operating lease obligations due within one year 1,507 1,487 1,474 Finance lease obligations due within one year 789 725 688 Total current liabilities 102,558 92,415 104,230 Long-term debt 33,645 36,132 36,342 Long-term operating lease obligations 12,927 12,943 12,817 Long-term finance lease obligations 6,056 5,709 5,670 Deferred income taxes and other 13,748 14,629 14,304 Commitments and contingencies Redeemable noncontrolling interest 189 222 228 Equity: Common stock 803 805 808 Capita",
+          "section": "October 31, January 31, October 31, (Amounts in millions) 2024 2024 2023 ASSETS Current assets: Cash and cash equivalents $ 10,049 $ 9,867 $ 12,154 Receivables, net 10,039 8,796 8,625 Inventories 63,302 54,892 63,951 Prepaid expenses and other 3,548 3,322 3,661 Total current assets 86,938 76,877 88,391 Property and equipment, net 116,598 110,810 107,471 Operating lease right-of-use assets 13,701 13,673 13,547 Finance lease right-of-use assets, ne\nMatched disclosure row: Cash and cash equivalents $ 10,049 $ 9,867 $ 12,154",
           "context": "c-16",
           "dimensions": [],
           "verified": true,
@@ -1185,6 +1725,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1216,12 +1810,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e30dbf81abaf2728c6d9f8c5",
+      "id": "cb1d52b2324b7391f27ba43d",
       "verified": true,
       "formula": "10049000000 = 10049000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "b03a25320fbf1859fcf8cfe0"
+        "f4257509db498493752ae771"
       ]
     },
     {
@@ -1239,7 +1833,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
-          "label": "Cash and Cash Equivalents, at Carrying Value",
+          "label": "Cash and cash equivalents",
           "value": "9037000000",
           "unit": "USD",
           "start": null,
@@ -1248,7 +1842,7 @@
           "form": "10-K",
           "filed": "2025-03-14",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
-          "section": "As of January 31, (Amounts in millions) 2025 2024 ASSETS Current assets: Cash and cash equivalents $ 9,037 $ 9,867 Receivables, net 9,975 8,796 Inventories 56,435 54,892 Prepaid expenses and other 4,011 3,322 Total current assets 79,458 76,877 Property and equipment, net 119,993 110,810 Operating lease right-of-use assets 13,599 13,673 Finance lease right-of-use assets, net 6,112 5,855 Goodwill 28,792 28,113 Other long-term assets 12,869 17,071 Total assets $ 260,823 $ 252,399 LIABILITIES, REDEEMABLE NONCONTROLLING INTEREST, AND SHAREHOLDERS' EQUITY Current liabilities: Short-term borrowings $ 3,068 $ 878 Accounts payable 58,666 56,812 Accrued liabilities 29,345 28,759 Accrued income taxes 608 307 Long-term debt due within one year 2,598 3,447 Operating lease obligations due within one year 1,499 1,487 Finance lease obligations due within one year 800 725 Total current liabilities 96,584 92,415 Long-term debt 33,401 36,132 Long-term operating lease obligations 12,825 12,943 Long-term finance lease obligations 5,923 5,709 Deferred income taxes and other 14,398 14,629 Commitments and contingencies Redeemable noncontrolling interest 271 222 Shareholders' equity: Common stock 802 805 Capital in excess of par value 5,503 4,544 Retained earnings 98,313 89,814 Accumulated other comprehensive loss ( 13,605 ) ( 11,302 ) Total Walmart shareholders' equity 91,013 83,861 Nonredeemable nonc",
+          "section": "As of January 31, (Amounts in millions) 2025 2024 ASSETS Current assets: Cash and cash equivalents $ 9,037 $ 9,867 Receivables, net 9,975 8,796 Inventories 56,435 54,892 Prepaid expenses and other 4,011 3,322 Total current assets 79,458 76,877 Property and equipment, net 119,993 110,810 Operating lease right-of-use assets 13,599 13,673 Finance lease right-of-use assets, net 6,112 5,855 Goodwill 28,792 28,113 Other long-term assets 12,869 17,071 T\nMatched disclosure row: Cash and cash equivalents $ 9,037 $ 9,867",
           "context": "c-16",
           "dimensions": [],
           "verified": true,
@@ -1262,6 +1856,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1293,12 +1941,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "bedb48b4f730c8d57c920f91",
+      "id": "c4892aed155724281809cd6f",
       "verified": true,
       "formula": "9037000000 = 9037000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "8bf7407012f7c5fcff3aaa86"
+        "960de057c71ffdb513dec96b"
       ]
     },
     {
@@ -1316,7 +1964,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted net income per common share attributable to Walmart",
           "value": "0.63",
           "unit": "USD/shares",
           "start": "2024-02-01",
@@ -1325,7 +1973,7 @@
           "form": "10-Q",
           "filed": "2024-06-07",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
-          "section": "Three Months Ended April 30, (Amounts in millions, except per share data) 2024 2023 Revenues: Net sales $ 159,938 $ 151,004 Membership and other income 1,570 1,297 Total revenues 161,508 152,301 Costs and expenses: Cost of sales 121,431 115,284 Operating, selling, general and administrative expenses 33,236 30,777 Operating income 6,841 6,240 Interest: Debt 597 568 Finance lease 117 96 Interest income ( 114 ) ( 107 ) Interest, net 600 557 Other (gains) and losses ( 794 ) 2,995 Income before income taxes 7,035 2,688 Provision for income taxes 1,728 792 Consolidated net income 5,307 1,896 Consolidated net income attributable to noncontrolling interest ( 203 ) ( 223 ) Consolidated net income attributable to Walmart $ 5,104 $ 1,673 Net income per common share: Basic net income per common share attributable to Walmart $ 0.63 $ 0.21 Diluted net income per common share attributable to Walmart 0.63 0.21 Weighted-average common shares outstanding: Basic 8,053 8,082 Diluted 8,084 8,112 Dividends declared per common share $ 0.83 $ 0.76",
+          "section": "Three Months Ended April 30, (Amounts in millions, except per share data) 2024 2023 Revenues: Net sales $ 159,938 $ 151,004 Membership and other income 1,570 1,297 Total revenues 161,508 152,301 Costs and expenses: Cost of sales 121,431 115,284 Operating, selling, general and administrative expenses 33,236 30,777 Operating income 6,841 6,240 Interest: Debt 597 568 Finance lease 117 96 Interest income ( 114 ) ( 107 ) Interest, net 600 557 Other (g\nMatched disclosure row: Diluted net income per common share attributable to Walmart 0.63 0.21",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -1339,6 +1987,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1370,12 +2072,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "c169cc2ea3e381e64138aea5",
+      "id": "d11d51c4787c56e5bb86a5f9",
       "verified": true,
       "formula": "0.63 = 0.63 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "2ce32cdb37ba3efc4ed173d8"
+        "41b2adf3c4998f81e2c6df4b"
       ]
     },
     {
@@ -1393,7 +2095,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted net income per common share attributable to Walmart",
           "value": "0.56",
           "unit": "USD/shares",
           "start": "2024-05-01",
@@ -1402,7 +2104,7 @@
           "form": "10-Q",
           "filed": "2024-08-30",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
-          "section": "Three Months Ended July 31, Six Months Ended July 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284 Membership and other income 1,568 1,352 3,138 2,649 Total revenues 169,335 161,632 330,843 313,933 Costs and expenses: Cost of sales 126,810 121,850 248,241 237,134 Operating, selling, general and administrative expenses 34,585 32,466 67,821 63,243 Operating income 7,940 7,316 14,781 13,556 Interest: Debt 557 543 1,154 1,111 Finance lease 122 99 239 195 Interest income ( 114 ) ( 148 ) ( 228 ) ( 255 ) Interest, net 565 494 1,165 1,051 Other (gains) and losses 1,162 ( 3,905 ) 368 ( 910 ) Income before income taxes 6,213 10,727 13,248 13,415 Provision for income taxes 1,502 2,674 3,230 3,466 Consolidated net income 4,711 8,053 10,018 9,949 Consolidated net income attributable to noncontrolling interest ( 210 ) ( 162 ) ( 413 ) ( 385 ) Consolidated net income attributable to Walmart $ 4,501 $ 7,891 $ 9,605 $ 9,564 Net income per common share: Basic net income per common share attributable to Walmart $ 0.56 $ 0.98 $ 1.19 $ 1.18 Diluted net income per common share attributable to Walmart 0.56 0.97 1.19 1.18 Weighted-average common shares outstanding: Basic 8,044 8,079 8,048 8,081 Diluted 8,081 8,108 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended July 31, Six Months Ended July 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 167,767 $ 160,280 $ 327,705 $ 311,284 Membership and other income 1,568 1,352 3,138 2,649 Total revenues 169,335 161,632 330,843 313,933 Costs and expenses: Cost of sales 126,810 121,850 248,241 237,134 Operating, selling, general and administrative expenses 34,585 32,466 67,821 63,243 Operating income 7,940\nMatched disclosure row: Diluted net income per common share attributable to Walmart 0.56 0.97 1.19 1.18",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -1416,6 +2118,60 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1447,12 +2203,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "6112a2653e8090af81704906",
+      "id": "836799f3a7b0550ea81aebfb",
       "verified": true,
       "formula": "0.56 = 0.56 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "5f9f2615b74a13460ca1f70b"
+        "1fc1e031f08a53803b1f10f7"
       ]
     },
     {
@@ -1470,7 +2226,7 @@
         {
           "cik": "104169",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted net income per common share attributable to Walmart",
           "value": "0.57",
           "unit": "USD/shares",
           "start": "2024-08-01",
@@ -1479,7 +2235,7 @@
           "form": "10-Q",
           "filed": "2024-12-06",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
-          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating income 6,708 6,202 21,489 19,758 Interest: Debt 496 572 1,650 1,683 Finance lease 122 110 361 305 Interest income ( 140 ) ( 145 ) ( 368 ) ( 400 ) Interest, net 478 537 1,643 1,588 Other (gains) and losses 132 4,750 500 3,840 Income before income taxes 6,098 915 19,346 14,330 Provision for income taxes 1,384 272 4,614 3,738 Consolidated net income 4,714 643 14,732 10,592 Consolidated net income attributable to noncontrolling interest ( 137 ) ( 190 ) ( 550 ) ( 575 ) Consolidated net income attributable to Walmart $ 4,577 $ 453 $ 14,182 $ 10,017 Net income per common share: Basic net income per common share attributable to Walmart $ 0.57 $ 0.06 $ 1.76 $ 1.24 Diluted net income per common share attributable to Walmart 0.57 0.06 1.75 1.24 Weighted-average common shares outstanding: Basic 8,038 8,078 8,044 8,080 Diluted 8,082 8,110 8,082 8,110 Dividends declared per common share $ \u2014 $ \u2014 $ 0.83 $ 0.76",
+          "section": "Three Months Ended October 31, Nine Months Ended October 31, (Amounts in millions, except per share data) 2024 2023 2024 2023 Revenues: Net sales $ 168,003 $ 159,439 $ 495,708 $ 470,723 Membership and other income 1,585 1,365 4,723 4,014 Total revenues 169,588 160,804 500,431 474,737 Costs and expenses: Cost of sales 127,340 121,183 375,581 358,317 Operating, selling, general and administrative expenses 35,540 33,419 103,361 96,662 Operating inco\nMatched disclosure row: Diluted net income per common share attributable to Walmart 0.57 0.06 1.75 1.24",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -1494,6 +2250,60 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
           "status": "Document inspected",
@@ -1524,12 +2334,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e4d8d772e507b4cf9db473aa",
+      "id": "f2c3ed07403f1c4222cc52c4",
       "verified": true,
       "formula": "0.57 = 0.57 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "030240fb75c31fc92b1db1dc"
+        "d08be564a8ce8fca1ec20412"
       ]
     },
     {
@@ -1540,7 +2350,7 @@
       "quarter": "Q4",
       "start": "2024-11-01",
       "end": "2025-01-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -1552,6 +2362,60 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0000104169-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000104169-24-000105",
           "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
           "status": "Document inspected",
@@ -1582,7 +2446,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "8bbd8ab4ab13db25d4288099",
+      "id": "1688f9a4b91bf51b7cceb00f",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -1590,6 +2454,60 @@
     }
   ],
   "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000104169-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0000104169-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
     {
       "accession": "0000104169-24-000105",
       "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
@@ -1619,5 +2537,5 @@
       "search_scope": "Primary filing including embedded financial notes"
     }
   ],
-  "retrieved_at": "2026-10-22T17:54:29.358213+00:00"
+  "retrieved_at": "2026-10-22T19:13:59.230693+00:00"
 }

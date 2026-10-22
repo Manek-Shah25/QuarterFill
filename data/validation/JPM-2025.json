@@ -14,7 +14,7 @@
       "quarter": "Q1",
       "start": "2025-01-01",
       "end": "2025-03-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -25,6 +25,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -56,7 +98,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "06ee460cde956ea18518053d",
+      "id": "f164776a6df6a0462bcea582",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -70,7 +112,7 @@
       "quarter": "Q2",
       "start": "2025-04-01",
       "end": "2025-06-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -80,6 +122,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -111,7 +195,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "b0b5defc79f64efdf523fa90",
+      "id": "6a332ec7ca25aa836a5ac62f",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -125,7 +209,7 @@
       "quarter": "Q3",
       "start": "2025-07-01",
       "end": "2025-09-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -135,6 +219,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -166,7 +292,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "26daa3ee9ef61bfdbba8568e",
+      "id": "54aecd556c96e80b0eb076f7",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -180,7 +306,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -190,6 +316,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -221,7 +389,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "a6285befaebbde6300a21569",
+      "id": "00f27e05ab7e6369903c74d3",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -235,7 +403,7 @@
       "quarter": "Q1",
       "start": "2025-01-01",
       "end": "2025-03-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -246,6 +414,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -277,7 +487,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1b9de4e46c38ffd2ef1067ec",
+      "id": "cd338155978a6d9547f21e6a",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -291,7 +501,7 @@
       "quarter": "Q2",
       "start": "2025-04-01",
       "end": "2025-06-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -301,6 +511,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -332,7 +584,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "3185e26e098a04db46ccbecd",
+      "id": "84db14f0117bf1b057943c95",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -346,7 +598,7 @@
       "quarter": "Q3",
       "start": "2025-07-01",
       "end": "2025-09-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -356,6 +608,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -387,7 +681,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "c1046389abdd3445965de4bb",
+      "id": "040e265d4957c200c6b67cfd",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -401,7 +695,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -411,6 +705,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -442,7 +778,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "93e560499e19a3dc50860f3e",
+      "id": "b1e0c5510411855f90cba8d1",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -456,7 +792,7 @@
       "quarter": "Q1",
       "start": "2025-01-01",
       "end": "2025-03-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -467,6 +803,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -498,7 +876,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "750643443fd04abf6a2fd776",
+      "id": "7c40dc14de9bd574e91c0cad",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -512,7 +890,7 @@
       "quarter": "Q2",
       "start": "2025-04-01",
       "end": "2025-06-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -523,6 +901,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -554,7 +974,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "8277aba2848dea2156434a5c",
+      "id": "aa62a0ebfc85ba496f013af4",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -568,7 +988,7 @@
       "quarter": "Q3",
       "start": "2025-07-01",
       "end": "2025-09-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -579,6 +999,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -610,7 +1072,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "f2abfd0221b121cf8c4327a6",
+      "id": "25017936227335360d1e631a",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -624,7 +1086,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -635,6 +1097,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -666,7 +1170,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "405afb5c58f836602322eeb6",
+      "id": "885aadd9480300eb2a42655d",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -687,7 +1191,7 @@
         {
           "cik": "19617",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted earnings per share",
           "value": "5.07",
           "unit": "USD/shares",
           "start": "2025-01-01",
@@ -696,7 +1200,7 @@
           "form": "10-Q",
           "filed": "2025-05-01",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
-          "section": "Three months ended March 31, (in millions, except per share data) 2025 2024 Revenue Investment banking fees $ 2,178 $ 1,954 Principal transactions 7,614 6,790 Lending- and deposit-related fees 2,132 1,902 Asset management fees 4,700 4,146 Commissions and other fees 2,033 1,805 Investment securities losses ( 37 ) ( 366 ) Mortgage fees and related income 278 275 Card income 1,216 1,218 Other income 1,923 1,128 Noninterest revenue 22,037 18,852 Interest income 46,853 47,438 Interest expense 23,580 24,356 Net interest income 23,273 23,082 Total net revenue 45,310 41,934 Provision for credit losses 3,305 1,884 Noninterest expense Compensation expense 14,093 13,118 Occupancy expense 1,302 1,211 Technology, communications and equipment expense 2,578 2,421 Professional and outside services 2,839 2,548 Marketing 1,304 1,160 Other expense 1,481 2,299 Total noninterest expense 23,597 22,757 Income before income tax expense 18,408 17,293 Income tax expense 3,765 3,874 Net income $ 14,643 $ 13,419 Net income applicable to common stockholders $ 14,317 $ 12,942 Net income per common share data Basic earnings per share $ 5.08 $ 4.45 Diluted earnings per share 5.07 4.44 Weighted-average basic shares 2,819.4 2,908.3 Weighted-average diluted shares 2,824.3 2,912.8",
+          "section": "Three months ended March 31, (in millions, except per share data) 2025 2024 Revenue Investment banking fees $ 2,178 $ 1,954 Principal transactions 7,614 6,790 Lending- and deposit-related fees 2,132 1,902 Asset management fees 4,700 4,146 Commissions and other fees 2,033 1,805 Investment securities losses ( 37 ) ( 366 ) Mortgage fees and related income 278 275 Card income 1,216 1,218 Other income 1,923 1,128 Noninterest revenue 22,037 18,852 Inte\nMatched disclosure row: Diluted earnings per share 5.07 4.44",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -710,6 +1214,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -741,12 +1287,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "b1d0e14b965612c550eacf97",
+      "id": "a836752aea679cbf247dc3a8",
       "verified": true,
       "formula": "5.07 = 5.07 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "462ca5fbec8f057ff6814d6c"
+        "26327c44ec7bc188ab0aa406"
       ]
     },
     {
@@ -764,7 +1310,7 @@
         {
           "cik": "19617",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted earnings per share",
           "value": "5.24",
           "unit": "USD/shares",
           "start": "2025-04-01",
@@ -773,7 +1319,7 @@
           "form": "10-Q",
           "filed": "2025-08-05",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000615/jpm-20250630.htm",
-          "section": "Three months ended June 30, Six months ended June 30, (in millions, except per share data) 2025 2024 2025 2024 Revenue Investment banking fees $ 2,499 $ 2,304 $ 4,677 $ 4,258 Principal transactions 7,149 6,814 14,763 13,604 Lending- and deposit-related fees 2,248 1,828 4,380 3,730 Asset management fees 4,806 4,302 9,506 8,448 Commissions and other fees 2,194 1,924 4,227 3,729 Investment securities losses ( 54 ) ( 547 ) ( 91 ) ( 913 ) Mortgage fees and related income 363 348 641 623 Card income 1,344 1,332 2,560 2,550 Other income 1,154 9,149 3,077 10,277 Noninterest revenue 21,703 27,454 43,740 46,306 Interest income 48,241 48,513 95,094 95,951 Interest expense 25,032 25,767 48,612 50,123 Net interest income 23,209 22,746 46,482 45,828 Total net revenue 44,912 50,200 90,222 92,134 Provision for credit losses 2,849 3,052 6,154 4,936 Noninterest expense Compensation expense 13,710 12,953 27,803 26,071 Occupancy expense 1,264 1,248 2,566 2,459 Technology, communications and equipment expense 2,704 2,447 5,282 4,868 Professional and outside services 3,006 2,722 5,845 5,270 Marketing 1,279 1,221 2,583 2,381 Other expense 1,816 3,122 3,297 5,421 Total noninterest expense 23,779 23,713 47,376 46,470 Income before income tax expense 18,284 23,435 36,692 40,728 Income tax expense 3,297 5,286 7,062 9,160 Net income $ 14,987 $ 18,149 $ 29,630 $ 31,568 Net income applicable to common stock",
+          "section": "Three months ended June 30, Six months ended June 30, (in millions, except per share data) 2025 2024 2025 2024 Revenue Investment banking fees $ 2,499 $ 2,304 $ 4,677 $ 4,258 Principal transactions 7,149 6,814 14,763 13,604 Lending- and deposit-related fees 2,248 1,828 4,380 3,730 Asset management fees 4,806 4,302 9,506 8,448 Commissions and other fees 2,194 1,924 4,227 3,729 Investment securities losses ( 54 ) ( 547 ) ( 91 ) ( 913 ) Mortgage fee\nMatched disclosure row: Diluted earnings per share 5.24 6.12 10.31 10.56",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -787,6 +1333,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -818,12 +1406,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "8734a49bc22a4dcfb9b271ba",
+      "id": "cb0457eee6584d130b1dc2fa",
       "verified": true,
       "formula": "5.24 = 5.24 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "8f3466e91a06993cec2c5c53"
+        "cb6bc2c4363714a44a79a24e"
       ]
     },
     {
@@ -841,7 +1429,7 @@
         {
           "cik": "19617",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted earnings per share",
           "value": "5.07",
           "unit": "USD/shares",
           "start": "2025-07-01",
@@ -850,7 +1438,7 @@
           "form": "10-Q",
           "filed": "2025-11-04",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
-          "section": "Three months ended September 30, Nine months ended September 30, (in millions, except per share data) 2025 2024 2025 2024 Revenue Investment banking fees $ 2,612 $ 2,231 $ 7,289 $ 6,489 Principal transactions 7,109 5,988 21,872 19,592 Lending- and deposit-related fees 2,349 1,924 6,729 5,654 Asset management fees 5,120 4,479 14,626 12,927 Commissions and other fees 2,204 1,936 6,431 5,665 Investment securities gains/(losses) 105 ( 16 ) 14 ( 929 ) Mortgage fees and related income 383 402 1,024 1,025 Card income 1,140 1,345 3,700 3,895 Other income 1,439 960 4,516 11,237 Noninterest revenue 22,461 19,249 66,201 65,555 Interest income 49,439 50,416 144,533 146,367 Interest expense 25,473 27,011 74,085 77,134 Net interest income 23,966 23,405 70,448 69,233 Total net revenue 46,427 42,654 136,649 134,788 Provision for credit losses 3,403 3,111 9,557 8,047 Noninterest expense Compensation expense 13,566 12,817 41,369 38,888 Occupancy expense 1,420 1,258 3,986 3,717 Technology, communications and equipment expense 2,839 2,447 8,121 7,315 Professional and outside services 3,173 2,780 9,018 8,050 Marketing 1,480 1,258 4,063 3,639 Other expense 1,803 2,005 5,100 7,426 Total noninterest expense 24,281 22,565 71,657 69,035 Income before income tax expense 18,743 16,978 55,435 57,706 Income tax expense 4,350 4,080 11,412 13,240 Net income $ 14,393 $ 12,898 $ 44,023 $ 44,466 Net income appli",
+          "section": "Three months ended September 30, Nine months ended September 30, (in millions, except per share data) 2025 2024 2025 2024 Revenue Investment banking fees $ 2,612 $ 2,231 $ 7,289 $ 6,489 Principal transactions 7,109 5,988 21,872 19,592 Lending- and deposit-related fees 2,349 1,924 6,729 5,654 Asset management fees 5,120 4,479 14,626 12,927 Commissions and other fees 2,204 1,936 6,431 5,665 Investment securities gains/(losses) 105 ( 16 ) 14 ( 929 )\nMatched disclosure row: Diluted earnings per share 5.07 4.37 15.38 14.94",
           "context": "c-13",
           "dimensions": [],
           "verified": true,
@@ -865,6 +1453,48 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
           "status": "Document inspected",
@@ -895,12 +1525,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "a3fcee215e5d1cde2377914f",
+      "id": "2905f70baaf93b5fa9f23bc2",
       "verified": true,
       "formula": "5.07 = 5.07 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "0124e41c6cb3a79e8b782538"
+        "0c08efb6dfaa99f9dcf1706a"
       ]
     },
     {
@@ -911,7 +1541,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -923,6 +1553,48 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000019617-25-000421",
           "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
           "status": "Document inspected",
@@ -953,7 +1625,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e04c39b335ec44c56844e25a",
+      "id": "1f6af9c7418769dc3f918d40",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -961,6 +1633,48 @@
     }
   ],
   "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
     {
       "accession": "0000019617-25-000421",
       "url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000421/jpm-20250331.htm",
@@ -990,5 +1704,5 @@
       "search_scope": "Primary filing including embedded financial notes"
     }
   ],
-  "retrieved_at": "2026-10-22T19:03:09.173998+00:00"
+  "retrieved_at": "2026-10-22T19:13:41.934764+00:00"
 }

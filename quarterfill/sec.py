@@ -32,6 +32,7 @@ class SECClient:
         self.cache.mkdir(parents=True, exist_ok=True)
         self.snapshot_url = snapshot_url or os.getenv("QUARTERFILL_SNAPSHOT_URL", "")
         self.events = []
+        self.history_errors = []
 
     def get(self, url, ttl=86400):
         host = urlparse(url).hostname
@@ -109,8 +110,12 @@ class SECClient:
         records = [dict(zip(recent, values)) for values in zip(*recent.values())]
         if include_history:
             for item in submissions["filings"].get("files", []):
-                old = self.json(f"https://data.sec.gov/submissions/{item['name']}")
-                records.extend(dict(zip(old, values)) for values in zip(*old.values()))
+                try:
+                    old = self.json(f"https://data.sec.gov/submissions/{item['name']}")
+                    records.extend(dict(zip(old, values)) for values in zip(*old.values()))
+                except SECError as exc:
+                    self.history_errors.append({'status':'Filing verification unavailable',
+                        'scope':'Historical submissions index', 'file':item['name'],'error':str(exc)})
         return records
 
 
@@ -176,8 +181,12 @@ def parse_inline(html, cik, filing, url):
         except (InvalidOperation, ValueError):
             continue
         table = tag.find_parent("table")
-        section = (table.get_text(" ", strip=True) if table else tag.parent.get_text(" ", strip=True))[:1400]
-        facts.append(Fact(str(cik), tag.get("name", ""), tag.get("name", ""), value,
+        row = tag.find_parent('tr')
+        row_text = row.get_text(' ',strip=True) if row else tag.parent.get_text(' ',strip=True)
+        section = ((table.get_text(' ',strip=True)[:450] + '\nMatched disclosure row: ') if table else '') + row_text[:1200]
+        label_tag = row.find(['td','th']) if row else None
+        original_label = label_tag.get_text(' ',strip=True) if label_tag else tag.get('name','')
+        facts.append(Fact(str(cik), tag.get("name", ""), original_label, value,
             units.get(tag.get("unitref"), "unknown"), context[0], context[1],
             filing["accessionNumber"], filing["form"], filing["filingDate"], url,
             section, tag.get("contextref", ""), context[2], True, tag.get("decimals", "INF")))
@@ -187,5 +196,5 @@ def parse_inline(html, cik, filing, url):
 def verify(fact, document_facts):
     matches = [f for f in document_facts if (f.concept, f.start, f.end, f.unit, f.value, f.dimensions) ==
                (fact.concept, fact.start, fact.end, fact.unit, fact.value, fact.dimensions)]
-    return replace(fact, verified=True, section=matches[0].section,
+    return replace(fact, verified=True, section=matches[0].section, label=matches[0].label,
                    context=matches[0].context, decimals=matches[0].decimals) if matches else fact

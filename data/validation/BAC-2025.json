@@ -3,8 +3,8 @@
   "year": 2025,
   "type": "Automated source matching; manual review pending",
   "requested_cells": 16,
-  "available_cells": 5,
-  "document_matched_cells": 5,
+  "available_cells": 4,
+  "document_matched_cells": 4,
   "cells": [
     {
       "company": "BANK OF AMERICA CORP /DE/",
@@ -14,14 +14,14 @@
       "quarter": "Q1",
       "start": "2025-01-01",
       "end": "2025-03-31",
-      "status": "Ambiguous or conflicting",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [
         {
           "cik": "70858",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenue, net of interest expense",
           "value": "27366000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -30,7 +30,7 @@
           "form": "10-Q",
           "filed": "2025-04-30",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
-          "section": "Consolidated Statement of Income Three Months Ended March 31 (In millions, except per share information) 2025 2024 Net interest income Interest income $ 34,066 $ 36,285 Interest expense 19,623 22,253 Net interest income 14,443 14,032 Noninterest income Fees and commissions 9,415 8,660 Market making and similar activities 3,584 3,888 Other income (loss) ( 76 ) ( 762 ) Total noninterest income 12,923 11,786 Total revenue, net of interest expense 27,366 25,818 Provision for credit losses 1,480 1,319 Noninterest expense Compensation and benefits 10,889 10,195 Information processing and communications 1,894 1,800 Occupancy and equipment 1,856 1,811 Product delivery and transaction related 914 851 Professional fees 652 548 Marketing 506 455 Other general operating 1,059 1,577 Total noninterest expense 17,770 17,237 Income before income taxes 8,116 7,262 Income tax expense 720 588 Net income $ 7,396 $ 6,674 Preferred stock dividends 406 532 Net income applicable to common shareholders $ 6,990 $ 6,142 Per common share information Earnings $ 0.91 $ 0.77 Diluted earnings 0.90 0.76 Average common shares issued and outstanding 7,677.9 7,968.2 Average diluted common shares issued and outstanding 7,770.8 8,031.4",
+          "section": "Consolidated Statement of Income Three Months Ended March 31 (In millions, except per share information) 2025 2024 Net interest income Interest income $ 34,066 $ 36,285 Interest expense 19,623 22,253 Net interest income 14,443 14,032 Noninterest income Fees and commissions 9,415 8,660 Market making and similar activities 3,584 3,888 Other income (loss) ( 76 ) ( 762 ) Total noninterest income 12,923 11,786 Total revenue, net of interest expense 27\nMatched disclosure row: Total revenue, net of interest expense 27,366 25,818",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -64,6 +64,48 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
           "status": "Document inspected",
@@ -94,12 +136,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "cf2f09776d035e132cbdebf4",
+      "id": "d9dedc2922de95d2bb4da606",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
       "input_ids": [
-        "66f489124f68e32d8c73f143",
+        "cd8771f5d3668b5782e480ec",
         "e30cf9951e51b8e90fc56568"
       ]
     },
@@ -111,14 +153,14 @@
       "quarter": "Q2",
       "start": "2025-04-01",
       "end": "2025-06-30",
-      "status": "Ambiguous or conflicting",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [
         {
           "cik": "70858",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenue, net of interest expense",
           "value": "26463000000",
           "unit": "USD",
           "start": "2025-04-01",
@@ -127,7 +169,7 @@
           "form": "10-Q",
           "filed": "2025-07-31",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
-          "section": "Consolidated Statement of Income Three Months Ended June 30 Six Months Ended June 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 34,873 $ 36,854 $ 68,939 $ 73,139 Interest expense 20,203 23,152 39,826 45,405 Net interest income 14,670 13,702 29,113 27,734 Noninterest income Fees and commissions 9,469 8,969 18,884 17,629 Market making and similar activities 3,153 3,298 6,737 7,186 Other income (loss) ( 829 ) ( 592 ) ( 905 ) ( 1,354 ) Total noninterest income 11,793 11,675 24,716 23,461 Total revenue, net of interest expense 26,463 25,377 53,829 51,195 Provision for credit losses 1,592 1,508 3,072 2,827 Noninterest expense Compensation and benefits 10,332 9,826 21,221 20,021 Information processing and communications 1,819 1,763 3,713 3,563 Occupancy and equipment 1,836 1,818 3,692 3,629 Product delivery and transaction related 974 891 1,888 1,742 Professional fees 640 654 1,292 1,202 Marketing 563 487 1,069 942 Other general operating 1,019 870 2,078 2,447 Total noninterest expense 17,183 16,309 34,953 33,546 Income before income taxes 7,688 7,560 15,804 14,822 Income tax expense 572 663 1,292 1,251 Net income $ 7,116 $ 6,897 $ 14,512 $ 13,571 Preferred stock dividends and other 291 315 697 847 Net income applicable to common shareholders $ 6,825 $ 6,582 $ 13,815 $ 12,724 Per common share information Earnings $ 0.90 $ 0.83",
+          "section": "Consolidated Statement of Income Three Months Ended June 30 Six Months Ended June 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 34,873 $ 36,854 $ 68,939 $ 73,139 Interest expense 20,203 23,152 39,826 45,405 Net interest income 14,670 13,702 29,113 27,734 Noninterest income Fees and commissions 9,469 8,969 18,884 17,629 Market making and similar activities 3,153 3,298 6,737 7,186 Other inc\nMatched disclosure row: Total revenue, net of interest expense 26,463 25,377 53,829 51,195",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -161,6 +203,48 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
           "status": "Document inspected",
@@ -191,12 +275,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "566f72bf677954e5367947d9",
+      "id": "5429558841553c58acc9750b",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
       "input_ids": [
-        "9a3726e95a127fee947ea0a4",
+        "8d9b760a0e458781993600ca",
         "7fb5e856e13a3a83f6eabf9c"
       ]
     },
@@ -208,14 +292,14 @@
       "quarter": "Q3",
       "start": "2025-07-01",
       "end": "2025-09-30",
-      "status": "Directly reported",
-      "value": "28088000000",
-      "unit": "USD",
+      "status": "Filing verification unavailable",
+      "value": null,
+      "unit": "",
       "inputs": [
         {
           "cik": "70858",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenue, net of interest expense",
           "value": "28088000000",
           "unit": "USD",
           "start": "2025-07-01",
@@ -224,8 +308,26 @@
           "form": "10-Q",
           "filed": "2025-10-31",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
-          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 10,464 Other income (loss) ( 685 ) ( 1,019 ) ( 1,590 ) ( 2,373 ) Total noninterest income 12,855 11,378 37,571 34,839 Total revenue, net of interest expense 28,088 25,345 81,917 76,540 Provision for credit losses 1,295 1,542 4,367 4,369 Noninterest expense Compensation and benefits 10,523 9,916 31,744 29,937 Occupancy and equipment 1,872 1,836 5,564 5,465 Information processing and communications 1,827 1,784 5,540 5,347 Product delivery and transaction related 1,025 849 2,913 2,591 Professional fees 606 723 1,898 1,925 Marketing 572 504 1,641 1,446 Other general operating 912 867 2,990 3,314 Total noninterest expense 17,337 16,479 52,290 50,025 Income before income taxes 9,456 7,324 25,260 22,146 Income tax expense 987 428 2,279 1,679 Net income $ 8,469 $ 6,896 $ 22,981 $ 20,467 Preferred stock dividends and other 429 516 1,126 1,363 Net income applicable to common shareholders $ 8,040 $ 6,380 $ 21,855 $ 19,104 Per common share informati",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Total revenue, net of interest expense 28,088 25,345 81,917 76,540",
           "context": "c-22",
+          "dimensions": [],
+          "verified": true,
+          "decimals": "-6"
+        },
+        {
+          "cik": "70858",
+          "concept": "us-gaap:Revenues",
+          "label": "Total revenue, net of interest expense",
+          "value": "81917000000",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-09-30",
+          "accession": "0000070858-25-000405",
+          "form": "10-Q",
+          "filed": "2025-10-31",
+          "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Total revenue, net of interest expense 28,088 25,345 81,917 76,540",
+          "context": "c-1",
           "dimensions": [],
           "verified": true,
           "decimals": "-6"
@@ -233,11 +335,54 @@
       ],
       "operation": "",
       "reasoning": [
-        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
-        "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations."
       ],
-      "warnings": [],
+      "warnings": [
+        "Standalone quarter conflicts with cumulative evidence or filing versions."
+      ],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -269,12 +414,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "9f3228c4ef949fef32a1ebf2",
-      "verified": true,
-      "formula": "28088000000 = 28088000000 USD",
-      "confidence": "Document matched",
+      "id": "383d1839522d081b45d5f178",
+      "verified": false,
+      "formula": "",
+      "confidence": "Unverified / review required",
       "input_ids": [
-        "72fc37fafc3201e4278166cc"
+        "f8117035ea2ee5a7956ca7b3",
+        "c61d77ee1d378fec9711cfe9"
       ]
     },
     {
@@ -292,7 +438,7 @@
         {
           "cik": "70858",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenue, net of interest expense",
           "value": "113097000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -301,7 +447,7 @@
           "form": "10-K",
           "filed": "2026-02-25",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
-          "section": "Consolidated Statement of Income (In millions, except per share information) 2025 2024 2023 Net interest income Interest income $ 138,566 $ 146,607 $ 130,262 Interest expense 78,470 90,547 73,331 Net interest income 60,096 56,060 56,931 Noninterest income Fees and commissions 39,402 36,291 32,009 Market making and similar activities 12,014 12,967 12,732 Other income (loss) 1,585 538 1,097 Total noninterest income 53,001 49,796 45,838 Total revenue, net of interest expense 113,097 105,856 102,769 Provision for credit losses 5,675 5,821 4,394 Noninterest expense Compensation and benefits 42,346 40,182 38,330 Information processing and communications 7,453 7,231 6,707 Occupancy and equipment 7,448 7,289 7,164 Product delivery and transaction related 3,924 3,494 3,608 Professional fees 2,580 2,669 2,159 Marketing 2,204 1,956 1,927 Other general operating 3,772 3,991 5,950 Total noninterest expense 69,727 66,812 65,845 Income before income taxes 37,695 33,223 32,530 Income tax expense 7,186 6,250 6,225 Net income $ 30,509 $ 26,973 $ 26,305 Preferred stock dividends 1,454 1,629 1,649 Net income applicable to common shareholders $ 29,055 $ 25,344 $ 24,656 Per common share information Earnings $ 3.86 $ 3.23 $ 3.07 Diluted earnings 3.81 3.19 3.05 Average common shares issued and outstanding 7,521.9 7,855.5 8,028.6 Average diluted common shares issued and outstanding 7,680.9 7,935.8 8,08",
+          "section": "Consolidated Statement of Income (In millions, except per share information) 2025 2024 2023 Net interest income Interest income $ 138,566 $ 146,607 $ 130,262 Interest expense 78,470 90,547 73,331 Net interest income 60,096 56,060 56,931 Noninterest income Fees and commissions 39,402 36,291 32,009 Market making and similar activities 12,014 12,967 12,732 Other income (loss) 1,585 538 1,097 Total noninterest income 53,001 49,796 45,838 Total revenu\nMatched disclosure row: Total revenue, net of interest expense 113,097 105,856 102,769",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -310,7 +456,7 @@
         {
           "cik": "70858",
           "concept": "us-gaap:Revenues",
-          "label": "Revenues",
+          "label": "Total revenue, net of interest expense",
           "value": "81917000000",
           "unit": "USD",
           "start": "2025-01-01",
@@ -319,7 +465,7 @@
           "form": "10-Q",
           "filed": "2025-10-31",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
-          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 10,464 Other income (loss) ( 685 ) ( 1,019 ) ( 1,590 ) ( 2,373 ) Total noninterest income 12,855 11,378 37,571 34,839 Total revenue, net of interest expense 28,088 25,345 81,917 76,540 Provision for credit losses 1,295 1,542 4,367 4,369 Noninterest expense Compensation and benefits 10,523 9,916 31,744 29,937 Occupancy and equipment 1,872 1,836 5,564 5,465 Information processing and communications 1,827 1,784 5,540 5,347 Product delivery and transaction related 1,025 849 2,913 2,591 Professional fees 606 723 1,898 1,925 Marketing 572 504 1,641 1,446 Other general operating 912 867 2,990 3,314 Total noninterest expense 17,337 16,479 52,290 50,025 Income before income taxes 9,456 7,324 25,260 22,146 Income tax expense 987 428 2,279 1,679 Net income $ 8,469 $ 6,896 $ 22,981 $ 20,467 Preferred stock dividends and other 429 516 1,126 1,363 Net income applicable to common shareholders $ 8,040 $ 6,380 $ 21,855 $ 19,104 Per common share informati",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Total revenue, net of interest expense 28,088 25,345 81,917 76,540",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -336,6 +482,48 @@
       ],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
           "status": "Document inspected",
@@ -366,13 +554,13 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "33c52cafd12b5ad161017091",
+      "id": "9841966569f616f18762a84b",
       "verified": true,
       "formula": "113097000000 - 81917000000 = 31180000000 USD",
       "confidence": "Document matched",
       "input_ids": [
-        "e12b048ba8fe5f376bda4234",
-        "a9709e94ea331738231fd53a"
+        "46ea860a1efaf058603b00c0",
+        "c61d77ee1d378fec9711cfe9"
       ]
     },
     {
@@ -383,7 +571,7 @@
       "quarter": "Q1",
       "start": "2025-01-01",
       "end": "2025-03-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -394,6 +582,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -425,7 +655,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "6eaa631411805078c7548830",
+      "id": "602490cb38ec0f3d7fbbf12b",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -439,7 +669,7 @@
       "quarter": "Q2",
       "start": "2025-04-01",
       "end": "2025-06-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -449,6 +679,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -480,7 +752,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "f998c3dac8c4b70cb8475c94",
+      "id": "1c15abbfbe33c786ee3b507e",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -494,7 +766,7 @@
       "quarter": "Q3",
       "start": "2025-07-01",
       "end": "2025-09-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -504,6 +776,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -535,7 +849,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "1dd9e7e0b08b67d92ac557f2",
+      "id": "9b56df2751cca5df4e95fcc3",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -549,7 +863,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -559,6 +873,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -590,7 +946,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "5051d1b312168914603ac6ad",
+      "id": "aab1662ce7b43db6185ca17c",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -604,7 +960,7 @@
       "quarter": "Q1",
       "start": "2025-01-01",
       "end": "2025-03-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -615,6 +971,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -646,7 +1044,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "096ccbf9e7b1abc223f7d6a0",
+      "id": "497fa0a7111a7da54e63b267",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -660,7 +1058,7 @@
       "quarter": "Q2",
       "start": "2025-04-01",
       "end": "2025-06-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -671,6 +1069,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -702,7 +1142,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "e1427f09fd4174ad1a1035a8",
+      "id": "4c706084b2e855b153e0e5fc",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -716,7 +1156,7 @@
       "quarter": "Q3",
       "start": "2025-07-01",
       "end": "2025-09-30",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -727,6 +1167,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -758,7 +1240,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "9e5fc1829931356bf83bcf7e",
+      "id": "1c5d16bbb08827df49332511",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -772,7 +1254,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -783,6 +1265,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -814,7 +1338,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "32a453120a3a44c043e9c573",
+      "id": "d01ecbd17970afa43b3139d8",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -835,7 +1359,7 @@
         {
           "cik": "70858",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted earnings",
           "value": "0.9",
           "unit": "USD/shares",
           "start": "2025-01-01",
@@ -844,7 +1368,7 @@
           "form": "10-Q",
           "filed": "2025-04-30",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
-          "section": "Consolidated Statement of Income Three Months Ended March 31 (In millions, except per share information) 2025 2024 Net interest income Interest income $ 34,066 $ 36,285 Interest expense 19,623 22,253 Net interest income 14,443 14,032 Noninterest income Fees and commissions 9,415 8,660 Market making and similar activities 3,584 3,888 Other income (loss) ( 76 ) ( 762 ) Total noninterest income 12,923 11,786 Total revenue, net of interest expense 27,366 25,818 Provision for credit losses 1,480 1,319 Noninterest expense Compensation and benefits 10,889 10,195 Information processing and communications 1,894 1,800 Occupancy and equipment 1,856 1,811 Product delivery and transaction related 914 851 Professional fees 652 548 Marketing 506 455 Other general operating 1,059 1,577 Total noninterest expense 17,770 17,237 Income before income taxes 8,116 7,262 Income tax expense 720 588 Net income $ 7,396 $ 6,674 Preferred stock dividends 406 532 Net income applicable to common shareholders $ 6,990 $ 6,142 Per common share information Earnings $ 0.91 $ 0.77 Diluted earnings 0.90 0.76 Average common shares issued and outstanding 7,677.9 7,968.2 Average diluted common shares issued and outstanding 7,770.8 8,031.4",
+          "section": "Consolidated Statement of Income Three Months Ended March 31 (In millions, except per share information) 2025 2024 Net interest income Interest income $ 34,066 $ 36,285 Interest expense 19,623 22,253 Net interest income 14,443 14,032 Noninterest income Fees and commissions 9,415 8,660 Market making and similar activities 3,584 3,888 Other income (loss) ( 76 ) ( 762 ) Total noninterest income 12,923 11,786 Total revenue, net of interest expense 27\nMatched disclosure row: Diluted earnings 0.90 0.76",
           "context": "c-1",
           "dimensions": [],
           "verified": true,
@@ -858,6 +1382,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -889,12 +1455,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "583031cce8bd23a98db80171",
+      "id": "a010f65d6ec4db8de63dfc1e",
       "verified": true,
       "formula": "0.9 = 0.9 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "bdac44b20f2bd0121d096eb5"
+        "13bf3f83eceec03913b90f62"
       ]
     },
     {
@@ -912,7 +1478,7 @@
         {
           "cik": "70858",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted earnings",
           "value": "0.89",
           "unit": "USD/shares",
           "start": "2025-04-01",
@@ -921,7 +1487,7 @@
           "form": "10-Q",
           "filed": "2025-07-31",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000268/bac-20250630.htm",
-          "section": "Consolidated Statement of Income Three Months Ended June 30 Six Months Ended June 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 34,873 $ 36,854 $ 68,939 $ 73,139 Interest expense 20,203 23,152 39,826 45,405 Net interest income 14,670 13,702 29,113 27,734 Noninterest income Fees and commissions 9,469 8,969 18,884 17,629 Market making and similar activities 3,153 3,298 6,737 7,186 Other income (loss) ( 829 ) ( 592 ) ( 905 ) ( 1,354 ) Total noninterest income 11,793 11,675 24,716 23,461 Total revenue, net of interest expense 26,463 25,377 53,829 51,195 Provision for credit losses 1,592 1,508 3,072 2,827 Noninterest expense Compensation and benefits 10,332 9,826 21,221 20,021 Information processing and communications 1,819 1,763 3,713 3,563 Occupancy and equipment 1,836 1,818 3,692 3,629 Product delivery and transaction related 974 891 1,888 1,742 Professional fees 640 654 1,292 1,202 Marketing 563 487 1,069 942 Other general operating 1,019 870 2,078 2,447 Total noninterest expense 17,183 16,309 34,953 33,546 Income before income taxes 7,688 7,560 15,804 14,822 Income tax expense 572 663 1,292 1,251 Net income $ 7,116 $ 6,897 $ 14,512 $ 13,571 Preferred stock dividends and other 291 315 697 847 Net income applicable to common shareholders $ 6,825 $ 6,582 $ 13,815 $ 12,724 Per common share information Earnings $ 0.90 $ 0.83",
+          "section": "Consolidated Statement of Income Three Months Ended June 30 Six Months Ended June 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 34,873 $ 36,854 $ 68,939 $ 73,139 Interest expense 20,203 23,152 39,826 45,405 Net interest income 14,670 13,702 29,113 27,734 Noninterest income Fees and commissions 9,469 8,969 18,884 17,629 Market making and similar activities 3,153 3,298 6,737 7,186 Other inc\nMatched disclosure row: Diluted earnings 0.89 0.83 1.79 1.59",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -935,6 +1501,48 @@
       ],
       "warnings": [],
       "investigation": [
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
         {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -966,12 +1574,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "26f8de42c5bf35746aa87ef8",
+      "id": "4cfa814e089bc031b46b6c3a",
       "verified": true,
       "formula": "0.89 = 0.89 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "f4a5f445055f5c5ead5d5c27"
+        "340c32b8d1f32001bda7b041"
       ]
     },
     {
@@ -989,7 +1597,7 @@
         {
           "cik": "70858",
           "concept": "us-gaap:EarningsPerShareDiluted",
-          "label": "Earnings Per Share, Diluted",
+          "label": "Diluted earnings",
           "value": "1.06",
           "unit": "USD/shares",
           "start": "2025-07-01",
@@ -998,7 +1606,7 @@
           "form": "10-Q",
           "filed": "2025-10-31",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000405/bac-20250930.htm",
-          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 10,464 Other income (loss) ( 685 ) ( 1,019 ) ( 1,590 ) ( 2,373 ) Total noninterest income 12,855 11,378 37,571 34,839 Total revenue, net of interest expense 28,088 25,345 81,917 76,540 Provision for credit losses 1,295 1,542 4,367 4,369 Noninterest expense Compensation and benefits 10,523 9,916 31,744 29,937 Occupancy and equipment 1,872 1,836 5,564 5,465 Information processing and communications 1,827 1,784 5,540 5,347 Product delivery and transaction related 1,025 849 2,913 2,591 Professional fees 606 723 1,898 1,925 Marketing 572 504 1,641 1,446 Other general operating 912 867 2,990 3,314 Total noninterest expense 17,337 16,479 52,290 50,025 Income before income taxes 9,456 7,324 25,260 22,146 Income tax expense 987 428 2,279 1,679 Net income $ 8,469 $ 6,896 $ 22,981 $ 20,467 Preferred stock dividends and other 429 516 1,126 1,363 Net income applicable to common shareholders $ 8,040 $ 6,380 $ 21,855 $ 19,104 Per common share informati",
+          "section": "Consolidated Statement of Income Three Months Ended September 30 Nine Months Ended September 30 (In millions, except per share information) 2025 2024 2025 2024 Net interest income Interest income $ 35,366 $ 37,491 $ 104,305 $ 110,630 Interest expense 20,133 23,524 59,959 68,929 Net interest income 15,233 13,967 44,346 41,701 Noninterest income Fees and commissions 10,337 9,119 29,221 26,748 Market making and similar activities 3,203 3,278 9,940 1\nMatched disclosure row: Diluted earnings 1.06 0.81 2.85 2.40",
           "context": "c-22",
           "dimensions": [],
           "verified": true,
@@ -1013,6 +1621,48 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
           "status": "Document inspected",
@@ -1043,12 +1693,12 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "bb0eafa4692f57dbaa3dc05b",
+      "id": "edfbf6d66a78a2b761183324",
       "verified": true,
       "formula": "1.06 = 1.06 USD/shares",
       "confidence": "Document matched",
       "input_ids": [
-        "8169943ed1a9a30620070e3d"
+        "3289bbe19a3c3039b162edc8"
       ]
     },
     {
@@ -1059,7 +1709,7 @@
       "quarter": "Q4",
       "start": "2025-10-01",
       "end": "2025-12-31",
-      "status": "Insufficient information",
+      "status": "Filing verification unavailable",
       "value": null,
       "unit": "",
       "inputs": [],
@@ -1071,6 +1721,48 @@
       "warnings": [],
       "investigation": [
         {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001018724-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001652044-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001326801-submissions-002.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001045810-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
+          "status": "Filing verification unavailable",
+          "scope": "Historical submissions index",
+          "file": "CIK0001318605-submissions-001.json",
+          "error": "A real operator name and email SEC_USER_AGENT must be configured."
+        },
+        {
           "accession": "0000070858-25-000200",
           "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
           "status": "Document inspected",
@@ -1101,7 +1793,7 @@
       ],
       "components": [],
       "component_operators": [],
-      "id": "b0fede98fa0ad3aeb792c6a7",
+      "id": "d9dabf5716e308584d149fb5",
       "verified": false,
       "formula": "",
       "confidence": "Unverified / review required",
@@ -1109,6 +1801,48 @@
     }
   ],
   "investigation": [
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001018724-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001652044-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001326801-submissions-002.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001045810-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
+    {
+      "status": "Filing verification unavailable",
+      "scope": "Historical submissions index",
+      "file": "CIK0001318605-submissions-001.json",
+      "error": "A real operator name and email SEC_USER_AGENT must be configured."
+    },
     {
       "accession": "0000070858-25-000200",
       "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085825000200/bac-20250331.htm",
@@ -1138,5 +1872,5 @@
       "search_scope": "Primary filing including embedded financial notes"
     }
   ],
-  "retrieved_at": "2026-10-22T19:03:32.804801+00:00"
+  "retrieved_at": "2026-10-22T19:13:57.359767+00:00"
 }
