@@ -12,7 +12,6 @@ from quarterfill.presentation import amount, explanation, input_name, period, qu
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError, filing_url
 from quarterfill.segments import segment_build, revenue_details
-from quarterfill.models import stable_id
 
 
 PAGES = ['Quarterly Lookup', 'Three-Statement Builder', 'Missing Data Investigator',
@@ -147,6 +146,17 @@ def statement_table(research, statement, years, key):
 def revenue_segments(research, years, key):
     st.write('See which parts of the business bring in revenue. We use the segments named in the company’s reports.')
     year = st.selectbox('Segment year', range(years[0], years[1] + 1), key=f'{key}_segment_year')
+    basis = st.radio('Report version', ['Reports for the selected year', 'Comparisons in the following year'],
+                     horizontal=True, key=f'{key}_revenue_basis')
+    research.revenue_basis_year = year
+    if basis == 'Comparisons in the following year':
+        with st.spinner('Checking the following year’s reports for updated breakdowns…'):
+            research.investigate(year + 1)
+        if research.periods(year + 1):
+            research.revenue_basis_year = year + 1
+        else:
+            st.info('We could not establish the following reporting year. Showing the selected year’s reports.')
+    st.caption('Each view uses one reporting year’s filings. Later comparisons can rename or move groups, so their figures are kept separate.')
     builds = segment_build(research, year)
     if not builds:
         st.info('We could not find a reliable business-segment revenue breakdown in the reports we opened. Read the company’s segment note for more detail.')
@@ -158,16 +168,22 @@ def revenue_segments(research, years, key):
         row = {'Business segment': name}
         for label, cell in zip(labels, cells):
             row[label] = amount(cell.value, 'USD', compact=True)
-            if cell.value is not None and cell.operation == '-':
+            if cell.value is not None and cell.status in ('Mathematically calculated', 'Derived from reported components'):
                 row[label] += ' · calculated'
         rows.append(row)
+        for extra, values in build['supplemental'].get(name, {}).items():
+            rows.append({'Business segment': f'{name} — {extra}', **{
+                label: amount(cell.value, cell.unit or 'USD', compact=cell.unit != '%') for label, cell in zip(labels, values)}})
     for name, index in [('Sum of segments', 0), ('Company revenue', 1)]:
         rows.append({'Business segment': name, **{label: amount(pair[index].value, 'USD', compact=True)
                      for label, pair in zip(labels, build['totals'])}})
     st.caption('Dollar amounts are in millions. A dash means we do not have a reliable number. Segment names and definitions can change between years.')
     st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
     left, right = st.columns([3, 1])
-    name = left.selectbox('Explain a segment', list(build['rows']), key=f'{key}_segment')
+    explain_rows = dict(build['rows'])
+    for parent, extras in build['supplemental'].items():
+        explain_rows.update({f'{parent} — {name}': values for name, values in extras.items()})
+    name = left.selectbox('Explain a segment', list(explain_rows), key=f'{key}_segment')
     q = right.selectbox('Quarter or year', range(5), format_func=lambda i: labels[i], key=f'{key}_segment_quarter')
     check = build['checks'][q]
     if check == 'The segments add up to company revenue.':
@@ -175,7 +191,7 @@ def revenue_segments(research, years, key):
     else:
         st.info(check)
     with st.expander('Explain the main segment number'):
-        show_work(build['rows'][name][q], f'{key}_segment_work')
+        show_work(explain_rows[name][q], f'{key}_segment_work')
     with st.expander('How the segments add together'):
         show_work(build['totals'][q][0], f'{key}_segment_total')
 
@@ -191,7 +207,7 @@ def smaller_revenue_groups(research, years, key):
         st.info('We could not find smaller revenue groups in the reports we opened. The company may not publish this detail, or it may only appear in written notes or an untagged table.')
         return
     details.sort(key=lambda g: (not bool(g['scope']), g['parent'], g['name']))
-    views = {stable_id([g['concept'], g['scope'], g['axis']]): g for g in details}
+    views = {g['identity']: g for g in details}
     view_names = {identity: f'{g["parent"]} → {g["name"]} (view {i + 1})'
                   for i, (identity, g) in enumerate(views.items())}
     index = st.selectbox('Choose a business or revenue view', list(views), format_func=view_names.get,
@@ -199,6 +215,8 @@ def smaller_revenue_groups(research, years, key):
     group = views[index]
     labels = ['Q1', 'Q2', 'Q3', 'Q4', 'Year total']
     st.markdown(f'**{group["parent"]} — {group["name"]}**')
+    if group['changed_names']:
+        st.info('The reports changed a category name during this year. “Remaining revenue” means segment revenue minus the other listed groups. It fills the mathematical gap without assuming the old and new names mean exactly the same thing.')
     if not group['scope']:
         st.caption('The report provides this view for the whole company. It does not identify a parent business for each row, so we have not assigned one.')
     rows = []
@@ -206,19 +224,24 @@ def smaller_revenue_groups(research, years, key):
         values = {'Revenue group': row['name']}
         for label, cell in zip(labels, row['cells']):
             values[label] = amount(cell.value, 'USD', compact=True)
-            if cell.value is not None and cell.operation == '-':
+            if cell.value is not None and cell.status in ('Mathematically calculated', 'Derived from reported components'):
                 values[label] += ' · calculated'
         rows.append(values)
     rows.append({'Revenue group': 'Reported total for this view', **{
         label: amount(cell.value, 'USD', compact=True) for label, cell in zip(labels, group['parent_cells'])}})
+    for name, values in group['supplemental'].items():
+        rows.append({'Revenue group': name, **{label: amount(cell.value, cell.unit or 'USD', compact=cell.unit != '%')
+                     for label, cell in zip(labels, values)}})
     st.caption('Dollar amounts are in millions. A dash means a reliable number is unavailable. Groups and definitions may change between reports.')
     st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
     left, right = st.columns([3, 1])
-    selected = left.selectbox('Explain a smaller group', range(len(group['rows'])),
-                format_func=lambda i: group['rows'][i]['name'], key=f'{key}_detail_row_{index}')
+    explain_rows = {row['name']: row['cells'] for row in group['rows']}
+    explain_rows['Segment revenue'] = group['parent_cells']
+    explain_rows.update(group['supplemental'])
+    selected = left.selectbox('Explain a smaller group', list(explain_rows), key=f'{key}_detail_row_{index}')
     q = right.selectbox('Period', range(5), format_func=lambda i: labels[i], key=f'{key}_detail_period')
     st.info(group['checks'][q])
-    show_work(group['rows'][selected]['cells'][q], f'{key}_detail_work')
+    show_work(explain_rows[selected][q], f'{key}_detail_work')
     with st.expander('Check this group total'):
         show_work(group['totals'][q], f'{key}_detail_sum')
         show_work(group['parent_cells'][q], f'{key}_detail_parent')

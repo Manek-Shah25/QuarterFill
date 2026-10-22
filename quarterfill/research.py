@@ -24,8 +24,8 @@ class Research:
             parsed,text=parse_inline(self.client.get(url,ttl=30*86400),self.company['cik'],filing,url)
             self.documents[acc]=(parsed,text)
             self.facts=[verify(f,parsed) if f.accession==acc else f for f in self.facts]
-            existing={(f.concept,f.start,f.end,f.unit,f.value,f.accession,f.dimensions) for f in self.facts}
-            self.facts.extend(f for f in parsed if (f.concept,f.start,f.end,f.unit,f.value,f.accession,f.dimensions) not in existing)
+            existing={(f.concept,f.start,f.end,f.unit,f.value,f.accession,f.dimensions,f.table) for f in self.facts}
+            self.facts.extend(f for f in parsed if (f.concept,f.start,f.end,f.unit,f.value,f.accession,f.dimensions,f.table) not in existing)
             self.log.append({'accession':acc,'url':url,'status':'Document inspected','inline_facts':len(parsed),
                              'search_scope':'Primary filing, embedded notes and comparative-version precision'})
         except SECError as exc:

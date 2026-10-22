@@ -35,6 +35,10 @@ The revenue breakdown uses business segments from the company’s reports. It sh
 
 Under **Smaller revenue groups**, choose a business to see the products, services, or other groups reported inside it. This works from each company’s filing structure, rather than a list of preset companies. When a report gives a separate product breakdown without naming its parent business, we show it as a separate view. Some reports only put this detail in written notes or untagged tables, so we cannot promise every company’s smallest group will appear. Groups may overlap; the app keeps the views separate and shows when their totals do not match.
 
+For a missing revenue amount, QuarterFill checks the reported quarter, running totals, the full year, and complete group breakdowns that add up in the company’s reports. For example, company revenue minus Animal Safety revenue can give Food Safety revenue. It also shows each segment’s share of company revenue and, when Genomics is reported separately, core revenue calculated as segment revenue minus Genomics.
+
+Choose **Report version** to keep the selected year’s figures separate from the following year’s comparisons. Companies sometimes rename or move smaller groups. A row labeled **Remaining revenue** is explicitly the parent total minus the other listed groups; it does not claim two different category names mean exactly the same thing. If there still is not one supported answer, the amount stays blank. Two filled quarters cannot determine two unknown quarters on their own, and an empty row does not prove that a company does not use the item.
+
 The app has been checked using real company filings, but it has not had a complete independent financial review. If you plan to use a number in a model or an investment decision, open the source reports and make sure the comparison makes sense. QuarterFill helps you do the research; it does not replace your judgment.
 
 If you want to run your own copy, the [setup guide](DEPLOYMENT.md) explains how. You do not need to do that to use the website.

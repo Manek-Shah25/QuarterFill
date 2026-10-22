@@ -48,8 +48,9 @@ def test_real_neog_and_apple_segments():
         assert build['checks'][0] == 'The segments add up to company revenue.'
         if cik == 711377:
             assert build['rows']['Food Safety'][3].value == 161826000
-            # Later NEOG disclosures disagree: preserve the conflict rather than guess.
-            assert build['rows']['Animal Safety'][3].value is None
+            assert build['rows']['Animal Safety'][3].value == 63633000
+            assert build['rows']['Food Safety'][2].value == 152731000
+            assert all(c == 'The segments add up to company revenue.' for c in build['checks'])
 
 
 def test_generic_children_keep_parent_scope_and_support_more_levels():
@@ -72,7 +73,9 @@ def test_generic_children_keep_parent_scope_and_support_more_levels():
     assert 'do not add up' in children['checks'][3]
     grandchildren = next(g for g in groups if g['axis']=='example:SubProductAxis')
     assert grandchildren['rows'][0]['cells'][3].value == 25
-    assert not any('South' in g['parent'] for g in groups)  # No reported parent, no invented link.
+    south = next(g for g in groups if g['parent']=='South' and g['axis']=='example:ProductAxis')
+    assert south['rows'][0]['cells'][0].value == 20  # The reported context explicitly names this parent.
+    assert south['parent_cells'][0].value is None  # No invented parent total.
     assert not any('Elimination' in g['parent'] for g in groups)
 
 
@@ -87,12 +90,42 @@ def test_real_smaller_groups_across_companies():
             food = next(g for g in groups if g['parent']=='Food Safety')
             animal = next(g for g in groups if g['parent']=='Animal Safety')
             for group in (food, animal):
-                bio = next(row for row in group['rows'] if row['name']=='Biosecurity Products')
+                bio = next(row for row in group['rows'] if 'Biosecurity Products' in row['name'])
                 assert bio['cells'][0].verified
-            assert next(row for row in food['rows'] if row['name']=='Biosecurity Products')['cells'][0].value == 11779000
-            assert next(row for row in animal['rows'] if row['name']=='Biosecurity Products')['cells'][0].value == 20806000
+                assert all(c.value is not None and c.verified for row in group['rows'] for c in row['cells'])
+                assert all(c.value is not None for c in group['supplemental']['Core revenue (minus Genomics)'])
+            assert next(row for row in food['rows'] if 'Biosecurity Products' in row['name'])['cells'][0].value == 11779000
+            assert next(row for row in animal['rows'] if 'Biosecurity Products' in row['name'])['cells'][0].value == 20806000
         elif cik == 789019:
             assert any(row['name']=='Gaming' and row['cells'][0].verified for g in groups for row in g['rows'])
             assert all(not g['scope'] for g in groups)  # Product-only contexts do not establish segment parents.
         else:
             assert any(row['name']=='iPhone' and row['cells'][0].value == 69138000000 for g in groups for row in g['rows'])
+
+
+def test_real_neog_company_minus_animal_fills_food_without_reported_food_quarter():
+    client = SECClient()
+    company, submissions = client.company(711377)
+    research = Research(client, company, submissions)
+    research.investigate(2025)
+    research.facts = [f for f in research.facts if not (f.end=='2025-02-28'
+                      and f.dimensions==('us-gaap:StatementBusinessSegmentsAxis=neog:FoodSafetyMember',))]
+    cell = segment_build(research,2025)[0]['rows']['Food Safety'][2]
+    assert cell.value == 152731000 and cell.verified
+    assert cell.status == 'Derived from reported components'
+    assert [c.value for c in cell.components] == [220980000,68249000]
+    assert cell.disclosure_evidence
+
+
+def test_real_neog_later_comparisons_offer_separate_indicator_and_other():
+    client = SECClient()
+    company, submissions = client.company(711377)
+    research = Research(client,company,submissions)
+    research.investigate(2025)
+    original = segment_build(research,2025)[0]['rows']['Food Safety'][2].value
+    research.investigate(2026)
+    assert segment_build(research,2025)[0]['rows']['Food Safety'][2].value == original
+    research.revenue_basis_year = 2026
+    group = next(g for g in revenue_details(research,2025) if g['parent']=='Food Safety')
+    names = [row['name'] for row in group['rows']]
+    assert 'Other' in names and 'Indicator Testing & Culture Media' in names
