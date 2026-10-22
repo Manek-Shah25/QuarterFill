@@ -13,6 +13,23 @@ class Research:
         self.facts = company_facts(company, self.filings)
         self.documents = {}
         self.log = list(client.history_errors)
+        self.additional_version_scans = 0
+
+    def inspect_filing(self, filing):
+        acc=filing['accessionNumber']
+        if acc in self.documents:
+            return
+        url=filing_url(self.company['cik'],filing)
+        try:
+            parsed,text=parse_inline(self.client.get(url,ttl=30*86400),self.company['cik'],filing,url)
+            self.documents[acc]=(parsed,text)
+            self.facts=[verify(f,parsed) if f.accession==acc else f for f in self.facts]
+            existing={(f.concept,f.start,f.end,f.unit,f.value,f.accession,f.dimensions) for f in self.facts}
+            self.facts.extend(f for f in parsed if (f.concept,f.start,f.end,f.unit,f.value,f.accession,f.dimensions) not in existing)
+            self.log.append({'accession':acc,'url':url,'status':'Document inspected','inline_facts':len(parsed),
+                             'search_scope':'Primary filing, embedded notes and comparative-version precision'})
+        except SECError as exc:
+            self.log.append({'accession':acc,'url':url,'status':'Filing verification unavailable','error':str(exc)})
 
     def investigate(self, year, max_filings=12):
         periods = self.periods(year)
@@ -22,20 +39,7 @@ class Research:
                     and start <= f.get('reportDate', '') <= end]
         relevant.sort(key=lambda f: (f.get('reportDate', ''), f['filingDate']))
         for filing in relevant[:max_filings]:
-            acc = filing['accessionNumber']
-            if acc in self.documents:
-                continue
-            url = filing_url(self.company['cik'], filing)
-            try:
-                parsed, text = parse_inline(self.client.get(url, ttl=30*86400), self.company['cik'], filing, url)
-                self.documents[acc] = (parsed, text)
-                self.facts = [verify(f, parsed) if f.accession == acc else f for f in self.facts]
-                existing = {(f.concept, f.start, f.end, f.unit, f.value, f.accession, f.dimensions) for f in self.facts}
-                self.facts.extend(f for f in parsed if (f.concept, f.start, f.end, f.unit, f.value, f.accession, f.dimensions) not in existing)
-                self.log.append({'accession': acc, 'url': url, 'status': 'Document inspected',
-                                 'inline_facts': len(parsed), 'search_scope': 'Primary filing including embedded financial notes'})
-            except SECError as exc:
-                self.log.append({'accession': acc, 'url': url, 'status': 'Filing verification unavailable', 'error': str(exc)})
+            self.inspect_filing(filing)
         if len(relevant) > max_filings:
             self.log.append({'status': 'Incomplete scope', 'remaining_filings': len(relevant) - max_filings})
 
@@ -78,6 +82,20 @@ class Research:
             result = reconstruct(self.company['entityName'], self.submissions.get('tickers', [''])[0],
                                  metric, self.facts, year, q, self.periods(year), custom['concept'] if custom else None,
                                  tuple(custom.get('dimensions',())) if custom else ())
+            if result.status=='Ambiguous or conflicting':
+                # CompanyFacts omits decimals. Inspect comparative versions before treating
+                # a change in disclosed rounding precision as a financial restatement.
+                accessions={f.accession for f in result.inputs if not f.verified}
+                for accession in accessions:
+                    if self.additional_version_scans>=8:
+                        break
+                    filing=next((f for f in self.filings if f['accessionNumber']==accession),None)
+                    if filing and accession not in self.documents:
+                        self.additional_version_scans+=1
+                        self.inspect_filing(filing)
+                result=reconstruct(self.company['entityName'],self.submissions.get('tickers',[''])[0],
+                    metric,self.facts,year,q,self.periods(year),custom['concept'] if custom else None,
+                    tuple(custom.get('dimensions',())) if custom else ())
             if custom:
                 result.reasoning.append('Exact concept and dimensional scope explicitly selected by analyst; no equivalence to a standard metric is asserted.')
                 result.warnings.append('Custom and segment reporting definitions and reorganizations require analyst review.')

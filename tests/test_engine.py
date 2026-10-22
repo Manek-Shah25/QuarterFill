@@ -68,6 +68,14 @@ def test_restated_conflict_preserves_versions():
     assert amended in c.inputs
 
 
+def test_compatible_rounding_preserves_precise_original():
+    original=fact(12961000,decimals='-3')
+    rounded=replace(original,value=Decimal(13000000),decimals='-5',filed='2025-05-01')
+    result=cell([original,rounded],1)
+    assert result.value==12961000
+    assert result.status=='Directly reported'
+
+
 def test_missing_is_not_zero():
     assert cell([],1).value is None
     assert cell([fact(0)],1).status == 'Explicitly zero'

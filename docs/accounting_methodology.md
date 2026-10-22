@@ -27,5 +27,8 @@ These classifications need positive documentary evidence. The investigator suppo
 an analyst's explicit conclusion with an exact retrieved passage and rationale; the
 semantic determination is not automated.
 Conflicting versions remain ambiguous; originals and amendments are retained.
+Comparative amounts that differ only within documented XBRL rounding precision are
+compatible; the more precise source is preferred. CompanyFacts lacks decimals, so
+potential conflicts require inspection of the underlying comparative filing first.
 Acquisitions, discontinued operations, segment reorganizations and accounting policy
 changes require analyst review. An arithmetic identity alone does not establish comparability.

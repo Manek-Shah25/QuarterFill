@@ -7,6 +7,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from quarterfill.concepts import METRICS, BY_NAME, DERIVED, search
+from quarterfill.companies import resolve_companies
 from quarterfill.export import workbook, fill_model
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError
@@ -142,7 +143,7 @@ elif page == 'Excel Export Center':
 else:
     with st.form('research_form'):
         left, right = st.columns([2, 3])
-        company_query = left.text_input('Company ticker or name', 'AAPL')
+        company_query = left.text_input('Company ticker, name or CIK', 'AAPL')
         query = right.text_input('Financial line item search', 'Stock compensation')
         candidates = search(query)
         metric_name = st.selectbox('Accounting definition (confirm the intended metric)',
@@ -152,13 +153,18 @@ else:
         history = st.checkbox('Load historical filing index (required for older periods)', True)
         run = st.form_submit_button('Find Quarterly Values', type='primary')
     if run:
+        # A failed new lookup must never leave the previous company's results on screen.
+        for previous_key in ('research','cells','request'):
+            st.session_state.pop(previous_key,None)
         try:
             with st.spinner('Resolving company and retrieving authentic SEC disclosures…'):
                 companies = client.companies()
-                matches = [c for c in companies if c['ticker'].lower() == company_query.lower() or
-                           company_query.lower() in c['title'].lower()]
+                matches = resolve_companies(companies,company_query)
                 if len(matches) != 1:
-                    st.warning('Enter an exact ticker. Matching companies: ' + ', '.join(c['ticker'] for c in matches[:20]))
+                    if matches:
+                        st.warning('Several company names match. Enter one of these exact tickers: ' + ', '.join(c['ticker'] for c in matches[:20]))
+                    else:
+                        st.warning('No match in the SEC company index. Check the symbol or use the company name or CIK. Companies without SEC financial filings may not have supported data.')
                     st.stop()
                 payload, submissions = client.company(matches[0]['cik_str'])
                 research = Research(client, payload, submissions, history)

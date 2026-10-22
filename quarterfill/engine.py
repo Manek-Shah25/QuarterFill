@@ -23,7 +23,8 @@ def choose(facts):
     if any(abs(a.value - b.value) > max(tolerance(a), tolerance(b))
            for a in facts for b in facts):
         return None, "Conflicting filing versions or accounting concepts; analyst review required."
-    return sorted(facts, key=lambda f: (f.verified, f.filed), reverse=True)[0], None
+    # Compatible rounded comparatives do not displace a more precise original amount.
+    return sorted(facts, key=lambda f: (f.verified, -tolerance(f), f.filed), reverse=True)[0], None
 
 
 def fiscal_periods(facts, year):
