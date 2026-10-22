@@ -12,6 +12,7 @@ from quarterfill.presentation import amount, explanation, input_name, period, qu
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError, filing_url
 from quarterfill.segments import segment_build, revenue_details
+from quarterfill.models import stable_id
 
 
 PAGES = ['Quarterly Lookup', 'Three-Statement Builder', 'Missing Data Investigator',
@@ -189,13 +190,13 @@ def smaller_revenue_groups(research, years, key):
     if not details:
         st.info('We could not find smaller revenue groups in the reports we opened. The company may not publish this detail, or it may only appear in written notes or an untagged table.')
         return
-    def view_name(i):
-        group = details[i]
-        return f'{group["parent"]} → {group["name"]} (view {i + 1})'
     details.sort(key=lambda g: (not bool(g['scope']), g['parent'], g['name']))
-    index = st.selectbox('Choose a business or revenue view', range(len(details)), format_func=view_name,
+    views = {stable_id([g['concept'], g['scope'], g['axis']]): g for g in details}
+    view_names = {identity: f'{g["parent"]} → {g["name"]} (view {i + 1})'
+                  for i, (identity, g) in enumerate(views.items())}
+    index = st.selectbox('Choose a business or revenue view', list(views), format_func=view_names.get,
                          key=f'{key}_detail_view')
-    group = details[index]
+    group = views[index]
     labels = ['Q1', 'Q2', 'Q3', 'Q4', 'Year total']
     st.markdown(f'**{group["parent"]} — {group["name"]}**')
     if not group['scope']:
