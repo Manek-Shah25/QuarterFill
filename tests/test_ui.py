@@ -64,6 +64,20 @@ def test_methodology_is_plain_language():
     assert not app.file_uploader
 
 
+def test_tmdx_cash_and_manual_dropdown_selection():
+    app = AppTest.from_file(str(Path(__file__).resolve().parents[1] / 'app.py'),default_timeout=40).run()
+    app.text_input[0].set_value('TMDX')
+    app.button[0].click().run()
+    next(r for r in app.radio if r.label=='Financial statement').set_value('Balance sheet').run()
+    assert not app.exception
+    assert app.dataframe[0].value.iloc[0]['Q4'] == '488.366'
+    next(s for s in app.selectbox if s.label=='Quarter').set_value(4).run()
+    assert not app.exception
+    assert app.session_state['lookup_quarter']==4
+    assert app.session_state['lookup_selection_revision']==1
+    assert any('Cash · Quarter 4 · 2025' in c.value for c in app.caption)
+
+
 def test_loaded_pages_hide_developer_fields():
     app=AppTest.from_file(str(Path(__file__).resolve().parents[1] / 'app.py'),default_timeout=60).run()
     app.button[0].click().run()

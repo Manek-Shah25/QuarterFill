@@ -109,4 +109,6 @@ def explanation(cell):
         result['note'] = 'We found the amount in SEC data, but have not checked it against the original report yet.'
     elif any('comparability' in warning or 'basis' in warning for warning in cell.warnings):
         result['note'] = 'These amounts come from separate reports. Changes in the business or reporting may affect the comparison.'
+    if any(warning.startswith('Cash-only balance:') for warning in cell.warnings):
+        result['note'] = 'The company labels this balance “Cash.” We show that reported amount without adding cash equivalents or restricted cash.'
     return result
