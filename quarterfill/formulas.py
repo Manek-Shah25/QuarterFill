@@ -73,7 +73,10 @@ def recover(research, name, year, q, seen):
                         parent='us-gaap:'+tag
                         roles={r for a,b,w,r in taxonomy.calculations if a==parent}
                         for role in roles:
-                            arcs={(b,int(w)) for a,b,w,r in taxonomy.calculations if a==parent and r==role and w in ('1','-1')}
+                            relationships=[(b,w) for a,b,w,r in taxonomy.calculations if a==parent and r==role]
+                            if any(w not in ('1','-1') for b,w in relationships):
+                                continue
+                            arcs={(b,int(w)) for b,w in relationships}
                             if arcs==expected:
                                 valid=True
                 if not valid:

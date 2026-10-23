@@ -110,3 +110,16 @@ def test_transition_annual_period_is_never_mislabeled_as_a_quarter():
     assert periods==('2024-07-01',{0:'2024-12-31'})
     assert reconstruct('T','T',BY_NAME['Revenue'],[f],2024,0,periods).value==100
     assert reconstruct('T','T',BY_NAME['Revenue'],[f],2024,4,periods).value is None
+
+
+def test_presentation_formula_requires_every_calculation_child():
+    facts=[fact(470,concept='us-gaap:GrossProfit',table='income'),
+           fact(200,concept='us-gaap:OperatingExpenses',table='income')]
+    taxonomy=Taxonomy()
+    taxonomy.calculations=[('us-gaap:OperatingIncomeLoss','us-gaap:GrossProfit','1','income'),
+                           ('us-gaap:OperatingIncomeLoss','us-gaap:OperatingExpenses','-1','income')]
+    r=research(facts); r.taxonomies={'a':taxonomy}
+    assert r.cell('Operating income',2024,1).value==270
+    taxonomy.calculations.append(('us-gaap:OperatingIncomeLoss','co:ExtraExpense','-0.5','income'))
+    r=research(facts); r.taxonomies={'a':taxonomy}
+    assert r.cell('Operating income',2024,1).value is None
