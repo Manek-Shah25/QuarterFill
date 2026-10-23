@@ -32,10 +32,17 @@ Streamlit disk. Never host a paid database or require visitor API keys.
 Live URL verified October 22, 2026: https://quarterfill.streamlit.app
 An AAPL FY2025 stock-based compensation lookup returned all four quarters and a
 document-matched source audit. Deployment tracks `codex/quarterfill-implementation`.
-Repository is public; the implementation remains in pull request #15 while advanced
-acceptance gaps are tracked explicitly. The app uses Python 3.12 and encrypted SEC
+Repository is public; implementation changes are reviewed through pull requests.
+The app uses Python 3.12 and encrypted SEC
 operator configuration. No paid infrastructure was enabled.
 
 See docs/implementation_checklist.md and docs/validation.md for measured completion.
+
+The October 23 extraction overhaul keeps this same app and tracked branch. Install
+the existing requirements, run the full test suite, and push the reviewed changes to
+`codex/quarterfill-implementation`. Verify the public app after Community Cloud restarts;
+if it retains the previous process, use its dashboard's Reboot action. No new operator
+secret, paid plan, or additional account permission is required. See
+[the extraction notes](docs/extraction-overhaul.md) for source fixtures and limitations.
 Project board and deployment require an authenticated browser/account if connector APIs
 do not provide those operations. Public visibility must be checked separately from push.

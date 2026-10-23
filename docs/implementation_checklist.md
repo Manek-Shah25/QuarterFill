@@ -1,5 +1,11 @@
 # Implementation checklist
 
+The October 23 overhaul supersedes the export-control wording below: it restores a
+small per-statement Excel download, while retaining the five pages and no Export
+Center. It adds broader mappings, guarded recovery, report-version views and statement
+checks. [Current extraction scope and evidence](extraction-overhaul.md) records the
+seven-company benchmark and the remaining semantic and transition-period limits.
+
 ## Current website scope
 
 The user requested a simpler website on October 22, 2026. The frontend now focuses on

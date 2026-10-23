@@ -14,6 +14,8 @@ from quarterfill.sec import SECClient, SECError, filing_url
 from quarterfill.segments import segment_build, revenue_details
 from quarterfill.selection import sync_cell_selection
 from quarterfill.models import Cell, stable_id
+from quarterfill.validation import validate
+from quarterfill.export import workbook
 
 
 PAGES = ['Quarterly Lookup', 'Three-Statement Builder', 'Missing Data Investigator',
@@ -94,6 +96,8 @@ def show_work(cell, key):
                 title = input_name(cell, i) if len(cell.inputs) == 2 and cell.operation == '-' else 'Reported amount'
                 st.markdown(f'**{title}**')
                 sentence(amount(fact.value, fact.unit))
+                if fact.label and ':' not in fact.label:
+                    st.caption(f'The company calls this “{fact.label}”.')
                 st.caption(period(fact.start, fact.end))
                 report = 'Annual report' if fact.form.startswith('10-K') else 'Quarterly report'
                 if fact.filed:
@@ -109,7 +113,7 @@ def show_work(cell, key):
 
 def build_cells(research, names, years):
     return [research.cell(name, year, q) for name in names for year in range(years[0], years[1] + 1)
-            for q in ([1, 2, 3, 4, 0] if name in BY_NAME and BY_NAME[name].kind == 'flow' else [1, 2, 3, 4])]
+            for q in [1, 2, 3, 4, 0]]
 
 
 def clickable_table(frame, key, context, row_targets, period_targets, open_key=None):
@@ -137,14 +141,23 @@ def statement_table(research, statement, years, key):
     names = [m.name for m in METRICS if m.statement == STATEMENTS[statement]]
     cells = build_cells(research, names, years)
     st.session_state['cells'] = cells
+    with st.expander('Choose what to show'):
+        view=st.radio('Amounts', ['All amounts','Reported amounts','Calculated amounts','Unresolved amounts'],
+                      horizontal=True,key=f'{key}_amounts')
+        annual=st.toggle('Show only the year total',key=f'{key}_annual')
+    visible=[c for c in cells if view=='All amounts' or
+             (view=='Reported amounts' and c.accounting_status=='Reported') or
+             (view=='Calculated amounts' and c.accounting_status=='Derived') or
+             (view=='Unresolved amounts' and c.value is None)]
     rows = []
+    annual_label='Year end' if statement=='Balance sheet' else 'Year total'
     for year in range(years[0], years[1] + 1):
         for name in names:
             row = {'Line item': metric_label(name)}
             if years[0] != years[1]:
                 row['Year'] = year
-            for c in (c for c in cells if c.metric == name and c.year == year):
-                label = 'Year total' if c.quarter == 'FY' else c.quarter
+            for c in (c for c in visible if c.metric == name and c.year == year and (not annual or c.quarter=='FY')):
+                label = annual_label if c.quarter == 'FY' else c.quarter
                 value = amount(c.value, c.unit, compact=c.unit == 'USD')
                 if c.value is not None and not c.verified:
                     value += ' · check'
@@ -155,11 +168,14 @@ def statement_table(research, statement, years, key):
     st.caption('Dollar amounts are in millions. Per-share amounts and share counts are labeled separately. A dash means we do not have a reliable number.')
     st.caption('Click a quarter’s value to see how we got it. You can also use the choices below.')
     frame = pd.DataFrame(rows).fillna('—')
-    periods = [1, 2, 3, 4] + ([0] if 'Year total' in frame.columns else [])
+    periods = ([1, 2, 3, 4] if not annual else []) + ([0] if annual_label in frame.columns else [])
+    if not periods:
+        st.info('No amounts match this view. Choose All amounts to see the full statement.')
+        return
     clickable_table(frame, key, [research.company['cik'], years, statement],
                     [{f'{key}_metric': name, f'{key}_year': year}
                      for year in range(years[0], years[1]+1) for name in names],
-                    {('Year total' if q == 0 else f'Q{q}'): {f'{key}_quarter': q} for q in periods})
+                    {(annual_label if q == 0 else f'Q{q}'): {f'{key}_quarter': q} for q in periods})
     if any(c.value is not None and not c.verified for c in cells):
         st.caption('“Check” means we still need to check the amount against the original company report.')
     left, middle, right = st.columns([3, 1, 1])
@@ -168,11 +184,39 @@ def statement_table(research, statement, years, key):
     valid_choice(f'{key}_quarter', periods)
     name = left.selectbox('Explain a line item', names, format_func=metric_label, key=f'{key}_metric', on_change=clear_table_selection, args=(key,))
     year = middle.selectbox('Year', range(years[0], years[1] + 1), key=f'{key}_year', on_change=clear_table_selection, args=(key,))
-    q = right.selectbox('Quarter', periods, format_func=lambda n: 'Year total' if n == 0 else f'Q{n}', key=f'{key}_quarter', on_change=clear_table_selection, args=(key,))
+    q = right.selectbox('Quarter', periods, format_func=lambda n: annual_label if n == 0 else f'Q{n}', key=f'{key}_quarter', on_change=clear_table_selection, args=(key,))
     selected = next((c for c in cells if c.metric==name and c.year==year and c.quarter==('FY' if q==0 else f'Q{q}')), None)
     if selected is None:
         selected = Cell(research.company['entityName'], '', name, year, 'FY', None, None, 'Insufficient information')
     show_work(selected, key)
+    with st.expander('See other reported lines for these dates'):
+        st.caption('These are amounts as reported, including company-specific lines. They may come from different notes and must not be added together.')
+        disclosed={}
+        for fact in research.selected_facts():
+            if (fact.verified and not fact.dimensions and fact.end==selected.end and
+                (fact.start==selected.start or (statement=='Balance sheet' and fact.start is None)) and
+                fact.label and ':' not in fact.label):
+                identity=(fact.label,fact.start,fact.end,fact.value,fact.unit)
+                disclosed[identity]={'Reported line':fact.label,'Amount':amount(fact.value,fact.unit),
+                                     'Report date':fact.end,'Source report':fact.url}
+        if disclosed:
+            st.dataframe(pd.DataFrame(disclosed.values()),hide_index=True,width='stretch',
+                         column_config={'Source report':st.column_config.LinkColumn('Company report',display_text='Read report')})
+        else:
+            st.caption('No additional matching report rows were found.')
+    with st.expander('Do the statements add up?'):
+        check_cells=[research.cell(m.name,year,q) for m in METRICS]
+        checks=validate(check_cells)
+        for cell in check_cells:
+            cell.validation=[c.audit() for c in checks]
+        for check in checks:
+            st.write(f'**{check.name}: {check.status}**')
+            st.caption(check.explanation)
+            if check.difference is not None and check.status=='Review':
+                sentence(f'Difference: {amount(check.difference)}. Allowed rounding: {amount(check.tolerance)}.')
+    with st.expander('Save this statement'):
+        st.download_button('Download for Excel',workbook(cells),file_name=f'QuarterFill-{statement.replace(" ","-")}.xlsx',
+                           mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',key=f'{key}_download')
 
 
 def revenue_segments(research, years, key):
@@ -378,6 +422,9 @@ else:
     else:
         years = st.session_state['request']
         st.subheader(research.company['entityName'])
+        version=st.selectbox('Which report values?', ['Check all report versions','First reported values','Latest reported values'],
+                             help='Later reports may revise earlier amounts. Checking all versions leaves conflicting amounts unresolved.')
+        research.version_policy={'Check all report versions':'strict','First reported values':'original','Latest reported values':'latest'}[version]
         if page == 'Quarterly Lookup':
             statement = st.radio('Financial statement', list(STATEMENTS), horizontal=True)
             statement_table(research, statement, years, 'lookup')
@@ -387,7 +434,7 @@ else:
                     statement_table(research, statement, years, STATEMENTS[statement])
         elif page == 'Missing Data Investigator':
             st.write('Choose the number you want to check. We will look for it and show the math if it can be calculated.')
-            names = list(BY_NAME) + list(DERIVED)
+            names = list(dict.fromkeys([*BY_NAME,*DERIVED]))
             left, middle, right = st.columns([3, 1, 1])
             name = left.selectbox('Line item', names, format_func=metric_label)
             year = middle.selectbox('Year', range(years[0], years[1] + 1))

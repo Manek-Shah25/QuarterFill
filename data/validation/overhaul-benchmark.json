@@ -1,0 +1,225 @@
+{
+  "baseline_commit": "c314c96569290ca976b448c00ae71f36c28845b1",
+  "version_policy": "strict for both implementations",
+  "requested": 24,
+  "baseline_matches": 19,
+  "revised_matches": 24,
+  "results": [
+    {
+      "ticker": "AAPL",
+      "metric": "Inventory",
+      "expected": "5718000000",
+      "baseline_value": "5718000000",
+      "revised_value": "5718000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "AAPL",
+      "metric": "Revenue",
+      "expected": "416161000000",
+      "baseline_value": "416161000000",
+      "revised_value": "416161000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "AAPL",
+      "metric": "Cost of revenue",
+      "expected": "220960000000",
+      "baseline_value": "220960000000",
+      "revised_value": "220960000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "AAPL",
+      "metric": "Capital expenditures",
+      "expected": "12715000000",
+      "baseline_value": "12715000000",
+      "revised_value": "12715000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "WMT",
+      "metric": "Inventory",
+      "expected": "56435000000",
+      "baseline_value": "56435000000",
+      "revised_value": "56435000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "WMT",
+      "metric": "Cost of revenue",
+      "expected": "511753000000",
+      "baseline_value": "511753000000",
+      "revised_value": "511753000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "WMT",
+      "metric": "Accounts payable",
+      "expected": "58666000000",
+      "baseline_value": null,
+      "revised_value": "58666000000",
+      "baseline_matches": false,
+      "revised_matches": true
+    },
+    {
+      "ticker": "MSFT",
+      "metric": "Deferred revenue (current)",
+      "expected": "64555000000",
+      "baseline_value": "64555000000",
+      "revised_value": "64555000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "MSFT",
+      "metric": "Deferred revenue (noncurrent)",
+      "expected": "2710000000",
+      "baseline_value": null,
+      "revised_value": "2710000000",
+      "baseline_matches": false,
+      "revised_matches": true
+    },
+    {
+      "ticker": "MSFT",
+      "metric": "Finite-lived intangible assets",
+      "expected": "22604000000",
+      "baseline_value": null,
+      "revised_value": "22604000000",
+      "baseline_matches": false,
+      "revised_matches": true
+    },
+    {
+      "ticker": "ADBE",
+      "metric": "Deferred revenue (current)",
+      "expected": "6905000000",
+      "baseline_value": "6905000000",
+      "revised_value": "6905000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "ADBE",
+      "metric": "Cash from operations",
+      "expected": "10031000000",
+      "baseline_value": "10031000000",
+      "revised_value": "10031000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "ADBE",
+      "metric": "Stock-based compensation",
+      "expected": "1942000000",
+      "baseline_value": "1942000000",
+      "revised_value": "1942000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "UNH",
+      "metric": "Receivables",
+      "expected": "23018000000",
+      "baseline_value": "23018000000",
+      "revised_value": "23018000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "UNH",
+      "metric": "Goodwill",
+      "expected": "110499000000",
+      "baseline_value": "110499000000",
+      "revised_value": "110499000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "UNH",
+      "metric": "Intangible assets",
+      "expected": "20474000000",
+      "baseline_value": null,
+      "revised_value": "20474000000",
+      "baseline_matches": false,
+      "revised_matches": true
+    },
+    {
+      "ticker": "CAT",
+      "metric": "Inventory",
+      "expected": "18135000000",
+      "baseline_value": "18135000000",
+      "revised_value": "18135000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "CAT",
+      "metric": "Property and equipment, net",
+      "expected": "15140000000",
+      "baseline_value": null,
+      "revised_value": "15140000000",
+      "baseline_matches": false,
+      "revised_matches": true
+    },
+    {
+      "ticker": "CAT",
+      "metric": "Depreciation and amortization",
+      "expected": "2262000000",
+      "baseline_value": "2262000000",
+      "revised_value": "2262000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "CAT",
+      "metric": "Capital expenditures",
+      "expected": "2821000000",
+      "baseline_value": "2821000000",
+      "revised_value": "2821000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "JPM",
+      "metric": "Revenue",
+      "expected": "182447000000",
+      "baseline_value": "182447000000",
+      "revised_value": "182447000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "JPM",
+      "metric": "Total assets",
+      "expected": "4424900000000",
+      "baseline_value": "4424900000000",
+      "revised_value": "4424900000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "JPM",
+      "metric": "Total liabilities",
+      "expected": "4062462000000",
+      "baseline_value": "4062462000000",
+      "revised_value": "4062462000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    },
+    {
+      "ticker": "JPM",
+      "metric": "Cash from operations",
+      "expected": "-147782000000",
+      "baseline_value": "-147782000000",
+      "revised_value": "-147782000000",
+      "baseline_matches": true,
+      "revised_matches": true
+    }
+  ]
+}

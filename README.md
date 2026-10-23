@@ -27,6 +27,18 @@ The explanations show each step in plain language. A calculated last quarter mig
 
 The actual amounts and company reports appear with the calculation.
 
+You can also choose a full-year view, show only reported or calculated amounts, and check the lines that still need an answer. Open **Do the statements add up?** to see the accounting checks. **Save this statement** downloads an Excel workbook with the numbers, calculations, and report sources. There is no separate export page.
+
+## How the numbers are found
+
+QuarterFill now checks 107 financial line items across the income statement, balance sheet, and cash flow statement. It first looks for the company’s reported numbers, then checks the original reports and their notes. Different names can describe the same item, but similar names can also mean different things. For example, inventory before allowances and inventory after allowances are kept separate.
+
+**Reported** means the company disclosed the amount. **Calculated** means QuarterFill worked it out from matching reported amounts. A missing cost of revenue can sometimes be found by subtracting gross profit from revenue. A missing quarter can sometimes be found from the year total and the other quarters. Clicking the amount shows the work and links to the reports.
+
+The report-values choice lets you compare first-reported and latest-reported amounts. The default checks all versions and leaves a conflict unresolved instead of choosing for you. Some businesses, especially banks, need different accounting rules. QuarterFill does not apply ordinary gross-profit formulas to them.
+
+The latest source-reviewed check covers 24 annual or year-end amounts at Apple, Walmart, Microsoft, Adobe, UnitedHealth, Caterpillar, and JPMorgan. All 24 match the filing rows, compared with 19 in the previous version on the same data. This is a small, recorded coverage check by Codex, not an independent financial audit or a promise that every line at every company will be filled. The [engineering and testing notes](docs/extraction-overhaul.md) explain what changed and what still needs review.
+
 ## What to keep in mind
 
 QuarterFill is still being improved. Companies do not all report their numbers in the same way, and sometimes a report does not contain enough information to fill a gap. When that happens, the app leaves the number blank and tells you why. A blank does not mean zero.

@@ -1,0 +1,2570 @@
+[
+  {
+    "ticker": "AAPL",
+    "cik": 320193,
+    "cells": [
+      {
+        "company": "Apple Inc.",
+        "ticker": "AAPL",
+        "metric": "Inventory",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-06-29",
+        "end": "2025-09-27",
+        "status": "Directly reported",
+        "value": "5718000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "320193",
+            "concept": "us-gaap:InventoryNet",
+            "label": "Inventories",
+            "value": "5718000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-09-27",
+            "accession": "0000320193-25-000079",
+            "form": "10-K",
+            "filed": "2025-10-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "section": "September 27, 2025 September 28, 2024 ASSETS: Current assets: Cash and cash equivalents $ 35,934 $ 29,943 Marketable securities 18,763 35,228 Accounts receivable, net 39,777 33,410 Vendor non-trade receivables 33,180 32,833 Inventories 5,718 7,286 Other current assets 14,585 14,287 Total current assets 147,957 152,987 Non-current assets: Marketable securities 77,723 91,479 Property, plant and equipment, net 49,834 45,680 Other non-current assets \nMatched disclosure row: Inventories 5,718 7,286",
+            "context": "c-20",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "3c4c0a295ca40dcac1e6e50e1cc73563ae24dbdc2557405e22df1f4f3103f20c",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000320193-25-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+            "status": "Document inspected",
+            "inline_facts": 489,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000057",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+            "status": "Document inspected",
+            "inline_facts": 635,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+            "status": "Document inspected",
+            "inline_facts": 643,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000079",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "status": "Document inspected",
+            "inline_facts": 919,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "e45b1fff18cabfdf21cf5a2c",
+        "verified": true,
+        "formula": "5718000000 = 5718000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "1e5f7ad40f33da4bd0cae27c"
+        ]
+      },
+      {
+        "company": "Apple Inc.",
+        "ticker": "AAPL",
+        "metric": "Revenue",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "status": "Directly reported",
+        "value": "416161000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "320193",
+            "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+            "label": "Total net sales",
+            "value": "416161000000",
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-25-000079",
+            "form": "10-K",
+            "filed": "2025-10-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Net sales: Products $ 307,003 $ 294,866 $ 298,085 Services 109,158 96,169 85,200 Total net sales 416,161 391,035 383,285 Cost of sales: Products 194,116 185,233 189,282 Services 26,844 25,119 24,855 Total cost of sales 220,960 210,352 214,137 Gross margin 195,201 180,683 169,148 Operating expenses: Research and development 34,550 31,370 29,915 Selling, general and administrative\nMatched disclosure row: Total net sales 416,161 391,035 383,285",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "89ce88f115d52d88e754a65842dd9ac9880808efe59531a08325349c1472925d",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000320193-25-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+            "status": "Document inspected",
+            "inline_facts": 489,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000057",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+            "status": "Document inspected",
+            "inline_facts": 635,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+            "status": "Document inspected",
+            "inline_facts": 643,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000079",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "status": "Document inspected",
+            "inline_facts": 919,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "fd71a3b9637917fa8ccd9fc4",
+        "verified": true,
+        "formula": "416161000000 = 416161000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "f5b32a5044460f246cf0b96c"
+        ]
+      },
+      {
+        "company": "Apple Inc.",
+        "ticker": "AAPL",
+        "metric": "Cost of revenue",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "status": "Directly reported",
+        "value": "220960000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "320193",
+            "concept": "us-gaap:CostOfGoodsAndServicesSold",
+            "label": "Total cost of sales",
+            "value": "220960000000",
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-25-000079",
+            "form": "10-K",
+            "filed": "2025-10-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Net sales: Products $ 307,003 $ 294,866 $ 298,085 Services 109,158 96,169 85,200 Total net sales 416,161 391,035 383,285 Cost of sales: Products 194,116 185,233 189,282 Services 26,844 25,119 24,855 Total cost of sales 220,960 210,352 214,137 Gross margin 195,201 180,683 169,148 Operating expenses: Research and development 34,550 31,370 29,915 Selling, general and administrative\nMatched disclosure row: Total cost of sales 220,960 210,352 214,137",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "89ce88f115d52d88e754a65842dd9ac9880808efe59531a08325349c1472925d",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000320193-25-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+            "status": "Document inspected",
+            "inline_facts": 489,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000057",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+            "status": "Document inspected",
+            "inline_facts": 635,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+            "status": "Document inspected",
+            "inline_facts": 643,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000079",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "status": "Document inspected",
+            "inline_facts": 919,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "d1037f46f03312895bb588fa",
+        "verified": true,
+        "formula": "220960000000 = 220960000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "f78add5639d9f2417cab9383"
+        ]
+      },
+      {
+        "company": "Apple Inc.",
+        "ticker": "AAPL",
+        "metric": "Capital expenditures",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "status": "Directly reported",
+        "value": "12715000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "320193",
+            "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+            "label": "Payments for acquisition of property, plant and equipment",
+            "value": "12715000000",
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-25-000079",
+            "form": "10-K",
+            "filed": "2025-10-31",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "section": "Years ended September 27, 2025 September 28, 2024 September 30, 2023 Cash, cash equivalents, and restricted cash and cash equivalents, beginning balances $ 29,943 $ 30,737 $ 24,977 Operating activities: Net income 112,010 93,736 96,995 Adjustments to reconcile net income to cash generated by operating activities: Depreciation and amortization 11,698 11,445 11,519 Share-based compensation expense 12,863 11,688 10,833 Other ( 89 ) ( 2,266 ) ( 2,227\nMatched disclosure row: Payments for acquisition of property, plant and equipment ( 12,715 ) ( 9,447 ) ( 10,959 )",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "3935c55eb5b00f638d034681d64f79352bdde63b2d8fea013a666e0b6893831f",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000320193-25-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000008/aapl-20241228.htm",
+            "status": "Document inspected",
+            "inline_facts": 489,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000057",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000057/aapl-20250329.htm",
+            "status": "Document inspected",
+            "inline_facts": 635,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000073/aapl-20250628.htm",
+            "status": "Document inspected",
+            "inline_facts": 643,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000320193-25-000079",
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+            "status": "Document inspected",
+            "inline_facts": 919,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "7fee7cce685cb4e3dfa532e7",
+        "verified": true,
+        "formula": "12715000000 = 12715000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "9cd0ea39e45a7073c6ce3da5"
+        ]
+      }
+    ]
+  },
+  {
+    "ticker": "WMT",
+    "cik": 104169,
+    "cells": [
+      {
+        "company": "Walmart Inc.",
+        "ticker": "WMT",
+        "metric": "Inventory",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2024-11-01",
+        "end": "2025-01-31",
+        "status": "Directly reported",
+        "value": "56435000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "104169",
+            "concept": "us-gaap:InventoryNet",
+            "label": "Inventories",
+            "value": "56435000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-01-31",
+            "accession": "0000104169-25-000021",
+            "form": "10-K",
+            "filed": "2025-03-14",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+            "section": "As of January 31, (Amounts in millions) 2025 2024 ASSETS Current assets: Cash and cash equivalents $ 9,037 $ 9,867 Receivables, net 9,975 8,796 Inventories 56,435 54,892 Prepaid expenses and other 4,011 3,322 Total current assets 79,458 76,877 Property and equipment, net 119,993 110,810 Operating lease right-of-use assets 13,599 13,673 Finance lease right-of-use assets, net 6,112 5,855 Goodwill 28,792 28,113 Other long-term assets 12,869 17,071 T\nMatched disclosure row: Inventories 56,435 54,892",
+            "context": "c-16",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "552101efa0e10001ae63cb1e6ab11f2b4a6313ae64ae1d986ae9140fb0c3f8df",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000104169-24-000105",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
+            "status": "Document inspected",
+            "inline_facts": 462,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-24-000141",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
+            "status": "Document inspected",
+            "inline_facts": 709,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-24-000178",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
+            "status": "Document inspected",
+            "inline_facts": 798,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-25-000021",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+            "status": "Document inspected",
+            "inline_facts": 1164,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "4d7be0a88312aa507b862a83",
+        "verified": true,
+        "formula": "56435000000 = 56435000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "bffdd88646811cb5c08946b5"
+        ]
+      },
+      {
+        "company": "Walmart Inc.",
+        "ticker": "WMT",
+        "metric": "Cost of revenue",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2024-02-01",
+        "end": "2025-01-31",
+        "status": "Directly reported",
+        "value": "511753000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "104169",
+            "concept": "us-gaap:CostOfRevenue",
+            "label": "Cost of sales",
+            "value": "511753000000",
+            "unit": "USD",
+            "start": "2024-02-01",
+            "end": "2025-01-31",
+            "accession": "0000104169-25-000021",
+            "form": "10-K",
+            "filed": "2025-03-14",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+            "section": "Fiscal Years Ended January 31, (Amounts in millions, except per share data) 2025 2024 2023 Revenues: Net sales $ 674,538 $ 642,637 $ 605,881 Membership and other income 6,447 5,488 5,408 Total revenues 680,985 648,125 611,289 Costs and expenses: Cost of sales 511,753 490,142 463,721 Operating, selling, general and administrative expenses 139,884 130,971 127,140 Operating income 29,348 27,012 20,428 Interest: Debt 2,249 2,259 1,787 Finance lease 4\nMatched disclosure row: Cost of sales 511,753 490,142 463,721",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "bdfa86fece019c68df2b10e6ad66dcd98b88624db38fe83979d20674291b27d2",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000104169-24-000105",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
+            "status": "Document inspected",
+            "inline_facts": 462,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-24-000141",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
+            "status": "Document inspected",
+            "inline_facts": 709,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-24-000178",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
+            "status": "Document inspected",
+            "inline_facts": 798,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-25-000021",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+            "status": "Document inspected",
+            "inline_facts": 1164,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "77297fa6cb3c3d4d406d9e1a",
+        "verified": true,
+        "formula": "511753000000 = 511753000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "bbe368d742da4926b0672634"
+        ]
+      },
+      {
+        "company": "Walmart Inc.",
+        "ticker": "WMT",
+        "metric": "Accounts payable",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2024-11-01",
+        "end": "2025-01-31",
+        "status": "Directly reported",
+        "value": "58666000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "104169",
+            "concept": "us-gaap:AccountsPayableCurrent",
+            "label": "Accounts payable",
+            "value": "58666000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-01-31",
+            "accession": "0000104169-25-000021",
+            "form": "10-K",
+            "filed": "2025-03-14",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+            "section": "As of January 31, (Amounts in millions) 2025 2024 ASSETS Current assets: Cash and cash equivalents $ 9,037 $ 9,867 Receivables, net 9,975 8,796 Inventories 56,435 54,892 Prepaid expenses and other 4,011 3,322 Total current assets 79,458 76,877 Property and equipment, net 119,993 110,810 Operating lease right-of-use assets 13,599 13,673 Finance lease right-of-use assets, net 6,112 5,855 Goodwill 28,792 28,113 Other long-term assets 12,869 17,071 T\nMatched disclosure row: Accounts payable 58,666 56,812",
+            "context": "c-16",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "552101efa0e10001ae63cb1e6ab11f2b4a6313ae64ae1d986ae9140fb0c3f8df",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000104169-24-000105",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000105/wmt-20240430.htm",
+            "status": "Document inspected",
+            "inline_facts": 462,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-24-000141",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000141/wmt-20240731.htm",
+            "status": "Document inspected",
+            "inline_facts": 709,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-24-000178",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416924000178/wmt-20241031.htm",
+            "status": "Document inspected",
+            "inline_facts": 798,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000104169-25-000021",
+            "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416925000021/wmt-20250131.htm",
+            "status": "Document inspected",
+            "inline_facts": 1164,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "6d8e94d54280e7c80e5594f7",
+        "verified": true,
+        "formula": "58666000000 = 58666000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "74be7d87850b925804cdb455"
+        ]
+      }
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "cik": 789019,
+    "cells": [
+      {
+        "company": "Microsoft Corporation",
+        "ticker": "MSFT",
+        "metric": "Deferred revenue (current)",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-04-01",
+        "end": "2025-06-30",
+        "status": "Directly reported",
+        "value": "64555000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "789019",
+            "concept": "us-gaap:ContractWithCustomerLiabilityCurrent",
+            "label": "Short-term unearned revenue",
+            "value": "64555000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-06-30",
+            "accession": "0000950170-25-100235",
+            "form": "10-K",
+            "filed": "2025-07-30",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+            "section": "(In millions) June 30, 2025 2024 Assets Current assets: Cash and cash equivalents $ 30,242 $ 18,315 Short-term investments 64,323 57,228 Total cash, cash equivalents, and short-term investments 94,565 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 944 and $ 830 69,905 56,924 Inventories 938 1,246 Other current assets 25,723 26,021 Total current assets 191,131 159,734 Property and equipment, net of accumulated depreciation\nMatched disclosure row: Short-term unearned revenue 64,555 57,582",
+            "context": "C_f6acec30-41ed-4918-bef7-c8a710bf3a7a",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "a279d74964114cd166be41af1f3ed28b23cbaa2da7aca87d2034588b70a145ff",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000950170-24-118967",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1047,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-010491",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1388,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-061046",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1397,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-100235",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1544,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "6f42fbb6f29dd9e65500bb91",
+        "verified": true,
+        "formula": "64555000000 = 64555000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "9ac23f186747b266de293043"
+        ]
+      },
+      {
+        "company": "Microsoft Corporation",
+        "ticker": "MSFT",
+        "metric": "Deferred revenue (noncurrent)",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-04-01",
+        "end": "2025-06-30",
+        "status": "Directly reported",
+        "value": "2710000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "789019",
+            "concept": "us-gaap:ContractWithCustomerLiabilityNoncurrent",
+            "label": "Long-term unearned revenue",
+            "value": "2710000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-06-30",
+            "accession": "0000950170-25-100235",
+            "form": "10-K",
+            "filed": "2025-07-30",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+            "section": "(In millions) June 30, 2025 2024 Assets Current assets: Cash and cash equivalents $ 30,242 $ 18,315 Short-term investments 64,323 57,228 Total cash, cash equivalents, and short-term investments 94,565 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 944 and $ 830 69,905 56,924 Inventories 938 1,246 Other current assets 25,723 26,021 Total current assets 191,131 159,734 Property and equipment, net of accumulated depreciation\nMatched disclosure row: Long-term unearned revenue 2,710 2,602",
+            "context": "C_f6acec30-41ed-4918-bef7-c8a710bf3a7a",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "a279d74964114cd166be41af1f3ed28b23cbaa2da7aca87d2034588b70a145ff",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000950170-24-118967",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1047,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-010491",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1388,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-061046",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1397,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-100235",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1544,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "919c5decd74a362425eb69ee",
+        "verified": true,
+        "formula": "2710000000 = 2710000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "e8e368ae5aa8a7a1b88057a4"
+        ]
+      },
+      {
+        "company": "Microsoft Corporation",
+        "ticker": "MSFT",
+        "metric": "Finite-lived intangible assets",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-04-01",
+        "end": "2025-06-30",
+        "status": "Directly reported",
+        "value": "22604000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "789019",
+            "concept": "us-gaap:FiniteLivedIntangibleAssetsNet",
+            "label": "Intangible assets, net",
+            "value": "22604000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-06-30",
+            "accession": "0000950170-25-100235",
+            "form": "10-K",
+            "filed": "2025-07-30",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+            "section": "(In millions) June 30, 2025 2024 Assets Current assets: Cash and cash equivalents $ 30,242 $ 18,315 Short-term investments 64,323 57,228 Total cash, cash equivalents, and short-term investments 94,565 75,543 Accounts receivable, net of allowance for doubtful accounts of $ 944 and $ 830 69,905 56,924 Inventories 938 1,246 Other current assets 25,723 26,021 Total current assets 191,131 159,734 Property and equipment, net of accumulated depreciation\nMatched disclosure row: Intangible assets, net 22,604 27,597",
+            "context": "C_f6acec30-41ed-4918-bef7-c8a710bf3a7a",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "a279d74964114cd166be41af1f3ed28b23cbaa2da7aca87d2034588b70a145ff",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000950170-24-118967",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024118967/msft-20240930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1047,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-010491",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025010491/msft-20241231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1388,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-061046",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025061046/msft-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1397,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000950170-25-100235",
+            "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1544,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "fe0906f301701a8ec309cf08",
+        "verified": true,
+        "formula": "22604000000 = 22604000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "96dda91903c9e4c651c4df92"
+        ]
+      }
+    ]
+  },
+  {
+    "ticker": "ADBE",
+    "cik": 796343,
+    "cells": [
+      {
+        "company": "ADOBE INC.",
+        "ticker": "ADBE",
+        "metric": "Deferred revenue (current)",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-08-30",
+        "end": "2025-11-28",
+        "status": "Directly reported",
+        "value": "6905000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "796343",
+            "concept": "us-gaap:ContractWithCustomerLiabilityCurrent",
+            "label": "Deferred revenue",
+            "value": "6905000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-11-28",
+            "accession": "0000796343-26-000003",
+            "form": "10-K",
+            "filed": "2026-01-15",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "section": "November 28, 2025 November 29, 2024 ASSETS Current assets: Cash and cash equivalents $ 5,431 $ 7,613 Short-term investments 1,164 273 Trade receivables, net of allowances for doubtful accounts of $ 13 and of $ 14 ,\u00a0respectively 2,344 2,072 Prepaid expenses and other current assets 1,224 1,274 Total current assets 10,163 11,232 Property and equipment, net 1,873 1,936 Operating lease right-of-use assets, net 312 281 Goodwill 12,857 12,788 Other int\nMatched disclosure row: Deferred revenue 6,905 6,131",
+            "context": "c-4",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "a8abf15634efb527e207abcc62991aa5cc2a0d30695e1de64abb12fa4ea244c2",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000796343-25-000059",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000059/adbe-20250228.htm",
+            "status": "Document inspected",
+            "inline_facts": 699,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000073/adbe-20250530.htm",
+            "status": "Document inspected",
+            "inline_facts": 899,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-25-000107",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000107/adbe-20250829.htm",
+            "status": "Document inspected",
+            "inline_facts": 892,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-26-000003",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "status": "Document inspected",
+            "inline_facts": 1130,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "10cf110d001e0bbbfa93b9d7",
+        "verified": true,
+        "formula": "6905000000 = 6905000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "72143d7634588a2e3b937045"
+        ]
+      },
+      {
+        "company": "ADOBE INC.",
+        "ticker": "ADBE",
+        "metric": "Cash from operations",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2024-11-30",
+        "end": "2025-11-28",
+        "status": "Directly reported",
+        "value": "10031000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "796343",
+            "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "label": "Net cash provided by operating activities",
+            "value": "10031000000",
+            "unit": "USD",
+            "start": "2024-11-30",
+            "end": "2025-11-28",
+            "accession": "0000796343-26-000003",
+            "form": "10-K",
+            "filed": "2026-01-15",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "section": "Years Ended November 28, 2025 November 29, 2024 December 1, 2023 Cash flows from operating activities: Net income $ 7,130 $ 5,560 $ 5,428 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 818 857 872 Stock-based compensation 1,942 1,833 1,718 Lease-related asset impairments \u2014 78 \u2014 Deferred income taxes ( 512 ) ( 468 ) ( 426 ) Other non-cash items 48 52 65 Changes in operatin\nMatched disclosure row: Net cash provided by operating activities 10,031 8,056 7,302",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "518f2d41c342e6a7c00ece72357848d2005b338169e836669a720be518a39f49",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000796343-25-000059",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000059/adbe-20250228.htm",
+            "status": "Document inspected",
+            "inline_facts": 699,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000073/adbe-20250530.htm",
+            "status": "Document inspected",
+            "inline_facts": 899,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-25-000107",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000107/adbe-20250829.htm",
+            "status": "Document inspected",
+            "inline_facts": 892,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-26-000003",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "status": "Document inspected",
+            "inline_facts": 1130,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "d7c1be05fb3509eb88e872be",
+        "verified": true,
+        "formula": "10031000000 = 10031000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "40cf8f28334f04e400049fb7"
+        ]
+      },
+      {
+        "company": "ADOBE INC.",
+        "ticker": "ADBE",
+        "metric": "Stock-based compensation",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2024-11-30",
+        "end": "2025-11-28",
+        "status": "Directly reported",
+        "value": "1942000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "796343",
+            "concept": "us-gaap:ShareBasedCompensation",
+            "label": "Stock-based compensation",
+            "value": "1942000000",
+            "unit": "USD",
+            "start": "2024-11-30",
+            "end": "2025-11-28",
+            "accession": "0000796343-26-000003",
+            "form": "10-K",
+            "filed": "2026-01-15",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "section": "Years Ended November 28, 2025 November 29, 2024 December 1, 2023 Cash flows from operating activities: Net income $ 7,130 $ 5,560 $ 5,428 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 818 857 872 Stock-based compensation 1,942 1,833 1,718 Lease-related asset impairments \u2014 78 \u2014 Deferred income taxes ( 512 ) ( 468 ) ( 426 ) Other non-cash items 48 52 65 Changes in operatin\nMatched disclosure row: Stock-based compensation 1,942 1,833 1,718",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "518f2d41c342e6a7c00ece72357848d2005b338169e836669a720be518a39f49",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000796343-25-000059",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000059/adbe-20250228.htm",
+            "status": "Document inspected",
+            "inline_facts": 699,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-25-000073",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000073/adbe-20250530.htm",
+            "status": "Document inspected",
+            "inline_facts": 899,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-25-000107",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000107/adbe-20250829.htm",
+            "status": "Document inspected",
+            "inline_facts": 892,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000796343-26-000003",
+            "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm",
+            "status": "Document inspected",
+            "inline_facts": 1130,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "25d0679d2911e1ddc13a6cc7",
+        "verified": true,
+        "formula": "1942000000 = 1942000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "beeb2c81c68104b00b579d1d"
+        ]
+      }
+    ]
+  },
+  {
+    "ticker": "UNH",
+    "cik": 731766,
+    "cells": [
+      {
+        "company": "UnitedHealth Group Incorporated",
+        "ticker": "UNH",
+        "metric": "Receivables",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "23018000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "731766",
+            "concept": "us-gaap:AccountsReceivableNetCurrent",
+            "label": "Accounts receivable, net of allowances of $ 1,208 and $ 985",
+            "value": "23018000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0000731766-26-000062",
+            "form": "10-K",
+            "filed": "2026-03-02",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "section": "(in millions, except per share data) December 31, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 24,365 $ 25,312 Short-term investments 3,756 3,801 Accounts receivable, net of allowances of $ 1,208 and $ 985 23,018 22,365 Other current receivables, net of allowances of $ 3,763 and $ 2,864 29,697 26,089 Prepaid expenses and other current assets 9,746 8,212 Total current assets 90,582 85,779 Long-term investments 54,251 5\nMatched disclosure row: Accounts receivable, net of allowances of $ 1,208 and $ 985 23,018 22,365",
+            "context": "c-4",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "7f028623476fc228befa92b47cd482165d10fe22072078e223aa0af48b77f8a6",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000731766-25-000131",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000131/unh-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 750,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000236",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/unh-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1087,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000305",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1113,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-26-000062",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1970,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "ed012f4b7cca9401b3a3a57b",
+        "verified": true,
+        "formula": "23018000000 = 23018000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "e40d12ac4c4d7778803d42c4"
+        ]
+      },
+      {
+        "company": "UnitedHealth Group Incorporated",
+        "ticker": "UNH",
+        "metric": "Combined receivables",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Insufficient information",
+        "value": null,
+        "unit": "",
+        "inputs": [],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced.",
+          "Checked equivalent concepts, original statement and note disclosures, supported extension definitions, and exact accounting formulas. No unique supported amount was established."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000731766-25-000131",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000131/unh-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 750,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000236",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/unh-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1087,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000305",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1113,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-26-000062",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1970,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-26-000062",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000305",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000236",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000131",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "b74f65ed3ee4583e1a70813a",
+        "verified": false,
+        "formula": "",
+        "accounting_status": "Unavailable",
+        "confidence": "Unverified / review required",
+        "input_ids": []
+      },
+      {
+        "company": "UnitedHealth Group Incorporated",
+        "ticker": "UNH",
+        "metric": "Goodwill",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "110499000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "731766",
+            "concept": "us-gaap:Goodwill",
+            "label": "Goodwill",
+            "value": "110499000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0000731766-26-000062",
+            "form": "10-K",
+            "filed": "2026-03-02",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "section": "(in millions, except per share data) December 31, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 24,365 $ 25,312 Short-term investments 3,756 3,801 Accounts receivable, net of allowances of $ 1,208 and $ 985 23,018 22,365 Other current receivables, net of allowances of $ 3,763 and $ 2,864 29,697 26,089 Prepaid expenses and other current assets 9,746 8,212 Total current assets 90,582 85,779 Long-term investments 54,251 5\nMatched disclosure row: Goodwill 110,499 106,734",
+            "context": "c-4",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "7f028623476fc228befa92b47cd482165d10fe22072078e223aa0af48b77f8a6",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000731766-25-000131",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000131/unh-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 750,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000236",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/unh-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1087,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000305",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1113,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-26-000062",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1970,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-26-000062",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000305",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000236",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000131",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "3f6dc33a42363debe524da82",
+        "verified": true,
+        "formula": "110499000000 = 110499000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "1a9ac311efaffdaae4151b7a"
+        ]
+      },
+      {
+        "company": "UnitedHealth Group Incorporated",
+        "ticker": "UNH",
+        "metric": "Intangible assets",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "20474000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "731766",
+            "concept": "us-gaap:IntangibleAssetsNetExcludingGoodwill",
+            "label": "Other intangible assets, net of accumulated amortization of $ 7,472 and $ 8,350",
+            "value": "20474000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0000731766-26-000062",
+            "form": "10-K",
+            "filed": "2026-03-02",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "section": "(in millions, except per share data) December 31, 2025 December 31, 2024 Assets Current assets: Cash and cash equivalents $ 24,365 $ 25,312 Short-term investments 3,756 3,801 Accounts receivable, net of allowances of $ 1,208 and $ 985 23,018 22,365 Other current receivables, net of allowances of $ 3,763 and $ 2,864 29,697 26,089 Prepaid expenses and other current assets 9,746 8,212 Total current assets 90,582 85,779 Long-term investments 54,251 5\nMatched disclosure row: Other intangible assets, net of accumulated amortization of $ 7,472 and $ 8,350 20,474 23,268",
+            "context": "c-4",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "7f028623476fc228befa92b47cd482165d10fe22072078e223aa0af48b77f8a6",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000731766-25-000131",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000131/unh-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 750,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000236",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/unh-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 1087,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-25-000305",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176625000305/unh-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 1113,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000731766-26-000062",
+            "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000062/unh-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 1970,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-26-000062",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000305",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000236",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000731766-25-000131",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "7eb82996939f00d275d17426",
+        "verified": true,
+        "formula": "20474000000 = 20474000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "4e93fb4ed195113d7292c1cf"
+        ]
+      }
+    ]
+  },
+  {
+    "ticker": "CAT",
+    "cik": 18230,
+    "cells": [
+      {
+        "company": "CATERPILLAR INC",
+        "ticker": "CAT",
+        "metric": "Inventory",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "18135000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "18230",
+            "concept": "us-gaap:InventoryNet",
+            "label": "Inventories",
+            "value": "18135000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0000018230-26-000008",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "section": "STATEMENT 3 Caterpillar Inc. Consolidated Financial Position at December\u00a031, (Dollars in millions) 2025 2024 Assets Current assets: Cash and cash equivalents $ 9,980 $ 6,889 Receivables \u2013 trade and other 10,920 9,282 Receivables \u2013 finance 10,649 9,565 Prepaid expenses and other current assets 2,801 3,119 Inventories 18,135 16,827 Total current assets 52,485 45,682 Property, plant and equipment \u2013 net 15,140 13,361 Long-term receivables \u2013 trade and\nMatched disclosure row: Inventories 18,135 16,827",
+            "context": "c-4",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "59384eb31d49fa3982783c8a989a2df68879369d79b44898779476478824cd20",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000018230-25-000016",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000016/cat-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1599,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000040",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/cat-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 2255,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000048",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/cat-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 2275,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-26-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 2994,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "23f0feca52022f52e931b51f",
+        "verified": true,
+        "formula": "18135000000 = 18135000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "2589ed1e586df3a7f4acd3a1"
+        ]
+      },
+      {
+        "company": "CATERPILLAR INC",
+        "ticker": "CAT",
+        "metric": "Property and equipment, net",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "15140000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "18230",
+            "concept": "us-gaap:PropertyPlantAndEquipmentNet",
+            "label": "Property, plant and equipment \u2013 net",
+            "value": "15140000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0000018230-26-000008",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "section": "STATEMENT 3 Caterpillar Inc. Consolidated Financial Position at December\u00a031, (Dollars in millions) 2025 2024 Assets Current assets: Cash and cash equivalents $ 9,980 $ 6,889 Receivables \u2013 trade and other 10,920 9,282 Receivables \u2013 finance 10,649 9,565 Prepaid expenses and other current assets 2,801 3,119 Inventories 18,135 16,827 Total current assets 52,485 45,682 Property, plant and equipment \u2013 net 15,140 13,361 Long-term receivables \u2013 trade and\nMatched disclosure row: Property, plant and equipment \u2013 net 15,140 13,361",
+            "context": "c-4",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "59384eb31d49fa3982783c8a989a2df68879369d79b44898779476478824cd20",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000018230-25-000016",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000016/cat-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1599,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000040",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/cat-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 2255,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000048",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/cat-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 2275,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-26-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 2994,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "0dea763e96ab885452f54929",
+        "verified": true,
+        "formula": "15140000000 = 15140000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "da5876411605de41994ff42f"
+        ]
+      },
+      {
+        "company": "CATERPILLAR INC",
+        "ticker": "CAT",
+        "metric": "Depreciation and amortization",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "2262000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "18230",
+            "concept": "us-gaap:DepreciationDepletionAndAmortization",
+            "label": "Depreciation and amortization",
+            "value": "2262000000",
+            "unit": "USD",
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accession": "0000018230-26-000008",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "section": "STATEMENT 5 Caterpillar Inc. Consolidated Statement of Cash Flow for the Years Ended December\u00a031, (Millions of dollars) 2025 2024 2023 Cash flow from operating activities: Profit of consolidated and affiliated companies $ 8,882 $ 10,788 $ 10,332 Adjustments to reconcile profit to net cash provided by operating activities: Depreciation and amortization 2,262 2,153 2,144 Actuarial (gain) loss on pension and postretirement benefits ( 294 ) ( 154 ) (\nMatched disclosure row: Depreciation and amortization 2,262 2,153 2,144",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "e2e04a155f8d1c1e12f53fa3d2b7a16df0be2fa2d34687758a70fa1f809c5baf",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000018230-25-000016",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000016/cat-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1599,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000040",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/cat-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 2255,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000048",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/cat-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 2275,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-26-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 2994,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "68189f33689e439455535192",
+        "verified": true,
+        "formula": "2262000000 = 2262000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "ea11cdd7aa7e89b95936d8e0"
+        ]
+      },
+      {
+        "company": "CATERPILLAR INC",
+        "ticker": "CAT",
+        "metric": "Property depreciation and amortization",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "status": "Insufficient information",
+        "value": null,
+        "unit": "",
+        "inputs": [],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Balance sheets use exact dates; EPS, shares, ratios and other nonadditive measures are never differenced.",
+          "Checked equivalent concepts, original statement and note disclosures, supported extension definitions, and exact accounting formulas. No unique supported amount was established."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000018230-25-000016",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000016/cat-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1599,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000040",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/cat-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 2255,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000048",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/cat-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 2275,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-26-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 2994,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-26-000008",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-25-000048",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-25-000040",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-25-000016",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "64058291f4e9e261e3a6d24b",
+        "verified": false,
+        "formula": "",
+        "accounting_status": "Unavailable",
+        "confidence": "Unverified / review required",
+        "input_ids": []
+      },
+      {
+        "company": "CATERPILLAR INC",
+        "ticker": "CAT",
+        "metric": "Capital expenditures",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "2821000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "18230",
+            "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+            "label": "Capital expenditures \u2013 excluding equipment leased to others",
+            "value": "2821000000",
+            "unit": "USD",
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accession": "0000018230-26-000008",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "section": "STATEMENT 5 Caterpillar Inc. Consolidated Statement of Cash Flow for the Years Ended December\u00a031, (Millions of dollars) 2025 2024 2023 Cash flow from operating activities: Profit of consolidated and affiliated companies $ 8,882 $ 10,788 $ 10,332 Adjustments to reconcile profit to net cash provided by operating activities: Depreciation and amortization 2,262 2,153 2,144 Actuarial (gain) loss on pension and postretirement benefits ( 294 ) ( 154 ) (\nMatched disclosure row: Capital expenditures \u2013 excluding equipment leased to others ( 2,821 ) ( 1,988 ) ( 1,597 )",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "e2e04a155f8d1c1e12f53fa3d2b7a16df0be2fa2d34687758a70fa1f809c5baf",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0000018230-25-000016",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000016/cat-20250331.htm",
+            "status": "Document inspected",
+            "inline_facts": 1599,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000040",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000040/cat-20250630.htm",
+            "status": "Document inspected",
+            "inline_facts": 2255,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-25-000048",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823025000048/cat-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 2275,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0000018230-26-000008",
+            "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 2994,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-26-000008",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-25-000048",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-25-000040",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0000018230-25-000016",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "10c6cd9edf34365b04db0876",
+        "verified": true,
+        "formula": "2821000000 = 2821000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "5402e8a2868f16870b01c5ed"
+        ]
+      }
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "cik": 19617,
+    "cells": [
+      {
+        "company": "JPMORGAN CHASE & CO",
+        "ticker": "JPM",
+        "metric": "Revenue",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "182447000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "19617",
+            "concept": "us-gaap:Revenues",
+            "label": "Total",
+            "value": "182447000000",
+            "unit": "USD",
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accession": "0001628280-26-008131",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "section": "As of or for the year ended December 31, (in millions) Revenue (b) Expense (c) Income before income tax expense Net income Total assets 2025 Europe/Middle East/Africa $ 24,478 $ 14,825 $ 9,653 $ 6,813 $ 641,190 (d) Asia-Pacific 14,065 8,271 5,794 4,101 343,520 Latin America/Caribbean 4,215 2,180 2,035 1,561 96,759 Total international 42,758 25,276 17,482 12,475 1,081,469 North America (a) 139,689 84,576 55,113 44,573 3,343,431 Total $ 182,447 $ 1\nMatched disclosure row: Total $ 182,447 $ 109,852 $ 72,595 $ 57,048 $ 4,424,900",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "6a5b78508e508b11314736a41431df4f1ed7a976e4380df81cd56e89a752a0f2",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0001628280-25-048859",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 6524,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0001628280-26-008131",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 7224,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "cfaf7dcaa1268b46ffdf9024",
+        "verified": true,
+        "formula": "182447000000 = 182447000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "b96fc17146e842870c0128a2"
+        ]
+      },
+      {
+        "company": "JPMORGAN CHASE & CO",
+        "ticker": "JPM",
+        "metric": "Total assets",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "4424900000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "19617",
+            "concept": "us-gaap:Assets",
+            "label": "Total assets (a)",
+            "value": "4424900000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0001628280-26-008131",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "section": "December 31, (in millions, except share data) 2025 2024 Assets Cash and due from banks $ 21,742 $ 23,372 Deposits with banks 321,596 445,945 Federal funds sold and securities purchased under resale agreements (included $ 327,018 and $ 286,771 at fair value) 336,426 295,001 Securities borrowed (included $ 98,111 and $ 83,962 at fair value) 286,191 219,546 Trading assets (included assets pledged of $ 165,927 and $ 136,070 ) 802,873 637,784 Availabl\nMatched disclosure row: Total assets (a) $ 4,424,900 $ 4,002,814",
+            "context": "c-30",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "2598f833811c050e794a20810a1abfb9474d085fde1921ea002716966d4066f3",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0001628280-25-048859",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 6524,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0001628280-26-008131",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 7224,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "22e68aa33f8af1f09fc6a3ba",
+        "verified": true,
+        "formula": "4424900000000 = 4424900000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "3babd34b0625b22a4d7abd95"
+        ]
+      },
+      {
+        "company": "JPMORGAN CHASE & CO",
+        "ticker": "JPM",
+        "metric": "Total liabilities",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "4062462000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "19617",
+            "concept": "us-gaap:Liabilities",
+            "label": "Total liabilities (a)",
+            "value": "4062462000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0001628280-26-008131",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "section": "December 31, (in millions, except share data) 2025 2024 Assets Cash and due from banks $ 21,742 $ 23,372 Deposits with banks 321,596 445,945 Federal funds sold and securities purchased under resale agreements (included $ 327,018 and $ 286,771 at fair value) 336,426 295,001 Securities borrowed (included $ 98,111 and $ 83,962 at fair value) 286,191 219,546 Trading assets (included assets pledged of $ 165,927 and $ 136,070 ) 802,873 637,784 Availabl\nMatched disclosure row: Total liabilities (a) 4,062,462 3,658,056",
+            "context": "c-30",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "2598f833811c050e794a20810a1abfb9474d085fde1921ea002716966d4066f3",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0001628280-25-048859",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 6524,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0001628280-26-008131",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 7224,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "415b06afae976aeb7bba7cfa",
+        "verified": true,
+        "formula": "4062462000000 = 4062462000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "41237bed252ef7e6cfff3f7b"
+        ]
+      },
+      {
+        "company": "JPMORGAN CHASE & CO",
+        "ticker": "JPM",
+        "metric": "Equity including noncontrolling interests",
+        "year": 2025,
+        "quarter": "Q4",
+        "start": "2025-10-01",
+        "end": "2025-12-31",
+        "status": "Derived from reported components",
+        "value": "362438000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "19617",
+            "concept": "us-gaap:Assets",
+            "label": "Total assets (a)",
+            "value": "4424900000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0001628280-26-008131",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "section": "December 31, (in millions, except share data) 2025 2024 Assets Cash and due from banks $ 21,742 $ 23,372 Deposits with banks 321,596 445,945 Federal funds sold and securities purchased under resale agreements (included $ 327,018 and $ 286,771 at fair value) 336,426 295,001 Securities borrowed (included $ 98,111 and $ 83,962 at fair value) 286,191 219,546 Trading assets (included assets pledged of $ 165,927 and $ 136,070 ) 802,873 637,784 Availabl\nMatched disclosure row: Total assets (a) $ 4,424,900 $ 4,002,814",
+            "context": "c-30",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "2598f833811c050e794a20810a1abfb9474d085fde1921ea002716966d4066f3",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          },
+          {
+            "cik": "19617",
+            "concept": "us-gaap:Liabilities",
+            "label": "Total liabilities (a)",
+            "value": "4062462000000",
+            "unit": "USD",
+            "start": null,
+            "end": "2025-12-31",
+            "accession": "0001628280-26-008131",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "section": "December 31, (in millions, except share data) 2025 2024 Assets Cash and due from banks $ 21,742 $ 23,372 Deposits with banks 321,596 445,945 Federal funds sold and securities purchased under resale agreements (included $ 327,018 and $ 286,771 at fair value) 336,426 295,001 Securities borrowed (included $ 98,111 and $ 83,962 at fair value) 286,191 219,546 Trading assets (included assets pledged of $ 165,927 and $ 136,070 ) 802,873 637,784 Availabl\nMatched disclosure row: Total liabilities (a) 4,062,462 3,658,056",
+            "context": "c-30",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "2598f833811c050e794a20810a1abfb9474d085fde1921ea002716966d4066f3",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "component graph",
+        "reasoning": [
+          "Calculated using matching reported accounting components.",
+          "Equity including noncontrolling interests",
+          "22e68aa33f8af1f09fc6a3ba: 4424900000000 = 4424900000000 USD",
+          "415b06afae976aeb7bba7cfa: 4062462000000 = 4062462000000 USD"
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0001628280-25-048859",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 6524,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0001628280-26-008131",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 7224,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0001628280-26-008131",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0001628280-25-048859",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [
+          {
+            "company": "JPMORGAN CHASE & CO",
+            "ticker": "JPM",
+            "metric": "Total assets",
+            "year": 2025,
+            "quarter": "Q4",
+            "start": "2025-10-01",
+            "end": "2025-12-31",
+            "status": "Directly reported",
+            "value": "4424900000000",
+            "unit": "USD",
+            "inputs": [
+              {
+                "cik": "19617",
+                "concept": "us-gaap:Assets",
+                "label": "Total assets (a)",
+                "value": "4424900000000",
+                "unit": "USD",
+                "start": null,
+                "end": "2025-12-31",
+                "accession": "0001628280-26-008131",
+                "form": "10-K",
+                "filed": "2026-02-13",
+                "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+                "section": "December 31, (in millions, except share data) 2025 2024 Assets Cash and due from banks $ 21,742 $ 23,372 Deposits with banks 321,596 445,945 Federal funds sold and securities purchased under resale agreements (included $ 327,018 and $ 286,771 at fair value) 336,426 295,001 Securities borrowed (included $ 98,111 and $ 83,962 at fair value) 286,191 219,546 Trading assets (included assets pledged of $ 165,927 and $ 136,070 ) 802,873 637,784 Availabl\nMatched disclosure row: Total assets (a) $ 4,424,900 $ 4,002,814",
+                "context": "c-30",
+                "dimensions": [],
+                "verified": true,
+                "decimals": "-6",
+                "table": "2598f833811c050e794a20810a1abfb9474d085fde1921ea002716966d4066f3",
+                "scale": 6,
+                "extraction_method": "Company Facts matched to Inline XBRL",
+                "definition": "",
+                "presentation_roles": [],
+                "calculation_relationships": []
+              }
+            ],
+            "operation": "",
+            "reasoning": [
+              "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+              "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+            ],
+            "warnings": [],
+            "investigation": [
+              {
+                "accession": "0001628280-25-048859",
+                "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+                "status": "Document inspected",
+                "inline_facts": 6524,
+                "search_scope": "Primary filing, embedded notes and comparative-version precision"
+              },
+              {
+                "accession": "0001628280-26-008131",
+                "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+                "status": "Document inspected",
+                "inline_facts": 7224,
+                "search_scope": "Primary filing, embedded notes and comparative-version precision"
+              },
+              {
+                "status": "Extension taxonomy inspected",
+                "accession": "0001628280-26-008131",
+                "documents": 5,
+                "errors": []
+              },
+              {
+                "status": "Extension taxonomy inspected",
+                "accession": "0001628280-25-048859",
+                "documents": 5,
+                "errors": []
+              }
+            ],
+            "components": [],
+            "component_operators": [],
+            "disclosure_evidence": [],
+            "validation": []
+          },
+          {
+            "company": "JPMORGAN CHASE & CO",
+            "ticker": "JPM",
+            "metric": "Total liabilities",
+            "year": 2025,
+            "quarter": "Q4",
+            "start": "2025-10-01",
+            "end": "2025-12-31",
+            "status": "Directly reported",
+            "value": "4062462000000",
+            "unit": "USD",
+            "inputs": [
+              {
+                "cik": "19617",
+                "concept": "us-gaap:Liabilities",
+                "label": "Total liabilities (a)",
+                "value": "4062462000000",
+                "unit": "USD",
+                "start": null,
+                "end": "2025-12-31",
+                "accession": "0001628280-26-008131",
+                "form": "10-K",
+                "filed": "2026-02-13",
+                "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+                "section": "December 31, (in millions, except share data) 2025 2024 Assets Cash and due from banks $ 21,742 $ 23,372 Deposits with banks 321,596 445,945 Federal funds sold and securities purchased under resale agreements (included $ 327,018 and $ 286,771 at fair value) 336,426 295,001 Securities borrowed (included $ 98,111 and $ 83,962 at fair value) 286,191 219,546 Trading assets (included assets pledged of $ 165,927 and $ 136,070 ) 802,873 637,784 Availabl\nMatched disclosure row: Total liabilities (a) 4,062,462 3,658,056",
+                "context": "c-30",
+                "dimensions": [],
+                "verified": true,
+                "decimals": "-6",
+                "table": "2598f833811c050e794a20810a1abfb9474d085fde1921ea002716966d4066f3",
+                "scale": 6,
+                "extraction_method": "Company Facts matched to Inline XBRL",
+                "definition": "",
+                "presentation_roles": [],
+                "calculation_relationships": []
+              }
+            ],
+            "operation": "",
+            "reasoning": [
+              "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+              "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+            ],
+            "warnings": [],
+            "investigation": [
+              {
+                "accession": "0001628280-25-048859",
+                "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+                "status": "Document inspected",
+                "inline_facts": 6524,
+                "search_scope": "Primary filing, embedded notes and comparative-version precision"
+              },
+              {
+                "accession": "0001628280-26-008131",
+                "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+                "status": "Document inspected",
+                "inline_facts": 7224,
+                "search_scope": "Primary filing, embedded notes and comparative-version precision"
+              },
+              {
+                "status": "Extension taxonomy inspected",
+                "accession": "0001628280-26-008131",
+                "documents": 5,
+                "errors": []
+              },
+              {
+                "status": "Extension taxonomy inspected",
+                "accession": "0001628280-25-048859",
+                "documents": 5,
+                "errors": []
+              }
+            ],
+            "components": [],
+            "component_operators": [],
+            "disclosure_evidence": [],
+            "validation": []
+          }
+        ],
+        "component_operators": [
+          "-"
+        ],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "cec10be28c098b1d70b36442",
+        "verified": true,
+        "formula": "(4424900000000) - (4062462000000) = 362438000000 USD",
+        "accounting_status": "Derived",
+        "confidence": "Document matched",
+        "input_ids": [
+          "3babd34b0625b22a4d7abd95",
+          "41237bed252ef7e6cfff3f7b"
+        ]
+      },
+      {
+        "company": "JPMORGAN CHASE & CO",
+        "ticker": "JPM",
+        "metric": "Cash from operations",
+        "year": 2025,
+        "quarter": "FY",
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "status": "Directly reported",
+        "value": "-147782000000",
+        "unit": "USD",
+        "inputs": [
+          {
+            "cik": "19617",
+            "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "label": "Net cash (used in)/provided by operating activities",
+            "value": "-147782000000",
+            "unit": "USD",
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "accession": "0001628280-26-008131",
+            "form": "10-K",
+            "filed": "2026-02-13",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "section": "Year ended December 31, (in millions) 2025 2024 2023 Operating activities Net income $ 57,048 $ 58,471 $ 49,552 Adjustments to reconcile net income to net cash provided by operating activities: Provision for credit losses 14,212 10,678 9,320 Depreciation and amortization 8,821 7,938 7,512 Deferred tax (benefit)/expense 5,611 2,004 ( 4,534 ) Estimated bargain purchase gain associated with the First Republic acquisition \u2014 ( 103 ) ( 2,775 ) Initial \nMatched disclosure row: Net cash (used in)/provided by operating activities ( 147,782 ) ( 42,012 ) 12,974",
+            "context": "c-1",
+            "dimensions": [],
+            "verified": true,
+            "decimals": "-6",
+            "table": "613a41fe5810e977e76c9ee36618c8823457c80676d753e0ff56aa16e130dba1",
+            "scale": 6,
+            "extraction_method": "Company Facts matched to Inline XBRL",
+            "definition": "",
+            "presentation_roles": [],
+            "calculation_relationships": []
+          }
+        ],
+        "operation": "",
+        "reasoning": [
+          "Fiscal year is named by the calendar year of its annual period end; boundaries use actual disclosed durations.",
+          "Exact context, period, unit and consolidated scope matched; direct disclosure preferred."
+        ],
+        "warnings": [],
+        "investigation": [
+          {
+            "accession": "0001628280-25-048859",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828025048859/jpm-20250930.htm",
+            "status": "Document inspected",
+            "inline_facts": 6524,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "accession": "0001628280-26-008131",
+            "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm",
+            "status": "Document inspected",
+            "inline_facts": 7224,
+            "search_scope": "Primary filing, embedded notes and comparative-version precision"
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0001628280-26-008131",
+            "documents": 5,
+            "errors": []
+          },
+          {
+            "status": "Extension taxonomy inspected",
+            "accession": "0001628280-25-048859",
+            "documents": 5,
+            "errors": []
+          }
+        ],
+        "components": [],
+        "component_operators": [],
+        "disclosure_evidence": [],
+        "validation": [],
+        "id": "971126b73f057fa8b0e12151",
+        "verified": true,
+        "formula": "-147782000000 = -147782000000 USD",
+        "accounting_status": "Reported",
+        "confidence": "Document matched",
+        "input_ids": [
+          "bf7fee6835adc42117948f41"
+        ]
+      }
+    ]
+  }
+]
