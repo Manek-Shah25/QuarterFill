@@ -19,7 +19,7 @@ QuarterFill brings those steps together. Enter a company’s ticker, pull up its
 1. [Open the website](https://quarterfill.streamlit.app). You do not need to install anything or pay for an account.
 2. Enter a ticker, such as **AAPL**, and choose the years you want.
 3. Select **Show financial statements**.
-4. Choose a statement, then pick a line item and quarter to see how the number was found or calculated.
+4. Choose a statement and click a quarter’s value to see how it was found or calculated. The explanation choices update to match that cell. You can also use the dropdowns yourself.
 
 The explanations show each step in plain language. A calculated last quarter might look like this:
 

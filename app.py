@@ -12,6 +12,8 @@ from quarterfill.presentation import amount, explanation, input_name, period, qu
 from quarterfill.research import Research
 from quarterfill.sec import SECClient, SECError, filing_url
 from quarterfill.segments import segment_build, revenue_details
+from quarterfill.selection import sync_cell_selection
+from quarterfill.models import Cell, stable_id
 
 
 PAGES = ['Quarterly Lookup', 'Three-Statement Builder', 'Missing Data Investigator',
@@ -110,6 +112,24 @@ def build_cells(research, names, years):
             for q in ([1, 2, 3, 4, 0] if name in BY_NAME and BY_NAME[name].kind == 'flow' else [1, 2, 3, 4])]
 
 
+def clickable_table(frame, key, context, row_targets, period_targets, open_key=None):
+    table_key = f'{key}_table_{stable_id([context, st.session_state.get(key+"_selection_revision", 0)])}'
+    st.dataframe(frame, hide_index=True, width='stretch', key=table_key,
+                 selection_mode='single-cell', on_select=lambda: sync_cell_selection(
+                     st.session_state, table_key, row_targets, period_targets, open_key))
+
+
+def clear_table_selection(key):
+    # Manual dropdown changes clear the old highlight, so clicking that same cell
+    # again is a new selection event rather than a no-op.
+    st.session_state[key+'_selection_revision'] = st.session_state.get(key+'_selection_revision', 0)+1
+
+
+def valid_choice(key, options):
+    if key in st.session_state and st.session_state[key] not in options:
+        st.session_state[key] = options[0]
+
+
 def statement_table(research, statement, years, key):
     if statement == 'Revenue by segment':
         revenue_segments(research, years, key)
@@ -133,14 +153,26 @@ def statement_table(research, statement, years, key):
                 row[label] = value
             rows.append(row)
     st.caption('Dollar amounts are in millions. Per-share amounts and share counts are labeled separately. A dash means we do not have a reliable number.')
-    st.dataframe(pd.DataFrame(rows).fillna('—'), hide_index=True, width='stretch')
+    st.caption('Click a quarter’s value to see how we got it. You can also use the choices below.')
+    frame = pd.DataFrame(rows).fillna('—')
+    periods = [1, 2, 3, 4] + ([0] if 'Year total' in frame.columns else [])
+    clickable_table(frame, key, [research.company['cik'], years, statement],
+                    [{f'{key}_metric': name, f'{key}_year': year}
+                     for year in range(years[0], years[1]+1) for name in names],
+                    {('Year total' if q == 0 else f'Q{q}'): {f'{key}_quarter': q} for q in periods})
     if any(c.value is not None and not c.verified for c in cells):
         st.caption('“Check” means we still need to check the amount against the original company report.')
     left, middle, right = st.columns([3, 1, 1])
-    name = left.selectbox('Explain a line item', names, format_func=metric_label, key=f'{key}_metric')
-    year = middle.selectbox('Year', range(years[0], years[1] + 1), key=f'{key}_year')
-    q = right.selectbox('Quarter', [1, 2, 3, 4], format_func=lambda n: f'Q{n}', key=f'{key}_quarter')
-    show_work(research.cell(name, year, q), key)
+    valid_choice(f'{key}_metric', names)
+    valid_choice(f'{key}_year', list(range(years[0], years[1]+1)))
+    valid_choice(f'{key}_quarter', periods)
+    name = left.selectbox('Explain a line item', names, format_func=metric_label, key=f'{key}_metric', on_change=clear_table_selection, args=(key,))
+    year = middle.selectbox('Year', range(years[0], years[1] + 1), key=f'{key}_year', on_change=clear_table_selection, args=(key,))
+    q = right.selectbox('Quarter', periods, format_func=lambda n: 'Year total' if n == 0 else f'Q{n}', key=f'{key}_quarter', on_change=clear_table_selection, args=(key,))
+    selected = next((c for c in cells if c.metric==name and c.year==year and c.quarter==('FY' if q==0 else f'Q{q}')), None)
+    if selected is None:
+        selected = Cell(research.company['entityName'], '', name, year, 'FY', None, None, 'Insufficient information')
+    show_work(selected, key)
 
 
 def revenue_segments(research, years, key):
@@ -178,19 +210,25 @@ def revenue_segments(research, years, key):
         rows.append({'Business segment': name, **{label: amount(pair[index].value, 'USD', compact=True)
                      for label, pair in zip(labels, build['totals'])}})
     st.caption('Dollar amounts are in millions. A dash means we do not have a reliable number. Segment names and definitions can change between years.')
-    st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
-    left, right = st.columns([3, 1])
     explain_rows = dict(build['rows'])
     for parent, extras in build['supplemental'].items():
         explain_rows.update({f'{parent} — {name}': values for name, values in extras.items()})
-    name = left.selectbox('Explain a segment', list(explain_rows), key=f'{key}_segment')
-    q = right.selectbox('Quarter or year', range(5), format_func=lambda i: labels[i], key=f'{key}_segment_quarter')
+    explain_rows['Sum of segments'] = [pair[0] for pair in build['totals']]
+    explain_rows['Company revenue'] = [pair[1] for pair in build['totals']]
+    clickable_table(pd.DataFrame(rows), f'{key}_segments',
+                    [research.company['cik'],year,basis,'segments'],
+                    [{f'{key}_segment': row['Business segment']} for row in rows],
+                    {label: {f'{key}_segment_quarter': i} for i,label in enumerate(labels)}, f'{key}_segment_open')
+    left, right = st.columns([3, 1])
+    valid_choice(f'{key}_segment', list(explain_rows))
+    name = left.selectbox('Explain a segment', list(explain_rows), key=f'{key}_segment', on_change=clear_table_selection, args=(f'{key}_segments',))
+    q = right.selectbox('Quarter or year', range(5), format_func=lambda i: labels[i], key=f'{key}_segment_quarter', on_change=clear_table_selection, args=(f'{key}_segments',))
     check = build['checks'][q]
     if check == 'The segments add up to company revenue.':
         st.success(check)
     else:
         st.info(check)
-    with st.expander('Explain the main segment number'):
+    with st.expander('Explain the main segment number', expanded=st.session_state.get(f'{key}_segment_open', False)):
         show_work(explain_rows[name][q], f'{key}_segment_work')
     with st.expander('How the segments add together'):
         show_work(build['totals'][q][0], f'{key}_segment_total')
@@ -233,13 +271,17 @@ def smaller_revenue_groups(research, years, key):
         rows.append({'Revenue group': name, **{label: amount(cell.value, cell.unit or 'USD', compact=cell.unit != '%')
                      for label, cell in zip(labels, values)}})
     st.caption('Dollar amounts are in millions. A dash means a reliable number is unavailable. Groups and definitions may change between reports.')
-    st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
+    clickable_table(pd.DataFrame(rows), f'{key}_details',
+                    [research.company['cik'],year,index,research.revenue_basis_year],
+                    [{f'{key}_detail_row_{index}': row['Revenue group']} for row in rows],
+                    {label: {f'{key}_detail_period': i} for i,label in enumerate(labels)})
     left, right = st.columns([3, 1])
     explain_rows = {row['name']: row['cells'] for row in group['rows']}
-    explain_rows['Segment revenue'] = group['parent_cells']
+    explain_rows['Segment revenue' if group['scope'] else 'Company revenue'] = group['parent_cells']
     explain_rows.update(group['supplemental'])
-    selected = left.selectbox('Explain a smaller group', list(explain_rows), key=f'{key}_detail_row_{index}')
-    q = right.selectbox('Period', range(5), format_func=lambda i: labels[i], key=f'{key}_detail_period')
+    valid_choice(f'{key}_detail_row_{index}', list(explain_rows))
+    selected = left.selectbox('Explain a smaller group', list(explain_rows), key=f'{key}_detail_row_{index}', on_change=clear_table_selection, args=(f'{key}_details',))
+    q = right.selectbox('Period', range(5), format_func=lambda i: labels[i], key=f'{key}_detail_period', on_change=clear_table_selection, args=(f'{key}_details',))
     st.info(group['checks'][q])
     show_work(explain_rows[selected][q], f'{key}_detail_work')
     with st.expander('Check this group total'):

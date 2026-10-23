@@ -2,6 +2,7 @@ from dataclasses import replace
 from .concepts import BY_NAME, DERIVED, Metric
 from .engine import reconstruct, fiscal_periods, derive
 from .sec import SECError, company_facts, filing_url, parse_inline, verify
+from .cash import cash_balance, CASH_TAGS
 
 
 class Research:
@@ -56,7 +57,7 @@ class Research:
     def investigate_concept(self, name):
         if name not in BY_NAME:
             return
-        for tag in BY_NAME[name].tags:
+        for tag in (CASH_TAGS if name == 'Cash' else BY_NAME[name].tags):
             try:
                 payload=self.client.concept(self.company['cik'],'us-gaap',tag)
                 wrapped={'cik':self.company['cik'],'facts':{'us-gaap':{tag:{'label':payload.get('label',tag),'units':payload['units']}}}}
@@ -82,6 +83,8 @@ class Research:
             result = reconstruct(self.company['entityName'], self.submissions.get('tickers', [''])[0],
                                  metric, self.facts, year, q, self.periods(year), custom['concept'] if custom else None,
                                  tuple(custom.get('dimensions',())) if custom else ())
+            if name == 'Cash' and not custom:
+                result = cash_balance(self.company['entityName'],self.submissions.get('tickers',[''])[0],self.facts,year,q,self.periods(year))
             if result.status=='Ambiguous or conflicting':
                 # CompanyFacts omits decimals. Inspect comparative versions before treating
                 # a change in disclosed rounding precision as a financial restatement.
@@ -96,6 +99,8 @@ class Research:
                 result=reconstruct(self.company['entityName'],self.submissions.get('tickers',[''])[0],
                     metric,self.facts,year,q,self.periods(year),custom['concept'] if custom else None,
                     tuple(custom.get('dimensions',())) if custom else ())
+                if name == 'Cash' and not custom:
+                    result = cash_balance(self.company['entityName'],self.submissions.get('tickers',[''])[0],self.facts,year,q,self.periods(year))
             if custom:
                 result.reasoning.append('Exact concept and dimensional scope explicitly selected by analyst; no equivalence to a standard metric is asserted.')
                 result.warnings.append('Custom and segment reporting definitions and reorganizations require analyst review.')
