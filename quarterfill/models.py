@@ -29,6 +29,11 @@ class Fact:
     verified: bool = False
     decimals: str = "0"
     table: str = ""
+    scale: int = 0
+    extraction_method: str = 'Company Facts'
+    definition: str = ''
+    presentation_roles: tuple = ()
+    calculation_relationships: tuple = ()
 
     @property
     def id(self):
@@ -55,6 +60,17 @@ class Cell:
     components: list[Cell] = field(default_factory=list)
     component_operators: list[str] = field(default_factory=list)
     disclosure_evidence: list[dict] = field(default_factory=list)
+    validation: list[dict] = field(default_factory=list)
+
+    @property
+    def accounting_status(self):
+        if self.value is not None:
+            return 'Derived' if self.operation or self.components else 'Reported'
+        if self.status == 'Not applicable':
+            return 'Not Applicable'
+        if self.status == 'Ambiguous or conflicting':
+            return 'Ambiguous'
+        return 'Unavailable'
 
     @property
     def verified(self):
@@ -75,12 +91,14 @@ class Cell:
             expression = f'({self.components[0].formula.split(" = ")[0]})'
             for op, component in zip(self.component_operators, self.components[1:]):
                 expression += f' {op} ({component.formula.split(" = ")[0]})'
+            if self.operation=='percentage':
+                expression='('+expression+') * 100'
             return expression + f' = {self.value} {self.unit}'
         return (f" {self.operation} ".join(values) if self.operation else values[0]) + f" = {self.value} {self.unit}"
 
     def audit(self):
         payload = asdict(self)
-        payload.update(id=self.id, verified=self.verified, formula=self.formula,
+        payload.update(id=self.id, verified=self.verified, formula=self.formula, accounting_status=self.accounting_status,
                        confidence="Document matched" if self.verified else "Unverified / review required",
                        input_ids=[f.id for f in self.inputs])
         return json.loads(json.dumps(payload, default=str))

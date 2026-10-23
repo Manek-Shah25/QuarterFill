@@ -89,4 +89,4 @@ def test_loaded_pages_hide_developer_fields():
             assert word not in text
         for table in app.dataframe:
             assert not {'Concept','Dimensions','Audit ID','Unit','SEC URL'}.intersection(table.value.columns)
-    assert not app.get('download_button')
+    assert 'Excel Export Center' not in app.sidebar.radio[0].options

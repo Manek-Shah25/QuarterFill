@@ -1,5 +1,11 @@
 # Validation status
 
+The October 23 overhaul adds a separate seven-company source-reviewed benchmark:
+24/24 expected annual/year-end amounts match, versus 19/24 at the previous commit,
+using the same SEC inputs and strict version policy. See [the extraction notes](extraction-overhaul.md)
+and `data/validation/overhaul-benchmark.json`. These figures do not replace the older
+240-cell quarterly benchmark below and are not an independent human audit.
+
 Synthetic unit tests are explicitly fixtures, never company results. They test Q1–Q4,
 annual arithmetic, exact instant selection, nonadditive exclusions, changed filings,
 dimensions, incompatible units, sign preservation, custom tags, missing versus zero,

@@ -21,14 +21,16 @@ def workbook(cells):
     quality = wb.create_sheet('Data Quality')
     fin.append(['Company', 'Ticker', 'Metric', 'Fiscal year', 'Quarter', 'Start', 'End', 'Value', 'Unit', 'Status', 'Verified', 'Audit ID'])
     audit.append(['Cell ID', 'Formula / component graph', 'Input IDs', 'Reasoning', 'Warnings'])
-    sources.append(['Fact ID', 'Value', 'Unit', 'Concept', 'Label', 'Start', 'End', 'Form', 'Filed', 'Accession', 'SEC document', 'Context', 'Dimensions', 'Excerpt', 'Verified'])
-    quality.append(['Cell ID', 'Status', 'Verified', 'Warnings', 'Investigation'])
+    sources.append(['Fact ID', 'Value', 'Unit', 'Concept', 'Label', 'Start', 'End', 'Form', 'Filed', 'Accession', 'SEC document', 'Context', 'Dimensions', 'Excerpt', 'Verified', 'Scale', 'Extraction method', 'Definition', 'Presentation roles', 'Calculation relationships'])
+    quality.append(['Cell ID', 'Status', 'Verified', 'Warnings', 'Investigation', 'Statement checks'])
     indices = {}
     def excel_expression(cell):
         if cell.components:
             expression = '(' + excel_expression(cell.components[0]) + ')'
             for op, component in zip(cell.component_operators, cell.components[1:]):
                 expression += f' {op} (' + excel_expression(component) + ')'
+            if cell.operation=='percentage':
+                expression='('+expression+') * 100'
             return expression
         refs = [f"'SEC Sources'!B{indices[f.id]}" for f in cell.inputs]
         return f' {cell.operation} '.join(refs) if cell.operation else refs[0]
@@ -40,7 +42,8 @@ def workbook(cells):
         for f in cell.inputs:
             if f.id not in indices:
                 sources.append([safe(x) for x in [f.id, float(f.value), f.unit, f.concept, f.label, f.start, f.end,
-                    f.form, f.filed, f.accession, f.url, f.context, str(f.dimensions), f.section, f.verified]])
+                    f.form, f.filed, f.accession, f.url, f.context, str(f.dimensions), f.section, f.verified,
+                    f.scale,f.extraction_method,f.definition,str(f.presentation_roles),str(f.calculation_relationships)]])
                 indices[f.id] = sources.max_row
         value = float(cell.value) if cell.value is not None else None
         if cell.value is not None:
@@ -51,7 +54,7 @@ def workbook(cells):
         fin.cell(fin.max_row, 8).number_format = '#,##0.00;[Red](#,##0.00);–'
         audit.append([safe(x) for x in [cell.id, cell.formula, ', '.join(f.id for f in cell.inputs),
                      '\n'.join(cell.reasoning) + ('\n'+json.dumps(cell.disclosure_evidence) if cell.disclosure_evidence else ''), '\n'.join(cell.warnings)]])
-        quality.append([cell.id, cell.status, cell.verified, '\n'.join(cell.warnings), json.dumps(cell.investigation)])
+        quality.append([cell.id, cell.status, cell.verified, '\n'.join(cell.warnings), json.dumps(cell.investigation),json.dumps(cell.validation)])
     for ws in wb:
         ws.freeze_panes = 'A2'
         ws.auto_filter.ref = ws.dimensions

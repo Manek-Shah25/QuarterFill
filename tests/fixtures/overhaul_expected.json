@@ -1,0 +1,13 @@
+{
+  "review_method": "Figures transcribed after reading original filing statement rows and their date columns. Source excerpts are retained separately. This is a source review by Codex, not an independent human audit.",
+  "year": 2025,
+  "companies": {
+    "AAPL": {"cik": 320193, "metrics": {"Inventory": "5718000000", "Revenue": "416161000000", "Cost of revenue": "220960000000", "Capital expenditures": "12715000000"}},
+    "WMT": {"cik": 104169, "metrics": {"Inventory": "56435000000", "Cost of revenue": "511753000000", "Accounts payable": "58666000000"}},
+    "MSFT": {"cik": 789019, "metrics": {"Deferred revenue (current)": "64555000000", "Deferred revenue (noncurrent)": "2710000000", "Finite-lived intangible assets": "22604000000"}},
+    "ADBE": {"cik": 796343, "metrics": {"Deferred revenue (current)": "6905000000", "Cash from operations": "10031000000", "Stock-based compensation": "1942000000"}},
+    "UNH": {"cik": 731766, "metrics": {"Receivables": "23018000000", "Goodwill": "110499000000", "Intangible assets": "20474000000"}},
+    "CAT": {"cik": 18230, "metrics": {"Inventory": "18135000000", "Property and equipment, net": "15140000000", "Depreciation and amortization": "2262000000", "Capital expenditures": "2821000000"}},
+    "JPM": {"cik": 19617, "metrics": {"Revenue": "182447000000", "Total assets": "4424900000000", "Total liabilities": "4062462000000", "Cash from operations": "-147782000000"}}
+  }
+}

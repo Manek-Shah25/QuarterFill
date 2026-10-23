@@ -25,8 +25,9 @@ def combine(name, components, signs, start, end, quarter, year):
 
 
 class RevenueMath:
-    def __init__(self, research, year, facts):
+    def __init__(self, research, year, facts, default_name='Revenue'):
         self.research, self.year, self.facts = research, year, facts
+        self.default_name=default_name
         self.periods = research.periods(year)
         self.values = defaultdict(dict)
         self.names = {}
@@ -54,7 +55,7 @@ class RevenueMath:
 
     def empty(self, key, span):
         left, right = span
-        label = self.names.get(key, 'Revenue')
+        label = self.names.get(key, self.default_name)
         if right-left > 1 and span != (0, 4):
             label += f' — first {right} quarters' if left == 0 else f' — quarters {left+1} through {right}'
         return Cell(self.research.company['entityName'], self.research.submissions.get('tickers', [''])[0],

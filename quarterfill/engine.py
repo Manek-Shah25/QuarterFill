@@ -29,12 +29,17 @@ def choose(facts):
 
 def fiscal_periods(facts, year):
     # fy on CompanyFacts is the filing's fiscal year, NOT the observation year.
-    annual = [f for f in facts if f.start and 350 <= days(f.start, f.end) <= 380
-              and f.form in ("10-K", "10-K/A") and int(f.end[:4]) == year]
+    annual = [f for f in facts if f.start and
+              ((350 <= days(f.start, f.end) <= 380 and f.form in ('10-K','10-K/A')) or
+               (30 <= days(f.start,f.end) < 350 and f.form in ('10-KT','10-KT/A')))
+              and int(f.end[:4]) == year]
     anchors = {(f.start, f.end) for f in annual}
     if len(anchors) != 1:
         return None
     start, end = next(iter(anchors))
+    if days(start,end)<350:
+        # A transition annual period is not automatically a fourth quarter.
+        return start,{0:end}
     boundaries = {}
     for q, low, high in ((1, 70, 110), (2, 160, 205), (3, 245, 300)):
         ends = {f.end for f in facts if f.start == start and low <= days(start, f.end) <= high}
@@ -52,7 +57,7 @@ def reconstruct(company, ticker, metric: Metric, facts: list[Fact], year, q,
         cell.reasoning.append("No unique annual fiscal calendar anchor; transition years require review.")
         return cell
     annual_start, ends = periods
-    end = ends.get(q or 4)
+    end = ends.get(0,ends.get(4)) if q==0 else ends.get(q)
     previous = ends.get(q - 1) if q > 1 else None
     start = annual_start if q in (0, 1) else (
         (date.fromisoformat(previous) + timedelta(days=1)).isoformat() if previous else None)

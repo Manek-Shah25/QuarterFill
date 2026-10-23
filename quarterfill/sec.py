@@ -144,7 +144,7 @@ def company_facts(payload, filings):
         for tag, info in concepts.items():
             for unit, observations in info["units"].items():
                 for row in observations:
-                    if row["form"] not in ("10-Q", "10-K", "10-Q/A", "10-K/A"):
+                    if row["form"] not in ("10-Q", "10-K", "10-Q/A", "10-K/A", "10-KT", "10-KT/A", "10-QT", "10-QT/A"):
                         continue
                     filing = documents.get(row["accn"])
                     output.append(Fact(str(payload["cik"]), f"{namespace}:{tag}", info["label"],
@@ -154,12 +154,17 @@ def company_facts(payload, filings):
     return output
 
 
-def parse_inline(html, cik, filing, url):
+def parse_inline(html, cik, filing, url, timeout_seconds=30):
+    if len(html)>40_000_000:
+        raise SECError('Filing exceeds the 40 MB parsing limit; open the original report for review.')
+    deadline=time.monotonic()+timeout_seconds
     with warnings.catch_warnings():
         warnings.simplefilter('ignore', XMLParsedAsHTMLWarning)
         soup = BeautifulSoup(html, "lxml")
     contexts, units = {}, {}
     for tag in soup.find_all(lambda t: t.name.lower().split(":")[-1] == "context"):
+        if time.monotonic()>deadline:
+            raise SECError('Filing parsing time limit reached; no partial statement was accepted.')
         def content(name):
             found = tag.find(lambda t: t.name.lower().split(":")[-1] == name)
             return found.get_text(strip=True) if found else None
@@ -173,6 +178,8 @@ def parse_inline(html, cik, filing, url):
     facts = []
     table_keys = {}
     for tag in soup.find_all(lambda t: t.name.lower().split(":")[-1] == "nonfraction"):
+        if time.monotonic()>deadline:
+            raise SECError('Filing parsing time limit reached; no partial statement was accepted.')
         context = contexts.get(tag.get("contextref"))
         if not context or not context[1] or tag.get("xsi:nil") == "true":
             continue
@@ -183,9 +190,14 @@ def parse_inline(html, cik, filing, url):
             continue
         if fmt in ("num-zero", "zerodash"):
             text = "0"
+        # Parentheses are an alternative negative representation. Do not negate
+        # twice when an Inline XBRL sign attribute is also present.
+        parenthesized = text.startswith('(') and text.endswith(')')
+        if parenthesized:
+            text = text[1:-1]
         try:
             value = Decimal(text) * (Decimal(10) ** int(tag.get("scale", "0")))
-            if tag.get("sign") == "-":
+            if tag.get("sign") == "-" or parenthesized:
                 value = -value
             if not value.is_finite():
                 continue
@@ -206,7 +218,8 @@ def parse_inline(html, cik, filing, url):
         facts.append(Fact(str(cik), tag.get("name", ""), original_label, value,
             units.get(tag.get("unitref"), "unknown"), context[0], context[1],
             filing["accessionNumber"], filing["form"], filing["filingDate"], url,
-            section, tag.get("contextref", ""), context[2], True, tag.get("decimals", "INF"), table_key))
+            section, tag.get("contextref", ""), context[2], True, tag.get("decimals", "INF"), table_key,
+            scale=int(tag.get('scale','0')), extraction_method='Inline XBRL'))
     return facts, soup.get_text(" ", strip=True)
 
 
@@ -214,4 +227,5 @@ def verify(fact, document_facts):
     matches = [f for f in document_facts if (f.concept, f.start, f.end, f.unit, f.value, f.dimensions) ==
                (fact.concept, fact.start, fact.end, fact.unit, fact.value, fact.dimensions)]
     return replace(fact, verified=True, section=matches[0].section, label=matches[0].label,
-                   context=matches[0].context, decimals=matches[0].decimals, table=matches[0].table) if matches else fact
+                   context=matches[0].context, decimals=matches[0].decimals, table=matches[0].table,
+                   scale=matches[0].scale,extraction_method='Company Facts matched to Inline XBRL') if matches else fact
